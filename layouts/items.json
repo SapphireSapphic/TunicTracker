@@ -1,0 +1,94 @@
+{
+    "shared_item_grid": {
+        "type":"array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "rows": [
+					["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
+                    ["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
+					["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
+					["stick", "sword", "dagger", "staff", "orb", "gun", "hourglass"],
+					["ATrelic", "DEFrelic", "POTrelic", "HPrelic", "SPrelic", "MPrelic"],
+					["fangs", "idols", "powder", "flowers", "leaves", "shrooms"],
+					["justawell","ding", "dong", "visit"]
+                ]
+            }
+		]
+    },
+	"cards": {
+		"type":"array",
+        "orientation": "horizontal",
+        "content": [
+			{
+			"type": "itemgrid",
+				"h_alignment": "center",
+				"item_margin": "1,2",
+				"rows": [
+					["anklet", "gem", "blueperil", "bone"],
+					["bracer", "strap", "firesword", "ash"],
+					["loud", "cup", "mecho", "bell"],
+					["orangeperil", "perfume", "mask", "tincture"]
+				]			
+			}
+		]
+	},
+	"secrets": {
+		"type":"array",
+        "orientation": "horizontal",
+        "content": [
+			{
+			"type": "itemgrid",
+				"h_alignment": "center",
+				"item_margin": "1,2",
+				"rows": [
+					["mayor", "tunic", "geometry", "vintage"],
+					["pals", "weasel", "spring", "powerup"],
+					["work", "phonomath", "dusty", "friend"]
+				]			
+			}
+		]
+	},
+	"bosses": {
+		"type":"array",
+        "orientation": "horizontal",
+        "content": [
+			{
+			"type": "itemgrid",
+				"h_alignment": "center",
+				"item_margin": "1,2",
+				"rows": [
+					["captain", "gknight"],
+					["engine", "librarian", "scavboss"],
+					["gauntlet", "heir"]
+				]			
+			}
+		]
+	},
+    "tracker_capture_item": {
+        "type": "container",
+        "content": {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "1,2",
+            "rows": [
+                ["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
+				["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
+				["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
+				["stick", "sword", "dagger", "staff", "orb", "gun", "hourglass"],
+				["ATrelic", "DEFrelic", "POTrelic", "HPrelic", "SPrelic", "MPrelic"],
+				["fangs", "idols", "powder", "flowers", "leaves", "shrooms"],
+				["anklet", "gem", "blueperil", "bone"],
+				["bracer", "strap", "firesword", "ash"],
+				["loud", "cup", "mecho", "bell"],
+				["orangeperil", "perfume", "mask", "tincture"],
+				["mayor", "tunic", "geometry", "vintage"],
+				["pals", "weasel", "spring", "powerup"],
+				["work", "phonomath", "dusty", "friend"]
+            ]
+        }
+    }
+}

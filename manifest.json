@@ -1,0 +1,16 @@
+﻿{
+  "name": "TUNIC Randomizer",
+  "game_name": "TUNIC",
+  "platform": "PC",
+  "package_version": "0.1",
+  "package_uid": "tunic_sapphiresapphic",
+  "author": "SapphireSapphic, Scout_JD",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker"
+    },
+    "items_only": {
+      "display_name": "Item Tracker"
+    }
+  }
+}

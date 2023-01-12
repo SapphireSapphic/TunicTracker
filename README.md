@@ -1,2 +1,3 @@
-# TunicTracker
-An emotracker package for Tunic Randomizers (and vanilla ig)
+# Tunic Randomizer Tracker by SapphireSapphic
+
+Heavily work in progress

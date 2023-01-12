@@ -1,0 +1,386 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "margin": "5",
+        "content": [
+            {
+                "type": "group",
+                "header": "Glitch Mode",
+                "header_background": "#3e4b57",
+                "content":[
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "mode"
+                    }
+                ]
+            }            
+        ]
+    },    
+    "tracker_default": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#55212121",
+                                "layout": "settings_popup"
+                            },
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"tabbed",
+					"tabs": [
+						{							
+							"title": "Full Map",
+							"content": {
+								"type": "map",
+								"maps": ["fullmap"]
+							}
+						},
+						{							
+							"title": "Overworld",
+							"content": {
+								"type": "map",
+								"maps": ["overworld"]
+							}
+						},
+						{							
+							"title": "East Forest",
+							"content": {
+								"type": "map",
+								"maps": ["east_forest"]
+							}
+						},
+						{							
+							"title": "Beneath the Well",
+							"content": {
+								"type": "map",
+								"maps": ["well"]
+							}
+						},
+						{							
+							"title": "Dark Tomb",
+							"content": {
+								"type": "map",
+								"maps": ["dark_tomb"]
+							}
+						},
+						{							
+							"title": "West Gardens",
+							"content": {
+								"type": "map",
+								"maps": ["west_gardens"]
+							}
+						},
+						{							
+							"title": "Beneath the Earth",
+							"content": {
+								"type": "map",
+								"maps": ["earth"]
+							}
+						},
+						{							
+							"title": "Eastern Vault",
+							"content": {
+								"type": "map",
+								"maps": ["eastern_vault"]
+							}
+						},
+						{							
+							"title": "Ruined Atoll",
+							"content": {
+								"type": "map",
+								"maps": ["ruined_atoll"]
+							}
+						},
+						{							
+							"title": "Frog's Domain",
+							"content": {
+								"type": "map",
+								"maps": ["frogs_domain"]
+							}
+						},
+						{							
+							"title": "The Grand Library",
+							"content": {
+								"type": "map",
+								"maps": ["library"]
+							}
+						},
+						{							
+							"title": "The Quarry",
+							"content": {
+								"type": "map",
+								"maps": ["quarry"]
+							}
+						},
+						{							
+							"title": "The Rooted Ziggurat",
+							"content": {
+								"type": "map",
+								"maps": ["ziggurat"]
+							}
+						},
+						{							
+							"title": "Old Burying Ground",
+							"content": {
+								"type": "map",
+								"maps": ["graveyard"]
+							}
+						},
+						{							
+							"title": "The Cathedral",
+							"content": {
+								"type": "map",
+								"maps": ["cathedral"]
+							}
+						},
+						{							
+							"title": "The Far Shore",
+							"content": {
+								"type": "map",
+								"maps": ["far_shore"]
+							}
+						},
+						{							
+							"title": "HOLY CROSS",
+							"content": {
+								"type": "map",
+								"maps": ["secrets"]
+							}
+						}
+					]
+                }
+            ]
+        }
+    },
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "margin": "0,0,3,0",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            },
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#55212121",
+                                "layout": "settings_popup"
+                            }
+                        },
+						{
+							"type": "group",
+                            "header": "Cards",
+                            "margin": "0,0,3,0",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "cards"
+                            }
+						},
+						{
+							"type": "group",
+                            "header": "Secret Treasures",
+                            "margin": "0,0,3,0",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "secrets"
+                            }
+						},
+						{
+							"type": "group",
+                            "header": "Bosses",
+                            "margin": "0,0,3,0",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "bosses"
+                            }
+						},
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "horizontal",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"tabbed",
+					"tabs": [
+						{							
+							"title": "Full Map",
+							"content": {
+								"type": "map",
+								"maps": ["fullmap"]
+							}
+						},
+						{							
+							"title": "Overworld",
+							"content": {
+								"type": "map",
+								"maps": ["overworld"]
+							}
+						},
+						{							
+							"title": "East Forest",
+							"content": {
+								"type": "map",
+								"maps": ["east_forest"]
+							}
+						},
+						{							
+							"title": "Beneath the Well",
+							"content": {
+								"type": "map",
+								"maps": ["well"]
+							}
+						},
+						{							
+							"title": "Dark Tomb",
+							"content": {
+								"type": "map",
+								"maps": ["dark_tomb"]
+							}
+						},
+						{							
+							"title": "West Gardens",
+							"content": {
+								"type": "map",
+								"maps": ["west_gardens"]
+							}
+						},
+						{							
+							"title": "Beneath the Earth",
+							"content": {
+								"type": "map",
+								"maps": ["earth"]
+							}
+						},
+						{							
+							"title": "Eastern Vault",
+							"content": {
+								"type": "map",
+								"maps": ["eastern_vault"]
+							}
+						},
+						{							
+							"title": "Ruined Atoll",
+							"content": {
+								"type": "map",
+								"maps": ["ruined_atoll"]
+							}
+						},
+						{							
+							"title": "Frog's Domain",
+							"content": {
+								"type": "map",
+								"maps": ["frogs_domain"]
+							}
+						},
+						{							
+							"title": "The Grand Library",
+							"content": {
+								"type": "map",
+								"maps": ["library"]
+							}
+						},
+						{							
+							"title": "The Quarry",
+							"content": {
+								"type": "map",
+								"maps": ["quarry"]
+							}
+						},
+						{							
+							"title": "The Rooted Ziggurat",
+							"content": {
+								"type": "map",
+								"maps": ["ziggurat"]
+							}
+						},
+						{							
+							"title": "Old Burying Ground",
+							"content": {
+								"type": "map",
+								"maps": ["graveyard"]
+							}
+						},
+						{							
+							"title": "The Cathedral",
+							"content": {
+								"type": "map",
+								"maps": ["cathedral"]
+							}
+						},
+						{							
+							"title": "The Far Shore",
+							"content": {
+								"type": "map",
+								"maps": ["far_shore"]
+							}
+						},
+						{							
+							"title": "HOLY CROSS",
+							"content": {
+								"type": "map",
+								"maps": ["secrets"]
+							}
+						}
+					]
+                }
+            ]
+        }
+    }
+}

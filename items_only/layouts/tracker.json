@@ -1,0 +1,64 @@
+{
+    "tracker_capture_item": {
+        "type": "container",
+        "content": {
+            "type": "layout",
+            "key": "shared_item_grid"
+        }
+    },
+    "tracker_default": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+							"type": "group",
+                            "header": "Cards",
+                            "margin": "0,0,3,0",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "cards"
+                            }
+						},
+						{
+							"type": "group",
+                            "header": "Secret Treasures",
+                            "margin": "0,0,3,0",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "secrets"
+                            }
+						},
+						{
+							"type": "group",
+                            "header": "Bosses",
+                            "margin": "0,0,3,0",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "bosses"
+                            }
+						}
+                    ]
+                }
+            ]
+        }
+    }
+}

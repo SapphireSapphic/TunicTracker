@@ -1,0 +1,7 @@
+{
+    "auto_pin_capturing_locations": false,
+    "auto_unpin_on_clear": true,
+    "layout_swap_left_right": false,
+    "disabled_image_filter": "saturation|0|bt601, brightness|0.75",
+    "enable_accessibility_rule_caching": true
+}
