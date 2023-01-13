@@ -179,6 +179,13 @@
 		"codes": "oldkey"
 	},
 	{
+		"name": "Dath Stone",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/dath.png",
+		"codes": "dath"
+	},
+	{
 		"name": "Attack Fangs",
 		"type": "consumable",
 		"loop": true,
@@ -192,7 +199,8 @@
 		"loop": true,
 		"img":"images/card_slots.png",
 		"codes": "slot",
-		"max_quantity": 5
+		"max_quantity": 5,
+		"min_quantity": 1
 	},
 	{
 		"name": "Defense Idols",
