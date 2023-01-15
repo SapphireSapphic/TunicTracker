@@ -3,5 +3,11 @@
     "auto_unpin_on_clear": true,
     "layout_swap_left_right": false,
     "disabled_image_filter": "saturation|0|bt601, brightness|0.75",
-    "enable_accessibility_rule_caching": true
+    "enable_accessibility_rule_caching": true,
+	"name": "Tunic Randomizer - Item & Map Tracker",
+	  "game_name": "Tunic",
+      "author": "SapphireSapphic, Scout_JD",
+      "version": "1.1",
+      "uid": "tunic_sapphiresapphic",
+	"package_repositories": ["sapphiresapphic.github.io/repository.json"]
 }
