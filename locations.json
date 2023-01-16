@@ -5958,7 +5958,6 @@
 					},
 					{
 						"name": "Inner Graveyard",
-						"access_rules": ["dash","visit","orb,freeze,[glitches]"],
 						"children": [
 							{
 								"name": "Top of the Hill",
