@@ -175,7 +175,7 @@
 		"name": "Old House Key",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/keys.png",
+		"img":"images/oldhousekey.png",
 		"codes": "oldkey"
 	},
 	{
