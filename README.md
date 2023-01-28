@@ -6,3 +6,4 @@ Extracting the file is not necessary, simply leave the zip as it is in the folde
 If you encounter any issues, please contact SapphireSapphic#8218 on discord.
 
 Special thanks to SilentDestroyer for making the Tunic randomizer, and also for various insights that hepled make this package possible.
+Shoutouts to Ekkosangen for noticing lots of little things that make the tracker better :)
