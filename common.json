@@ -69,7 +69,7 @@
 		"type": "toggle",
 		"loop": true,
 		"img":"images/a_gun.png",
-		"codes": "gun,grass,switch,tubes"
+		"codes": "gun,grass,switch,tubes,boom"
 	},
 	{
 		"name": "Magic Orb",

@@ -65,8 +65,7 @@
 							{
 								"name": "Dong!",
 								"access_rules": ["dash,ring","ring,[light],gknight","[light],ring,[glitches],orb,freeze"],
-								"hosted_item": "dong",
-								"item_count": 1
+								"hosted_item": "dong"
 							}
 						]
 					},
@@ -1956,8 +1955,7 @@
 							{
 								"name": "Ding!",
 								"access_rules": ["ring"],
-								"hosted_item": "ding",
-								"item_count": 1
+								"hosted_item": "ding"
 							},
 							{
 								"name": "Down the Stairs",
@@ -2661,7 +2659,8 @@
 						],
 						"sections": [
 							{
-								"name": "Ruined Atoll Map","item_count": 1
+								"name": "Ruined Atoll Map",
+								"item_count": 1
 							}
 						]
 					},
@@ -4312,7 +4311,7 @@
 						"sections": [
 							{
 								"name": "Drop the Rope!",
-								"access_rules": ["key"],
+								"access_rules": ["key","dash"],
 								"item_count": 2
 							}
 						]
@@ -4618,7 +4617,7 @@
 								"sections": [
 									{
 										"name": "Grapple on Over",
-										"access_rules": ["orb"],
+										"access_rules": ["orb", "dash"],
 										"item_count": 1
 									}
 								]
@@ -4765,7 +4764,7 @@
 					},
 					{//The Grand Library
 						"name": "The Grand Library",
-						"access_rules": ["orb","visit"],
+						"access_rules": ["orb","visit","dash"],
 						"children": [
 							{
 								"name": "Library Rug Secret",
