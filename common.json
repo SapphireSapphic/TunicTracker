@@ -33,15 +33,18 @@
 		"name": "Stick",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/stick.png",
+		"img":"images/sword1.png",
 		"codes": "stick,ring,switch,tubes"
 	},
 	{
 		"name": "Sword",
-		"type": "toggle",
-		"loop": true,
-		"img":"images/sword.png",
-		"codes": "sword,ring,grass,switch,tubes"
+		"type": "progressive",
+		"loop": false,
+		"stages": [
+			{"img": "images/sword2.png","codes": "sword,ring,grass,switch,tubes"},
+			{"img": "images/sword3.png","codes": "sword,ring,grass,switch,tubes"},
+			{"img": "images/sword4.png","codes": "sword,ring,grass,switch,tubes"}
+		]
 	},
 	{
 		"name": "Magic Dagger",
@@ -186,12 +189,11 @@
 		"codes": "dath"
 	},
 	{
-		"name": "Attack Fangs",
-		"type": "consumable",
+		"name": "Golden Power",
+		"type": "toggle",
 		"loop": true,
-		"img":"images/attack_fangs.png",
-		"codes": "fangs",
-		"max_quantity": 4
+		"img":"images/golden_power.png",
+		"codes": "goldenpower"
 	},
 	{
 		"name": "Card Slots",
@@ -203,44 +205,139 @@
 		"min_quantity": 1
 	},
 	{
-		"name": "Defense Idols",
+		"name": "Golden Hexagons",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/defense_idols.png",
-		"codes": "idols",
-		"max_quantity": 4
+		"img":"images/hex_gold.png",
+		"codes": "hexquest",
+		"max_quantity": 30
+	},
+	//Stats
+	{
+		"name": "Attack",
+		"type": "progressive",
+		"loop": false,
+		"stages": [
+			{"img":"images/stats/attack-1.png","codes": "fangs"},
+			{"img":"images/stats/attack-2.png","codes": "fangs"},
+			{"img":"images/stats/attack-2g.png","codes": "fangs"},
+			{"img":"images/stats/attack-3.png","codes": "fangs"},
+			{"img":"images/stats/attack-3g.png","codes": "fangs"},
+			{"img":"images/stats/attack-4.png","codes": "fangs"},
+			{"img":"images/stats/attack-4g.png","codes": "fangs"},
+			{"img":"images/stats/attack-5.png","codes": "fangs"},
+			{"img":"images/stats/attack-5g.png","codes": "fangs"},
+			{"img":"images/stats/attack-6.png","codes": "fangs"},
+			{"img":"images/stats/attack-6g.png","codes": "fangs"},
+			{"img":"images/stats/attack-7.png","codes": "fangs"},
+			{"img":"images/stats/attack-7g.png","codes": "fangs"},
+			{"img":"images/stats/attack-8g.png","codes": "fangs"}
+		]
+	},
+	{
+		"name": "Defense Idols",
+		"type": "progressive",
+		"loop": false,
+		"stages": [
+			{"img":"images/stats/defense-1.png","codes": "idols"},
+			{"img":"images/stats/defense-2.png","codes": "idols"},
+			{"img":"images/stats/defense-2g.png","codes": "idols"},
+			{"img":"images/stats/defense-3.png","codes": "idols"},
+			{"img":"images/stats/defense-3g.png","codes": "idols"},
+			{"img":"images/stats/defense-4.png","codes": "idols"},
+			{"img":"images/stats/defense-4g.png","codes": "idols"},
+			{"img":"images/stats/defense-5.png","codes": "idols"},
+			{"img":"images/stats/defense-5g.png","codes": "idols"},
+			{"img":"images/stats/defense-6.png","codes": "idols"},
+			{"img":"images/stats/defense-6g.png","codes": "idols"},
+			{"img":"images/stats/defense-7.png","codes": "idols"},
+			{"img":"images/stats/defense-7g.png","codes": "idols"},
+			{"img":"images/stats/defense-8g.png","codes": "idols"}
+		]
 	},
 	{
 		"name": "HP Flowers",
-		"type": "consumable",
-		"loop": true,
-		"img":"images/hp_flowers.png",
-		"codes": "flowers",
-		"max_quantity": 6
+		"type": "progressive",
+		"loop": false,
+		"stages": [
+			{"img":"images/stats/health-1.png","codes": "flowers"},
+			{"img":"images/stats/health-2.png","codes": "flowers"},
+			{"img":"images/stats/health-2g.png","codes": "flowers"},
+			{"img":"images/stats/health-3.png","codes": "flowers"},
+			{"img":"images/stats/health-3g.png","codes": "flowers"},
+			{"img":"images/stats/health-4.png","codes": "flowers"},
+			{"img":"images/stats/health-4g.png","codes": "flowers"},
+			{"img":"images/stats/health-5.png","codes": "flowers"},
+			{"img":"images/stats/health-5g.png","codes": "flowers"},
+			{"img":"images/stats/health-6.png","codes": "flowers"},
+			{"img":"images/stats/health-6g.png","codes": "flowers"},
+			{"img":"images/stats/health-7.png","codes": "flowers"},
+			{"img":"images/stats/health-7g.png","codes": "flowers"},
+			{"img":"images/stats/health-8g.png","codes": "flowers"}
+		]
 	},
 	{
 		"name": "MP Shrooms",
-		"type": "consumable",
-		"loop": true,
-		"img":"images/mp_shrooms.png",
-		"codes": "shrooms",
-		"max_quantity": 3
+		"type": "progressive",
+		"loop": false,
+		"stages": [
+			{"img":"images/stats/mana-1.png","codes": "shrooms"},
+			{"img":"images/stats/mana-2.png","codes": "shrooms"},
+			{"img":"images/stats/mana-2g.png","codes": "shrooms"},
+			{"img":"images/stats/mana-3.png","codes": "shrooms"},
+			{"img":"images/stats/mana-3g.png","codes": "shrooms"},
+			{"img":"images/stats/mana-4.png","codes": "shrooms"},
+			{"img":"images/stats/mana-4g.png","codes": "shrooms"},
+			{"img":"images/stats/mana-5.png","codes": "shrooms"},
+			{"img":"images/stats/mana-5g.png","codes": "shrooms"},
+			{"img":"images/stats/mana-6.png","codes": "shrooms"},
+			{"img":"images/stats/mana-6g.png","codes": "shrooms"},
+			{"img":"images/stats/mana-7.png","codes": "shrooms"},
+			{"img":"images/stats/mana-7g.png","codes": "shrooms"},
+			{"img":"images/stats/mana-8g.png","codes": "shrooms"}
+		]
 	},
 	{
 		"name": "Potion Powder",
-		"type": "consumable",
-		"loop": true,
-		"img":"images/potion_powder.png",
-		"codes": "powder",
-		"max_quantity": 3
+		"type": "progressive",
+		"loop": false,
+		"stages": [
+			{"img":"images/stats/potion-1.png","codes": "powder"},
+			{"img":"images/stats/potion-2.png","codes": "powder"},
+			{"img":"images/stats/potion-2g.png","codes": "powder"},
+			{"img":"images/stats/potion-3.png","codes": "powder"},
+			{"img":"images/stats/potion-3g.png","codes": "powder"},
+			{"img":"images/stats/potion-4.png","codes": "powder"},
+			{"img":"images/stats/potion-4g.png","codes": "powder"},
+			{"img":"images/stats/potion-5.png","codes": "powder"},
+			{"img":"images/stats/potion-5g.png","codes": "powder"},
+			{"img":"images/stats/potion-6.png","codes": "powder"},
+			{"img":"images/stats/potion-6g.png","codes": "powder"},
+			{"img":"images/stats/potion-7.png","codes": "powder"},
+			{"img":"images/stats/potion-7g.png","codes": "powder"},
+			{"img":"images/stats/potion-8g.png","codes": "powder"}
+		]
 	},
 	{
 		"name": "Stamina Leaves",
-		"type": "consumable",
-		"loop": true,
-		"img":"images/stamina_leaves.png",
-		"codes": "leaves",
-		"max_quantity": 2
+		"type": "progressive",
+		"loop": false,
+		"stages": [
+			{"img":"images/stats/stamina-1.png","codes": "leaves"},
+			{"img":"images/stats/stamina-2.png","codes": "leaves"},
+			{"img":"images/stats/stamina-2g.png","codes": "leaves"},
+			{"img":"images/stats/stamina-3.png","codes": "leaves"},
+			{"img":"images/stats/stamina-3g.png","codes": "leaves"},
+			{"img":"images/stats/stamina-4.png","codes": "leaves"},
+			{"img":"images/stats/stamina-4g.png","codes": "leaves"},
+			{"img":"images/stats/stamina-5.png","codes": "leaves"},
+			{"img":"images/stats/stamina-5g.png","codes": "leaves"},
+			{"img":"images/stats/stamina-6.png","codes": "leaves"},
+			{"img":"images/stats/stamina-6g.png","codes": "leaves"},
+			{"img":"images/stats/stamina-7.png","codes": "leaves"},
+			{"img":"images/stats/stamina-7g.png","codes": "leaves"},
+			{"img":"images/stats/stamina-8g.png","codes": "leaves"}
+		]
 	},
 	//Other Items
 	{
@@ -326,48 +423,6 @@
 		"loop": true,
 		"img":"images/green_key.png",
 		"codes": "green"
-	},
-	{
-		"name": "HP Relic",
-		"type": "toggle",
-		"loop": true,
-		"img":"images/heros_relic.png",
-		"codes": "HPrelic"
-	},
-	{
-		"name": "SP Relic",
-		"type": "toggle",
-		"loop": true,
-		"img":"images/heros_relic.png",
-		"codes": "SPrelic"
-	},
-	{
-		"name": "MP Relic",
-		"type": "toggle",
-		"loop": true,
-		"img":"images/heros_relic.png",
-		"codes": "MPrelic"
-	},
-	{
-		"name": "Attack Relic",
-		"type": "toggle",
-		"loop": true,
-		"img":"images/heros_relic.png",
-		"codes": "ATrelic"
-	},
-	{
-		"name": "Defense Relic",
-		"type": "toggle",
-		"loop": true,
-		"img":"images/heros_relic.png",
-		"codes": "DEFrelic"
-	},
-	{
-		"name": "Potion Relic",
-		"type": "toggle",
-		"loop": true,
-		"img":"images/heros_relic.png",
-		"codes": "POTrelic"
 	},
 	{
 		"name": "Inverted Ash",
