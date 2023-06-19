@@ -3916,7 +3916,7 @@
 								"sections": [
 									{
 										"name": "It's a Secret to Nobody",
-										"item_count": 1
+										"item_count": 2
 									}
 								]
 							},
@@ -4894,7 +4894,7 @@
 									{
 										"name": "Show him the Far Shores",
 										"hosted_item": "librarian",
-										"access_rules": ["ring","lure,[glitches]"],
+										"access_rules": ["ring","lure,[glitches]"]
 									},
 									{
 										"name": "Stolen to the Top of the Sky",
