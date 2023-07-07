@@ -1,5 +1,5 @@
 [
-		//Gear
+	//Gear
 	{
 		"name": "Shield",
 		"type": "toggle",
@@ -81,6 +81,31 @@
 		"img":"images/magic_orb.png",
 		"codes": "orb"
 	},
+	//Abilities
+	{
+		"name": "Prayer",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/pray.png",
+		"codes": "pray",
+		"initial_active_state": true
+	},
+	{
+		"name": "Holy Cross",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/cross.png",
+		"codes": "cross",
+		"initial_active_state": true
+	},
+	{
+		"name": "Ice Rod",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/icerod.png",
+		"codes": "icerod,freeze",
+		"initial_active_state": true
+	},
 	//Consumables
 	{
 		"name": "Ice Bomb",
@@ -109,7 +134,7 @@
 		"loop": true,
 		"img":"images/golden_coins.png",
 		"codes": "wishes,throwy",
-		"max_quantity": 16
+		"max_quantity": 17
 	},
 	{
 		"name": "Wishes Made",
@@ -117,7 +142,7 @@
 		"loop": true,
 		"img":"images/wishes.png",
 		"codes": "justawell,throwy",
-		"max_quantity": 16
+		"max_quantity": 17
 	},
 	{
 		"name": "Lure",
@@ -217,6 +242,8 @@
 		"name": "Attack",
 		"type": "progressive",
 		"loop": false,
+		"allow_disabled": false,
+		"codes": "fangs",
 		"stages": [
 			{"img":"images/stats/attack-1.png","codes": "fangs"},
 			{"img":"images/stats/attack-2.png","codes": "fangs"},
@@ -238,6 +265,8 @@
 		"name": "Defense Idols",
 		"type": "progressive",
 		"loop": false,
+		"codes": "idols",
+		"allow_disabled": false,
 		"stages": [
 			{"img":"images/stats/defense-1.png","codes": "idols"},
 			{"img":"images/stats/defense-2.png","codes": "idols"},
@@ -259,6 +288,8 @@
 		"name": "HP Flowers",
 		"type": "progressive",
 		"loop": false,
+		"allow_disabled": false,
+		"codes": "flowers",
 		"stages": [
 			{"img":"images/stats/health-1.png","codes": "flowers"},
 			{"img":"images/stats/health-2.png","codes": "flowers"},
@@ -280,6 +311,8 @@
 		"name": "MP Shrooms",
 		"type": "progressive",
 		"loop": false,
+		"allow_disabled": false,
+		"codes": "shrooms",
 		"stages": [
 			{"img":"images/stats/mana-1.png","codes": "shrooms"},
 			{"img":"images/stats/mana-2.png","codes": "shrooms"},
@@ -301,6 +334,8 @@
 		"name": "Potion Powder",
 		"type": "progressive",
 		"loop": false,
+		"allow_disabled": false,
+		"codes": "powder",
 		"stages": [
 			{"img":"images/stats/potion-1.png","codes": "powder"},
 			{"img":"images/stats/potion-2.png","codes": "powder"},
@@ -322,6 +357,8 @@
 		"name": "Stamina Leaves",
 		"type": "progressive",
 		"loop": false,
+		"allow_disabled": false,
+		"codes": "leaves",
 		"stages": [
 			{"img":"images/stats/stamina-1.png","codes": "leaves"},
 			{"img":"images/stats/stamina-2.png","codes": "leaves"},
@@ -587,12 +624,12 @@
 		"stages": [
 			{//Glitchless
 				"name": "Glitchless",
-				"img": "images/glitchless.png",
+				"img": "images/Glitchless.png",
 				"codes": "mode,glitchless"
 			},
 			{//Glitches
 				"name": "Glitches",
-				"img": "images/glitches.png",
+				"img": "images/Glitches.png",
 				"codes": "mode,glitches"
 			}
 		]
@@ -646,5 +683,55 @@
 		"loop": true,
 		"img":"images/heir.png",
 		"codes": "heir"
+	},
+	//Statics
+	{
+		"name": "Silver Chest",
+		"type": "toggle",
+		"allow_disabled": false,
+		"loop": true,
+		"img":"images/silver.png",
+		"codes": "silver"
+	},
+	{
+		"name": "Is In",
+		"type": "static",
+		"img":"images/isin.png",
+		"codes": "isin"
+	},
+	{
+		"name": "Areas",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "locations",
+		"stages": [
+			{"img":"images/locations/overworld.png", "codes": "locations"},
+			{"img":"images/locations/east_forest.png"},
+			{"img":"images/locations/beneath_the_earth.png"},
+			{"img":"images/locations/ruined_atoll.png"},
+			{"img":"images/locations/frogs_domain.png"},
+			{"img":"images/locations/library.png"},
+			{"img":"images/locations/west_garden.png"},
+			{"img":"images/locations/wishes.png"},
+			{"img":"images/locations/hero_grave.png"},
+			{"img":"images/locations/secret_gathering_place.png"}
+		]
+	},
+	{
+		"name": "Items",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "itemshint",
+		"stages": [
+			{"img":"images/redX.png","codes": "itemshint"},
+			{"img":"images/flasks.png"},
+			{"img":"images/red_key.png"},
+			{"img":"images/green_key.png"},
+			{"img":"images/blue_key.png"},
+			{"img":"images/oldkey.png"},
+			{"img":"images/shield.png"}
+		]
 	}
 ]

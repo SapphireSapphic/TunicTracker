@@ -11,9 +11,9 @@
 					["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
                     ["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
 					["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
-					["stick", "sword", "dagger", "staff", "orb", "gun", "hourglass"],
+					["stick", "sword", "dagger", "icerod", "staff", "orb", "gun", "hourglass"],
 					["fangs", "idols", "powder", "flowers", "leaves", "shrooms","hexquest"],
-					["dath","goldenpower","justawell","ding", "dong", "visit"]
+					["pray","cross","dath","goldenpower","justawell","ding", "dong", "visit"]
                 ]
             }
 		]
@@ -67,6 +67,21 @@
 			}
 		]
 	},
+	"hints": {
+		"type":"array",
+        "orientation": "horizontal",
+        "content": [
+			{
+			"type": "itemgrid",
+				"h_alignment": "center",
+				"item_margin": "1,2",
+				"item_size": 50,
+				"rows": [
+					["itemshint", "isin", "locations"]
+				]			
+			}
+		]
+	},
     "tracker_capture_item": {
         "type": "container",
         "content": {
@@ -85,7 +100,8 @@
 				["orangeperil", "perfume", "mask", "tincture"],
 				["mayor", "tunic", "geometry", "vintage"],
 				["pals", "weasel", "spring", "powerup"],
-				["work", "phonomath", "dusty", "friend"]
+				["work", "phonomath", "dusty", "friend"],
+				["pray","cross","icerod","silver"]
             ]
         }
     }

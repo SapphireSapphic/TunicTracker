@@ -33,15 +33,15 @@
 						"sections": [
 							{
 								"name": "Ice Bomb",
-								"hosted_item": "icebomb","item_count": 1
+								"hosted_item": "icebomb"
 							},
 							{
 								"name": "Fire Bomb",
-								"hosted_item": "firebomb","item_count": 1
+								"hosted_item": "firebomb"
 							},
 							{
 								"name": "Dynamite",
-								"hosted_item": "dynamite","item_count": 1
+								"hosted_item": "dynamite"
 							}
 						]
 					},
@@ -93,7 +93,9 @@
 						],
 						"sections": [
 							{
-								"name": "Back to Work","item_count": 1
+								"name": "Back to Work",
+								"item_count": 1,
+								"access_rules": ["cross"]
 							}
 						]
 					},
@@ -115,7 +117,12 @@
 						],
 						"sections": [
 							{
-								"name": "You got an item!","item_count": 1
+								"name": "You got an item!",
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Mailbox Progression Hint"
 							}
 						]
 					},
@@ -137,7 +144,9 @@
 						],
 						"sections": [
 							{
-								"name": "Watch your Step","item_count": 1
+								"name": "Watch your Step",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -159,7 +168,9 @@
 						],
 						"sections": [
 							{
-								"name": "Hero's Path Key","item_count": 1
+								"name": "Hero's Path Key",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -198,12 +209,24 @@
 						],
 						"sections": [
 							{
-								"name": "Front of House",
-								"access_rules": ["oldkey", "[glitches],orb,freeze"],
-								"item_count": 3
+								"name": "Chest in House",
+								"access_rules": ["oldkey", "[glitches],orb,freeze", "dash,[glitches]"],
+								"item_count": 1
 							},
 							{
-								"name": "Waterfall Entrance","item_count": 1
+								"name": "Code in House",
+								"access_rules": ["oldkey,cross", "[glitches],orb,freeze,cross", "dash,[glitches],cross"],
+								"item_count": 1
+							},
+							{
+								"name": "Shield in Cave",
+								"access_rules": ["oldkey", "[glitches],orb,freeze", "dash,[glitches]"],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Waterfall Entrance",
+								"item_count": 1
 							}
 						]
 					},
@@ -225,7 +248,9 @@
 						],
 						"sections": [
 							{
-								"name": "If you seek to increase your power...","item_count": 1
+								"name": "If you seek to increase your power...",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -247,7 +272,9 @@
 						],
 						"sections": [
 							{
-								"name": "Mind the Autobolt...","item_count": 1
+								"name": "Mind the Autobolt...",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -269,7 +296,9 @@
 						],
 						"sections": [
 							{
-								"name": "Watch out!","item_count": 1
+								"name": "Watch out!",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -291,7 +320,9 @@
 						],
 						"sections": [
 							{
-								"name": "Ran away from the Rudelings?","item_count": 1
+								"name": "Ran away from the Rudelings?",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -319,17 +350,21 @@
 						],
 						"sections": [
 							{
-								"name": "Input the Code","item_count": 1
+								"name": "Input the Code",
+								"access_rules": ["cross"],
+								"item_count": 1
 							},
 							{
 								"name": "10 Souls",
 								"access_rules": ["soul:10"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "20 Souls",
 								"access_rules": ["soul:20"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -358,8 +393,9 @@
 						"sections": [
 							{
 								"name": "In my mind...",
-								"access_rules": ["grass,boom","dash,boom","firesword,boom,ring"],
-								"item_count": 1
+								"access_rules": ["grass,boom,cross","dash,boom,cross","firesword,boom,ring,cross"],
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -406,7 +442,7 @@
 						"sections": [
 							{
 								"name": "Use the Holy Cross",
-								"access_rules": ["grass","dash","firesword,ring"],
+								"access_rules": ["grass,cross","dash,cross","firesword,ring,cross"],
 								"item_count": 3
 							}
 						]
@@ -431,7 +467,8 @@
 							{
 								"name": "Under the Bridge",
 								"access_rules": ["grass","firesword,ring","dash,visit"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -460,8 +497,9 @@
 						"sections": [
 							{
 								"name": "Use the Holy Cross",
-								"access_rules": ["grass","firesword,ring","dash,visit"],
-								"item_count": 1
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,visit,cross"],
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -485,7 +523,8 @@
 							{
 								"name": "Through the Trees",
 								"access_rules": ["key","grass","firesword,ring","dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -514,7 +553,7 @@
 						"sections": [
 							{
 								"name": "Use the Holy Cross",
-								"access_rules": ["key","grass","firesword,ring","dash"],
+								"access_rules": ["key,cross","grass,cross","firesword,ring,cross","dash,cross"],
 								"item_count": 1
 							}
 						]
@@ -539,7 +578,8 @@
 							{
 								"name": "Just Sittin' There",
 								"access_rules": ["key","grass","firesword,ring","dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -563,7 +603,8 @@
 							{
 								"name": "Treasures & Tools",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -592,7 +633,7 @@
 						"sections": [
 							{
 								"name": "Power Up!",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
 								"item_count": 1
 							}
 						]
@@ -646,7 +687,7 @@
 						"sections": [
 							{
 								"name": "Sacred Geometry",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
 								"item_count": 1
 							}
 						]
@@ -701,12 +742,14 @@
 							{
 								"name": "Dash to the Page",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "Use the Holy Cross",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -729,7 +772,7 @@
 						"sections": [
 							{
 								"name": "Take Your Rightful Place",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
 								"item_count": 1
 							}
 						]
@@ -754,7 +797,8 @@
 							{
 								"name": "Old House Key",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -778,7 +822,8 @@
 							{
 								"name": "End of the Bridge",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -802,7 +847,8 @@
 							{
 								"name": "Behind the Trees",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -826,7 +872,8 @@
 							{
 								"name": "Across the Bridge",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -874,7 +921,8 @@
 							{
 								"name": "The Map!",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -898,7 +946,8 @@
 							{
 								"name": "Say Hi to the Skeleton!",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -927,7 +976,7 @@
 						"sections": [
 							{
 								"name": "Use the Holy Cross",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
 								"item_count": 1
 							}
 						]
@@ -956,9 +1005,14 @@
 						],
 						"sections": [
 							{
-								"name": "Use the Holy Cross",
+								"name": "Entrance of Cave",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 2
+								"item_count": 1
+							},
+							{
+								"name": "Use the Holy Cross",
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
+								"item_count": 1
 							}
 						]
 					},
@@ -980,9 +1034,15 @@
 						],
 						"sections": [
 							{
-								"name": "Where do the Fairies Hide?",
+								"name": "Ooh Shiny!",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 2
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Where do the Fairies Hide?",
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
+								"item_count": 1
 							}
 						]
 					},
@@ -1006,7 +1066,8 @@
 							{
 								"name": "Behind Blue Rudelings",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1036,12 +1097,14 @@
 							{
 								"name": "Hints & Tips",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "Follow the Golden Path",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1069,9 +1132,17 @@
 						],
 						"sections": [
 							{
+								"name": "Use the Holy Cross",
+								"access_rules": ["dash,cross","ding,dong,cross","[glitches],freeze,orb,cross"],
+								"item_count": 1
+							},
+							{
 								"name": "Inside the Temple",
 								"access_rules": ["dash","ding,dong","[glitches],freeze,orb"],
-								"item_count": 2
+								"item_count": 1
+							},
+							{
+								"name": "Statue Laurels Hint"
 							}
 						]
 					},
@@ -1095,7 +1166,8 @@
 							{
 								"name": "Grapple Across",
 								"access_rules": ["orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1119,7 +1191,8 @@
 							{
 								"name": "Post-Dong!",
 								"access_rules": ["dash","gknight","[light],ring,[glitches],orb,freeze"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1148,7 +1221,7 @@
 						"sections": [
 							{
 								"name": "Use the Holy Cross",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
 								"item_count": 1
 							}
 						]
@@ -1173,7 +1246,8 @@
 							{
 								"name": "Around the Corner",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1197,7 +1271,8 @@
 							{
 								"name": "Jeffry",
 								"access_rules": ["dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1221,13 +1296,14 @@
 							{
 								"name": "Watch Out!",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
 					{
 						"name": "Autobolt Island",
-						"short_name": "",
+						"short_name": "Boltland",
 						"map_locations": [
 							{
 								"map": "fullmap",
@@ -1245,7 +1321,8 @@
 							{
 								"name": "Get Across",
 								"access_rules": ["dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1269,7 +1346,8 @@
 							{
 								"name": "Below",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1287,13 +1365,30 @@
 								"x": 425,
 								"y": 800,
 								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 2950,
+								"y": 1595
+							},
+							{
+								"map": "well",
+								"x": 280,
+								"y": 1245,
+								"size": 45
 							}
 						],
 						"sections": [
 							{
 								"name": "Drawing Light from Deep Below",
 								"access_rules": ["[light]","dash","orb,[glitches],effigy"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Grab the Lantern!",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1317,7 +1412,8 @@
 							{
 								"name": "Effigy Skip",
 								"access_rules": ["dash","[light]","orb,[glitches],effigy"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1341,7 +1437,8 @@
 							{
 								"name": "Below Jeffry",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1381,7 +1478,7 @@
 							},
 							{
 								"name": "Column Maze",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
 								"item_count": 1
 							}
 						]
@@ -1411,7 +1508,7 @@
 						"sections": [
 							{
 								"name": "Use the Holy Cross",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
 								"item_count": 1
 							}
 						]
@@ -1442,11 +1539,12 @@
 							{
 								"name": "Chest",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "Secret",
-								"access_rules": ["grass","firesword,ring","dash","orb"],
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
 								"item_count": 1
 							}
 						]
@@ -1471,7 +1569,8 @@
 							{
 								"name": "Page",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1495,7 +1594,8 @@
 							{
 								"name": "Beside the Bridge",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1523,9 +1623,14 @@
 						],
 						"sections": [
 							{
-								"name": "Use the Holy Cross",
+								"name": "In the Maze",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 2
+								"item_count": 1
+							},
+							{
+								"name": "Use the Holy Cross",
+								"access_rules": ["grass,cross","firesword,ring,cross","dash,cross","orb,cross"],
+								"item_count": 1
 							}
 						]
 					},
@@ -1549,7 +1654,8 @@
 							{
 								"name": "Dash Across",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1577,7 +1683,7 @@
 							},
 							{
 								"name": "Mr. Mayor!",
-								"access_rules": ["key","grass","firesword,ring","dash"],
+								"access_rules": ["key,cross","grass,cross","firesword,ring,cross","dash,cross"],
 								"item_count": 1
 							}
 						]
@@ -1602,7 +1708,8 @@
 							{
 								"name": "Across the Bridge",
 								"access_rules": ["grass,[ring]","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1626,7 +1733,8 @@
 							{
 								"name": "Get some new colors!",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1650,7 +1758,8 @@
 							{
 								"name": "A Terrible Power Rises",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1698,7 +1807,8 @@
 							{
 								"name": "Dash Across",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -1909,23 +2019,25 @@
 						"sections": [
 							{
 								"name": "Make 3 Wishes",
-								"access_rules": ["grass,wishes:3","firesword,ring,wishes:3","dash,wishes:3","orb,wishes:3"],
+								"access_rules": ["grass,[wishes:3],coins:3","firesword,ring,[wishes:3],coins:3","dash,[wishes:3],coins:3","orb,[wishes:3],coins:3"],
 								"item_count": 1
 							},
 							{
 								"name": "Make 6 Wishes",
-								"access_rules": ["grass,wishes:6","firesword,ring,wishes:6","dash,wishes:6","orb,wishes:6"],
+								"access_rules": ["grass,[wishes:6],coins:6","firesword,ring,[wishes:6],coins:6","dash,[wishes:6],coins:6","orb,[wishes:6],coins:6"],
 								"item_count": 1
 							},
 							{
 								"name": "Make 10 Wishes",
-								"access_rules": ["grass,wishes:10","firesword,ring,wishes:10","dash,wishes:10","orb,wishes:10"],
-								"item_count": 1
+								"access_rules": ["grass,[wishes:10],coins:10","firesword,ring,[wishes:10],coins:10","dash,[wishes:10],coins:10","orb,[wishes:10],coins:10"],
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "Make 15 Wishes",
-								"access_rules": ["grass,wishes:15","firesword,ring,wishes:15","dash,wishes:15","orb,wishes:15"],
-								"item_count": 1
+								"access_rules": ["grass,[wishes:15],coins:15","firesword,ring,[wishes:15],coins:15","dash,[wishes:15],coins:15","orb,[wishes:15],coins:15"],
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					}
@@ -1993,7 +2105,8 @@
 						"sections": [
 							{
 								"name": "Crack in the Wall",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2047,7 +2160,8 @@
 						"sections": [
 							{
 								"name": "Up on the Wall",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2076,11 +2190,13 @@
 						"sections": [
 							{
 								"name": "Surrounded by Flowers",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "Do the Forest Dance!",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["cross"]
 							}
 						]
 					},
@@ -2126,7 +2242,8 @@
 						"sections": [
 							{
 								"name": "Moment of Safety",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2149,7 +2266,8 @@
 						"sections": [
 							{
 								"name": "Mind the Rudelings!",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2172,7 +2290,8 @@
 						"sections": [
 							{
 								"name": "Hidden Path",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2242,7 +2361,8 @@
 							{
 								"name": "Grapple Across",
 								"access_rules": ["orb"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2266,7 +2386,8 @@
 							{
 								"name": "Dash Across",
 								"access_rules": ["orb,dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2295,7 +2416,8 @@
 						"sections": [
 							{
 								"name": "Use the Holy Cross",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["cross"]
 							}
 						]
 					},
@@ -2318,8 +2440,9 @@
 						"sections": [
 							{
 								"name": "Ascend With Orb",
-								"access_rules": ["orb,freeze,[glitches]","orb,dagger,staff"],
-								"item_count": 1
+								"access_rules": ["orb,freeze,[glitches]","orb,dagger,staff,icerod"],
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2388,11 +2511,13 @@
 						"sections": [
 							{
 								"name": "Beside the Boss Door",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "Behind the Pots",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2526,6 +2651,17 @@
 								"x": 770,
 								"y": 225,
 								"size": 35
+							},
+							{
+								"map": "fullmap",
+								"x": 1070,
+								"y": 4450
+							},
+							{
+								"map": "far_shore",
+								"x": 1435,
+								"y": 270,
+								"size": 45
 							}
 						],
 						"sections": [
@@ -2535,8 +2671,12 @@
 							},
 							{
 								"name": "Pray to the Hero",
-								"access_rules": ["dash"],
-								"item_count": 1
+								"access_rules": ["dash,pray"],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Grave Progression Hint"
 							}
 						]
 					},
@@ -2559,7 +2699,8 @@
 						"sections": [
 							{
 								"name": "Follow the Flowers",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["boom"]
 							}
 						]
 					},
@@ -2588,7 +2729,8 @@
 						"sections": [
 							{
 								"name": "Single Money Chest",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["cross"]
 							}
 						]
 					}
@@ -2615,7 +2757,8 @@
 						],
 						"sections": [
 							{
-								"name": "Mind the Slorms","item_count": 1
+								"name": "Mind the Slorms",
+								"item_count": 1
 							}
 						]
 					},
@@ -2637,7 +2780,8 @@
 						],
 						"sections": [
 							{
-								"name": "You can just go in there","item_count": 1
+								"name": "You can just go in there",
+								"item_count": 1
 							}
 						]
 					},
@@ -2682,7 +2826,8 @@
 						],
 						"sections": [
 							{
-								"name": "Just go in there","item_count": 1
+								"name": "Just go in there",
+								"item_count": 1
 							}
 						]
 					},
@@ -2704,7 +2849,9 @@
 						],
 						"sections": [
 							{
-								"name": "Hidden Passage","item_count": 1
+								"name": "Hidden Passage",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2726,7 +2873,8 @@
 						],
 						"sections": [
 							{
-								"name": "Hidden Path","item_count": 1
+								"name": "Hidden Path",
+								"item_count": 1
 							}
 						]
 					},
@@ -2748,7 +2896,8 @@
 						],
 						"sections": [
 							{
-								"name": "Behind the Slorms","item_count": 1
+								"name": "Behind the Slorms",
+								"item_count": 1
 							}
 						]
 					},
@@ -2770,7 +2919,9 @@
 						],
 						"sections": [
 							{
-								"name": "Run from the tentacles!","item_count": 1
+								"name": "Run from the tentacles!",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2792,7 +2943,9 @@
 						],
 						"sections": [
 							{
-								"name": "Water Sucks","item_count": 1
+								"name": "Water Sucks",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2814,7 +2967,8 @@
 						],
 						"sections": [
 							{
-								"name": "Just Climb up There","item_count": 1
+								"name": "Just Climb up There",
+								"item_count": 1
 							}
 						]
 					},
@@ -2836,7 +2990,9 @@
 						],
 						"sections": [
 							{
-								"name": "Through the Power of Prayer","item_count": 1
+								"name": "Through the Power of Prayer",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2858,7 +3014,9 @@
 						],
 						"sections": [
 							{
-								"name": "Did you find the A BUTTON in the YOUR CONTROLLER?","item_count": 1
+								"name": "Did you find the A BUTTON in the YOUR CONTROLLER?",
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -2880,7 +3038,8 @@
 						],
 						"sections": [
 							{
-								"name": "So Many Phrends!","item_count": 1
+								"name": "So Many Phrends!",
+								"item_count": 1
 							}
 						]
 					},
@@ -2902,29 +3061,9 @@
 						],
 						"sections": [
 							{
-								"name": "Follow the Purple Energy Road","item_count": 1
-							}
-						]
-					},
-					{
-						"name": "Grab the Lantern!",
-						"short_name": "Lantern",
-						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2950,
-								"y": 1595
-							},
-							{
-								"map": "well",
-								"x": 280,
-								"y": 1245,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "The Furnace is Scary","item_count": 1
+								"name": "Follow the Purple Energy Road",
+								"item_count": 1,
+								"access_rules": ["pray"]
 							}
 						]
 					},
@@ -2947,7 +3086,8 @@
 						"sections": [
 							{
 								"name": "Siege Engine",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					}
@@ -3045,7 +3185,8 @@
 						"sections": [
 							{
 								"name": "Watch out!",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3091,7 +3232,8 @@
 						"sections": [
 							{
 								"name": "Use a bomb?",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3114,7 +3256,8 @@
 						"sections": [
 							{
 								"name": "Can you roll?",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					}
@@ -3134,17 +3277,32 @@
 								"y": 2570
 							},
 							{
+								"map": "fullmap",
+								"x": 460,
+								"y": 4450
+							},
+							{
 								"map": "west_gardens",
 								"x": 1085,
 								"y": 150,
+								"size": 45
+							},
+							{
+								"map": "far_shore",
+								"x": 1175,
+								"y": 270,
 								"size": 45
 							}
 						],
 						"sections": [
 							{
 								"name": "Pray to the Hero",
-								"access_rules": ["dash"],
-								"item_count": 1
+								"access_rules": ["dash,pray"],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Grave Progression Hint"
 							}
 						]
 					},
@@ -3190,7 +3348,8 @@
 						"sections": [
 							{
 								"name": "Extra Sword!",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["cross"]
 							}
 						]
 					},
@@ -3214,7 +3373,8 @@
 							{
 								"name": "I Love Fish!",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3237,7 +3397,8 @@
 						"sections": [
 							{
 								"name": "Survival Tips",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3284,7 +3445,8 @@
 							{
 								"name": "Dash through the water",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3307,7 +3469,8 @@
 						"sections": [
 							{
 								"name": "Between a Rope and a Bridge Place",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3330,7 +3493,8 @@
 						"sections": [
 							{
 								"name": "Behind the Ladder",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3359,8 +3523,9 @@
 						"sections": [
 							{
 								"name": "Use the Holy Cross",
-								"access_rules": ["dash"],
-								"item_count": 1
+								"access_rules": ["dash,cross"],
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3429,7 +3594,8 @@
 						"sections": [
 							{
 								"name": "By the Rudeling",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3452,7 +3618,8 @@
 						"sections": [
 							{
 								"name": "Pray to the Wall Man",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3476,7 +3643,8 @@
 							{
 								"name": "Share Your Wisdom",
 								"access_rules": ["dash","orb,freeze,[glitches]"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3499,7 +3667,8 @@
 						"sections": [
 							{
 								"name": "Mind the Chompignoms!",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3522,7 +3691,8 @@
 						"sections": [
 							{
 								"name": "Spooky Cave",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3545,7 +3715,8 @@
 						"sections": [
 							{
 								"name": "Under Boss Ladder",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3574,7 +3745,8 @@
 						"sections": [
 							{
 								"name": "Use the Holy Cross",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["cross"]
 							}
 						]
 					},
@@ -3621,7 +3793,8 @@
 							{
 								"name": "Dash Across",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3669,7 +3842,8 @@
 							{
 								"name": "Did Not Kill You",
 								"access_rules": ["gknight","orb,freeze,[glitches]","dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					}
@@ -3698,7 +3872,8 @@
 						"sections": [
 							{
 								"name": "Under the Stairs",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3721,7 +3896,8 @@
 						"sections": [
 							{
 								"name": "Pray",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -3744,7 +3920,9 @@
 						"sections": [
 							{
 								"name": "Next to the Obelisk",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["pray","dash"],
+								"capture_item": true
 							}
 						]
 					},
@@ -3767,13 +3945,15 @@
 						"sections": [
 							{
 								"name": "Heir-To-The-Heir",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["pray","dash"],
+								"capture_item": true
 							}
 						]
 					},
 					{//Beneath the Earth
 						"name": "Beneath the Earth",
-						"access_rules": ["[light]"],
+						"access_rules": ["[light],pray","[light],dash"],
 						"children": [
 							{
 								"name": "Behind the Waterfall",
@@ -3818,7 +3998,8 @@
 									{
 										"name": "Across the Bridge",
 										"access_rules": ["switch","dash"],
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -3895,7 +4076,7 @@
 					},
 					{//Inside the Eastern Vault
 						"name": "Inside the Eastern Vault",
-						"access_rules": ["[light]","dash"],
+						"access_rules": ["[light],pray","dash"],
 						"children": [
 							{
 								"name": "Westmost Upper Room",
@@ -3968,7 +4149,8 @@
 								"sections": [
 									{
 										"name": "Use the Holy Cross",
-										"item_count": 1
+										"item_count": 1,
+										"access_rules": ["cross"]
 									}
 								]
 							},
@@ -3986,6 +4168,17 @@
 										"x": 1660,
 										"y": 650,
 										"size": 45
+									},
+									{
+										"map": "fullmap",
+										"x": 920,
+										"y": 4185
+									},
+									{
+										"map": "far_shore",
+										"x": 1370,
+										"y": 165,
+										"size": 45
 									}
 								],
 								"sections": [
@@ -3995,8 +4188,12 @@
 									},
 									{
 										"name": "Pray to the Hero",
-										"access_rules": ["dash"],
-										"item_count": 1
+										"access_rules": ["dash,pray"],
+										"item_count": 1,
+										"capture_item": true
+									},
+									{
+										"name": "Grave Progression Hint"
 									}
 								]
 							},
@@ -4020,7 +4217,8 @@
 									{
 										"name": "Dusty",
 										"access_rules": ["dash"],
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -4043,7 +4241,8 @@
 								"sections": [
 									{
 										"name": "Mind the Custodians",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -4066,7 +4265,8 @@
 								"sections": [
 									{
 										"name": "Go Around the East Wing",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -4089,7 +4289,8 @@
 								"sections": [
 									{
 										"name": "Bomb the Wall",
-										"item_count": 1
+										"item_count": 1,
+										"access_rules": ["boom"]
 									}
 								]
 							},
@@ -4113,13 +4314,15 @@
 									{
 										"name": "Defeat Siege Engine",
 										"hosted_item": "engine",
-										"access_rules": ["ring"],
-										"item_count": 1
+										"access_rules": ["ring,pray"],
+										"item_count": 1,
+										"capture_item": true
 									},
 									{
 										"name": "Insert the Vault Key",
-										"access_rules": ["vaultkey"],
-										"item_count": 1
+										"access_rules": ["vaultkey,pray"],
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							}
@@ -4129,7 +4332,7 @@
 			},
 			{//Ruined Atoll
 				"name": "Ruined Atoll",
-				"access_rules": ["grass","firesword,ring","dash","orb"],
+				"access_rules": ["grass","firesword,ring","dash","orb","pray"],
 				"children": [
 					{
 						"name": "Overworld Beach",
@@ -4150,7 +4353,8 @@
 						"sections": [
 							{
 								"name": "Come from the Overworld",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4219,7 +4423,8 @@
 						"sections": [
 							{
 								"name": "Up the Ladder",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4265,7 +4470,8 @@
 						"sections": [
 							{
 								"name": "Mind the Crabbits",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4288,7 +4494,8 @@
 						"sections": [
 							{
 								"name": "Near Domain",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4335,7 +4542,8 @@
 						"sections": [
 							{
 								"name": "Around the Tower",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4358,7 +4566,8 @@
 						"sections": [
 							{
 								"name": "Go Up that Dang Thang!",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4381,7 +4590,8 @@
 						"sections": [
 							{
 								"name": "His Name is Tom",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4404,7 +4614,8 @@
 						"sections": [
 							{
 								"name": "Danlarry and Thranmire ate Jerry!",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4427,7 +4638,8 @@
 						"sections": [
 							{
 								"name": "Saved by the Prayer",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4450,7 +4662,8 @@
 						"sections": [
 							{
 								"name": "Mind the Fairies",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -4473,7 +4686,8 @@
 						"sections": [
 							{
 								"name": "Breakable Wall tho?",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["boom"]
 							}
 						]
 					},
@@ -4524,7 +4738,8 @@
 									{
 										"name": "Don't Kick Fimbleton!",
 										"access_rules": ["orb"],
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -4548,7 +4763,8 @@
 									{
 										"name": "Look Up",
 										"access_rules": ["orb"],
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -4594,7 +4810,8 @@
 								"sections": [
 									{
 										"name": "Upper Right Corner",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -4641,7 +4858,8 @@
 								"sections": [
 									{
 										"name": "Above Golden Door",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -4687,7 +4905,8 @@
 								"sections": [
 									{
 										"name": "Congregation of Knight Frogs",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -4733,7 +4952,8 @@
 								"sections": [
 									{
 										"name": "Tobias was Trapped Here Once...",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -4756,7 +4976,8 @@
 								"sections": [
 									{
 										"name": "Frult Meeting",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							}
@@ -4764,7 +4985,7 @@
 					},
 					{//The Grand Library
 						"name": "The Grand Library",
-						"access_rules": ["orb","visit","dash"],
+						"access_rules": ["orb,pray","visit,pray","dash,pray"],
 						"children": [
 							{
 								"name": "Library Rug Secret",
@@ -4791,7 +5012,9 @@
 								"sections": [
 									{
 										"name": "Use the Holy Cross",
-										"item_count": 1
+										"item_count": 1,
+										"access_rules": ["cross"],
+										"capture_item": true
 									}
 								]
 							},
@@ -4809,13 +5032,28 @@
 										"x": 110,
 										"y": 125,
 										"size": 45
+									},
+									{
+										"map": "fullmap",
+										"x": 600,
+										"y": 4705
+									},
+									{
+										"map": "far_shore",
+										"x": 1240,
+										"y": 385,
+										"size": 45
 									}
 								],
 								"sections": [
 									{
 										"name": "Pray to the Hero",
-										"access_rules": ["dash"],
-										"item_count": 1
+										"access_rules": ["dash,pray"],
+										"item_count": 1,
+										"capture_item": true
+									},
+									{
+										"name": "Grave Hexagon Hint"
 									}
 								]
 							},
@@ -4839,7 +5077,8 @@
 									{
 										"name": "Page Tubes",
 										"access_rules": ["tubes"],
-										"item_count": 3
+										"item_count": 3,
+										"capture_item": true
 									}
 								]
 							},
@@ -4899,7 +5138,8 @@
 									{
 										"name": "Stolen to the Top of the Sky",
 										"access_rules": ["librarian"],
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							}
@@ -4936,7 +5176,8 @@
 						"sections": [
 							{
 								"name": "Kimi wa Boku no Fairy~",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["cross"]
 							}
 						]
 					},
@@ -4982,7 +5223,8 @@
 						"sections": [
 							{
 								"name": "Even more Stairs!",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -5005,7 +5247,8 @@
 						"sections": [
 							{
 								"name": "Drop that Bridge!",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -5028,7 +5271,8 @@
 						"sections": [
 							{
 								"name": "The Flowers are Here...",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["boom"]
 							}
 						]
 					},
@@ -5166,7 +5410,8 @@
 						"sections": [
 							{
 								"name": "Mind the Scavengers",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -5189,7 +5434,8 @@
 						"sections": [
 							{
 								"name": "Reminicent of the Overworld",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -5235,7 +5481,8 @@
 						"sections": [
 							{
 								"name": "Mind the Sniper",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -5258,7 +5505,8 @@
 						"sections": [
 							{
 								"name": "MMMM Ladder",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -5282,7 +5530,8 @@
 							{
 								"name": "Dash Across",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -5300,17 +5549,33 @@
 								"x": 385,
 								"y": 220,
 								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 610,
+								"y": 4180
+							},
+							{
+								"map": "far_shore",
+								"x": 1240,
+								"y": 160,
+								"size": 45
 							}
 						],
 						"sections": [
 							{
 								"name": "Mask Chest",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "Hero's Grave",
-								"access_rules": ["dash"],
-								"item_count": 1
+								"access_rules": ["dash,pray"],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Grave Hexagon Hint"
 							}
 						]
 					},
@@ -5379,7 +5644,8 @@
 						"sections": [
 							{
 								"name": "Boomy",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["boom"]
 							}
 						]
 					},
@@ -5406,7 +5672,8 @@
 								"sections": [
 									{
 										"name": "Clever little sneak!",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -5452,7 +5719,8 @@
 								"sections": [
 									{
 										"name": "You really shouldn't've betrayed us...",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -5475,7 +5743,8 @@
 								"sections": [
 									{
 										"name": "Burn Pots",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -5498,7 +5767,8 @@
 								"sections": [
 									{
 										"name": "Go Around",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -5521,7 +5791,8 @@
 								"sections": [
 									{
 										"name": "Drop that Bridge!",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -5544,7 +5815,8 @@
 								"sections": [
 									{
 										"name": "Hate them Snipers",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -5567,7 +5839,8 @@
 								"sections": [
 									{
 										"name": "Wayy down there",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -5590,13 +5863,14 @@
 								"sections": [
 									{
 										"name": "End of the Tracks",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
 							{//The Rooted Ziggurat
 								"name": "The Rooted Ziggurat",
-								"access_rules": ["[mask],orb","orb,freeze,[glitches],[mask]"],
+								"access_rules": ["[mask],orb,pray","orb,freeze,[glitches],[mask],pray"],
 								"children": [
 									{
 										"name": "Hit the Switch",
@@ -5617,7 +5891,8 @@
 										"sections": [
 											{
 												"name": "You can shoot it",
-												"item_count": 1
+												"item_count": 1,
+												"capture_item": true
 											}
 										]
 									},
@@ -5640,7 +5915,8 @@
 										"sections": [
 											{
 												"name": "End of the First Floor",
-												"item_count": 1
+												"item_count": 1,
+												"capture_item": true
 											}
 										]
 									},
@@ -5663,7 +5939,8 @@
 										"sections": [
 											{
 												"name": "I'm Scared",
-												"item_count": 1
+												"item_count": 1,
+												"capture_item": true
 											}
 										]
 									},
@@ -5709,7 +5986,8 @@
 										"sections": [
 											{
 												"name": "Use the Gun",
-												"item_count": 1
+												"item_count": 1,
+												"capture_item": true
 											}
 										]
 									},
@@ -5732,7 +6010,8 @@
 										"sections": [
 											{
 												"name": "Help",
-												"item_count": 1
+												"item_count": 1,
+												"capture_item": true
 											}
 										]
 									},
@@ -5755,7 +6034,8 @@
 										"sections": [
 											{
 												"name": "Oh god they're everywhere",
-												"item_count": 1
+												"item_count": 1,
+												"capture_item": true
 											}
 										]
 									},
@@ -5778,7 +6058,8 @@
 										"sections": [
 											{
 												"name": "Haircut Tiem :)",
-												"item_count": 1
+												"item_count": 1,
+												"capture_item": true
 											}
 										]
 									},
@@ -5801,7 +6082,8 @@
 										"sections": [
 											{
 												"name": "Moment of Reprieve",
-												"item_count": 1
+												"item_count": 1,
+												"capture_item": true
 											}
 										]
 									},
@@ -5824,7 +6106,8 @@
 										"sections": [
 											{
 												"name": "Defeat those Mechs",
-												"item_count": 1
+												"item_count": 1,
+												"capture_item": true
 											}
 										]
 									},
@@ -5848,7 +6131,8 @@
 											{
 												"name": "Scavenger Queen",
 												"item_count": 1,
-												"hosted_item": "scavboss"
+												"hosted_item": "scavboss",
+												"capture_item": true
 											}
 										]
 									}
@@ -5882,7 +6166,8 @@
 							{
 								"name": "Dash Across",
 								"access_rules": ["dash"],
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -5951,7 +6236,8 @@
 						"sections": [
 							{
 								"name": "DAGGER STRAP!!!11!!",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -5977,7 +6263,8 @@
 								"sections": [
 									{
 										"name": "Gazing out over the Graves",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6000,7 +6287,8 @@
 								"sections": [
 									{
 										"name": "Through the Nook",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6023,7 +6311,8 @@
 								"sections": [
 									{
 										"name": "End of Ledge",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6046,7 +6335,8 @@
 								"sections": [
 									{
 										"name": "Super Clipping",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6069,7 +6359,8 @@
 								"sections": [
 									{
 										"name": "The Rest of Our Entire Life is Death",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6092,7 +6383,8 @@
 								"sections": [
 									{
 										"name": "Just Some Pals",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6115,7 +6407,8 @@
 								"sections": [
 									{
 										"name": "Mind the Tentacles!",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6139,7 +6432,8 @@
 									{
 										"name": "Around the Hill",
 										"access_rules": ["dash"],
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6208,7 +6502,8 @@
 								"sections": [
 									{
 										"name": "Do You Even Live?",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6231,7 +6526,8 @@
 								"sections": [
 									{
 										"name": "Up them Ramps",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6254,7 +6550,8 @@
 								"sections": [
 									{
 										"name": "Overlooking the Graves",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6277,7 +6574,8 @@
 								"sections": [
 									{
 										"name": "Alternatively, Before the Cathedral",
-										"item_count": 1
+										"item_count": 1,
+										"capture_item": true
 									}
 								]
 							},
@@ -6356,7 +6654,7 @@
 			},
 			{//The Cathedral
 				"name": "The Cathedral",
-				"access_rules": ["grass,dash","firesword,ring,dash","grass,visit","firesword,ring,visit","grass,orb,freeze,[glitches]","firesword,ring,orb,freeze,[glitches]","dash,visit"],
+				"access_rules": ["grass,dash,pray","firesword,ring,dash,pray","grass,visit,pray","firesword,ring,visit,pray","grass,orb,freeze,[glitches]","firesword,ring,orb,freeze,[glitches]","dash,visit,pray"],
 				"children": [
 					{
 						"name": "Library Chest",
@@ -6429,7 +6727,8 @@
 						"sections": [
 							{
 								"name": "Secret Legend",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -6452,7 +6751,8 @@
 						"sections": [
 							{
 								"name": "Beside 3 Miasma Seekers",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -6475,7 +6775,8 @@
 						"sections": [
 							{
 								"name": "Mind the Miasma Seeker",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -6498,7 +6799,8 @@
 						"sections": [
 							{
 								"name": "Miasma Hushers",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "Pray to Wallman",
@@ -6525,7 +6827,8 @@
 						"sections": [
 							{
 								"name": "Overlooking Miasma",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -6548,7 +6851,8 @@
 						"sections": [
 							{
 								"name": "Drop the Ladder",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -6571,7 +6875,8 @@
 						"sections": [
 							{
 								"name": "Before the big reveal...",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -6595,7 +6900,8 @@
 							{
 								"name": "Defeat the Waves",
 								"hosted_item": "gauntlet",
-								"item_count": 1
+								"item_count": 1,
+								"capture_item": true
 							}
 						]
 					},
@@ -6613,18 +6919,33 @@
 								"x": 825,
 								"y": 345,
 								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 920,
+								"y": 4710
+							},
+							{
+								"map": "far_shore",
+								"x": 1370,
+								"y": 385,
+								"size": 45
 							}
 						],
 						"sections": [
 							{
 								"name": "Pray to the Hero",
-								"access_rules": ["dash"],
-								"item_count": 1
+								"access_rules": ["dash,pray"],
+								"item_count": 1,
+								"capture_item": true
 							},
 							{
 								"name": "Behind and to the Right",
 								"access_rules": ["dash"],
 								"item_count": 1
+							},
+							{
+								"name": "Grave Hexagon Hint"
 							}
 						]
 					}
@@ -6632,6 +6953,7 @@
 			},
 			{//The Far Shore
 				"name": "The Far Shore",
+				"access_rules": ["pray"],
 				"children": [
 					{
 						"name": "Visit the Heir",
@@ -6644,8 +6966,8 @@
 							},
 							{
 								"map": "far_shore",
-								"x": 823,
-								"y": 731,
+								"x": 825,
+								"y": 930,
 								"size": 45
 							}
 						],
@@ -6674,8 +6996,8 @@
 							},
 							{
 								"map": "far_shore",
-								"x": 820,
-								"y": 1020,
+								"x": 825,
+								"y": 1220,
 								"size": 45
 							},
 							{
@@ -6688,7 +7010,8 @@
 						"sections": [
 							{
 								"name": "A Long, Long Time Ago...",
-								"item_count": 1
+								"item_count": 1,
+								"access_rules": ["pray"]
 							}
 						]
 					},
@@ -6704,7 +7027,7 @@
 							{
 								"map": "far_shore",
 								"x": 575,
-								"y": 945,
+								"y": 1155,
 								"size": 45
 							}
 						],

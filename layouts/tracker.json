@@ -242,6 +242,16 @@
                                 "key": "bosses"
                             }
 						},
+						{
+							"type": "group",
+                            "header": "Hints",
+                            "margin": "0,0,3,0",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "hints"
+                            }
+						},
                         {
                             "type": "group",
                             "header": "Pinned Locations",
