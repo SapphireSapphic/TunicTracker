@@ -120,9 +120,6 @@
 								"name": "You got an item!",
 								"item_count": 1,
 								"capture_item": true
-							},
-							{
-								"name": "Mailbox Progression Hint"
 							}
 						]
 					},
@@ -1140,9 +1137,6 @@
 								"name": "Inside the Temple",
 								"access_rules": ["dash","ding,dong","[glitches],freeze,orb"],
 								"item_count": 1
-							},
-							{
-								"name": "Statue Laurels Hint"
 							}
 						]
 					},
@@ -2674,9 +2668,6 @@
 								"access_rules": ["dash,pray"],
 								"item_count": 1,
 								"capture_item": true
-							},
-							{
-								"name": "Grave Progression Hint"
 							}
 						]
 					},
@@ -3300,9 +3291,6 @@
 								"access_rules": ["dash,pray"],
 								"item_count": 1,
 								"capture_item": true
-							},
-							{
-								"name": "Grave Progression Hint"
 							}
 						]
 					},
@@ -4191,9 +4179,6 @@
 										"access_rules": ["dash,pray"],
 										"item_count": 1,
 										"capture_item": true
-									},
-									{
-										"name": "Grave Progression Hint"
 									}
 								]
 							},
@@ -5051,9 +5036,6 @@
 										"access_rules": ["dash,pray"],
 										"item_count": 1,
 										"capture_item": true
-									},
-									{
-										"name": "Grave Hexagon Hint"
 									}
 								]
 							},
@@ -5573,9 +5555,6 @@
 								"access_rules": ["dash,pray"],
 								"item_count": 1,
 								"capture_item": true
-							},
-							{
-								"name": "Grave Hexagon Hint"
 							}
 						]
 					},
@@ -6943,9 +6922,6 @@
 								"name": "Behind and to the Right",
 								"access_rules": ["dash"],
 								"item_count": 1
-							},
-							{
-								"name": "Grave Hexagon Hint"
 							}
 						]
 					}

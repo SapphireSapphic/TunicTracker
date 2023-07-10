@@ -7,18 +7,20 @@
                 "type": "itemgrid",
                 "h_alignment": "left",
                 "item_margin": "1,2",
+				"item_size": 40,
                 "rows": [
 					["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
                     ["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
 					["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
 					["stick", "sword", "dagger", "icerod", "staff", "orb", "gun", "hourglass"],
 					["fangs", "idols", "powder", "flowers", "leaves", "shrooms","hexquest"],
-					["pray","cross","dath","goldenpower","justawell","ding", "dong", "visit"]
+					["pray","cross","dath","goldenpower","justawell","ding", "dong", "visit"],
+					["captain", "gknight", "engine", "librarian", "scavboss", "gauntlet", "heir"]
                 ]
             }
 		]
     },
-	"cards": {
+	"other": {
 		"type":"array",
         "orientation": "horizontal",
         "content": [
@@ -26,43 +28,15 @@
 			"type": "itemgrid",
 				"h_alignment": "center",
 				"item_margin": "1,2",
+				"item_size": 40,
 				"rows": [
 					["anklet", "gem", "blueperil", "bone"],
 					["bracer", "strap", "firesword", "ash"],
 					["loud", "cup", "mecho", "bell"],
-					["orangeperil", "perfume", "mask", "tincture"]
-				]			
-			}
-		]
-	},
-	"secrets": {
-		"type":"array",
-        "orientation": "horizontal",
-        "content": [
-			{
-			"type": "itemgrid",
-				"h_alignment": "center",
-				"item_margin": "1,2",
-				"rows": [
+					["orangeperil", "perfume", "mask", "tincture"],
 					["mayor", "tunic", "geometry", "vintage"],
 					["pals", "weasel", "spring", "powerup"],
 					["work", "phonomath", "dusty", "friend"]
-				]			
-			}
-		]
-	},
-	"bosses": {
-		"type":"array",
-        "orientation": "horizontal",
-        "content": [
-			{
-			"type": "itemgrid",
-				"h_alignment": "center",
-				"item_margin": "1,2",
-				"rows": [
-					["captain", "gknight"],
-					["engine", "librarian", "scavboss"],
-					["gauntlet", "heir"]
 				]			
 			}
 		]
@@ -75,9 +49,12 @@
 			"type": "itemgrid",
 				"h_alignment": "center",
 				"item_margin": "1,2",
-				"item_size": 50,
+				"item_size": 73,
 				"rows": [
-					["itemshint", "isin", "locations"]
+					["mailbox", "arrow", "mailhint", "blank", "dash", "isin", "laurelshint"],
+					["gravehexGL", "isin", "gravehintGL", "blank", "graveitemEF", "isin", "gravehintEF"],
+					["gravehexMQ", "isin", "gravehintMQ", "blank", "graveitemWG", "isin", "gravehintWG"],
+					["gravehexSW", "isin", "gravehintSW", "blank", "graveitemFF", "isin", "gravehintFF"]
 				]			
 			}
 		]
