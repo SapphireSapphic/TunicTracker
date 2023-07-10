@@ -4747,7 +4747,7 @@
 								"sections": [
 									{
 										"name": "Look Up",
-										"access_rules": ["orb"],
+										"access_rules": ["orb","dash"],
 										"item_count": 1,
 										"capture_item": true
 									}
