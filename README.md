@@ -4,7 +4,7 @@ To install, simply navigate to the package manager in EmoTracker, and search "Tu
 If you encounter any issues, please contact SapphireSapphic#8218 on discord.
 
 Special thanks to SilentDestroyer for making the Tunic randomizer, and also for various insights that hepled make this package possible.
-Shoutouts to Ekkosangen & Jabberrock for noticing little things that make the tracker better :)
+Shoutouts to Ekkosangen, Jabberrock, and Celeste for noticing little things that make the tracker better :)
 
 Please note: Autotracker for this package is not currently possible, but likely will be some time in the future. Please stay tuned, whenever this is possible I will work on implementing it immediately.
 

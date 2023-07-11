@@ -223,6 +223,7 @@
 							},
 							{
 								"name": "Waterfall Entrance",
+								"access_rules": ["cross"],
 								"item_count": 1
 							}
 						]
@@ -2013,23 +2014,23 @@
 						"sections": [
 							{
 								"name": "Make 3 Wishes",
-								"access_rules": ["grass,[wishes:3],coins:3","firesword,ring,[wishes:3],coins:3","dash,[wishes:3],coins:3","orb,[wishes:3],coins:3"],
+								"access_rules": ["grass,wishes:3","firesword,ring,wishes:3","dash,wishes:3","orb,wishes:3","grass,justawell:3","firesword,ring,justawell:3","dash,justawell:3","orb,justawell:3"],
 								"item_count": 1
 							},
 							{
 								"name": "Make 6 Wishes",
-								"access_rules": ["grass,[wishes:6],coins:6","firesword,ring,[wishes:6],coins:6","dash,[wishes:6],coins:6","orb,[wishes:6],coins:6"],
+								"access_rules": ["grass,wishes:6","firesword,ring,wishes:6","dash,wishes:6","orb,wishes:6","grass,justawell:6","firesword,ring,justawell:6","dash,justawell:6","orb,justawell:6"],
 								"item_count": 1
 							},
 							{
 								"name": "Make 10 Wishes",
-								"access_rules": ["grass,[wishes:10],coins:10","firesword,ring,[wishes:10],coins:10","dash,[wishes:10],coins:10","orb,[wishes:10],coins:10"],
+								"access_rules": ["grass,wishes:10","firesword,ring,wishes:10","dash,wishes:10","orb,wishes:10","grass,justawell:10","firesword,ring,justawell:10","dash,justawell:10","orb,justawell:10"],
 								"item_count": 1,
 								"capture_item": true
 							},
 							{
 								"name": "Make 15 Wishes",
-								"access_rules": ["grass,[wishes:15],coins:15","firesword,ring,[wishes:15],coins:15","dash,[wishes:15],coins:15","orb,[wishes:15],coins:15"],
+								"access_rules": ["grass,wishes:15","firesword,ring,wishes:15","dash,wishes:15","orb,wishes:15","grass,justawell:15","firesword,ring,justawell:15","dash,justawell:15","orb,justawell:15"],
 								"item_count": 1,
 								"capture_item": true
 							}
