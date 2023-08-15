@@ -1,0 +1,15 @@
+{
+    "versions": [
+        {
+            "package_version": "2.0",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0/tunic_sapphiresapphic.zip",
+            "sha256": "",
+            "changelog": [
+                "Added Poptracker Support",
+                "Added Autotracking (specific to AP atm)",
+                "Changed names of all Locations (Poptracker specific)",
+                "Added necessary files to allow for Poptracker Pack auto-updates"
+            ]
+        }
+    ]
+}

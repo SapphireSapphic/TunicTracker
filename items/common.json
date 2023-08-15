@@ -1,0 +1,1198 @@
+[
+	//Gear
+	{
+		"name": "Shield",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/shield.png",
+		"codes": "shield"
+	},
+	{
+		"name": "Lantern",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/lantern.png",
+		"codes": "light"
+	},
+	{
+		"name": "Laurels",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/laurels.png",
+		"codes": "dash"
+	},
+	{
+		"name": "Red Vault Key",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/redvaultkey.png",
+		"codes": "vaultkey"
+	},
+	//Weapons
+	{
+		"name": "Stick",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/sword1.png",
+		"codes": "stick,ring,switch,tubes"
+	},
+	{
+		"name": "Sword",
+		"type": "progressive",
+		"loop": false,
+		"stages": [
+			{"img": "images/sword2.png","codes": "sword,ring,grass,switch,tubes"},
+			{"img": "images/sword3.png","codes": "sword,ring,grass,switch,tubes"},
+			{"img": "images/sword4.png","codes": "sword,ring,grass,switch,tubes"}
+		]
+	},
+	{
+		"name": "Magic Dagger",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/magic_dagger.png",
+		"codes": "dagger,freeze"
+	},
+	{
+		"name": "Magic Staff",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/magic_staff.png",
+		"codes": "staff,grass,switch,tubes"
+	},
+	{
+		"name": "Magic Hourglass",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/magic_hourglass.png",
+		"codes": "hourglass"
+	},
+	{
+		"name": "A Gun?!",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/a_gun.png",
+		"codes": "gun,grass,switch,tubes,boom"
+	},
+	{
+		"name": "Magic Orb",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/magic_orb.png",
+		"codes": "orb"
+	},
+	//Abilities
+	{
+		"name": "Prayer",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/pray.png",
+		"codes": "pray",
+		"initial_active_state": true
+	},
+	{
+		"name": "Holy Cross",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/cross.png",
+		"codes": "cross",
+		"initial_active_state": true
+	},
+	{
+		"name": "Ice Rod",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/icerod.png",
+		"codes": "icerod,freeze",
+		"initial_active_state": true
+	},
+	//Consumables
+	{
+		"name": "Ice Bomb",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/ice_bomb.png",
+		"codes": "icebomb,freeze,boom"
+	},
+	{
+		"name": "Dynamite",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/dynamite.png",
+		"codes": "dynamite,boom,grass,switch,tubes"
+	},
+	{
+		"name": "Fire Bomb",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/fire_bomb.png",
+		"codes": "firebomb,fire,grass,tubes"
+	},
+	{
+		"name": "Golden Coin",
+		"type": "consumable",
+		"loop": true,
+		"img":"images/golden_coins.png",
+		"codes": "wishes,throwy",
+		"max_quantity": 17
+	},
+	{
+		"name": "Wishes Made",
+		"type": "consumable",
+		"loop": true,
+		"img":"images/wishes.png",
+		"codes": "justawell,throwy",
+		"max_quantity": 17
+	},
+	{
+		"name": "Lure",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/lure.png",
+		"codes": "lure"
+	},
+	{
+		"name": "Effigy",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/effigy.png",
+		"codes": "effigy"
+	},
+	//Collectibles
+	{
+		"name": "Souls",
+		"type": "consumable",
+		"loop": true,
+		"img":"images/souls.png",
+		"codes": "soul",
+		"max_quantity": 20
+	},
+	{
+		"name": "Manual Pages",
+		"type": "consumable",
+		"loop": true,
+		"img":"images/manual_pages.png",
+		"codes": "manual",
+		"max_quantity": 28
+	},
+	{
+		"name": "Flasks",
+		"type": "consumable",
+		"loop": true,
+		"img":"images/flasks.png",
+		"codes": "heal",
+		"max_quantity": 9
+	},
+	{
+		"name": "Flask Shards",
+		"type": "consumable",
+		"loop": true,
+		"img":"images/flask_shards.png",
+		"codes": "healshard",
+		"max_quantity": 12
+	},
+	{
+		"name": "Keys",
+		"type": "consumable",
+		"loop": true,
+		"img":"images/keys.png",
+		"codes": "key",
+		"max_quantity": 2
+	},
+	{
+		"name": "Old House Key",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/oldhousekey.png",
+		"codes": "oldkey"
+	},
+	{
+		"name": "Dath Stone",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/dath.png",
+		"codes": "dath"
+	},
+	{
+		"name": "Golden Power",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/golden_power.png",
+		"codes": "goldenpower"
+	},
+	{
+		"name": "Card Slots",
+		"type": "consumable",
+		"loop": true,
+		"img":"images/card_slots.png",
+		"codes": "slot",
+		"max_quantity": 5,
+		"min_quantity": 1
+	},
+	{
+		"name": "Golden Hexagons",
+		"type": "consumable",
+		"loop": true,
+		"img":"images/hex_gold.png",
+		"codes": "hexquest",
+		"max_quantity": 30
+	},
+	//Stats
+	{
+		"name": "Attack",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/stats/attack-1.png","codes": "fangs"},
+			{"img":"images/stats/attack-2.png"},
+			{"img":"images/stats/attack-2g.png"},
+			{"img":"images/stats/attack-3.png"},
+			{"img":"images/stats/attack-3g.png"},
+			{"img":"images/stats/attack-4.png"},
+			{"img":"images/stats/attack-4g.png"},
+			{"img":"images/stats/attack-5.png"},
+			{"img":"images/stats/attack-5g.png"},
+			{"img":"images/stats/attack-6.png"},
+			{"img":"images/stats/attack-6g.png"},
+			{"img":"images/stats/attack-7.png"},
+			{"img":"images/stats/attack-7g.png"},
+			{"img":"images/stats/attack-8g.png"}
+		]
+	},
+	{
+		"name": "Defense Idols",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/stats/defense-1.png","codes": "idols"},
+			{"img":"images/stats/defense-2.png"},
+			{"img":"images/stats/defense-2g.png"},
+			{"img":"images/stats/defense-3.png"},
+			{"img":"images/stats/defense-3g.png"},
+			{"img":"images/stats/defense-4.png"},
+			{"img":"images/stats/defense-4g.png"},
+			{"img":"images/stats/defense-5.png"},
+			{"img":"images/stats/defense-5g.png"},
+			{"img":"images/stats/defense-6.png"},
+			{"img":"images/stats/defense-6g.png"},
+			{"img":"images/stats/defense-7.png"},
+			{"img":"images/stats/defense-7g.png"},
+			{"img":"images/stats/defense-8g.png"}
+		]
+	},
+	{
+		"name": "HP Flowers",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/stats/health-1.png","codes": "flowers"},
+			{"img":"images/stats/health-2.png"},
+			{"img":"images/stats/health-2g.png"},
+			{"img":"images/stats/health-3.png"},
+			{"img":"images/stats/health-3g.png"},
+			{"img":"images/stats/health-4.png"},
+			{"img":"images/stats/health-4g.png"},
+			{"img":"images/stats/health-5.png"},
+			{"img":"images/stats/health-5g.png"},
+			{"img":"images/stats/health-6.png"},
+			{"img":"images/stats/health-6g.png"},
+			{"img":"images/stats/health-7.png"},
+			{"img":"images/stats/health-7g.png"},
+			{"img":"images/stats/health-8g.png"}
+		]
+	},
+	{
+		"name": "MP Shrooms",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/stats/mana-1.png","codes": "shrooms"},
+			{"img":"images/stats/mana-2.png"},
+			{"img":"images/stats/mana-2g.png"},
+			{"img":"images/stats/mana-3.png"},
+			{"img":"images/stats/mana-3g.png"},
+			{"img":"images/stats/mana-4.png"},
+			{"img":"images/stats/mana-4g.png"},
+			{"img":"images/stats/mana-5.png"},
+			{"img":"images/stats/mana-5g.png"},
+			{"img":"images/stats/mana-6.png"},
+			{"img":"images/stats/mana-6g.png"},
+			{"img":"images/stats/mana-7.png"},
+			{"img":"images/stats/mana-7g.png"},
+			{"img":"images/stats/mana-8g.png"}
+		]
+	},
+	{
+		"name": "Potion Powder",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/stats/potion-1.png","codes": "powder"},
+			{"img":"images/stats/potion-2.png"},
+			{"img":"images/stats/potion-2g.png"},
+			{"img":"images/stats/potion-3.png"},
+			{"img":"images/stats/potion-3g.png"},
+			{"img":"images/stats/potion-4.png"},
+			{"img":"images/stats/potion-4g.png"},
+			{"img":"images/stats/potion-5.png"},
+			{"img":"images/stats/potion-5g.png"},
+			{"img":"images/stats/potion-6.png"},
+			{"img":"images/stats/potion-6g.png"},
+			{"img":"images/stats/potion-7.png"},
+			{"img":"images/stats/potion-7g.png"},
+			{"img":"images/stats/potion-8g.png"}
+		]
+	},
+	{
+		"name": "Stamina Leaves",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/stats/stamina-1.png","codes": "leaves"},
+			{"img":"images/stats/stamina-2.png"},
+			{"img":"images/stats/stamina-2g.png"},
+			{"img":"images/stats/stamina-3.png"},
+			{"img":"images/stats/stamina-3g.png"},
+			{"img":"images/stats/stamina-4.png"},
+			{"img":"images/stats/stamina-4g.png"},
+			{"img":"images/stats/stamina-5.png"},
+			{"img":"images/stats/stamina-5g.png"},
+			{"img":"images/stats/stamina-6.png"},
+			{"img":"images/stats/stamina-6g.png"},
+			{"img":"images/stats/stamina-7.png"},
+			{"img":"images/stats/stamina-7g.png"},
+			{"img":"images/stats/stamina-8g.png",}
+		]
+	},
+	//Other Items
+	{
+		"name": "Anklet",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/anklet.png",
+		"codes": "anklet"
+	},
+	{
+		"name": "Aura's Gem",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/auras_gem.png",
+		"codes": "gem"
+	},
+	{
+		"name": "Back To Work",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/back_to_work.png",
+		"codes": "work"
+	},
+	{
+		"name": "Blue Key",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/blue_key.png",
+		"codes": "blue"
+	},
+	{
+		"name": "Blue Peril Ring", //CYAN RING
+		"type": "toggle",
+		"loop": true,
+		"img":"images/blue_peril_ring.png",
+		"codes": "blueperil"
+	},
+	{
+		"name": "Bone",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/bone.png",
+		"codes": "bone"
+	},
+	{
+		"name": "Bracer",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/bracer.png",
+		"codes": "bracer"
+	},
+	{
+		"name": "Dagger Strap",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/dagger_strap.png",
+		"codes": "strap"
+	},
+	{
+		"name": "Dusty",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/dusty.png",
+		"codes": "dusty"
+	},
+	{
+		"name": "Fire Sword",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/fire_sword.png",
+		"codes": "firesword,fire"
+	},
+	{
+		"name": "Forever Friend",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/forever_friend.png",
+		"codes": "friend"
+	},
+	{
+		"name": "Green Key",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/green_key.png",
+		"codes": "green"
+	},
+	{
+		"name": "Inverted Ash",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/inverted_ash.png",
+		"codes": "ash"
+	},
+	{
+		"name": "Just Some Pals",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/just_some_pals.png",
+		"codes": "pals"
+	},
+	{
+		"name": "Louder Echo",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/louder_echo.png",
+		"codes": "loud"
+	},
+	{
+		"name": "Lucky Cup",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/lucky_cup.png",
+		"codes": "cup"
+	},
+	{
+		"name": "Magic Echo",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/magic_echo.png",
+		"codes": "mecho"
+	},
+	{
+		"name": "Mr Mayor",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/mr_mayor.png",
+		"codes": "mayor"
+	},
+	{
+		"name": "Muffling Bell",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/muffling_bell.png",
+		"codes": "bell"
+	},
+	{
+		"name": "Orange Peril Ring",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/orange_peril_ring.png",
+		"codes": "orangeperil"
+	},
+	{
+		"name": "Perfume",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/perfume.png",
+		"codes": "perfume"
+	},
+	{
+		"name": "Phonomath",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/phonomath.png",
+		"codes": "phonomath"
+	},
+	{
+		"name": "Power Up",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/power_up.png",
+		"codes": "powerup"
+	},
+	{
+		"name": "Red Key",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_key.png",
+		"codes": "red"
+	},
+	{
+		"name": "Regal Weasel",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/regal_weasel.png",
+		"codes": "weasel"
+	},
+	{
+		"name": "Sacred Geometry",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/sacred_geometry.png",
+		"codes": "geometry"
+	},
+	{
+		"name": "Savenger's Mask",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/scavengers_mask.png",
+		"codes": "mask"
+	},
+	{
+		"name": "Secret Legend",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/secret_legend.png",
+		"codes": "tunic"
+	},
+	{
+		"name": "Spring Falls",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/spring_falls.png",
+		"codes": "spring"
+	},
+	{
+		"name": "Tincture",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/tincture.png",
+		"codes": "tincture"
+	},
+	{
+		"name": "Vintage",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/vintage.png",
+		"codes": "vintage"
+	},
+	//Events
+	{
+		"name": "Ring the East Bell",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/east_bell.png",
+		"codes": "ding"
+	},
+	{
+		"name": "Ring the West Bell",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/west_bell.png",
+		"codes": "dong"
+	},
+	{
+		"name": "Visit the Heir",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/first_visit.png",
+		"codes": "visit"
+	},
+	{
+		"name": "Glitch Mode",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{//Glitchless
+				"name": "Glitchless",
+				"img": "images/Glitchless.png",
+				"codes": "mode,glitchless"
+			},
+			{//Glitches
+				"name": "Glitches",
+				"img": "images/Glitches.png",
+				"codes": "mode,glitches"
+			}
+		]
+	},
+	//Bosses
+	{
+		"name": "Guard Captain",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/captain.png",
+		"codes": "captain"
+	},
+	{
+		"name": "Garden Knight",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/gknight.png",
+		"codes": "gknight"
+	},
+	{
+		"name": "Siege Engine",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/engine.png",
+		"codes": "engine"
+	},
+	{
+		"name": "The Librarian",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/librarian.png",
+		"codes": "librarian"
+	},
+	{
+		"name": "Scavenger Queen",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/scavboss.png",
+		"codes": "scavboss"
+	},
+	{
+		"name": "Cathedral Gauntlet",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/gauntlet.png",
+		"codes": "gauntlet"
+	},
+	{
+		"name": "The Heir",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/heir.png",
+		"codes": "heir"
+	},
+	//Statics
+	{
+		"name": "Silver Chest",
+		"type": "toggle",
+		"allow_disabled": false,
+		"loop": true,
+		"img":"images/silver.png",
+		"codes": "silver"
+	},
+	{
+		"name": "Is In",
+		"type": "static",
+		"img":"images/isin.png",
+		"codes": "isin"
+	},
+	{
+		"name": "Mailbox",
+		"type": "static",
+		"img":"images/mailbox.png",
+		"codes": "mailbox"
+	},
+	{
+		"name": "Points To",
+		"type": "static",
+		"img":"images/red_arrow.png",
+		"codes": "arrow"
+	},
+	{
+		"name": "Mailbox Hint",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png", "codes": "mailhint"},
+			{"img":"images/locations/overworld.png"},
+			{"img":"images/locations/east_silver_door.png"},
+			{"img":"images/locations/fountain_silver_door.png"},
+			{"img":"images/locations/old_house.png"},
+			{"img":"images/locations/ruined_shop.png"},
+			{"img":"images/locations/sealed_temple.png"},
+			{"img":"images/locations/hourglass_cave.png"},
+			{"img":"images/locations/maze_cave.png"},
+			{"img":"images/locations/patrol.png"},
+			{"img":"images/locations/ruined_passage.png"},
+			{"img":"images/locations/east_forest.png"},
+			{"img":"images/locations/guardhouse_1.png"},
+			{"img":"images/locations/guardhouse_2.png"},
+			{"img":"images/locations/forest_grave_path.png"},
+			{"img":"images/locations/east_bell.png"},
+			{"img":"images/locations/well.png"},
+			{"img":"images/locations/dark_tomb.png"},
+			{"img":"images/locations/beneath_the_earth.png"},
+			{"img":"images/locations/fortress_courtyard.png"},
+			{"img":"images/locations/fortress_grave_path.png"},
+			{"img":"images/locations/fortress_vault.png"},
+			{"img":"images/locations/fortress_arena.png"},
+			{"img":"images/locations/ruined_atoll.png"},
+			{"img":"images/locations/frogs_domain.png"},
+			{"img":"images/locations/library.png"},
+			{"img":"images/locations/the_quarry.png"},
+			{"img":"images/locations/ziggurat_upper.png"},
+			{"img":"images/locations/ziggurat_lower.png"},
+			{"img":"images/locations/west_garden.png"},
+			{"img":"images/locations/swamp.png"},
+			{"img":"images/locations/cathedral.png"},
+			{"img":"images/locations/far_shore.png"},
+			{"img":"images/locations/wishes.png"},
+			{"img":"images/locations/hero_grave.png"},
+			{"img":"images/locations/secret_gathering_place.png"}
+		]
+	},
+	{
+		"name": "Laurels Location",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png", "codes": "laurelshint"},
+			{"img":"images/locations/overworld.png"},
+			{"img":"images/locations/east_silver_door.png"},
+			{"img":"images/locations/fountain_silver_door.png"},
+			{"img":"images/locations/old_house.png"},
+			{"img":"images/locations/ruined_shop.png"},
+			{"img":"images/locations/sealed_temple.png"},
+			{"img":"images/locations/hourglass_cave.png"},
+			{"img":"images/locations/maze_cave.png"},
+			{"img":"images/locations/patrol.png"},
+			{"img":"images/locations/ruined_passage.png"},
+			{"img":"images/locations/east_forest.png"},
+			{"img":"images/locations/guardhouse_1.png"},
+			{"img":"images/locations/guardhouse_2.png"},
+			{"img":"images/locations/forest_grave_path.png"},
+			{"img":"images/locations/east_bell.png"},
+			{"img":"images/locations/well.png"},
+			{"img":"images/locations/dark_tomb.png"},
+			{"img":"images/locations/beneath_the_earth.png"},
+			{"img":"images/locations/fortress_courtyard.png"},
+			{"img":"images/locations/fortress_grave_path.png"},
+			{"img":"images/locations/fortress_vault.png"},
+			{"img":"images/locations/fortress_arena.png"},
+			{"img":"images/locations/ruined_atoll.png"},
+			{"img":"images/locations/frogs_domain.png"},
+			{"img":"images/locations/library.png"},
+			{"img":"images/locations/the_quarry.png"},
+			{"img":"images/locations/ziggurat_upper.png"},
+			{"img":"images/locations/ziggurat_lower.png"},
+			{"img":"images/locations/west_garden.png"},
+			{"img":"images/locations/swamp.png"},
+			{"img":"images/locations/cathedral.png"},
+			{"img":"images/locations/far_shore.png"},
+			{"img":"images/locations/wishes.png"},
+			{"img":"images/locations/hero_grave.png"},
+			{"img":"images/locations/secret_gathering_place.png"}
+		]
+	},
+	{
+		"name": "Hint Location 1",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png", "codes": "gravehintEF"},
+			{"img":"images/locations/overworld.png"},
+			{"img":"images/locations/east_silver_door.png"},
+			{"img":"images/locations/fountain_silver_door.png"},
+			{"img":"images/locations/old_house.png"},
+			{"img":"images/locations/ruined_shop.png"},
+			{"img":"images/locations/sealed_temple.png"},
+			{"img":"images/locations/hourglass_cave.png"},
+			{"img":"images/locations/maze_cave.png"},
+			{"img":"images/locations/patrol.png"},
+			{"img":"images/locations/ruined_passage.png"},
+			{"img":"images/locations/east_forest.png"},
+			{"img":"images/locations/guardhouse_1.png"},
+			{"img":"images/locations/guardhouse_2.png"},
+			{"img":"images/locations/forest_grave_path.png"},
+			{"img":"images/locations/east_bell.png"},
+			{"img":"images/locations/well.png"},
+			{"img":"images/locations/dark_tomb.png"},
+			{"img":"images/locations/beneath_the_earth.png"},
+			{"img":"images/locations/fortress_courtyard.png"},
+			{"img":"images/locations/fortress_grave_path.png"},
+			{"img":"images/locations/fortress_vault.png"},
+			{"img":"images/locations/fortress_arena.png"},
+			{"img":"images/locations/ruined_atoll.png"},
+			{"img":"images/locations/frogs_domain.png"},
+			{"img":"images/locations/library.png"},
+			{"img":"images/locations/the_quarry.png"},
+			{"img":"images/locations/ziggurat_upper.png"},
+			{"img":"images/locations/ziggurat_lower.png"},
+			{"img":"images/locations/west_garden.png"},
+			{"img":"images/locations/swamp.png"},
+			{"img":"images/locations/cathedral.png"},
+			{"img":"images/locations/far_shore.png"},
+			{"img":"images/locations/wishes.png"},
+			{"img":"images/locations/hero_grave.png"},
+			{"img":"images/locations/secret_gathering_place.png"}
+		]
+	},
+	{
+		"name": "Hint Location 3",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png", "codes": "gravehintFF"},
+			{"img":"images/locations/overworld.png"},
+			{"img":"images/locations/east_silver_door.png"},
+			{"img":"images/locations/fountain_silver_door.png"},
+			{"img":"images/locations/old_house.png"},
+			{"img":"images/locations/ruined_shop.png"},
+			{"img":"images/locations/sealed_temple.png"},
+			{"img":"images/locations/hourglass_cave.png"},
+			{"img":"images/locations/maze_cave.png"},
+			{"img":"images/locations/patrol.png"},
+			{"img":"images/locations/ruined_passage.png"},
+			{"img":"images/locations/east_forest.png"},
+			{"img":"images/locations/guardhouse_1.png"},
+			{"img":"images/locations/guardhouse_2.png"},
+			{"img":"images/locations/forest_grave_path.png"},
+			{"img":"images/locations/east_bell.png"},
+			{"img":"images/locations/well.png"},
+			{"img":"images/locations/dark_tomb.png"},
+			{"img":"images/locations/beneath_the_earth.png"},
+			{"img":"images/locations/fortress_courtyard.png"},
+			{"img":"images/locations/fortress_grave_path.png"},
+			{"img":"images/locations/fortress_vault.png"},
+			{"img":"images/locations/fortress_arena.png"},
+			{"img":"images/locations/ruined_atoll.png"},
+			{"img":"images/locations/frogs_domain.png"},
+			{"img":"images/locations/library.png"},
+			{"img":"images/locations/the_quarry.png"},
+			{"img":"images/locations/ziggurat_upper.png"},
+			{"img":"images/locations/ziggurat_lower.png"},
+			{"img":"images/locations/west_garden.png"},
+			{"img":"images/locations/swamp.png"},
+			{"img":"images/locations/cathedral.png"},
+			{"img":"images/locations/far_shore.png"},
+			{"img":"images/locations/wishes.png"},
+			{"img":"images/locations/hero_grave.png"},
+			{"img":"images/locations/secret_gathering_place.png"}
+		]
+	},
+	{
+		"name": "Hint Location 2",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png", "codes": "gravehintWG"},
+			{"img":"images/locations/overworld.png"},
+			{"img":"images/locations/east_silver_door.png"},
+			{"img":"images/locations/fountain_silver_door.png"},
+			{"img":"images/locations/old_house.png"},
+			{"img":"images/locations/ruined_shop.png"},
+			{"img":"images/locations/sealed_temple.png"},
+			{"img":"images/locations/hourglass_cave.png"},
+			{"img":"images/locations/maze_cave.png"},
+			{"img":"images/locations/patrol.png"},
+			{"img":"images/locations/ruined_passage.png"},
+			{"img":"images/locations/east_forest.png"},
+			{"img":"images/locations/guardhouse_1.png"},
+			{"img":"images/locations/guardhouse_2.png"},
+			{"img":"images/locations/forest_grave_path.png"},
+			{"img":"images/locations/east_bell.png"},
+			{"img":"images/locations/well.png"},
+			{"img":"images/locations/dark_tomb.png"},
+			{"img":"images/locations/beneath_the_earth.png"},
+			{"img":"images/locations/fortress_courtyard.png"},
+			{"img":"images/locations/fortress_grave_path.png"},
+			{"img":"images/locations/fortress_vault.png"},
+			{"img":"images/locations/fortress_arena.png"},
+			{"img":"images/locations/ruined_atoll.png"},
+			{"img":"images/locations/frogs_domain.png"},
+			{"img":"images/locations/library.png"},
+			{"img":"images/locations/the_quarry.png"},
+			{"img":"images/locations/ziggurat_upper.png"},
+			{"img":"images/locations/ziggurat_lower.png"},
+			{"img":"images/locations/west_garden.png"},
+			{"img":"images/locations/swamp.png"},
+			{"img":"images/locations/cathedral.png"},
+			{"img":"images/locations/far_shore.png"},
+			{"img":"images/locations/wishes.png"},
+			{"img":"images/locations/hero_grave.png"},
+			{"img":"images/locations/secret_gathering_place.png"}
+		]
+	},
+	{
+		"name": "Library Hero Grave Hint",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png", "codes": "gravehintGL"},
+			{"img":"images/locations/overworld.png"},
+			{"img":"images/locations/east_silver_door.png"},
+			{"img":"images/locations/fountain_silver_door.png"},
+			{"img":"images/locations/old_house.png"},
+			{"img":"images/locations/ruined_shop.png"},
+			{"img":"images/locations/sealed_temple.png"},
+			{"img":"images/locations/hourglass_cave.png"},
+			{"img":"images/locations/maze_cave.png"},
+			{"img":"images/locations/patrol.png"},
+			{"img":"images/locations/ruined_passage.png"},
+			{"img":"images/locations/east_forest.png"},
+			{"img":"images/locations/guardhouse_1.png"},
+			{"img":"images/locations/guardhouse_2.png"},
+			{"img":"images/locations/forest_grave_path.png"},
+			{"img":"images/locations/east_bell.png"},
+			{"img":"images/locations/well.png"},
+			{"img":"images/locations/dark_tomb.png"},
+			{"img":"images/locations/beneath_the_earth.png"},
+			{"img":"images/locations/fortress_courtyard.png"},
+			{"img":"images/locations/fortress_grave_path.png"},
+			{"img":"images/locations/fortress_vault.png"},
+			{"img":"images/locations/fortress_arena.png"},
+			{"img":"images/locations/ruined_atoll.png"},
+			{"img":"images/locations/frogs_domain.png"},
+			{"img":"images/locations/library.png"},
+			{"img":"images/locations/the_quarry.png"},
+			{"img":"images/locations/ziggurat_upper.png"},
+			{"img":"images/locations/ziggurat_lower.png"},
+			{"img":"images/locations/west_garden.png"},
+			{"img":"images/locations/swamp.png"},
+			{"img":"images/locations/cathedral.png"},
+			{"img":"images/locations/far_shore.png"},
+			{"img":"images/locations/wishes.png"},
+			{"img":"images/locations/hero_grave.png"},
+			{"img":"images/locations/secret_gathering_place.png"}
+		]
+	},
+	{
+		"name": "Monastery Hero Grave Hint",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png", "codes": "gravehintMQ"},
+			{"img":"images/locations/overworld.png"},
+			{"img":"images/locations/east_silver_door.png"},
+			{"img":"images/locations/fountain_silver_door.png"},
+			{"img":"images/locations/old_house.png"},
+			{"img":"images/locations/ruined_shop.png"},
+			{"img":"images/locations/sealed_temple.png"},
+			{"img":"images/locations/hourglass_cave.png"},
+			{"img":"images/locations/maze_cave.png"},
+			{"img":"images/locations/patrol.png"},
+			{"img":"images/locations/ruined_passage.png"},
+			{"img":"images/locations/east_forest.png"},
+			{"img":"images/locations/guardhouse_1.png"},
+			{"img":"images/locations/guardhouse_2.png"},
+			{"img":"images/locations/forest_grave_path.png"},
+			{"img":"images/locations/east_bell.png"},
+			{"img":"images/locations/well.png"},
+			{"img":"images/locations/dark_tomb.png"},
+			{"img":"images/locations/beneath_the_earth.png"},
+			{"img":"images/locations/fortress_courtyard.png"},
+			{"img":"images/locations/fortress_grave_path.png"},
+			{"img":"images/locations/fortress_vault.png"},
+			{"img":"images/locations/fortress_arena.png"},
+			{"img":"images/locations/ruined_atoll.png"},
+			{"img":"images/locations/frogs_domain.png"},
+			{"img":"images/locations/library.png"},
+			{"img":"images/locations/the_quarry.png"},
+			{"img":"images/locations/ziggurat_upper.png"},
+			{"img":"images/locations/ziggurat_lower.png"},
+			{"img":"images/locations/west_garden.png"},
+			{"img":"images/locations/swamp.png"},
+			{"img":"images/locations/cathedral.png"},
+			{"img":"images/locations/far_shore.png"},
+			{"img":"images/locations/wishes.png"},
+			{"img":"images/locations/hero_grave.png"},
+			{"img":"images/locations/secret_gathering_place.png"}
+		]
+	},
+	{
+		"name": "Swamp Hero Grave Hint",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png", "codes": "gravehintSW"},
+			{"img":"images/locations/overworld.png"},
+			{"img":"images/locations/east_silver_door.png"},
+			{"img":"images/locations/fountain_silver_door.png"},
+			{"img":"images/locations/old_house.png"},
+			{"img":"images/locations/ruined_shop.png"},
+			{"img":"images/locations/sealed_temple.png"},
+			{"img":"images/locations/hourglass_cave.png"},
+			{"img":"images/locations/maze_cave.png"},
+			{"img":"images/locations/patrol.png"},
+			{"img":"images/locations/ruined_passage.png"},
+			{"img":"images/locations/east_forest.png"},
+			{"img":"images/locations/guardhouse_1.png"},
+			{"img":"images/locations/guardhouse_2.png"},
+			{"img":"images/locations/forest_grave_path.png"},
+			{"img":"images/locations/east_bell.png"},
+			{"img":"images/locations/well.png"},
+			{"img":"images/locations/dark_tomb.png"},
+			{"img":"images/locations/beneath_the_earth.png"},
+			{"img":"images/locations/fortress_courtyard.png"},
+			{"img":"images/locations/fortress_grave_path.png"},
+			{"img":"images/locations/fortress_vault.png"},
+			{"img":"images/locations/fortress_arena.png"},
+			{"img":"images/locations/ruined_atoll.png"},
+			{"img":"images/locations/frogs_domain.png"},
+			{"img":"images/locations/library.png"},
+			{"img":"images/locations/the_quarry.png"},
+			{"img":"images/locations/ziggurat_upper.png"},
+			{"img":"images/locations/ziggurat_lower.png"},
+			{"img":"images/locations/west_garden.png"},
+			{"img":"images/locations/swamp.png"},
+			{"img":"images/locations/cathedral.png"},
+			{"img":"images/locations/far_shore.png"},
+			{"img":"images/locations/wishes.png"},
+			{"img":"images/locations/hero_grave.png"},
+			{"img":"images/locations/secret_gathering_place.png"}
+		]
+	},
+	{
+		"name": "Major Item Hint 1",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png","codes": "graveitemEF"},
+			{"img":"images/flasks.png"},
+			{"img":"images/oldhousekey.png"},
+			{"img":"images/keys.png"},
+			{"img":"images/shield.png"},
+			{"img":"images/lantern.png"},
+			{"img":"images/redvaultkey.png"},
+			{"img":"images/card_slots.png"},
+			{"img":"images/manual_pages.png"},
+			{"img":"images/souls.png"},
+			{"img":"images/dynamite.png"},
+			{"img":"images/fire_bomb.png"},
+			{"img":"images/ice_bomb.png"},
+			{"img":"images/golden_coins.png"},
+			{"img":"images/scavengers_mask.png"},
+			{"img":"images/sword2.png"},
+			{"img":"images/magic_dagger.png"},
+			{"img":"images/icerod.png"},
+			{"img":"images/magic_staff.png"},
+			{"img":"images/magic_orb.png"},
+			{"img":"images/a_gun.png"},
+			{"img":"images/magic_hourglass.png"},
+			{"img":"images/hex_gold.png"},
+			{"img":"images/pray.png"},
+			{"img":"images/cross.png"},
+			{"img":"images/dath.png"}
+		]
+	},
+	{
+		"name": "Major Item Hint 2",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png","codes": "graveitemWG"},
+			{"img":"images/flasks.png"},
+			{"img":"images/oldhousekey.png"},
+			{"img":"images/keys.png"},
+			{"img":"images/shield.png"},
+			{"img":"images/lantern.png"},
+			{"img":"images/redvaultkey.png"},
+			{"img":"images/card_slots.png"},
+			{"img":"images/manual_pages.png"},
+			{"img":"images/souls.png"},
+			{"img":"images/dynamite.png"},
+			{"img":"images/fire_bomb.png"},
+			{"img":"images/ice_bomb.png"},
+			{"img":"images/golden_coins.png"},
+			{"img":"images/scavengers_mask.png"},
+			{"img":"images/sword2.png"},
+			{"img":"images/magic_dagger.png"},
+			{"img":"images/icerod.png"},
+			{"img":"images/magic_staff.png"},
+			{"img":"images/magic_orb.png"},
+			{"img":"images/a_gun.png"},
+			{"img":"images/magic_hourglass.png"},
+			{"img":"images/hex_gold.png"},
+			{"img":"images/pray.png"},
+			{"img":"images/cross.png"},
+			{"img":"images/dath.png"}
+		]
+	},
+	{
+		"name": "Major Item Hint 3",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png","codes": "graveitemFF"},
+			{"img":"images/flasks.png"},
+			{"img":"images/oldhousekey.png"},
+			{"img":"images/keys.png"},
+			{"img":"images/shield.png"},
+			{"img":"images/lantern.png"},
+			{"img":"images/redvaultkey.png"},
+			{"img":"images/card_slots.png"},
+			{"img":"images/manual_pages.png"},
+			{"img":"images/souls.png"},
+			{"img":"images/dynamite.png"},
+			{"img":"images/fire_bomb.png"},
+			{"img":"images/ice_bomb.png"},
+			{"img":"images/golden_coins.png"},
+			{"img":"images/scavengers_mask.png"},
+			{"img":"images/sword2.png"},
+			{"img":"images/magic_dagger.png"},
+			{"img":"images/icerod.png"},
+			{"img":"images/magic_staff.png"},
+			{"img":"images/magic_orb.png"},
+			{"img":"images/a_gun.png"},
+			{"img":"images/magic_hourglass.png"},
+			{"img":"images/hex_gold.png"},
+			{"img":"images/pray.png"},
+			{"img":"images/cross.png"},
+			{"img":"images/dath.png"}
+		]
+	},
+	{
+		"name": "Library Hexagon Hint",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png","codes": "gravehexGL"},
+			{"img":"images/red_key.png"},
+			{"img":"images/green_key.png"},
+			{"img":"images/blue_key.png"}
+		]
+	},
+	{
+		"name": "Monastery Hexagon Hint",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png","codes": "gravehexMQ"},
+			{"img":"images/red_key.png"},
+			{"img":"images/green_key.png"},
+			{"img":"images/blue_key.png"}
+		]
+	},
+	{
+		"name": "Swamp Hexagon Hint",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{"img":"images/huh.png","codes": "gravehexSW"},
+			{"img":"images/red_key.png"},
+			{"img":"images/green_key.png"},
+			{"img":"images/blue_key.png"}
+		]
+	}
+]
