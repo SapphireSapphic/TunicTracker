@@ -1,0 +1,7599 @@
+[
+	{ //Full World
+		"name": "Full World",
+		"color": "#059134",
+		"chest_unopened_img": "images/chest_closed.png",
+		"chest_opened_img": "images/chest_open.png",
+		"children": [
+			{ //Overworld
+				"name": "Overworld",
+				"children": [
+					{
+						"name": "Free Bombs",
+						"short_name": "Bombs",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3000,
+								"y": 3200
+							},
+							{
+								"map": "overworld",
+								"x": 1335,
+								"y": 1450,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": 890,
+								"y": 470
+							}
+						],
+						"sections": [
+							{
+								"name": "Ice Bomb",
+								"hosted_item": "icebomb"
+							},
+							{
+								"name": "Fire Bomb",
+								"hosted_item": "firebomb"
+							},
+							{
+								"name": "Dynamite",
+								"hosted_item": "dynamite"
+							}
+						]
+					},
+					{
+						"name": "Ring the West Bell",
+						"short_name": "West Bell",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2105,
+								"y": 2246
+							},
+							{
+								"map": "overworld",
+								"x": 430,
+								"y": 495,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Dong!",
+								"access_rules": [
+									"dash,ring",
+									"ring,[light],gknight",
+									"[light],ring,[glitches],orb,freeze"
+								],
+								"hosted_item": "dong"
+							}
+						]
+					},
+					{
+						"name": "[South] Starting Platform Holy Cross",
+						"short_name": "Secret",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2955,
+								"y": 3050
+							},
+							{
+								"map": "overworld",
+								"x": 1280,
+								"y": 1300,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": 835,
+								"y": 120
+							}
+						],
+						"sections": [
+							{
+								"name": "Back to Work",
+								"item_count": 1,
+								"access_rules": [
+									"cross"
+								]
+							}
+						]
+					},
+					{
+						"name": "Stick House",
+						"short_name": "Stick",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2920,
+								"y": 2785
+							},
+							{
+								"map": "overworld",
+								"x": 1245,
+								"y": 1035,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Stick Chest",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northwest] Shadowy Corner Chest",
+						"short_name": "Dark Chest",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2860,
+								"y": 2100
+							},
+							{
+								"map": "overworld",
+								"x": 1185,
+								"y": 350,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Dark Ramps Chest",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[West] Key Pickup",
+						"short_name": "Ground Key",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2780,
+								"y": 2320
+							},
+							{
+								"map": "overworld",
+								"x": 1105,
+								"y": 570,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Hero's Path Key",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Inside the Old House",
+						"short_name": "Old House",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2730,
+								"y": 2415
+							},
+							{
+								"map": "fullmap",
+								"x": 2920,
+								"y": 2205
+							},
+							{
+								"map": "overworld",
+								"x": 1055,
+								"y": 665,
+								"size": 45
+							},
+							{
+								"map": "overworld",
+								"x": 1245,
+								"y": 455,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 515
+							}
+						],
+						"sections": [
+							{
+								"name": "Normal Chest",
+								"access_rules": [
+									"oldkey",
+									"[glitches],orb,freeze",
+									"dash,[glitches]"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Holy Cross Chest",
+								"access_rules": [
+									"oldkey,cross",
+									"[glitches],orb,freeze,cross",
+									"dash,[glitches],cross"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Shield Pickup",
+								"access_rules": [
+									"oldkey",
+									"[glitches],orb,freeze",
+									"dash,[glitches]"
+								],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Holy Cross Door Page",
+								"access_rules": [
+									"cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Northwest] Page By Well",
+						"short_name": "Windmill Page",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2750,
+								"y": 2240
+							},
+							{
+								"map": "overworld",
+								"x": 1075,
+								"y": 490,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "If you seek to increase your power...",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northwest] Chest Near Turret",
+						"short_name": "Behind Windmill",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2460,
+								"y": 2200
+							},
+							{
+								"map": "overworld",
+								"x": 785,
+								"y": 450,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Mind the Autobolt...",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northwest] Chest Near Quarry Gate",
+						"short_name": "Camp",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2035,
+								"y": 2130
+							},
+							{
+								"map": "overworld",
+								"x": 360,
+								"y": 380,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Rudeling Camp",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northwest] Chest Near Golden Obelisk",
+						"short_name": "Staff Peek",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2170,
+								"y": 1940
+							},
+							{
+								"map": "overworld",
+								"x": 495,
+								"y": 190,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Underneath the Staff",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Secret Gathering Place",
+						"short_name": "Gathering Place",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2540,
+								"y": 2085
+							},
+							{
+								"map": "overworld",
+								"x": 865,
+								"y": 335,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 270
+							}
+						],
+						"sections": [
+							{
+								"name": "Holy Cross Chest",
+								"access_rules": [
+									"cross"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "10 Fairy Reward",
+								"access_rules": [
+									"soul:10"
+								],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "20 Fairy Reward",
+								"access_rules": [
+									"soul:20"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Cube Cave",
+						"short_name": "Cube",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2830,
+								"y": 2655
+							},
+							{
+								"map": "overworld",
+								"x": 1155,
+								"y": 905,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 585
+							}
+						],
+						"sections": [
+							{
+								"name": "Holy Cross Chest",
+								"access_rules": [
+									"grass,boom,cross",
+									"dash,boom,cross",
+									"firesword,boom,ring,cross"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central] Bombable Wall",
+						"short_name": "Breakable Wall",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3165,
+								"y": 2575
+							},
+							{
+								"map": "overworld",
+								"x": 1490,
+								"y": 825,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Let the flowers guide you",
+								"access_rules": [
+									"boom"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Southeast Cross Door",
+						"access_rules": [
+							"grass,cross",
+							"dash,cross",
+							"firesword,ring,cross"
+						],
+						"short_name": "E Code Door",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3560,
+								"y": 2815
+							},
+							{
+								"map": "overworld",
+								"x": 1885,
+								"y": 1065,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest 1",
+								"item_count": 1
+							},
+							{
+								"name": "Chest 2",
+								"item_count": 1
+							},
+							{
+								"name": "Chest 3",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Southeast] Chest Near Swamp",
+						"short_name": "East Beach",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3530,
+								"y": 2980
+							},
+							{
+								"map": "overworld",
+								"x": 1855,
+								"y": 1230,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Under the Bridge",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash,visit"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Caustic Light Cave",
+						"short_name": "Light",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3560,
+								"y": 2910
+							},
+							{
+								"map": "overworld",
+								"x": 1885,
+								"y": 1155,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 235
+							}
+						],
+						"sections": [
+							{
+								"name": "Holy Cross Chest",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,visit,cross"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[East] Chest In Trees",
+						"short_name": "Above Door",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3150,
+								"y": 2665
+							},
+							{
+								"map": "overworld",
+								"x": 1475,
+								"y": 915,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Above Locked House",
+								"access_rules": [
+									"key",
+									"grass",
+									"firesword,ring",
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[East] Weathervane Holy Cross",
+						"short_name": "Vane",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3560,
+								"y": 2625
+							},
+							{
+								"map": "overworld",
+								"x": 1885,
+								"y": 875,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 480
+							}
+						],
+						"sections": [
+							{
+								"name": "Use the Holy Cross",
+								"access_rules": [
+									"key,cross",
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[East] Between ladders near Ruined Passage",
+						"short_name": "Below Vane",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3440,
+								"y": 2763
+							},
+							{
+								"map": "overworld",
+								"x": 1766,
+								"y": 1012,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest",
+								"access_rules": [
+									"key",
+									"grass",
+									"firesword,ring",
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[East] Chest Near Pots",
+						"short_name": "Below Vane",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3640,
+								"y": 2710
+							},
+							{
+								"map": "overworld",
+								"x": 1965,
+								"y": 960,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest",
+								"access_rules": [
+									"key",
+									"grass",
+									"firesword,ring",
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[West] Page on Teleporter",
+						"short_name": "Telepage",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2520,
+								"y": 2475
+							},
+							{
+								"map": "overworld",
+								"x": 845,
+								"y": 725,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Treasures and Tools",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[West] Windchimes Holy Cross",
+						"short_name": "Chimes",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2735,
+								"y": 2460
+							},
+							{
+								"map": "overworld",
+								"x": 1060,
+								"y": 710,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": 890,
+								"y": 190
+							}
+						],
+						"sections": [
+							{
+								"name": "Power Up!",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[West] Obscured Behind Windmill",
+						"short_name": "Next to Mill",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2530,
+								"y": 2285
+							},
+							{
+								"map": "overworld",
+								"x": 855,
+								"y": 535,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Behind the Trees",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[West] Windmill Holy Cross",
+						"short_name": "Mill Secret",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2580,
+								"y": 2330
+							},
+							{
+								"map": "overworld",
+								"x": 900,
+								"y": 580,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": 900,
+								"y": 155
+							}
+						],
+						"sections": [
+							{
+								"name": "Sacred Geometry",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Ruined Shop",
+						"short_name": "Empty Shop",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2285,
+								"y": 2585
+							},
+							{
+								"map": "overworld",
+								"x": 610,
+								"y": 835,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest 1",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Chest 2",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Chest 3",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Fountain",
+						"short_name": "Fountain",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2430,
+								"y": 2660
+							},
+							{
+								"map": "overworld",
+								"x": 755,
+								"y": 910,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 655
+							}
+						],
+						"sections": [
+							{
+								"name": "[Southwest] Fountain Page",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "[Southwest] Fountain Holy Cross",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Fountain Cross Door",
+						"short_name": "Fountain Door",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2430,
+								"y": 2590
+							},
+							{
+								"map": "overworld",
+								"x": 755,
+								"y": 840,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Page Pickup",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Southwest] Key Pickup",
+						"short_name": "Envoy Key",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2585,
+								"y": 2815
+							},
+							{
+								"map": "overworld",
+								"x": 910,
+								"y": 1065,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Old House Key",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] South Chest Near Guard",
+						"short_name": "W Bridge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2430,
+								"y": 2960
+							},
+							{
+								"map": "overworld",
+								"x": 755,
+								"y": 1290,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "End of the Bridge",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] Chest Guarded By Turret",
+						"short_name": "Fountain W",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2185,
+								"y": 2705
+							},
+							{
+								"map": "overworld",
+								"x": 510,
+								"y": 955,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Behind the Trees",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central] Chest Across From Well",
+						"short_name": "E of Well",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2865,
+								"y": 2560
+							},
+							{
+								"map": "overworld",
+								"x": 1190,
+								"y": 810,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Across the Bridge",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[West] Obscured Near Well",
+						"short_name": "W of Well",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2635,
+								"y": 2535
+							},
+							{
+								"map": "overworld",
+								"x": 960,
+								"y": 785,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Hidden by Trees",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[East] Page Near Secret Shop",
+						"short_name": "Gazebo",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3360,
+								"y": 2440
+							},
+							{
+								"map": "overworld",
+								"x": 1685,
+								"y": 690,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Page",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Special Shop",
+						"short_name": "Keeper Page",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3520,
+								"y": 2435
+							},
+							{
+								"map": "overworld",
+								"x": 1845,
+								"y": 685,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Secret Page Pickup",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northeast] Flowers Holy Cross",
+						"short_name": "NE Flowers",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3425,
+								"y": 2290
+							},
+							{
+								"map": "overworld",
+								"x": 1750,
+								"y": 540,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 130
+							}
+						],
+						"sections": [
+							{
+								"name": "Use the Holy Cross",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Patrol Cave",
+						"short_name": "Patrol",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3450,
+								"y": 2085
+							},
+							{
+								"map": "overworld",
+								"x": 1775,
+								"y": 335,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 550
+							}
+						],
+						"sections": [
+							{
+								"name": "Normal Chest",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Holy Cross Chest",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Magic Staff",
+						"short_name": "Staff",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2345,
+								"y": 1825
+							},
+							{
+								"map": "overworld",
+								"x": 670,
+								"y": 75,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "[Northwest] Fire Wand Pickup",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "[Northwest] Golden Obelisk Page",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Northeast] Chest Above Patrol Cave",
+						"short_name": "Top of Fall",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3445,
+								"y": 1965
+							},
+							{
+								"map": "overworld",
+								"x": 1770,
+								"y": 215,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Behind Blue Rudelings",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Mountain Door",
+						"short_name": "Mountain Door",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3010,
+								"y": 1810
+							},
+							{
+								"map": "overworld",
+								"x": 1335,
+								"y": 60,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": 850,
+								"y": 580
+							}
+						],
+						"sections": [
+							{
+								"name": "Lower Mountain - Page Before Door",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Top of the Mountain - Page At The Peak",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Sealed Temple",
+						"short_name": "Sealed Temple",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3005,
+								"y": 2110
+							},
+							{
+								"map": "overworld",
+								"x": 1330,
+								"y": 360,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 305
+							}
+						],
+						"sections": [
+							{
+								"name": "Page Pickup",
+								"access_rules": [
+									"dash",
+									"ding,dong",
+									"[glitches],freeze,orb"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Holy Cross Chest",
+								"access_rules": [
+									"dash,cross",
+									"ding,dong,cross",
+									"[glitches],freeze,orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[East] Grapple Chest",
+						"short_name": "E Grapple",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3315,
+								"y": 2140
+							},
+							{
+								"map": "overworld",
+								"x": 1640,
+								"y": 390,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Grapple Across",
+								"access_rules": [
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[West] Chest After Bell",
+						"short_name": "After W Bell",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2300,
+								"y": 2315
+							},
+							{
+								"map": "overworld",
+								"x": 625,
+								"y": 565,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Post-Dong!",
+								"access_rules": [
+									"dash",
+									"gknight",
+									"[light],ring,[glitches],orb,freeze"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[West] Moss Wall Holy Cross",
+						"short_name": "Moss",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2100,
+								"y": 2430
+							},
+							{
+								"map": "overworld",
+								"x": 425,
+								"y": 680,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 200
+							}
+						],
+						"sections": [
+							{
+								"name": "Use the Holy Cross",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[West] Chest Behind Moss Wall",
+						"short_name": "Next to Moss",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2195,
+								"y": 2400
+							},
+							{
+								"map": "overworld",
+								"x": 520,
+								"y": 650,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Around the Corner",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] Grapple Chest Over Walkway",
+						"short_name": "S of W Bell",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2115,
+								"y": 2665
+							},
+							{
+								"map": "overworld",
+								"x": 440,
+								"y": 915,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Jeffry",
+								"access_rules": [
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] West Beach Guarded By Turret",
+						"short_name": "Boltland",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1904,
+								"y": 2680
+							},
+							{
+								"map": "overworld",
+								"x": 229,
+								"y": 930,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest",
+								"access_rules": [
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] West Beach Guarded By Turret 2",
+						"short_name": "Boltland",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1775,
+								"y": 2680
+							},
+							{
+								"map": "overworld",
+								"x": 100,
+								"y": 930,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Get Across",
+								"access_rules": [
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] Beach Chest Beneath Guard",
+						"short_name": "Below W Bridge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2430,
+								"y": 3040
+							},
+							{
+								"map": "overworld",
+								"x": 755,
+								"y": 1210,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Under Bridge",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Overworld Belltower",
+						"short_name": "Furnace",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2100,
+								"y": 2550
+							},
+							{
+								"map": "overworld",
+								"x": 425,
+								"y": 800,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 2950,
+								"y": 1595
+							},
+							{
+								"map": "well",
+								"x": 280,
+								"y": 1245,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest",
+								"access_rules": [
+									"[light]",
+									"dash",
+									"orb,[glitches],effigy"
+								],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Lantern Pickup",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[West] Near Gardens Entrance",
+						"short_name": "Outside Furnace",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2055,
+								"y": 2565
+							},
+							{
+								"map": "overworld",
+								"x": 380,
+								"y": 815,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Effigy Skip",
+								"access_rules": [
+									"dash",
+									"[light]",
+									"orb,[glitches],effigy"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] Tunnel Guarded By Turret",
+						"short_name": "Behind Bolt",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2125,
+								"y": 2750
+							},
+							{
+								"map": "overworld",
+								"x": 450,
+								"y": 1000,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Below Jeffry",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Hourglass Cave",
+						"short_name": "Hourglass",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2510,
+								"y": 2850
+							},
+							{
+								"map": "overworld",
+								"x": 760,
+								"y": 1100,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": 960,
+								"y": 295
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 445
+							}
+						],
+						"sections": [
+							{
+								"name": "Hourglass Chest",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Holy Cross Chest",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Southwest] Flowers Holy Cross",
+						"short_name": "SW Flowers",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2635,
+								"y": 3000
+							},
+							{
+								"map": "overworld",
+								"x": 960,
+								"y": 1250,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 165
+							}
+						],
+						"sections": [
+							{
+								"name": "Use the Holy Cross",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Sand Hook",
+						"short_name": "Sand Hook",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2760,
+								"y": 3020
+							},
+							{
+								"map": "overworld",
+								"x": 1085,
+								"y": 1270,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": 870,
+								"y": 225
+							}
+						],
+						"sections": [
+							{
+								"name": "[Southwest] Beach Chest Near Flowers",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "[Southwest] Haiku Holy Cross",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[South] Beach Page",
+						"short_name": "Bridge Page",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2980,
+								"y": 2915
+							},
+							{
+								"map": "overworld",
+								"x": 1305,
+								"y": 1165,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Page",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[South] Beach Chest",
+						"short_name": "C Bridge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3090,
+								"y": 2910
+							},
+							{
+								"map": "overworld",
+								"x": 1415,
+								"y": 1160,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Beside the Bridge",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Maze Cave",
+						"short_name": "Invis Maze",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3005,
+								"y": 2850
+							},
+							{
+								"map": "overworld",
+								"x": 1330,
+								"y": 1100,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 620
+							}
+						],
+						"sections": [
+							{
+								"name": "Maze Room Chest",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Maze Room Holy Cross",
+								"access_rules": [
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross",
+									"orb,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Southeast] Page on Pillar by Swamp",
+						"short_name": "E Plat",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3455,
+								"y": 3030
+							},
+							{
+								"map": "overworld",
+								"x": 1780,
+								"y": 1280,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Dash Across",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Ruined Passage",
+						"short_name": "1st Lock",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3225,
+								"y": 2725
+							},
+							{
+								"map": "overworld",
+								"x": 1500,
+								"y": 975,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Page Pickup",
+								"access_rules": [
+									"key",
+									"grass",
+									"firesword,ring",
+									"dash"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Holy Cross Chest",
+								"access_rules": [
+									"key,cross",
+									"grass,cross",
+									"firesword,ring,cross",
+									"dash,cross"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Northwest] Chest Beneath Quarry Gate",
+						"short_name": "Envoy Bridge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2075,
+								"y": 2220
+							},
+							{
+								"map": "overworld",
+								"x": 400,
+								"y": 470,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Across the Bridge",
+								"access_rules": [
+									"grass,[ring]",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Changing Room",
+						"short_name": "Customizer",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2595,
+								"y": 2680
+							},
+							{
+								"map": "overworld",
+								"x": 920,
+								"y": 930,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Normal Chest",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northwest] Page on Pillar by Dark Tomb",
+						"short_name": "Tomb Island",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2350,
+								"y": 2170
+							},
+							{
+								"map": "overworld",
+								"x": 675,
+								"y": 420,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "A Terrible Power Rises",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] Obscured In Tunnel To Beach",
+						"short_name": "Beach Pass",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2580,
+								"y": 2860
+							},
+							{
+								"map": "overworld",
+								"x": 905,
+								"y": 1110,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Deep in the Wall",
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Southwest] From West Garden",
+						"short_name": "W B Bridge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1915,
+								"y": 2785
+							},
+							{
+								"map": "overworld",
+								"x": 240,
+								"y": 1035,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Dash Across",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] Bombable Wall Near Fountain",
+						"short_name": "Bomb Under Gate",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2630,
+								"y": 2605
+							},
+							{
+								"map": "overworld",
+								"x": 955,
+								"y": 855,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Let the flowers guide you",
+								"access_rules": [
+									"grass,boom",
+									"firesword,ring,boom",
+									"dash,boom",
+									"orb,boom"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Shop",
+						"short_name": "Shop",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2575,
+								"y": 2265
+							},
+							{
+								"map": "overworld",
+								"x": 900,
+								"y": 515,
+								"size": 45
+							},
+							{
+								"map": "west_gardens",
+								"x": 630,
+								"y": 10,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 870,
+								"y": 2430
+							},
+							{
+								"map": "eastern_vault",
+								"x": 330,
+								"y": 640,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 3915,
+								"y": 1820
+							},
+							{
+								"map": "eastern_vault",
+								"x": 390,
+								"y": 290,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 3975,
+								"y": 1470
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 1035,
+								"y": 240,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 2680,
+								"y": 3350
+							},
+							{
+								"map": "graveyard",
+								"x": 505,
+								"y": 500,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 3995,
+								"y": 3360
+							},
+							{
+								"map": "cathedral",
+								"x": 465,
+								"y": 485,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 4895,
+								"y": 3260
+							},
+							{
+								"map": "quarry",
+								"x": 1000,
+								"y": 1120,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 1625,
+								"y": 2145
+							}
+						],
+						"sections": [
+							{
+								"name": "Potion 1",
+								"capture_item": true,
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Potion 2",
+								"capture_item": true,
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Coin 1",
+								"capture_item": true,
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Coin 2",
+								"capture_item": true,
+								"access_rules": [
+									"grass",
+									"firesword,ring",
+									"dash",
+									"orb"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Coins in the Well",
+						"short_name": "Well?",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2770,
+								"y": 2500
+							},
+							{
+								"map": "overworld",
+								"x": 1095,
+								"y": 780,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 865,
+								"y": 2510
+							},
+							{
+								"map": "west_gardens",
+								"x": 625,
+								"y": 90,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 3760,
+								"y": 2670
+							},
+							{
+								"map": "east_forest",
+								"x": 80,
+								"y": 175,
+								"size": 35
+							},
+							{
+								"map": "fullmap",
+								"x": 4215,
+								"y": 2070
+							},
+							{
+								"map": "eastern_vault",
+								"x": 630,
+								"y": 890,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 4030,
+								"y": 3526
+							},
+							{
+								"map": "graveyard",
+								"x": 540,
+								"y": 666,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "3 Coins",
+								"access_rules": [
+									"grass,wishes:3",
+									"firesword,ring,wishes:3",
+									"dash,wishes:3",
+									"orb,wishes:3",
+									"grass,justawell:3",
+									"firesword,ring,justawell:3",
+									"dash,justawell:3",
+									"orb,justawell:3"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "6 Coins",
+								"access_rules": [
+									"grass,wishes:6",
+									"firesword,ring,wishes:6",
+									"dash,wishes:6",
+									"orb,wishes:6",
+									"grass,justawell:6",
+									"firesword,ring,justawell:6",
+									"dash,justawell:6",
+									"orb,justawell:6"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "10 Coins",
+								"access_rules": [
+									"grass,wishes:10",
+									"firesword,ring,wishes:10",
+									"dash,wishes:10",
+									"orb,wishes:10",
+									"grass,justawell:10",
+									"firesword,ring,justawell:10",
+									"dash,justawell:10",
+									"orb,justawell:10"
+								],
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "15 Coins",
+								"access_rules": [
+									"grass,wishes:15",
+									"firesword,ring,wishes:15",
+									"dash,wishes:15",
+									"orb,wishes:15",
+									"grass,justawell:15",
+									"firesword,ring,justawell:15",
+									"dash,justawell:15",
+									"orb,justawell:15"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					}
+				]
+			},
+			{ //East Forest
+				"name": "East Forest",
+				"access_rules": [
+					"grass",
+					"firesword,ring",
+					"dash",
+					"key"
+				],
+				"children": [
+					{
+						"name": "East Bell",
+						"short_name": "East Bell",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3860,
+								"y": 2520
+							},
+							{
+								"map": "east_forest",
+								"x": 180,
+								"y": 25,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Ding!",
+								"access_rules": [
+									"ring"
+								],
+								"hosted_item": "ding"
+							},
+							{
+								"name": "Forest Belltower - Obscured Near Bell Top Floor",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Fortress Courtyard - From West Belltower",
+						"short_name": "From Bell",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3945,
+								"y": 2345
+							},
+							{
+								"map": "eastern_vault",
+								"x": 560,
+								"y": 1165,
+								"size": 45
+							},
+							{
+								"map": "east_forest",
+								"x": 70,
+								"y": -20,
+								"size": 35
+							},
+							{
+								"map": "fullmap",
+								"x": 3750,
+								"y": 2475
+							}
+						],
+						"sections": [
+							{
+								"name": "Crack in the Wall",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Forest Belltower",
+						"short_name": "Tower Entrance",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3780,
+								"y": 2525
+							},
+							{
+								"map": "east_forest",
+								"x": 100,
+								"y": 30,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Page Pickup",
+								"item_count": 1
+							},
+							{
+								"name": "Obscured Beneath Bell Bottom Floor",
+								"item_count": 1
+							},
+							{
+								"name": "Near Save Point",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Near Telescope",
+						"short_name": "Telescope",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3780,
+								"y": 2785
+							},
+							{
+								"map": "east_forest",
+								"x": 100,
+								"y": 290,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Up on the Wall",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Guardhouse 1 Ledge",
+						"short_name": "Ledge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3795,
+								"y": 2575
+							},
+							{
+								"map": "east_forest",
+								"x": 140,
+								"y": 100,
+								"size": 35
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 375
+							}
+						],
+						"sections": [
+							{
+								"name": "From Guardhouse 1 Chest",
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Dancing Fox Spirit Holy Cross",
+								"item_count": 1,
+								"access_rules": [
+									"cross"
+								]
+							}
+						]
+					},
+					{
+						"name": "Near Save Point",
+						"short_name": "Lower Forest",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3855,
+								"y": 2820
+							},
+							{
+								"map": "east_forest",
+								"x": 175,
+								"y": 325,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Page On Teleporter",
+						"short_name": "Telepage",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3900,
+								"y": 2850
+							},
+							{
+								"map": "east_forest",
+								"x": 220,
+								"y": 355,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Page",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Above Save Point",
+						"short_name": "Above Shrine",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3990,
+								"y": 2800
+							},
+							{
+								"map": "east_forest",
+								"x": 310,
+								"y": 305,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Above Save Point Obscured",
+						"short_name": "Behind",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4055,
+								"y": 2825
+							},
+							{
+								"map": "east_forest",
+								"x": 375,
+								"y": 330,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Hidden Path",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Ambushed by Spiders",
+						"short_name": "Spiders",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3710,
+								"y": 3095
+							},
+							{
+								"map": "east_forest",
+								"x": 30,
+								"y": 600,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Spider Chest",
+								"item_count": 1
+							},
+							{
+								"name": "Beneath Spider Chest",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Lower Grapple Chest",
+						"short_name": "Lower Orb",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3890,
+								"y": 3205
+							},
+							{
+								"map": "east_forest",
+								"x": 210,
+								"y": 710,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Grapple Across",
+								"access_rules": [
+									"orb"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Lower Dash Chest",
+						"short_name": "Past Lorb",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3890,
+								"y": 3245
+							},
+							{
+								"map": "east_forest",
+								"x": 210,
+								"y": 750,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Dash Across",
+								"access_rules": [
+									"orb,dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Golden Obelisk Holy Cross",
+						"short_name": "Obelisk",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3995,
+								"y": 3095
+							},
+							{
+								"map": "east_forest",
+								"x": 315,
+								"y": 600,
+								"size": 35
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 795
+							}
+						],
+						"sections": [
+							{
+								"name": "Use the Holy Cross",
+								"item_count": 1,
+								"access_rules": [
+									"cross"
+								]
+							}
+						]
+					},
+					{
+						"name": "Ice Rod Grapple Chest",
+						"short_name": "Blob",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3760,
+								"y": 2985
+							},
+							{
+								"map": "east_forest",
+								"x": 80,
+								"y": 490,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Freeze the Blob and ascend With Orb",
+								"access_rules": [
+									"orb,freeze,[glitches]",
+									"orb,dagger,staff,icerod"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Guardhouse 2 - Bottom Floor Secret",
+						"short_name": "Lower Floor",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3910,
+								"y": 2945
+							},
+							{
+								"map": "east_forest",
+								"x": 230,
+								"y": 450,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Hidden Hallway",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Guardhouse 2 - Upper Floor",
+						"short_name": "",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3995,
+								"y": 2880
+							},
+							{
+								"map": "east_forest",
+								"x": 315,
+								"y": 385,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "In the Mound",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Guardhouse 1",
+						"short_name": "1 Top Floor",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3970,
+								"y": 2605
+							},
+							{
+								"map": "east_forest",
+								"x": 290,
+								"y": 110,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Upper Floor",
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Upper Floor Obscured",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Guard Captain",
+						"short_name": "Captain",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3900,
+								"y": 2565
+							},
+							{
+								"map": "east_forest",
+								"x": 220,
+								"y": 70,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Also, you need to defeat this guy!",
+								"hosted_item": "captain",
+								"access_rules": [
+									"ring"
+								]
+							}
+						]
+					},
+					{
+						"name": "Forest Belltower - After Guard Captain",
+						"short_name": "",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3905,
+								"y": 2500
+							},
+							{
+								"map": "east_forest",
+								"x": 225,
+								"y": 5,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Forest Grave Path - Upper Walkway",
+						"short_name": "Bridges",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4205,
+								"y": 2580
+							},
+							{
+								"map": "east_forest",
+								"x": 530,
+								"y": 85,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "From the top of the Guardhouse",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Forest Grave Path - Above Gate",
+						"short_name": "Upper Path",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4325,
+								"y": 2575
+							},
+							{
+								"map": "east_forest",
+								"x": 645,
+								"y": 80,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Chest",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Forest Grave Path - Obscured Chest",
+						"short_name": "Lower Path",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4175,
+								"y": 2580
+							},
+							{
+								"map": "east_forest",
+								"x": 490,
+								"y": 85,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Behind the Trees",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "The Hero's Sword",
+						"short_name": "Sword",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4155,
+								"y": 2725
+							},
+							{
+								"map": "east_forest",
+								"x": 770,
+								"y": 225,
+								"size": 35
+							},
+							{
+								"map": "fullmap",
+								"x": 1070,
+								"y": 4450
+							},
+							{
+								"map": "far_shore",
+								"x": 1435,
+								"y": 270,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Forest Grave Path - Sword Pickup",
+								"item_count": 1
+							},
+							{
+								"name": "Hero's Grave - Tooth Relic",
+								"access_rules": [
+									"dash,pray"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Bombable Wall",
+						"short_name": "Bomb Wall",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3770,
+								"y": 2615
+							},
+							{
+								"map": "east_forest",
+								"x": 90,
+								"y": 120,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Follow the Flowers",
+								"item_count": 1,
+								"access_rules": [
+									"boom"
+								]
+							}
+						]
+					},
+					{
+						"name": "Forest Grave Path - Holy Cross Code by Grave",
+						"short_name": "Grave Secret",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4405,
+								"y": 2690
+							},
+							{
+								"map": "east_forest",
+								"x": 725,
+								"y": 195,
+								"size": 35
+							},
+							{
+								"map": "secrets",
+								"x": 910,
+								"y": 335
+							}
+						],
+						"sections": [
+							{
+								"name": "Single Money Chest",
+								"item_count": 1,
+								"access_rules": [
+									"cross"
+								]
+							}
+						]
+					}
+				]
+			},
+			{ //Beneath the Well
+				"name": "Bottom of the Well",
+				"children": [
+					{
+						"name": "[Entryway] Chest",
+						"short_name": "Entrance",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3390,
+								"y": 665
+							},
+							{
+								"map": "well",
+								"x": 720,
+								"y": 1315,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Mind the Slorms",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Entryway] Obscured Behind Waterfall",
+						"short_name": "1st Waterfall",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3430,
+								"y": 765
+							},
+							{
+								"map": "well",
+								"x": 760,
+								"y": 1415,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "You can just go in there",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Second Room] Page",
+						"short_name": "Page",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3305,
+								"y": 1120
+							},
+							{
+								"map": "well",
+								"x": 635,
+								"y": 770,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Ruined Atoll Map",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Second Room] Obscured Behind Waterfall",
+						"short_name": "C Waterfall",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3655,
+								"y": 1035
+							},
+							{
+								"map": "well",
+								"x": 985,
+								"y": 685,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Just go in there",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Second Room] Underwater Chest",
+						"short_name": "Isolated",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3265,
+								"y": 960
+							},
+							{
+								"map": "well",
+								"x": 595,
+								"y": 610,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Hidden Passage",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Back Corridor] Right Secret",
+						"short_name": "Rubble",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3630,
+								"y": 405
+							},
+							{
+								"map": "well",
+								"x": 960,
+								"y": 55,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Hidden Path",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Back Corridor] Left Secret",
+						"short_name": "Hidden Room",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3055,
+								"y": 350
+							},
+							{
+								"map": "well",
+								"x": 385,
+								"y": 0,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Behind the Slorms",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Third Room] Beneath Platform Chest",
+						"short_name": "Under Stairs",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2780,
+								"y": 825
+							},
+							{
+								"map": "well",
+								"x": 110,
+								"y": 475,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Run from the tentacles!",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Third Room] Tentacle Chest",
+						"short_name": "Mound",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3230,
+								"y": 775
+							},
+							{
+								"map": "well",
+								"x": 560,
+								"y": 425,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Water Sucks",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Side Room] Chest By Pots",
+						"short_name": "Ladder",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3080,
+								"y": 1190
+							},
+							{
+								"map": "well",
+								"x": 410,
+								"y": 840,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Just Climb up There",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Save Room] Upper Floor Chest 1",
+						"short_name": "Ladder Secret",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3250,
+								"y": 1365
+							},
+							{
+								"map": "well",
+								"x": 580,
+								"y": 1015,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Through the Power of Prayer",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Save Room] Upper Floor Chest 2",
+						"short_name": "Fox Shrine",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3500,
+								"y": 1350
+							},
+							{
+								"map": "well",
+								"x": 830,
+								"y": 1000,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Above the Fox Shrine",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Side Room] Chest By Phrends",
+						"short_name": "Phrends",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2830,
+								"y": 1190
+							},
+							{
+								"map": "well",
+								"x": 160,
+								"y": 840,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "So Many Phrends!",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Powered Secret Room] Chest",
+						"short_name": "Balcony",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2755,
+								"y": 1045
+							},
+							{
+								"map": "well",
+								"x": 85,
+								"y": 695,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Follow the Purple Energy Road",
+								"item_count": 1,
+								"access_rules": [
+									"pray"
+								]
+							}
+						]
+					},
+					{
+						"name": "[Passage To Dark Tomb] Page Pickup",
+						"short_name": "Page",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3230,
+								"y": 1550
+							},
+							{
+								"map": "well",
+								"x": 560,
+								"y": 1200,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Siege Engine",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					}
+				]
+			},
+			{ //Dark Tomb
+				"name": "Dark Tomb",
+				"access_rules": [
+					"[light]"
+				],
+				"children": [
+					{
+						"name": "Skulls Chest",
+						"short_name": "On Tomb",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1580,
+								"y": 550
+							},
+							{
+								"map": "dark_tomb",
+								"x": 520,
+								"y": 175,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Move the Grave",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Spike Maze Upper Walkway",
+						"short_name": "Balcony",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1555,
+								"y": 1135
+							},
+							{
+								"map": "dark_tomb",
+								"x": 495,
+								"y": 760,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Just walk right!",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Spike Maze Near Stairs",
+						"short_name": "Behind Stairs",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1225,
+								"y": 1055
+							},
+							{
+								"map": "dark_tomb",
+								"x": 165,
+								"y": 680,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "In the Corner",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Spike Maze Near Exit",
+						"short_name": "Spikes Corner",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1515,
+								"y": 1195
+							},
+							{
+								"map": "dark_tomb",
+								"x": 455,
+								"y": 820,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Watch out!",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "1st Laser Room Obscured",
+						"short_name": "Laser Path",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1915,
+								"y": 910
+							},
+							{
+								"map": "dark_tomb",
+								"x": 855,
+								"y": 535,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Follow the red laser of death",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "1st Laser Room",
+						"short_name": "Lazers...",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1895,
+								"y": 995
+							},
+							{
+								"map": "dark_tomb",
+								"x": 835,
+								"y": 620,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Use a bomb?",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "2nd Laser Room",
+						"short_name": "LAZERS!!!!!",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2200,
+								"y": 1135
+							},
+							{
+								"map": "dark_tomb",
+								"x": 1140,
+								"y": 760,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Can you roll?",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					}
+				]
+			},
+			{ //West Gardens
+				"name": "West Gardens",
+				"access_rules": [
+					"[light]",
+					"dash",
+					"orb,effigy,[glitches]"
+				],
+				"children": [
+					{
+						"name": "Hero's Grave",
+						"short_name": "Grave",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1325,
+								"y": 2570
+							},
+							{
+								"map": "fullmap",
+								"x": 460,
+								"y": 4450
+							},
+							{
+								"map": "west_gardens",
+								"x": 1085,
+								"y": 150,
+								"size": 45
+							},
+							{
+								"map": "far_shore",
+								"x": 1175,
+								"y": 270,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Effigy Relic",
+								"access_rules": [
+									"dash,pray"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[North] Obscured Beneath Hero's Memorial",
+						"short_name": "Hidden",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1400,
+								"y": 2555
+							},
+							{
+								"map": "west_gardens",
+								"x": 1160,
+								"y": 135,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Take the Long Way Around",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[North] Behind Holy Cross Door",
+						"short_name": "Silver Door",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 960,
+								"y": 2590
+							},
+							{
+								"map": "west_gardens",
+								"x": 720,
+								"y": 170,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Extra Sword!",
+								"item_count": 1,
+								"access_rules": [
+									"cross"
+								]
+							}
+						]
+					},
+					{
+						"name": "[North] Across From Page Pickup",
+						"short_name": "Fisherman",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 620,
+								"y": 2540
+							},
+							{
+								"map": "west_gardens",
+								"x": 380,
+								"y": 120,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "I Love Fish!",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[North] Page Pickup",
+						"short_name": "Terry Page",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 625,
+								"y": 2595
+							},
+							{
+								"map": "west_gardens",
+								"x": 385,
+								"y": 175,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Survival Tips",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[West] Past Flooded Walkway",
+						"short_name": "Broken Bridge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 410,
+								"y": 2770
+							},
+							{
+								"map": "west_gardens",
+								"x": 170,
+								"y": 350,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Through the Shallow Water",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[West] In Flooded Walkway",
+						"short_name": "Shallow Island",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 290,
+								"y": 2900
+							},
+							{
+								"map": "west_gardens",
+								"x": 50,
+								"y": 480,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Dash through the water",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central Lowlands] Chest Near Shortcut Bridge",
+						"short_name": "Shortcuts",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 890,
+								"y": 2710
+							},
+							{
+								"map": "west_gardens",
+								"x": 650,
+								"y": 290,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Between a Rope and a Bridge Place",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central Lowlands] Passage Beneath Bridge",
+						"short_name": "Isolated Walkway",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1180,
+								"y": 2745
+							},
+							{
+								"map": "west_gardens",
+								"x": 940,
+								"y": 325,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Take the lower path",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[West Lowlands] Tree Holy Cross Chest",
+						"short_name": "Fairy Tree",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 220,
+								"y": 2980
+							},
+							{
+								"map": "west_gardens",
+								"x": -20,
+								"y": 560,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 725
+							}
+						],
+						"sections": [
+							{
+								"name": "Use the Holy Cross",
+								"access_rules": [
+									"dash,cross"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central Lowlands] Chest Beneath Faeries",
+						"short_name": "On the Way",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 840,
+								"y": 3105
+							},
+							{
+								"map": "west_gardens",
+								"x": 600,
+								"y": 685,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "As you walk by",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Central Lowlands] Chest Beneath Save Point",
+						"short_name": "Under Shrine",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 930,
+								"y": 3125
+							},
+							{
+								"map": "west_gardens",
+								"x": 690,
+								"y": 705,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Behind the Way",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[West Highlands] Upper Left Walkway",
+						"short_name": "Across the Way",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 825,
+								"y": 2755
+							},
+							{
+								"map": "west_gardens",
+								"x": 585,
+								"y": 335,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "By the Rudeling",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[South Highlands] Secret Chest Beneath Fuse",
+						"short_name": "Under Obelisk",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 935,
+								"y": 3205
+							},
+							{
+								"map": "west_gardens",
+								"x": 695,
+								"y": 785,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Pray to the Wall Man",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[East Lowlands] Page Behind Ice Dagger House",
+						"short_name": "Behind Dagger Page",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1240,
+								"y": 3030
+							},
+							{
+								"map": "west_gardens",
+								"x": 1000,
+								"y": 610,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Come from the Far Shore",
+								"access_rules": [
+									"dash,pray",
+									"orb,freeze,[glitches]"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southeast Lowlands] Outside Cave",
+						"short_name": "Dagger Island",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1190,
+								"y": 3050
+							},
+							{
+								"map": "west_gardens",
+								"x": 950,
+								"y": 630,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Mind the Chompignoms!",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southeast Lowlands] Ice Dagger Pickup",
+						"short_name": "Dagger Cave",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1120,
+								"y": 3000
+							},
+							{
+								"map": "west_gardens",
+								"x": 880,
+								"y": 580,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Ice Dagger Cave",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central Highlands] Behind Guard Captain",
+						"short_name": "Behind Grass",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1210,
+								"y": 2800
+							},
+							{
+								"map": "west_gardens",
+								"x": 970,
+								"y": 380,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Under Boss Ladder",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central Highlands] Holy Cross (Blue Lines)",
+						"short_name": "Tiles",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 960,
+								"y": 2795
+							},
+							{
+								"map": "west_gardens",
+								"x": 720,
+								"y": 375,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 690
+							}
+						],
+						"sections": [
+							{
+								"name": "Use the Holy Cross",
+								"item_count": 1,
+								"access_rules": [
+									"cross"
+								]
+							}
+						]
+					},
+					{
+						"name": "[Central Highlands] Top of Ladder Before Boss",
+						"short_name": "Boss Ladder",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1045,
+								"y": 2735
+							},
+							{
+								"map": "west_gardens",
+								"x": 805,
+								"y": 315,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Try to be This Strong",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Central Lowlands] Below Left Walkway",
+						"short_name": "Bridge Mound",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 890,
+								"y": 2910
+							},
+							{
+								"map": "west_gardens",
+								"x": 650,
+								"y": 490,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Dash Across",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Garden Knight",
+						"short_name": "Garden Knight",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 960,
+								"y": 2475
+							},
+							{
+								"map": "west_gardens",
+								"x": 720,
+								"y": 55,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Will Kill You",
+								"hosted_item": "gknight",
+								"access_rules": [
+									"grass"
+								]
+							}
+						]
+					},
+					{
+						"name": "[Central Highlands] After Garden Knight",
+						"short_name": "Boss Reward",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1195,
+								"y": 2470
+							},
+							{
+								"map": "west_gardens",
+								"x": 955,
+								"y": 50,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Did Not Kill You",
+								"access_rules": [
+									"gknight",
+									"orb,freeze,[glitches]",
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					}
+				]
+			},
+			{ //Eastern Vault
+				"name": "Path to the Eastern Vault",
+				"access_rules": [
+					"grass",
+					"firesword,ring",
+					"dash"
+				],
+				"children": [
+					{
+						"name": "Fortress Courtyard - Below Walkway",
+						"short_name": "Vault Path",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3875,
+								"y": 2315
+							},
+							{
+								"map": "eastern_vault",
+								"x": 490,
+								"y": 1135,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Under the Stairs",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Fortress Courtyard - Near Fuse",
+						"short_name": "Obelisk",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4220,
+								"y": 2275
+							},
+							{
+								"map": "eastern_vault",
+								"x": 635,
+								"y": 1095,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Pray",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Fortress Courtyard - Chest Near Cave",
+						"short_name": "Before Down",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3850,
+								"y": 1950
+							},
+							{
+								"map": "eastern_vault",
+								"x": 265,
+								"y": 770,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Next to the Obelisk",
+								"item_count": 1,
+								"access_rules": [
+									"pray",
+									"dash"
+								],
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Fortress Courtyard - Page Near Cave",
+						"short_name": "Vault Page",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3935,
+								"y": 1895
+							},
+							{
+								"map": "eastern_vault",
+								"x": 350,
+								"y": 715,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Heir-To-The-Heir",
+								"item_count": 1,
+								"access_rules": [
+									"pray",
+									"dash"
+								],
+								"capture_item": true
+							}
+						]
+					},
+					{ //Beneath the Earth
+						"name": "Beneath the Fortress",
+						"access_rules": [
+							"[light],pray",
+							"[light],dash"
+						],
+						"children": [
+							{
+								"name": "Obscured Behind Waterfall",
+								"short_name": "Waterfall",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4555,
+										"y": 2300
+									},
+									{
+										"map": "earth",
+										"x": 170,
+										"y": 310,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Muffling Bell",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "Bridge",
+								"short_name": "Switch",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4500,
+										"y": 2200
+									},
+									{
+										"map": "earth",
+										"x": 115,
+										"y": 210,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Chest",
+										"access_rules": [
+											"switch",
+											"dash"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Cell Chest 1",
+								"short_name": "First",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 5135,
+										"y": 2395
+									},
+									{
+										"map": "earth",
+										"x": 750,
+										"y": 405,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Drop the Shortcut Rope",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "Cell Chest 2",
+								"short_name": "Last",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 5245,
+										"y": 2310
+									},
+									{
+										"map": "earth",
+										"x": 860,
+										"y": 320,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Mind the Custodian",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "Back Room Chest",
+								"short_name": "Barrels",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 5185,
+										"y": 1970
+									},
+									{
+										"map": "earth",
+										"x": 800,
+										"y": -20,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Lose the Lure or take 2 Damage",
+										"item_count": 1
+									}
+								]
+							}
+						]
+					},
+					{ //Inside the Eastern Vault
+						"name": "Eastern Vault Fortress",
+						"access_rules": [
+							"[light],pray",
+							"dash"
+						],
+						"children": [
+							{
+								"name": "Westmost Upper Room",
+								"short_name": "West Upper",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3650,
+										"y": 1355
+									},
+									{
+										"map": "eastern_vault",
+										"x": 65,
+										"y": 175,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "[West Wing] Dark Room Chest 1",
+										"item_count": 1
+									},
+									{
+										"name": "[West Wing] Dark Room Chest 2",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "[West Wing] Page Pickup",
+								"short_name": "West Balcony",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3625,
+										"y": 1490
+									},
+									{
+										"map": "eastern_vault",
+										"x": 40,
+										"y": 310,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "He will never visit the Far Shore",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "[West Wing] Candles Holy Cross",
+								"short_name": "Candle Fairy",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3715,
+										"y": 1570
+									},
+									{
+										"map": "eastern_vault",
+										"x": 130,
+										"y": 390,
+										"size": 45
+									},
+									{
+										"map": "secrets",
+										"x": -20,
+										"y": 760
+									}
+								],
+								"sections": [
+									{
+										"name": "Use the Holy Cross",
+										"item_count": 1,
+										"access_rules": [
+											"cross"
+										]
+									}
+								]
+							},
+							{
+								"name": "Vault Hero's Grave",
+								"short_name": "Vault Grave",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 5245,
+										"y": 1830
+									},
+									{
+										"map": "eastern_vault",
+										"x": 1660,
+										"y": 650,
+										"size": 45
+									},
+									{
+										"map": "fullmap",
+										"x": 920,
+										"y": 4185
+									},
+									{
+										"map": "far_shore",
+										"x": 1370,
+										"y": 165,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Fortress Grave Path - Obscured Chest Left of Grave",
+										"item_count": 1
+									},
+									{
+										"name": "Fortress Grave Path - Chest Right of Grave",
+										"item_count": 1
+									},
+									{
+										"name": "Hero's Grave - Flowers Relic",
+										"access_rules": [
+											"dash,pray"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Fortress Leaf Piles - Secret Chest",
+								"short_name": "Leaves",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 5175,
+										"y": 1730
+									},
+									{
+										"map": "eastern_vault",
+										"x": 1590,
+										"y": 550,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Dusty",
+										"access_rules": [
+											"dash"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Fortress East Shortcut - Chest Near Slimes",
+								"short_name": "Outside Lower",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4675,
+										"y": 1470
+									},
+									{
+										"map": "eastern_vault",
+										"x": 1090,
+										"y": 290,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Mind the Custodians",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Fortress Grave Path - Upper Walkway",
+								"short_name": "Outside Upper",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4825,
+										"y": 1770
+									},
+									{
+										"map": "eastern_vault",
+										"x": 1240,
+										"y": 590,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Go Around the East Wing",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[East Wing] Bombable Wall",
+								"short_name": "Secret Door",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4355,
+										"y": 1325
+									},
+									{
+										"map": "eastern_vault",
+										"x": 770,
+										"y": 145,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Bomb the Wall",
+										"item_count": 1,
+										"access_rules": [
+											"boom"
+										]
+									}
+								]
+							},
+							{
+								"name": "Fortress Arena",
+								"short_name": "Gold Door",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4185,
+										"y": 1250
+									},
+									{
+										"map": "eastern_vault",
+										"x": 600,
+										"y": 70,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Siege Engine|Vault Key Pickup",
+										"hosted_item": "engine",
+										"access_rules": [
+											"ring,pray"
+										],
+										"item_count": 1,
+										"capture_item": true
+									},
+									{
+										"name": "Hexagon Red",
+										"access_rules": [
+											"vaultkey,pray"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{ //Ruined Atoll
+				"name": "Ruined Atoll",
+				"access_rules": [
+					"grass",
+					"firesword,ring",
+					"dash",
+					"orb",
+					"pray"
+				],
+				"children": [
+					{
+						"name": "[North] From Lower Overworld Entrance",
+						"short_name": "Beach",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2825,
+								"y": 3355
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 1180,
+								"y": 245,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Come from the Overworld",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[North] Guarded By Bird",
+						"short_name": "Bird",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2435,
+								"y": 3545
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 790,
+								"y": 435,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Skraw!",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[North] Obscured Beneath Bridge",
+						"short_name": "Water",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2475,
+								"y": 3610
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 830,
+								"y": 500,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "In the shallow water",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[South] Upper Floor On Bricks",
+						"short_name": "Brick Top",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2385,
+								"y": 4065
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 740,
+								"y": 955,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Up the Ladder",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northeast] Key Pickup",
+						"short_name": "Key",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2865,
+								"y": 3300
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 1220,
+								"y": 190,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Around the Hill",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Northeast] Chest Beneath Brick Walkway",
+						"short_name": "Bottom Walkway",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2945,
+								"y": 3430
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 1300,
+								"y": 320,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Mind the Crabbits",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northeast] Chest On Brick Walkway",
+						"short_name": "Top Walkway",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2945,
+								"y": 3560
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 1300,
+								"y": 450,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Near Domain",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Locked Brick House",
+						"short_name": "Locked House",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2900,
+								"y": 3760
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 1255,
+								"y": 650,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "[East] Locked Room Lower Chest",
+								"access_rules": [
+									"key",
+									"dash"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "[East] Locked Room Upper Chest",
+								"access_rules": [
+									"key",
+									"dash"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Southeast] Chest Near Fuse",
+						"short_name": "Under Telescope",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2945,
+								"y": 3940
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 1300,
+								"y": 830,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Around the Tower",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[South] Upper Floor On Power Line",
+						"short_name": "Hidden Ladder",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2700,
+								"y": 4055
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 1055,
+								"y": 945,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Hidden Ladder Chest",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[South] Chest Near Big Crabs",
+						"short_name": "Near Crabbo",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2370,
+								"y": 4330
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 725,
+								"y": 1220,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "His Name is Tom",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[South] Near Birds",
+						"short_name": "Husher Gate",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2160,
+								"y": 4300
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 515,
+								"y": 1190,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Danlarry and Thranmire ate Jerry!",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Southwest] Obscured Behind Fuse",
+						"short_name": "Obscured",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2150,
+								"y": 3970
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 505,
+								"y": 860,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Saved by the Prayer",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northwest] Behind Envoy",
+						"short_name": "Envoy",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 2065,
+								"y": 3670
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 420,
+								"y": 560,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Mind the Fairies",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Northwest] Bombable Wall",
+						"short_name": "Boomflower",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1835,
+								"y": 3555
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 190,
+								"y": 445,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Flowers Guide Thee",
+								"item_count": 1,
+								"access_rules": [
+									"boom"
+								]
+							}
+						]
+					},
+					{
+						"name": "[West] Near Kevin Block",
+						"short_name": "Celeste",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1715,
+								"y": 3735
+							},
+							{
+								"map": "ruined_atoll",
+								"x": 70,
+								"y": 625,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Phonomath",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1
+							}
+						]
+					},
+					{ //Frog's Domain
+						"name": "Frog's Domain",
+						"children": [
+							{
+								"name": "Escape Chest",
+								"short_name": "Grapplebolt",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4060,
+										"y": 4055
+									},
+									{
+										"map": "frogs_domain",
+										"x": 1625,
+										"y": 195,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Don't Kick Fimbleton!",
+										"access_rules": [
+											"orb"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Grapple Above Hot Tub",
+								"short_name": "Shrine Grapple",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3255,
+										"y": 4325
+									},
+									{
+										"map": "frogs_domain",
+										"x": 820,
+										"y": 465,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Look Up",
+										"access_rules": [
+											"orb",
+											"dash"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Side Room Chest",
+								"short_name": "Table",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3560,
+										"y": 4065
+									},
+									{
+										"map": "frogs_domain",
+										"x": 1125,
+										"y": 205,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Oh No! Our Frogs! They're Dead!",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "Side Room Secret Passage",
+								"short_name": "Hidden",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3685,
+										"y": 4055
+									},
+									{
+										"map": "frogs_domain",
+										"x": 1250,
+										"y": 195,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Upper Right Corner",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Side Room Grapple Secret",
+								"short_name": "Bath",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3330,
+										"y": 4130
+									},
+									{
+										"map": "frogs_domain",
+										"x": 895,
+										"y": 270,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Grapple on Over",
+										"access_rules": [
+											"orb",
+											"dash"
+										],
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "Above Vault",
+								"short_name": "Ledge",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3155,
+										"y": 4460
+									},
+									{
+										"map": "frogs_domain",
+										"x": 720,
+										"y": 600,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Obscured Doorway Ledge",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Main Room Top Floor",
+								"short_name": "NW Chest",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 2500,
+										"y": 4735
+									},
+									{
+										"map": "frogs_domain",
+										"x": 65,
+										"y": 875,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Mind the Adult Frog",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "Main Room Bottom Floor",
+								"short_name": "Altar",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 2910,
+										"y": 4835
+									},
+									{
+										"map": "frogs_domain",
+										"x": 475,
+										"y": 975,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Altar Chest",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Near Vault",
+								"short_name": "Gold Door",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3435,
+										"y": 4675
+									},
+									{
+										"map": "frogs_domain",
+										"x": 1000,
+										"y": 815,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Already Stolen",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "Slorm Room",
+								"short_name": "Slorm Pool",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3755,
+										"y": 4775
+									},
+									{
+										"map": "frogs_domain",
+										"x": 1320,
+										"y": 915,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Tobias was Trapped Here Once...",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Magic Orb Pickup",
+								"short_name": "Morb",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 3600,
+										"y": 4265
+									},
+									{
+										"map": "frogs_domain",
+										"x": 1165,
+										"y": 405,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Frult Meeting",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							}
+						]
+					},
+					{ //The Grand Library
+						"name": "The Grand Library",
+						"access_rules": [
+							"orb,pray",
+							"visit,pray",
+							"dash,pray"
+						],
+						"children": [
+							{
+								"name": "Library Hall",
+								"short_name": "Rug",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 1080,
+										"y": 3540
+									},
+									{
+										"map": "library",
+										"x": 115,
+										"y": 260,
+										"size": 45
+									},
+									{
+										"map": "secrets",
+										"x": -20,
+										"y": 410
+									}
+								],
+								"sections": [
+									{
+										"name": "Holy Cross Chest",
+										"item_count": 1,
+										"access_rules": [
+											"cross"
+										],
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Hero's Grave",
+								"short_name": "Grave",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 1075,
+										"y": 3405
+									},
+									{
+										"map": "library",
+										"x": 110,
+										"y": 125,
+										"size": 45
+									},
+									{
+										"map": "fullmap",
+										"x": 600,
+										"y": 4705
+									},
+									{
+										"map": "far_shore",
+										"x": 1240,
+										"y": 385,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Mushroom Relic",
+										"access_rules": [
+											"dash,pray"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Library Lab (Trapped Pages)",
+								"short_name": "Stolen Pages",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 1395,
+										"y": 3470
+									},
+									{
+										"map": "library",
+										"x": 430,
+										"y": 190,
+										"size": 65
+									}
+								],
+								"sections": [
+									{
+										"name": "Page 1",
+										"access_rules": [
+											"tubes"
+										],
+										"item_count": 1,
+										"capture_item": true
+									},
+									{
+										"name": "Page 2",
+										"access_rules": [
+											"tubes"
+										],
+										"item_count": 1,
+										"capture_item": true
+									},
+									{
+										"name": "Page 3",
+										"access_rules": [
+											"tubes"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "Library Lab",
+								"short_name": "Stash",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 1450,
+										"y": 3310
+									},
+									{
+										"map": "library",
+										"x": 485,
+										"y": 30,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Chest By Shrine 1",
+										"item_count": 1
+									},
+									{
+										"name": "Chest By Shrine 2",
+										"item_count": 1
+									},
+									{
+										"name": "Chest By Shrine 3",
+										"item_count": 1
+									},
+									{
+										"name": "Behind Chalkboard by Fuse",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "The Librarian",
+								"short_name": "Librarian",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 1250,
+										"y": 3700
+									},
+									{
+										"map": "library",
+										"x": 285,
+										"y": 420,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Time to Fight!",
+										"hosted_item": "librarian",
+										"access_rules": [
+											"ring",
+											"lure,[glitches]"
+										]
+									},
+									{
+										"name": "Hexagon Green",
+										"access_rules": [
+											"librarian"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{ //The Upper Quarry
+				"name": "The Quarry",
+				"access_rules": [
+					"grass",
+					"firesword,ring",
+					"orb",
+					"dash"
+				],
+				"children": [
+					{
+						"name": "[Back Entrance] Bushes Holy Cross",
+						"short_name": "Snowy Trees",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 980,
+								"y": 1130
+							},
+							{
+								"map": "quarry",
+								"x": 355,
+								"y": 105,
+								"size": 45
+							},
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 340
+							}
+						],
+						"sections": [
+							{
+								"name": "Use the Holy Cross",
+								"item_count": 1,
+								"access_rules": [
+									"cross"
+								]
+							}
+						]
+					},
+					{
+						"name": "[Central] Obscured Below Entry Walkway",
+						"short_name": "Leaking Obelisk",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1345,
+								"y": 1840
+							},
+							{
+								"map": "quarry",
+								"x": 720,
+								"y": 815,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Down the Stairs",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Central] Below Entry Walkway",
+						"short_name": "Backtrack Below",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1390,
+								"y": 2045
+							},
+							{
+								"map": "quarry",
+								"x": 765,
+								"y": 1020,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Even more Stairs!",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[East] Near Bridge",
+						"short_name": "Beyond Bridge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1405,
+								"y": 1710
+							},
+							{
+								"map": "quarry",
+								"x": 780,
+								"y": 685,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Drop that Bridge!",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[East] Bombable Wall",
+						"short_name": "Bombable Wall",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1510,
+								"y": 1645
+							},
+							{
+								"map": "quarry",
+								"x": 885,
+								"y": 620,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Flowers Guide Thee",
+								"item_count": 1,
+								"access_rules": [
+									"boom"
+								]
+							}
+						]
+					},
+					{
+						"name": "[Central] Near Shortcut Ladder",
+						"short_name": "Boxes",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1095,
+								"y": 1765
+							},
+							{
+								"map": "quarry",
+								"x": 470,
+								"y": 740,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "By the Boxes",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[East] Obscured Near Telescope",
+						"short_name": "Obscured",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1630,
+								"y": 1470
+							},
+							{
+								"map": "quarry",
+								"x": 1005,
+								"y": 445,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Weird path?",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[East] Near Telescope",
+						"short_name": "Dark Telescope",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1840,
+								"y": 1385
+							},
+							{
+								"map": "quarry",
+								"x": 1215,
+								"y": 360,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Spoopy",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[West] Upper Area Near Waterfall",
+						"short_name": "Cube Bridge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 780,
+								"y": 1830
+							},
+							{
+								"map": "quarry",
+								"x": 155,
+								"y": 805,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Yummy Polygons",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[East] Obscured Near Winding Staircase",
+						"short_name": "Tiny Stairs",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1525,
+								"y": 1545
+							},
+							{
+								"map": "quarry",
+								"x": 900,
+								"y": 520,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "At the Bottom",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Central] Top Floor Overhang",
+						"short_name": "Ruined Bridge",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1315,
+								"y": 1650
+							},
+							{
+								"map": "quarry",
+								"x": 690,
+								"y": 625,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "End of the ruined bridge",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Back Entrance] Chest",
+						"short_name": "Peaceful",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 825,
+								"y": 1590
+							},
+							{
+								"map": "quarry",
+								"x": 200,
+								"y": 565,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Peaceful Chest",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[East] Upper Floor",
+						"short_name": "Two Ladders",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1575,
+								"y": 1260
+							},
+							{
+								"map": "quarry",
+								"x": 950,
+								"y": 235,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Reminds me of Blighttown",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[East] Obscured Beneath Scaffolding",
+						"short_name": "Miasma Mound",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1360,
+								"y": 1465
+							},
+							{
+								"map": "quarry",
+								"x": 735,
+								"y": 440,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "In the Miasma Mound",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central] Above Ladder",
+						"short_name": "Above Shrine",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1210,
+								"y": 1245
+							},
+							{
+								"map": "quarry",
+								"x": 585,
+								"y": 220,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Climb Ladder",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central] Above Ladder Dash Chest",
+						"short_name": "Dash Shrine",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1160,
+								"y": 1180
+							},
+							{
+								"map": "quarry",
+								"x": 535,
+								"y": 155,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Dash Across",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Monastery",
+						"short_name": "Monastery",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1010,
+								"y": 1245
+							},
+							{
+								"map": "quarry",
+								"x": 385,
+								"y": 220,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 610,
+								"y": 4180
+							},
+							{
+								"map": "far_shore",
+								"x": 1240,
+								"y": 160,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Monastery Chest",
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "Hero's Grave - Ash Relic",
+								"access_rules": [
+									"dash,pray"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Central] Obscured Behind Staircase",
+						"short_name": "Large Spiral Stairs",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 1145,
+								"y": 1685
+							},
+							{
+								"map": "quarry",
+								"x": 520,
+								"y": 660,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "At the Bottom",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Back Entrance] Obscured Behind Wall",
+						"short_name": "Waterfall",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 805,
+								"y": 1715
+							},
+							{
+								"map": "quarry",
+								"x": 180,
+								"y": 690,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Happy Water!",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[West] Upper Area Bombable Wall",
+						"short_name": "Grass Bomb",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 955,
+								"y": 1840
+							},
+							{
+								"map": "quarry",
+								"x": 330,
+								"y": 815,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Boomy",
+								"item_count": 1,
+								"access_rules": [
+									"boom"
+								]
+							}
+						]
+					},
+					{
+						"name": "Lower Quarry",
+						"access_rules": [
+							"[mask]"
+						],
+						"children": [
+							{
+								"name": "[West] Below Shooting Range",
+								"short_name": "Under Range",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 630,
+										"y": 2255
+									},
+									{
+										"map": "quarry",
+										"x": 5,
+										"y": 1230,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Clever little sneak!",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[West] Shooting Range Secret Path",
+								"short_name": "Range Boxes",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 745,
+										"y": 1935
+									},
+									{
+										"map": "quarry",
+										"x": 120,
+										"y": 910,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Obscured Path",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "[West] Near Shooting Range",
+								"short_name": "Shooting Range",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 625,
+										"y": 2165
+									},
+									{
+										"map": "quarry",
+										"x": 0,
+										"y": 1140,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "End of bridge",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[West] Lower Area Isolated Chest",
+								"short_name": "Scaffolding",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 1445,
+										"y": 2230
+									},
+									{
+										"map": "quarry",
+										"x": 820,
+										"y": 1205,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Burn Pots",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[West] Lower Area Below Bridge",
+								"short_name": "Under Bridge",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 970,
+										"y": 2355
+									},
+									{
+										"map": "quarry",
+										"x": 345,
+										"y": 1330,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Go Around",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[West] Lower Area After Bridge",
+								"short_name": "Lower Bridge",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 1035,
+										"y": 2380
+									},
+									{
+										"map": "quarry",
+										"x": 410,
+										"y": 1355,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Drop that Bridge!",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[Lowlands] Upper Walkway",
+								"short_name": "Under Snipers",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 1160,
+										"y": 2380
+									},
+									{
+										"map": "quarry",
+										"x": 535,
+										"y": 1355,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Hate them Snipers",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[Lowlands] Below Broken Ladder",
+								"short_name": "",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 755,
+										"y": 2380
+									},
+									{
+										"map": "quarry",
+										"x": 130,
+										"y": 1355,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Miasma Pits",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[Lowlands] Near Elevator",
+								"short_name": "Way to Zigg",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 1505,
+										"y": 2325
+									},
+									{
+										"map": "quarry",
+										"x": 880,
+										"y": 1300,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "End of the Tracks",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{ //The Rooted Ziggurat
+								"name": "The Rooted Ziggurat",
+								"access_rules": [
+									"[mask],orb,pray",
+									"orb,freeze,[glitches],[mask],pray"
+								],
+								"children": [
+									{
+										"name": "Upper - Near Bridge Switch",
+										"short_name": "Switch",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 510,
+												"y": 2100
+											},
+											{
+												"map": "ziggurat",
+												"x": 430,
+												"y": 905,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "You can shoot it",
+												"item_count": 1,
+												"capture_item": true
+											}
+										]
+									},
+									{
+										"name": "Upper - Beneath Bridge To Administrator",
+										"short_name": "Bottom",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 490,
+												"y": 2390
+											},
+											{
+												"map": "ziggurat",
+												"x": 410,
+												"y": 1190,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "End of the First Floor",
+												"item_count": 1,
+												"capture_item": true
+											}
+										]
+									},
+									{
+										"name": "Tower - Inside Tower",
+										"short_name": "First Horror",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 450,
+												"y": 1740
+											},
+											{
+												"map": "ziggurat",
+												"x": 220,
+												"y": 70,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "I'm Scared",
+												"item_count": 1,
+												"capture_item": true
+											}
+										]
+									},
+									{
+										"name": "Lower - Near Corpses",
+										"short_name": "Corpses",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 340,
+												"y": 940
+											},
+											{
+												"map": "ziggurat",
+												"x": 615,
+												"y": 410,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "They are Dead",
+												"item_count": 1
+											}
+										]
+									},
+									{
+										"name": "Lower - Spider Ambush",
+										"short_name": "Ambush",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 10,
+												"y": 1050
+											},
+											{
+												"map": "ziggurat",
+												"x": 280,
+												"y": 520,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "Use the Gun",
+												"item_count": 1,
+												"capture_item": true
+											}
+										]
+									},
+									{
+										"name": "Lower - Guarded By Double Turrets",
+										"short_name": "Autobolts",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 330,
+												"y": 1105
+											},
+											{
+												"map": "ziggurat",
+												"x": 600,
+												"y": 580,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "Help",
+												"item_count": 1,
+												"capture_item": true
+											}
+										]
+									},
+									{
+										"name": "Lower - Guarded By Double Turrets 2",
+										"short_name": "Hell",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 530,
+												"y": 1060
+											},
+											{
+												"map": "ziggurat",
+												"x": 800,
+												"y": 535,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "Oh god they're everywhere",
+												"item_count": 1,
+												"capture_item": true
+											}
+										]
+									},
+									{
+										"name": "Lower - After 2nd Double Turret Chest",
+										"short_name": "Barber",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 630,
+												"y": 1165
+											},
+											{
+												"map": "ziggurat",
+												"x": 905,
+												"y": 630,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "Haircut Time!",
+												"item_count": 1,
+												"capture_item": true
+											}
+										]
+									},
+									{
+										"name": "Lower - Left Of Checkpoint Before Fuse",
+										"short_name": "Lonely",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 400,
+												"y": 1165
+											},
+											{
+												"map": "ziggurat",
+												"x": 675,
+												"y": 630,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "Moment of Reprieve",
+												"item_count": 1,
+												"capture_item": true
+											}
+										]
+									},
+									{
+										"name": "Lower - After Guarded Fuse",
+										"short_name": "Isolated",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 670,
+												"y": 1200
+											},
+											{
+												"map": "ziggurat",
+												"x": 935,
+												"y": 670,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "Defeat those Mechs",
+												"item_count": 1,
+												"capture_item": true
+											}
+										]
+									},
+									{
+										"name": "Lower - Hexagon Blue",
+										"short_name": "Boss",
+										"map_locations": [
+											{
+												"map": "fullmap",
+												"x": 1155,
+												"y": 890
+											},
+											{
+												"map": "ziggurat",
+												"x": 1180,
+												"y": 1160,
+												"size": 45
+											}
+										],
+										"sections": [
+											{
+												"name": "Scavenger Queen",
+												"item_count": 1,
+												"hosted_item": "scavboss",
+												"capture_item": true
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{ //Swamp -- Former Old Burying Grounds (Corrected the name for AP)
+				"name": "Swamp",
+				"access_rules": [
+					"grass",
+					"firesword,ring",
+					"dash,visit"
+				],
+				"children": [
+					{
+						"name": "[Entrance] Above Entryway",
+						"short_name": "After Cathedral",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3565,
+								"y": 3290
+							},
+							{
+								"map": "graveyard",
+								"x": 75,
+								"y": 430,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Dash Across",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Entrance] Obscured Inside Watchtower",
+						"short_name": "Tower Bottom",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3755,
+								"y": 3590
+							},
+							{
+								"map": "graveyard",
+								"x": 265,
+								"y": 730,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Go Inside",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Entrance] North Small Island",
+						"short_name": "Shallow Island",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3765,
+								"y": 3285
+							},
+							{
+								"map": "graveyard",
+								"x": 275,
+								"y": 425,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Mildly Hidden",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[Entrance] South Near Fence",
+						"short_name": "Well Corner",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4030,
+								"y": 3750
+							},
+							{
+								"map": "graveyard",
+								"x": 540,
+								"y": 890,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "DAGGER STRAP!!!!!",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "First Hero's Grave",
+						"short_name": "Grave",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4315,
+								"y": 3205
+							},
+							{
+								"map": "graveyard",
+								"x": 825,
+								"y": 345,
+								"size": 45
+							},
+							{
+								"map": "fullmap",
+								"x": 920,
+								"y": 4710
+							},
+							{
+								"map": "far_shore",
+								"x": 1370,
+								"y": 385,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "[Outside Cathedral] Obscured Behind Memorial",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1
+							},
+							{
+								"name": "Hero's Grave - Feathers Relic",
+								"access_rules": [
+									"dash,pray"
+								],
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Inner Graveyard",
+						"children": [
+							{
+								"name": "[South Graveyard] Upper Walkway On Pedestal",
+								"short_name": "Hilltop",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4095,
+										"y": 3565
+									},
+									{
+										"map": "graveyard",
+										"x": 605,
+										"y": 705,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Gazing out over the Graves",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[South Graveyard] Obscured Beneath Telescope",
+								"short_name": "Under Scope",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4530,
+										"y": 3605
+									},
+									{
+										"map": "graveyard",
+										"x": 1040,
+										"y": 745,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Through the Nook",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[South Graveyard] Above Big Skeleton",
+								"short_name": "Above Grave",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4350,
+										"y": 3720
+									},
+									{
+										"map": "graveyard",
+										"x": 860,
+										"y": 860,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "End of Ledge",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[South Graveyard] Guarded By Big Skeleton",
+								"short_name": "By Grave",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4290,
+										"y": 3745
+									},
+									{
+										"map": "graveyard",
+										"x": 800,
+										"y": 885,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Super Clipping",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[South Graveyard] Chest Near Graves",
+								"short_name": "Wide Open",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4100,
+										"y": 3785
+									},
+									{
+										"map": "graveyard",
+										"x": 610,
+										"y": 925,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "The Rest of Our Entire Life is Death",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[South Graveyard] 4 Orange Skulls",
+								"short_name": "Skolf",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4180,
+										"y": 3730
+									},
+									{
+										"map": "graveyard",
+										"x": 690,
+										"y": 870,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "DJ Khaled - Let's go Golfing!",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[South Graveyard] Guarded By Tentacles",
+								"short_name": "Isolated",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4610,
+										"y": 3780
+									},
+									{
+										"map": "graveyard",
+										"x": 1120,
+										"y": 920,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Isolated Island",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[South Graveyard] Upper Walkway Dash Chest",
+								"short_name": "Pillar Dash",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4090,
+										"y": 3685
+									},
+									{
+										"map": "graveyard",
+										"x": 600,
+										"y": 825,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Around the Hill",
+										"access_rules": [
+											"dash"
+										],
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[South Graveyard] Obscured Behind Ridge",
+								"short_name": "Ladder Secret",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4340,
+										"y": 3615
+									},
+									{
+										"map": "graveyard",
+										"x": 850,
+										"y": 755,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Through the hidden passage",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "[Central] South Secret Passage",
+								"short_name": "Corner Wall",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4590,
+										"y": 3700
+									},
+									{
+										"map": "graveyard",
+										"x": 1100,
+										"y": 840,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Wall Man Approves these Vibes",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "[Central] Beneath Memorial",
+								"short_name": "Under Grave",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4270,
+										"y": 3180
+									},
+									{
+										"map": "graveyard",
+										"x": 780,
+										"y": 320,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Do You Even Live?",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[Central] Near Ramps Up",
+								"short_name": "Hidden Ramps",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4525,
+										"y": 3385
+									},
+									{
+										"map": "graveyard",
+										"x": 1035,
+										"y": 525,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Up them Ramps",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[Upper Graveyard] Near Telescope",
+								"short_name": "Scope",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4555,
+										"y": 3640
+									},
+									{
+										"map": "graveyard",
+										"x": 1065,
+										"y": 780,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Overlooking the Graves",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[Upper Graveyard] Near Shield Fleemers",
+								"short_name": "Graveyard End",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4605,
+										"y": 3380
+									},
+									{
+										"map": "graveyard",
+										"x": 1115,
+										"y": 520,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Alternatively, Before the Cathedral",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
+							},
+							{
+								"name": "[Upper Graveyard] Obscured Behind Hill",
+								"short_name": "Two Hills",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4675,
+										"y": 3270
+									},
+									{
+										"map": "graveyard",
+										"x": 1185,
+										"y": 410,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Between Two Hills",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "[Outside Cathedral] Near Moonlight Bridge Door",
+								"short_name": "Secret Wall",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4240,
+										"y": 2860
+									},
+									{
+										"map": "graveyard",
+										"x": 750,
+										"y": 0,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Down the Hidden Ladder",
+										"item_count": 1
+									}
+								]
+							},
+							{
+								"name": "[Central] Obscured Behind Northern Mountain",
+								"short_name": "Obscured",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4140,
+										"y": 3360
+									},
+									{
+										"map": "graveyard",
+										"x": 650,
+										"y": 500,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Hug the Wall",
+										"item_count": 1
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{ //The Cathedral
+				"name": "The Cathedral",
+				"access_rules": [
+					"grass,dash,pray",
+					"firesword,ring,dash,pray",
+					"grass,visit,pray",
+					"firesword,ring,visit,pray",
+					"grass,orb,freeze,[glitches]",
+					"firesword,ring,orb,freeze,[glitches]",
+					"dash,visit,pray"
+				],
+				"children": [
+					{
+						"name": "[1F] Library",
+						"short_name": "Library",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4935,
+								"y": 2955
+							},
+							{
+								"map": "cathedral",
+								"x": 505,
+								"y": 180,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "By the Books",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[1F] Library Secret",
+						"short_name": "Secret",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4870,
+								"y": 2955
+							},
+							{
+								"map": "cathedral",
+								"x": 440,
+								"y": 180,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Pray to the Wallman",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "Secret Legend Trophy Chest",
+						"short_name": "Double Secret",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4570,
+								"y": 3025
+							},
+							{
+								"map": "cathedral",
+								"x": 140,
+								"y": 250,
+								"size": 35
+							},
+							{
+								"map": "secrets",
+								"x": 1000,
+								"y": 260
+							}
+						],
+						"sections": [
+							{
+								"name": "You can use the Holy Cross from the outside",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[1F] Guarded By Lasers",
+						"short_name": "Ruin Copies",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4945,
+								"y": 2905
+							},
+							{
+								"map": "cathedral",
+								"x": 515,
+								"y": 130,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Beside 3 Miasma Seekers",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[1F] Near Spikes",
+						"short_name": "Spikes",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4785,
+								"y": 2955
+							},
+							{
+								"map": "cathedral",
+								"x": 355,
+								"y": 180,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Mind the Miasma Seeker",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Birdcage Room",
+						"short_name": "Birdcage",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4930,
+								"y": 2875
+							},
+							{
+								"map": "cathedral",
+								"x": 500,
+								"y": 100,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "[2F] Bird Room",
+								"item_count": 1,
+								"capture_item": true
+							},
+							{
+								"name": "[2F] Bird Room Secret",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[2F] Entryway Upper Walkway",
+						"short_name": "Balcony",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4850,
+								"y": 2875
+							},
+							{
+								"map": "cathedral",
+								"x": 420,
+								"y": 100,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Overlooking Miasma",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[2F] Library",
+						"short_name": "Library Top",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4920,
+								"y": 2905
+							},
+							{
+								"map": "cathedral",
+								"x": 490,
+								"y": 130,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Behind the Ladder",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[2F] Guarded By Lasers",
+						"short_name": "Lazer Hall",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4565,
+								"y": 2875
+							},
+							{
+								"map": "cathedral",
+								"x": 135,
+								"y": 100,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Before the big reveal...",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "Cathedral Gauntlet",
+						"short_name": "Gauntlet",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4960,
+								"y": 3565
+							},
+							{
+								"map": "cathedral",
+								"x": 530,
+								"y": 790,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Gauntlet Reward",
+								"hosted_item": "gauntlet",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					}
+				]
+			},
+			{ //The Far Shore
+				"name": "The Far Shore",
+				"access_rules": [
+					"pray"
+				],
+				"children": [
+					{
+						"name": "Visit the Heir",
+						"short_name": "Visit Heir",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4485,
+								"y": 731
+							},
+							{
+								"map": "far_shore",
+								"x": 825,
+								"y": 930,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Now it's Nighttime!",
+								"access_rules": [
+									"red,green,blue,ding,dong",
+									"red,green,blue,[glitches],orb,freeze",
+									"red,green,blue,dash"
+								],
+								"item_count": 1,
+								"hosted_item": "visit"
+							}
+						]
+					},
+					{
+						"name": "Page Pickup",
+						"short_name": "Page",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3005,
+								"y": 2995
+							},
+							{
+								"map": "fullmap",
+								"x": 4482,
+								"y": 1020
+							},
+							{
+								"map": "far_shore",
+								"x": 825,
+								"y": 1220,
+								"size": 45
+							},
+							{
+								"map": "overworld",
+								"x": 1330,
+								"y": 1245,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "A Long, Long Time Ago...",
+								"item_count": 1,
+								"access_rules": [
+									"pray"
+								]
+							}
+						]
+					},
+					{
+						"name": "Secret Chest",
+						"short_name": "Friend",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 4237,
+								"y": 945
+							},
+							{
+								"map": "far_shore",
+								"x": 575,
+								"y": 1155,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Dash Across",
+								"access_rules": [
+									"dash"
+								],
+								"item_count": 1
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

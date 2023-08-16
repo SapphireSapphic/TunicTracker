@@ -1,0 +1,104 @@
+﻿[
+  {
+    "name": "fullmap",
+    "location_size": 90,
+    "location_border_thickness": 15,
+    "img": "maps/fullmap.png"
+  },
+  {
+	  "name": "earth",
+    "location_size": 20,
+    "location_border_thickness": 6,
+	  "img": "maps/beneath_the_earth.png"
+  },
+  {
+	  "name": "well",
+    "location_size": 38,
+    "location_border_thickness": 9,
+	  "img": "maps/beneath_the_well.png"
+  },
+  {
+	  "name": "cathedral",
+    "location_size": 26,
+    "location_border_thickness": 6,
+	  "img": "maps/cathedral.png"
+  },
+  {
+	  "name": "dark_tomb",
+    "location_size": 28,
+    "location_border_thickness": 6,
+	  "img": "maps/dark_tomb.png"
+  },
+  {
+	  "name": "eastern_vault",
+    "location_size": 30,
+    "location_border_thickness": 7,
+	  "img": "maps/eastern_vault.png"
+  },
+  {
+	  "name": "frogs_domain",
+    "location_size": 35,
+    "location_border_thickness": 10,
+	  "img": "maps/frogs_domain.png"
+  },
+  {
+	  "name": "graveyard",
+    "location_size": 28,
+    "location_border_thickness": 7,
+	  "img": "maps/graveyard.png"
+  },
+  {
+	  "name": "overworld",
+    "location_size": 35,
+    "location_border_thickness": 8,
+	  "img": "maps/overworld.png"
+  },
+  {
+	  "name": "quarry",
+    "location_size": 30,
+    "location_border_thickness": 7,
+	  "img": "maps/quarry.png"
+  },
+  {
+	  "name": "ruined_atoll",
+    "location_size": 32,
+    "location_border_thickness": 8,
+	  "img": "maps/ruined_atoll.png"
+  },
+  {
+	  "name": "west_gardens",
+    "location_size": 28,
+    "location_border_thickness": 7,
+	  "img": "maps/west_gardens.png"
+  },
+  {
+	  "name": "library",
+    "location_size": 25,
+    "location_border_thickness": 4,
+	  "img": "maps/library.png"
+  },
+  {
+	  "name": "east_forest",
+    "location_size": 24,
+    "location_border_thickness": 5,
+	  "img": "maps/east_forest.png"
+  },
+  {
+	  "name": "far_shore",
+    "location_size": 40,
+    "location_border_thickness": 8,
+	  "img": "maps/far_shore.png"
+  },
+  {
+	  "name": "ziggurat",
+    "location_size": 32,
+    "location_border_thickness": 7,
+	  "img": "maps/ziggurat.png"
+  },
+  {
+	  "name": "secrets",
+    "location_size": 25,
+    "location_border_thickness": 6,
+	  "img": "maps/secrets.png"
+  }
+]

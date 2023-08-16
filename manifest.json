@@ -2,15 +2,22 @@
   "name": "Tunic Randomizer - Item & Map Tracker",
   "game_name": "Tunic",
   "platform": "PC",
-  "package_version": "1.4.2",
+  "package_version": "2.0",
   "package_uid": "tunic_sapphiresapphic",
-  "author": "SapphireSapphic, Scout_JD",
+  "author": "SapphireSapphic, Scout_JD, Br00ty",
   "variants": {
     "standard": {
-      "display_name": "Map Tracker"
+      "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
     },
     "items_only": {
-      "display_name": "Item Tracker"
+      "display_name": "Item Tracker",
+      "flags": [
+        "ap"
+      ]
     }
-  }
+  },
+  "versions_url": "https://raw.githubusercontent.com/SapphireSapphic/TunicTracker/master/versions.json"
 }

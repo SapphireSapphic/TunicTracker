@@ -5,17 +5,43 @@ ScriptHost:LoadScript("scripts/settings.lua")
 print("Active Variant:")
 print(Tracker.ActiveVariantUID)
 
-Tracker:AddItems("common.json")
-
 if not (string.find(Tracker.ActiveVariantUID, "items_only")) then
-    ScriptHost:LoadScript("scripts/logic_common.lua")
+  ScriptHost:LoadScript("scripts/logic_common.lua")
+  if PopVersion then
+    Tracker:AddMaps("maps/maps_pop.json")
+    Tracker:AddLocations("locations/locations_pop.json")
+  else
     Tracker:AddMaps("maps/maps.json")
-    Tracker:AddLocations("locations.json")
+    Tracker:AddLocations("locations/locations.json")
+  end
 end
 
-Tracker:AddLayouts("layouts/items.json")
-Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/standard_broadcast.json")
+if PopVersion then
+  Tracker:AddItems("items/common_pop.json")
+else
+  Tracker:AddItems("items/common.json")
+end
+
+if PopVersion then
+  Tracker:AddLayouts("layouts/itemspop.json")
+else
+  Tracker:AddLayouts("layouts/items.json")
+end
+
+if PopVersion then
+  Tracker:AddLayouts("layouts/trackerpop.json")
+else
+  Tracker:AddLayouts("layouts/tracker.json")
+end
+
+if PopVersion then
+  Tracker:AddLayouts("layouts/standard_broadcastpop.json")
+else
+  Tracker:AddLayouts("layouts/standard_broadcast.json")
+end
+
+-- Utility Script for helper functions etc.
+ScriptHost:LoadScript("scripts/utils.lua")
 
 -- see if the file exists
 function file_exists(file)
@@ -31,5 +57,7 @@ else
 	print("Autotracker disabled, File not found.")
 end
 
--- Select a broadcast view layout
-Tracker:AddLayouts("layouts/standard_broadcast.json")
+-- Autotracking for Poptracker
+if PopVersion and PopVersion >= "0.18.0" then
+  ScriptHost:LoadScript("scripts/autotracking_pop.lua")
+end
