@@ -1,4 +1,4 @@
-# Tunic Randomizer Tracker by SapphireSapphic and ScoutJD
+# Tunic Randomizer Tracker by SapphireSapphic, ScoutJD, and Br00ty
 
 To install, simply navigate to the package manager in EmoTracker, and search "Tunic", then hit download!
 If you encounter any issues, please contact SapphireSapphic#8218 on discord.
@@ -15,6 +15,8 @@ Also new to this version is Hint Tracking! As many of you may know, there are 8 
 The top two hints always correspond to the starting Mailbox hint and the Laurels hint located in the Sealed Temple.
 The Bottom Left 3 hints correspond to the 3 Hexagon hints, located in the Library, Swamp, and Monastery.
 The Bottom Right 3 hints correspond to any major item hints you may want to keep track of on your journey.
+
+As of version 1.5, this package is now also compatible with Poptracker, for use with Tunic Archipelago. This is all thanks to much hard work and love from Br00ty, who will continue to provide maintenence and updates concerning the Poptracker/AP side of things.
 
 Note: The "Hints" section of the tracker is only intended for generalized hints (ie. "The Laurels are in The Quarry" or "East Forest is on the path of the hero"). For specific location hints, you can click on the corresponding check and mark the item directly (ie. 15 coins in the well hoards the Shield).
 
