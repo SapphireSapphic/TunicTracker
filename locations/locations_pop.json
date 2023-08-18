@@ -1529,6 +1529,8 @@
 							{
 								"name": "Chest",
 								"access_rules": [
+									"grass",
+									"firesword,ring",
 									"dash",
 									"orb"
 								],

@@ -47,7 +47,6 @@ ITEM_MAPPING = {
     [509342455] = {"sprelic", "toggle"},
     [509342449] = {"shrooms", "progressive"},
     [509342453] = {"mprelic", "toggle"},
-    --[456] = {"hexquest", "toggle"}, NOT USED WHEN NOT IN HEXAGON QUEST
     [509342512] = {"pray", "toggle"},
     [509342521] = {"cross", "toggle"},
     [509342431] = {"dath", "toggle"},
