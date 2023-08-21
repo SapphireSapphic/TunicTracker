@@ -39,6 +39,7 @@
 	{
 		"name": "Sword",
 		"type": "progressive",
+		//"initial_stage_idx": 1,
 		"loop": false,
 		"stages": [
 			{"img": "images/sword2.png","codes": "sword,ring,grass,switch,tubes"},
@@ -84,17 +85,73 @@
 	//Abilities
 	{
 		"name": "Prayer",
-		"type": "toggle",
+		"type": "progressive",
+		"allow_disabled": false,
 		"loop": true,
-		"img":"images/pray.png",
-		"codes": "pray"
+		//"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/pray.png",
+				"codes": "pray, prayershuffle"
+			},
+			{
+				"img": "images/pray.png",
+				"codes": "notpray, prayershuffle",
+				"img_mods": "@disabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/pray.png",
+				"codes": "pray, prayershuffle",
+				"inherit_codes": false
+			}
+		]
 	},
 	{
 		"name": "Holy Cross",
-		"type": "toggle",
+		"type": "progressive",
+		"allow_disabled": false,
 		"loop": true,
-		"img":"images/cross.png",
-		"codes": "cross"
+		//"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/cross.png",
+				"codes": "cross, crossshuffle"
+			},
+			{
+				"img": "images/cross.png",
+				"codes": "notcross, crossshuffle",
+				"img_mods": "@disabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/cross.png",
+				"codes": "cross, crossshuffle"
+			}
+		]
+	},
+	{
+		"name": "Ice Rod",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		//"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/icerod.png",
+				"codes": "icerod,freeze,icerodshuffle"
+			},
+			{
+				"img": "images/icerod.png",
+				"codes": "icerodshuffle",
+				"img_mods": "@disabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/icerod.png",
+				"codes": "icerod,freeze,icerodshuffle"
+			}
+		]
 	},
 	{
 		"name": "Ice Rod",
@@ -224,6 +281,7 @@
 		"loop": true,
 		"img":"images/card_slots.png",
 		"codes": "slot",
+		"allow_disabled": false,
 		"max_quantity": 5,
 		"min_quantity": 1
 	},
@@ -641,13 +699,12 @@
 			{//Classic
 				"name": "Classic",
 				"img": "images/Classic.png",
-				"codes": "mode,classic"
+				"codes": "hexagonquest"
 			},
 			{//Hexagon Quest
 				"name": "Hexagon Quest",
 				"img": "images/Hexagon_Quest.png",
-				"codes": "mode,quest,pray,cross",
-				"inherit_codes": true
+				"codes": "hexagonquest"
 			}
 		]
 	},

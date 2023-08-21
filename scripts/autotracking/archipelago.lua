@@ -58,8 +58,54 @@ function onClear(slot_data)
             end
         end
     end
+
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+
+    if SLOT_DATA == nil then
+        return
+    end
+
+    if slot_data['ability_shuffling'] then
+        print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
+        local obj = Tracker:FindObjectForCode("prayershuffle")
+        if obj then
+            obj.CurrentStage = slot_data['ability_shuffling']
+        end
+    end
+
+    if slot_data['ability_shuffling'] then
+        print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
+        local obj = Tracker:FindObjectForCode("crossshuffle")
+        if obj then
+            obj.CurrentStage = slot_data['ability_shuffling']
+        end
+    end
+
+    if slot_data['ability_shuffling'] then
+        print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
+        local obj = Tracker:FindObjectForCode("icerodshuffle")
+        if obj then
+            obj.CurrentStage = slot_data['ability_shuffling']
+        end
+    end
+
+    if slot_data['start_with_sword'] then
+        print("slot_data['start_with_sword']: " .. slot_data['start_with_sword'])
+        local obj = Tracker:FindObjectForCode("sword")
+        if obj then
+            obj.CurrentStage = slot_data['ability_shuffling']
+        end
+    end
+
+    if slot_data['hexagon_quest'] then
+        print("slot_data['hexagon_quest']: " .. slot_data['hexagon_quest'])
+        local obj = Tracker:FindObjectForCode("hexagonquest")
+        if obj then
+            obj.CurrentStage = slot_data['hexagon_quest']
+        end
+    end
+
     -- manually run snes interface functions after onClear in case we are already ingame
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
