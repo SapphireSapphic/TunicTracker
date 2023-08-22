@@ -94,7 +94,7 @@ function onClear(slot_data)
         print("slot_data['start_with_sword']: " .. slot_data['start_with_sword'])
         local obj = Tracker:FindObjectForCode("sword")
         if obj then
-            obj.CurrentStage = slot_data['ability_shuffling']
+            obj.CurrentStage = slot_data['start_with_sword']
         end
     end
 
