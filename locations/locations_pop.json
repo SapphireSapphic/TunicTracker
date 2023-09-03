@@ -7229,6 +7229,42 @@
 										"item_count": 1
 									}
 								]
+							},
+							{
+								"name": "Secret Legend Trophy Chest",
+								"access_rules": ["cross"],
+								"short_name": "Double Secret",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 4570,
+										"y": 3025
+									},
+									{
+										"map": "cathedral",
+										"x": 140,
+										"y": 250,
+										"size": 35
+									},
+									{
+										"map": "graveyard",
+										"x": 815,
+										"y": 0,
+										"size": 45
+									},
+									{
+										"map": "secrets",
+										"x": 1000,
+										"y": 260
+									}
+								],
+								"sections": [
+									{
+										"name": "You can use the Holy Cross from the outside",
+										"item_count": 1,
+										"capture_item": true
+									}
+								]
 							}
 						]
 					}
@@ -7289,35 +7325,6 @@
 							{
 								"name": "Pray to the Wallman",
 								"item_count": 1
-							}
-						]
-					},
-					{
-						"name": "Secret Legend Trophy Chest",
-						"short_name": "Double Secret",
-						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4570,
-								"y": 3025
-							},
-							{
-								"map": "cathedral",
-								"x": 140,
-								"y": 250,
-								"size": 35
-							},
-							{
-								"map": "secrets",
-								"x": 1000,
-								"y": 260
-							}
-						],
-						"sections": [
-							{
-								"name": "You can use the Holy Cross from the outside",
-								"item_count": 1,
-								"capture_item": true
 							}
 						]
 					},

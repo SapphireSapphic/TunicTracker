@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.5.4",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.5.3/TunicTracker.zip",
+            "sha256": "0B815A100490BB3EAFB48F43717A2328CDC1C6FD304620EFF8E568A597C0E34C",
+            "changelog": [
+                "added a variant pack for the settings 'Progressive Swords' (there will be a better solution down the line)",
+                "updated item ID's to match new release version",
+                "added some boss autotracking"
+            ]
+        },
+        {
             "package_version": "1.5.3",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.5.3/TunicTracker.zip",
             "sha256": "74CF8A8AFA9BFB29A301A8B277182B2AE567AEAF9C6887A18A89465E3B56583C",

@@ -70,7 +70,7 @@ LOCATION_MAPPING = {
     
     [509342461] = {"@Full World/Path to the Eastern Vault/Eastern Vault Fortress/Fortress Leaf Piles - Secret Chest/Dusty"}, 
     [509342462] = {"@Full World/Path to the Eastern Vault/Eastern Vault Fortress/Fortress Arena/Hexagon Red"}, 
-    [509342463] = {"@Full World/Path to the Eastern Vault/Eastern Vault Fortress/Fortress Arena/Siege Engine|Vault Key Pickup"}, 
+    [509342463] = {"engine"}, 
     [509342464] = {"@Full World/Path to the Eastern Vault/Eastern Vault Fortress/Fortress East Shortcut - Chest Near Slimes/Mind the Custodians"}, 
     [509342465] = {"@Full World/Path to the Eastern Vault/Eastern Vault Fortress/[West Wing] Candles Holy Cross/Use the Holy Cross"}, 
     [509342466] = {"@Full World/Path to the Eastern Vault/Eastern Vault Fortress/Westmost Upper Room/[West Wing] Dark Room Chest 1"}, 
@@ -253,7 +253,7 @@ LOCATION_MAPPING = {
     [509342632] = {"@Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Lower - Guarded By Double Turrets/Help"}, 
     [509342633] = {"@Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Lower - After 2nd Double Turret Chest/Haircut Time!"}, 
     [509342634] = {"@Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Lower - Guarded By Double Turrets 2/Oh god they're everywhere"}, 
-    [509342635] = {"@Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Lower - Hexagon Blue/Scavenger Queen"}, 
+    [509342635] = {"scavboss"}, 
     
     [509342636] = {"@Full World/Ruined Atoll/[West] Near Kevin Block/Phonomath"}, 
     [509342637] = {"@Full World/Ruined Atoll/[South] Upper Floor On Power Line/Hidden Ladder Chest"}, 
@@ -273,8 +273,8 @@ LOCATION_MAPPING = {
     [509342651] = {"@Full World/Ruined Atoll/[Southeast] Chest Near Fuse/Around the Tower"}, 
     [509342652] = {"@Full World/Ruined Atoll/[Northeast] Key Pickup/Around the Hill"}, 
     
-    [509342653] = {"@Full World/The Cathedral/Cathedral Gauntlet/Gauntlet Reward"}, 
-    [509342654] = {"@Full World/The Cathedral/Secret Legend Trophy Chest/You can use the Holy Cross from the outside"}, 
+    [509342653] = {"gauntlet"}, 
+    [509342654] = {"@Full World/Swamp/Inner Graveyard/Secret Legend Trophy Chest/You can use the Holy Cross from the outside"}, 
     
     [509342655] = {"@Full World/Swamp/Inner Graveyard/[Upper Graveyard] Obscured Behind Hill/Between Two Hills"}, 
     [509342656] = {"@Full World/Swamp/Inner Graveyard/[South Graveyard] 4 Orange Skulls/DJ Khaled - Let's go Golfing!"}, 

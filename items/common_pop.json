@@ -58,6 +58,31 @@
 		]
 	},
 	{
+		"name": "Progressive Sword",
+		"type": "progressive",
+		//"allow_disabled": true,
+		"loop": false,
+		//"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/sword1.png",
+				"codes": "stick,ring,switch,tubes,progsword"
+			},
+			{
+				"img": "images/sword2.png",
+				"codes": "sword,ring,grass,switch,tubes,progsword"
+			},
+			{
+				"img": "images/sword3.png",
+				"codes": "sword,ring,grass,switch,tubes,progsword"			
+			},
+			{
+				"img": "images/sword4.png",
+				"codes": "sword,ring,grass,switch,tubes,progsword"			
+			}
+		]
+	},
+	{
 		"name": "Magic Dagger",
 		"type": "toggle",
 		"loop": true,
