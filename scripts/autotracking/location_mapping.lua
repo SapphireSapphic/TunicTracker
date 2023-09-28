@@ -100,7 +100,7 @@ LOCATION_MAPPING = {
     [509342488] = {"@Full World/Ruined Atoll/Frog's Domain/Side Room Grapple Secret/Grapple on Over"}, 
     [509342489] = {"@Full World/Ruined Atoll/Frog's Domain/Magic Orb Pickup/Frult Meeting"}, 
     
-    [509342490] = {"@Full World/Ruined Atoll/The Grand Library/The Librarian/Hexagon Green"}, 
+    [509342490] = {"librarian"}, 
     [509342491] = {"@Full World/Ruined Atoll/The Grand Library/Library Hall/Holy Cross Chest"}, 
     [509342492] = {"@Full World/Ruined Atoll/The Grand Library/Library Lab/Chest By Shrine 2"}, 
     [509342493] = {"@Full World/Ruined Atoll/The Grand Library/Library Lab/Chest By Shrine 1"}, 

@@ -18,6 +18,7 @@ end
 
 if PopVersion then
   Tracker:AddItems("items/common_pop.json")
+  Tracker:AddItems("items/common_pop_modified.json")
 else
   Tracker:AddItems("items/common.json")
 end

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Auto Tab Switching",
+        "type": "progressive",
+        "codes": "auto_tab",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+          {
+            "img": "images/cog_gray.png"
+          },
+          {
+            "img": "images/cog.png",
+            "codes": "auto_tab"
+          }
+        ]
+      }
+]

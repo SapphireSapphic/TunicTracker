@@ -1,6 +1,22 @@
 {
     "versions": [
         {
+            "package_version": "1.5.6",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.5.6/TunicTracker.zip",
+            "sha256": "9454B8EE2C3CA2A5A1E0037D527E0E91A864D91BD220E11371914945DAAA0B19",
+            "changelog": [
+                "changed 'gold hexagons' to AP name 'Questagons'",
+                "changed 'blue/green/red keys' to AP name 'Blue/Green/Red Questagons'",
+                "changed 'shotgun' to AP name 'Gun'",
+                "changed quantity for 'Questagons' to 50 to match new AP settings",
+                "added autotracking for questagon hunt abilities",
+                "changed abilities from progressive items to toggles",
+                "added files to add auto-tabbing for maps (not implemented yet)",
+                "removed 'full map' from map tabs to support auto-tabbing",
+                "changed 'Librarian' boss fight to be hosted with its related check"
+            ]
+        },
+        {
             "package_version": "1.5.5",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.5.5/TunicTracker.zip",
             "sha256": "4EE32B6C4490A82F34C484CA14A4CA78646DA7A75F346F727865E82487F6CA65",

@@ -39,47 +39,11 @@
 	{
 		"name": "Sword",
 		"type": "progressive",
-		//"allow_disabled": true,
 		"loop": false,
-		//"initial_stage_idx": 1,
 		"stages": [
-			{
-				"img": "images/sword2.png",
-				"codes": "sword,ring,grass,switch,tubes"
-			},
-			{
-				"img": "images/sword3.png",
-				"codes": "sword,ring,grass,switch,tubes"			
-			},
-			{
-				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes"			
-			}
-		]
-	},
-	{
-		"name": "Progressive Sword",
-		"type": "progressive",
-		//"allow_disabled": true,
-		"loop": false,
-		//"initial_stage_idx": 1,
-		"stages": [
-			{
-				"img": "images/sword1.png",
-				"codes": "stick,ring,switch,tubes,progsword"
-			},
-			{
-				"img": "images/sword2.png",
-				"codes": "sword,ring,grass,switch,tubes,progsword"
-			},
-			{
-				"img": "images/sword3.png",
-				"codes": "sword,ring,grass,switch,tubes,progsword"			
-			},
-			{
-				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes,progsword"			
-			}
+			{"img": "images/sword2.png","codes": "sword,ring,grass,switch,tubes"},
+			{"img": "images/sword3.png","codes": "sword,ring,grass,switch,tubes"},
+			{"img": "images/sword4.png","codes": "sword,ring,grass,switch,tubes"}
 		]
 	},
 	{
@@ -104,7 +68,7 @@
 		"codes": "hourglass"
 	},
 	{
-		"name": "Gun",
+		"name": "A Gun?!",
 		"type": "toggle",
 		"loop": true,
 		"img":"images/a_gun.png",
@@ -123,100 +87,25 @@
 		"type": "toggle",
 		"loop": true,
 		"img":"images/pray.png",
-		"codes": "pray"
+		"codes": "pray",
+		"initial_active_state": true
 	},
-	//{
-	//	"name": "Prayer",
-	//	"type": "progressive",
-	//	"allow_disabled": false,
-	//	"loop": true,
-	//	//"initial_stage_idx": 1,
-	//	"stages": [
-	//		{
-	//			"img": "images/pray.png",
-	//			"codes": "pray, prayershuffle"
-	//		},
-	//		{
-	//			"img": "images/pray.png",
-	//			"codes": "notpray, prayershuffle",
-	//			"img_mods": "@disabled",
-	//			"inherit_codes": false
-	//		},
-	//		{
-	//			"img": "images/pray.png",
-	//			"codes": "pray, prayershuffle",
-	//			"inherit_codes": false
-	//		}
-	//	]
-	//},
 	{
 		"name": "Holy Cross",
 		"type": "toggle",
 		"loop": true,
 		"img":"images/cross.png",
-		"codes": "cross"
+		"codes": "cross",
+		"initial_active_state": true
 	},
-	//{
-	//	"name": "Holy Cross",
-	//	"type": "progressive",
-	//	"allow_disabled": false,
-	//	"loop": true,
-	//	//"initial_stage_idx": 1,
-	//	"stages": [
-	//		{
-	//			"img": "images/cross.png",
-	//			"codes": "cross, crossshuffle"
-	//		},
-	//		{
-	//			"img": "images/cross.png",
-	//			"codes": "notcross, crossshuffle",
-	//			"img_mods": "@disabled",
-	//			"inherit_codes": false
-	//		},
-	//		{
-	//			"img": "images/cross.png",
-	//			"codes": "cross, crossshuffle"
-	//		}
-	//	]
-	//},
 	{
 		"name": "Ice Rod",
 		"type": "toggle",
 		"loop": true,
 		"img":"images/icerod.png",
-		"codes": "icerod,freeze"
+		"codes": "icerod,freeze",
+		"initial_active_state": true
 	},
-	//{
-	//	"name": "Ice Rod",
-	//	"type": "progressive",
-	//	"allow_disabled": false,
-	//	"loop": true,
-	//	//"initial_stage_idx": 1,
-	//	"stages": [
-	//		{
-	//			"img": "images/icerod.png",
-	//			"codes": "icerod,freeze,icerodshuffle"
-	//		},
-	//		{
-	//			"img": "images/icerod.png",
-	//			"codes": "icerodshuffle",
-	//			"img_mods": "@disabled",
-	//			"inherit_codes": false
-	//		},
-	//		{
-	//			"img": "images/icerod.png",
-	//			"codes": "icerod,freeze,icerodshuffle"
-	//		}
-	//	]
-	//},
-	//{
-	//	"name": "Ice Rod",
-	//	"type": "toggle",
-	//	"loop": true,
-	//	"img":"images/icerod.png",
-	//	"codes": "icerod,freeze",
-	//	"initial_active_state": true
-	//},
 	//Consumables
 	{
 		"name": "Ice Bomb",
@@ -337,17 +226,16 @@
 		"loop": true,
 		"img":"images/card_slots.png",
 		"codes": "slot",
-		"allow_disabled": false,
 		"max_quantity": 5,
 		"min_quantity": 1
 	},
 	{
-		"name": "Questagons",
+		"name": "Golden Hexagons",
 		"type": "consumable",
 		"loop": true,
 		"img":"images/hex_gold.png",
 		"codes": "hexquest",
-		"max_quantity": 50
+		"max_quantity": 30
 	},
 	//Stats
 	{
@@ -358,20 +246,19 @@
 		"stages": [
 			{"img":"images/stats/attack-1.png","codes": "fangs"},
 			{"img":"images/stats/attack-2.png"},
+			{"img":"images/stats/attack-2g.png"},
 			{"img":"images/stats/attack-3.png"},
+			{"img":"images/stats/attack-3g.png"},
 			{"img":"images/stats/attack-4.png"},
+			{"img":"images/stats/attack-4g.png"},
 			{"img":"images/stats/attack-5.png"},
+			{"img":"images/stats/attack-5g.png"},
 			{"img":"images/stats/attack-6.png"},
+			{"img":"images/stats/attack-6g.png"},
 			{"img":"images/stats/attack-7.png"},
+			{"img":"images/stats/attack-7g.png"},
 			{"img":"images/stats/attack-8g.png"}
 		]
-	},
-	{
-		"name": "Hero Relic - ATT",
-		"type": "toggle_badged",
-		"base_item": "fangs",
-		"img": "images/attack_fangs.png",
-		"codes": "attrelic"
 	},
 	{
 		"name": "Defense Idols",
@@ -381,20 +268,19 @@
 		"stages": [
 			{"img":"images/stats/defense-1.png","codes": "idols"},
 			{"img":"images/stats/defense-2.png"},
+			{"img":"images/stats/defense-2g.png"},
 			{"img":"images/stats/defense-3.png"},
+			{"img":"images/stats/defense-3g.png"},
 			{"img":"images/stats/defense-4.png"},
+			{"img":"images/stats/defense-4g.png"},
 			{"img":"images/stats/defense-5.png"},
+			{"img":"images/stats/defense-5g.png"},
 			{"img":"images/stats/defense-6.png"},
+			{"img":"images/stats/defense-6g.png"},
 			{"img":"images/stats/defense-7.png"},
+			{"img":"images/stats/defense-7g.png"},
 			{"img":"images/stats/defense-8g.png"}
 		]
-	},
-	{
-		"name": "Hero Relic - DEF",
-		"type": "toggle_badged",
-		"base_item": "idols",
-		"img": "images/defense_idols.png",
-		"codes": "defrelic"
 	},
 	{
 		"name": "HP Flowers",
@@ -404,20 +290,19 @@
 		"stages": [
 			{"img":"images/stats/health-1.png","codes": "flowers"},
 			{"img":"images/stats/health-2.png"},
+			{"img":"images/stats/health-2g.png"},
 			{"img":"images/stats/health-3.png"},
+			{"img":"images/stats/health-3g.png"},
 			{"img":"images/stats/health-4.png"},
+			{"img":"images/stats/health-4g.png"},
 			{"img":"images/stats/health-5.png"},
+			{"img":"images/stats/health-5g.png"},
 			{"img":"images/stats/health-6.png"},
+			{"img":"images/stats/health-6g.png"},
 			{"img":"images/stats/health-7.png"},
+			{"img":"images/stats/health-7g.png"},
 			{"img":"images/stats/health-8g.png"}
 		]
-	},
-	{
-		"name": "Hero Relic - HP",
-		"type": "toggle_badged",
-		"base_item": "flowers",
-		"img": "images/hp_flowers.png",
-		"codes": "hprelic"
 	},
 	{
 		"name": "MP Shrooms",
@@ -427,20 +312,19 @@
 		"stages": [
 			{"img":"images/stats/mana-1.png","codes": "shrooms"},
 			{"img":"images/stats/mana-2.png"},
+			{"img":"images/stats/mana-2g.png"},
 			{"img":"images/stats/mana-3.png"},
+			{"img":"images/stats/mana-3g.png"},
 			{"img":"images/stats/mana-4.png"},
+			{"img":"images/stats/mana-4g.png"},
 			{"img":"images/stats/mana-5.png"},
+			{"img":"images/stats/mana-5g.png"},
 			{"img":"images/stats/mana-6.png"},
+			{"img":"images/stats/mana-6g.png"},
 			{"img":"images/stats/mana-7.png"},
+			{"img":"images/stats/mana-7g.png"},
 			{"img":"images/stats/mana-8g.png"}
 		]
-	},
-	{
-		"name": "Hero Relic - MP",
-		"type": "toggle_badged",
-		"base_item": "shrooms",
-		"img": "images/mp_shrooms.png",
-		"codes": "mprelic"
 	},
 	{
 		"name": "Potion Powder",
@@ -450,20 +334,19 @@
 		"stages": [
 			{"img":"images/stats/potion-1.png","codes": "powder"},
 			{"img":"images/stats/potion-2.png"},
+			{"img":"images/stats/potion-2g.png"},
 			{"img":"images/stats/potion-3.png"},
+			{"img":"images/stats/potion-3g.png"},
 			{"img":"images/stats/potion-4.png"},
+			{"img":"images/stats/potion-4g.png"},
 			{"img":"images/stats/potion-5.png"},
+			{"img":"images/stats/potion-5g.png"},
 			{"img":"images/stats/potion-6.png"},
+			{"img":"images/stats/potion-6g.png"},
 			{"img":"images/stats/potion-7.png"},
+			{"img":"images/stats/potion-7g.png"},
 			{"img":"images/stats/potion-8g.png"}
 		]
-	},
-	{
-		"name": "Hero Relic - POTION",
-		"type": "toggle_badged",
-		"base_item": "powder",
-		"img": "images/potion_powder.png",
-		"codes": "potionrelic"
 	},
 	{
 		"name": "Stamina Leaves",
@@ -473,20 +356,19 @@
 		"stages": [
 			{"img":"images/stats/stamina-1.png","codes": "leaves"},
 			{"img":"images/stats/stamina-2.png"},
+			{"img":"images/stats/stamina-2g.png"},
 			{"img":"images/stats/stamina-3.png"},
+			{"img":"images/stats/stamina-3g.png"},
 			{"img":"images/stats/stamina-4.png"},
+			{"img":"images/stats/stamina-4g.png"},
 			{"img":"images/stats/stamina-5.png"},
+			{"img":"images/stats/stamina-5g.png"},
 			{"img":"images/stats/stamina-6.png"},
+			{"img":"images/stats/stamina-6g.png"},
 			{"img":"images/stats/stamina-7.png"},
-			{"img":"images/stats/stamina-8g.png"}
+			{"img":"images/stats/stamina-7g.png"},
+			{"img":"images/stats/stamina-8g.png",}
 		]
-	},
-	{
-		"name": "Hero Relic - SP",
-		"type": "toggle_badged",
-		"base_item": "leaves",
-		"img": "images/stamina_leaves.png",
-		"codes": "sprelic"
 	},
 	//Other Items
 	{
@@ -511,7 +393,7 @@
 		"codes": "work"
 	},
 	{
-		"name": "Blue Questagon",
+		"name": "Blue Key",
 		"type": "toggle",
 		"loop": true,
 		"img":"images/blue_key.png",
@@ -567,7 +449,7 @@
 		"codes": "friend"
 	},
 	{
-		"name": "Green Questagon",
+		"name": "Green Key",
 		"type": "toggle",
 		"loop": true,
 		"img":"images/green_key.png",
@@ -651,7 +533,7 @@
 		"codes": "powerup"
 	},
 	{
-		"name": "Red Questagon",
+		"name": "Red Key",
 		"type": "toggle",
 		"loop": true,
 		"img":"images/red_key.png",
@@ -743,24 +625,6 @@
 				"name": "Glitches",
 				"img": "images/Glitches.png",
 				"codes": "mode,glitches"
-			}
-		]
-	},
-	{
-		"name": "Randomizer Mode",
-		"type": "progressive",
-		"loop": true,
-		"allow_disabled": false,
-		"stages": [
-			{//Classic
-				"name": "Classic",
-				"img": "images/Classic.png",
-				"codes": "hexagonquest"
-			},
-			{//Hexagon Quest
-				"name": "Hexagon Quest",
-				"img": "images/Hexagon_Quest.png",
-				"codes": "hexagonquest"
 			}
 		]
 	},

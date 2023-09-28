@@ -5,11 +5,16 @@
 -- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+--ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+
+hexprayer = nil
+hexcross = nil
+hexice = nil
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -66,27 +71,59 @@ function onClear(slot_data)
         return
     end
 
-    if slot_data['ability_shuffling'] then
-        print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
-        local obj = Tracker:FindObjectForCode("prayershuffle")
-        if obj then
-            obj.CurrentStage = slot_data['ability_shuffling']
-        end
+    if slot_data['Hexagon Quest Prayer'] then
+        hexprayer = slot_data['Hexagon Quest Prayer']
+        print("hexprayer: " .. hexprayer)
+    end
+    if slot_data['Hexagon Quest Holy Cross'] then
+        hexcross = slot_data['Hexagon Quest Holy Cross']
+        print("hexcross: " .. hexcross)
+    end
+    if slot_data['Hexagon Quest Ice Rod'] then
+        hexice = slot_data['Hexagon Quest Ice Rod']
+        print("hexice: " .. hexice)
     end
 
-    if slot_data['ability_shuffling'] then
-        print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
-        local obj = Tracker:FindObjectForCode("crossshuffle")
+    --if slot_data['ability_shuffling'] then
+    --    print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
+    --    local obj = Tracker:FindObjectForCode("prayershuffle")
+    --    if obj then
+    --        obj.CurrentStage = slot_data['ability_shuffling']
+    --    end
+    --end
+    if slot_data.ability_shuffling then
+        print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
+        local obj = Tracker:FindObjectForCode("pray")
         if obj then
-            obj.CurrentStage = slot_data['ability_shuffling']
+            obj.Active = slot_data.ability_shuffling == 0
         end
     end
-
-    if slot_data['ability_shuffling'] then
-        print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
-        local obj = Tracker:FindObjectForCode("icerodshuffle")
+    --if slot_data['ability_shuffling'] then
+    --    print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
+    --    local obj = Tracker:FindObjectForCode("crossshuffle")
+    --    if obj then
+    --        obj.CurrentStage = slot_data['ability_shuffling']
+    --    end
+    --end
+    if slot_data.ability_shuffling then
+        print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
+        local obj = Tracker:FindObjectForCode("cross")
         if obj then
-            obj.CurrentStage = slot_data['ability_shuffling']
+            obj.Active = slot_data.ability_shuffling == 0
+        end
+    end
+    --if slot_data['ability_shuffling'] then
+    --    print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
+    --    local obj = Tracker:FindObjectForCode("icerodshuffle")
+    --    if obj then
+    --        obj.CurrentStage = slot_data['ability_shuffling']
+    --    end
+    --end
+    if slot_data.ability_shuffling then
+        print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
+        local obj = Tracker:FindObjectForCode("icerod")
+        if obj then
+            obj.Active = slot_data.ability_shuffling == 0
         end
     end
 
@@ -153,6 +190,24 @@ function onItem(index, item_id, item_name, player_number)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
+    if v[1] == "hexquest" then
+        print("hexes acquired: " .. obj.AcquiredCount)
+        if obj.AcquiredCount >= hexprayer then
+            Tracker:FindObjectForCode("pray").Active = true
+        else
+            Tracker:FindObjectForCode("pray").Active = false
+        end
+        if obj.AcquiredCount >= hexcross then
+            Tracker:FindObjectForCode("cross").Active = true
+        else
+            Tracker:FindObjectForCode("cross").Active = false
+        end
+        if obj.AcquiredCount >= hexice then
+            Tracker:FindObjectForCode("icerod").Active = true
+        else
+            Tracker:FindObjectForCode("icerod").Active = false
+        end
+    end
     -- track local items via snes interface
     if is_local then
         if LOCAL_ITEMS[v[1]] then
@@ -210,7 +265,23 @@ function onLocation(location_id, location_name)
         obj = Tracker:FindObjectForCode("@Full World/The Cathedral/Cathedral Gauntlet/Gauntlet Reward")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
+    if location_name == "Librarian - Hexagon Green" then
+        obj = Tracker:FindObjectForCode("@Full World/Ruined Atoll/The Grand Library/The Librarian/Hexagon Green")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
 end
+
+-- called when the player has moved regions
+--function onChangedRegion(key, current_region, old_region)
+--    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
+--        if TABS_MAPPING[current_region] then
+--            CURRENT_ROOM = TABS_MAPPING[current_region]
+--        else
+--            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+--        end
+--        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+--    end
+--end
 
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)

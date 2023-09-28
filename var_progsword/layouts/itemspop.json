@@ -15,8 +15,8 @@
 					["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
 					["progsword", "dagger", "icerod", "staff", "orb", "gun", "hourglass","hexquest"],
 					["attrelic", "defrelic", "hprelic", "potionrelic", "sprelic", "mprelic"],
-					["pray","cross","dath","goldenpower","justawell","ding", "dong", "visit"],
-					["captain", "gknight", "engine", "librarian", "scavboss", "gauntlet", "heir"]
+					["pray","cross","dath","goldenpower","justawell","ding", "dong"],
+					["gknight", "engine", "librarian", "scavboss", "gauntlet", "heir"]
                 ]
             }
 		]
