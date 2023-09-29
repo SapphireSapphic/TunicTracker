@@ -5,7 +5,7 @@
 -- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
---ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -272,16 +272,16 @@ function onLocation(location_id, location_name)
 end
 
 -- called when the player has moved regions
---function onChangedRegion(key, current_region, old_region)
---    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
---        if TABS_MAPPING[current_region] then
---            CURRENT_ROOM = TABS_MAPPING[current_region]
---        else
---            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
---        end
---        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
---    end
---end
+function onChangedRegion(key, current_region, old_region)
+    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
+        if TABS_MAPPING[current_region] then
+            CURRENT_ROOM = TABS_MAPPING[current_region]
+        else
+            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+        end
+        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+    end
+end
 
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
@@ -305,5 +305,6 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("CurrentRegion", onChangedRegion)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
