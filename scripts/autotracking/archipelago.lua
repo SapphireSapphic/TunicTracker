@@ -147,6 +147,21 @@ function onClear(slot_data)
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
     end
+
+    Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
+    Archipelago:SetNotify({"tunic_:" .. Archipelago.PlayerNumber .. ":CurrentRegion",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Guard Captain",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Garden Knight",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Siege Engine",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Librarian",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Boss Scavenger",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Cleared Cathedral Gauntlet",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Reached an Ending",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Rang East Bell",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Rang West Bell",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Granted Firecracker",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Granted Firebomb",
+                           "tunic_:" .. Archipelago.PlayerNumber .. "Granted Icebomb"})
 end
 
 -- called when an item gets collected
