@@ -16,6 +16,43 @@ hexprayer = nil
 hexcross = nil
 hexice = nil
 
+function onSetReply(key, value, old)
+    if key == "Slot:" .. Archipelago.PlayerNumber .. ":Current Map" then
+        if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
+            if TABS_MAPPING[value] then
+                CURRENT_ROOM = TABS_MAPPING[value]
+            else
+                CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+        end
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain" then
+        Tracker:FindObjectForCode("captain", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight" then
+        Tracker:FindObjectForCode("gknight", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine" then 
+        Tracker:FindObjectForCode("engine", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian" then 
+        Tracker:FindObjectForCode("librarian", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger" then 
+        Tracker:FindObjectForCode("scavboss", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet" then 
+        Tracker:FindObjectForCode("gauntlet", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending" then 
+        Tracker:FindObjectForCode("heir", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell" then 
+        Tracker:FindObjectForCode("ding", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell" then 
+        Tracker:FindObjectForCode("dong", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker" then 
+        Tracker:FindObjectForCode("dynamite", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb" then 
+        Tracker:FindObjectForCode("firebomb", CURRENT_ITEM)
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb" then 
+        Tracker:FindObjectForCode("icebomb", CURRENT_ITEM)
+    end
+end
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -286,23 +323,17 @@ function onLocation(location_id, location_name)
     end
 end
 
--- called when the player has moved regions
-function onChangedRegion(key, current_region, old_region)
-    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
-        if TABS_MAPPING[current_region] then
-            CURRENT_ROOM = TABS_MAPPING[current_region]
-        else
-            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
-        end
-        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
-    end
-end
-
-function onEvent(key, item_id, item_name)
-    if ITEM_MAPPING[item_id] then
-        CURRENT_ITEM = ITEM_MAPPING[item_id]
-    end
-end
+-- called when the player has moved regions -- UNUSED PAST CODE
+--function onChangedRegion(key, current_region, old_region)
+--    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
+--        if TABS_MAPPING[current_region] then
+--            CURRENT_ROOM = TABS_MAPPING[current_region]
+--        else
+--            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+--        end
+--        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+--    end
+--end
 
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
@@ -326,18 +357,7 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
-Archipelago:AddSetReplyHandler("Current Map", onChangedRegion)
-Archipelago:AddSetReplyHandler("Defeated Guard Captain", onEvent)
-Archipelago:AddSetReplyHandler("Defeated Garden Knight", onEvent)
-Archipelago:AddSetReplyHandler("Defeated Siege Engine", onEvent)
-Archipelago:AddSetReplyHandler("Defeated Librarian", onEvent)
-Archipelago:AddSetReplyHandler("Defeated Boss Scavenger", onEvent)
-Archipelago:AddSetReplyHandler("Cleared Cathedral Gauntlet", onEvent)
-Archipelago:AddSetReplyHandler("Reached an Ending", onEvent)
-Archipelago:AddSetReplyHandler("Rang East Bell", onEvent)
-Archipelago:AddSetReplyHandler("Rang West Bell", onEvent)
-Archipelago:AddSetReplyHandler("Granted Firecracker", onEvent)
-Archipelago:AddSetReplyHandler("Granted Firebomb", onEvent)
-Archipelago:AddSetReplyHandler("Granted Icebomb", onEvent)
+--Archipelago:AddSetReplyHandler("Current Map", onChangedRegion) -- OLD OLD OLD
+Archipelago:AddSetReplyHandler("set reply handler", onSetReply)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
