@@ -149,19 +149,19 @@ function onClear(slot_data)
     end
 
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
-    Archipelago:SetNotify({"tunic_:" .. Archipelago.PlayerNumber .. ":CurrentRegion",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Guard Captain",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Garden Knight",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Siege Engine",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Librarian",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Defeated Boss Scavenger",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Cleared Cathedral Gauntlet",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Reached an Ending",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Rang East Bell",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Rang West Bell",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Granted Firecracker",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Granted Firebomb",
-                           "tunic_:" .. Archipelago.PlayerNumber .. "Granted Icebomb"})
+    Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":Current Map",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb"})
 end
 
 -- called when an item gets collected
@@ -298,6 +298,12 @@ function onChangedRegion(key, current_region, old_region)
     end
 end
 
+function onEvent(key, item_id, item_name)
+    if ITEM_MAPPING[item_id] then
+        CURRENT_ITEM = ITEM_MAPPING[item_id]
+    end
+end
+
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -320,6 +326,18 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
-Archipelago:AddSetReplyHandler("CurrentRegion", onChangedRegion)
+Archipelago:AddSetReplyHandler("Current Map", onChangedRegion)
+Archipelago:AddSetReplyHandler("Defeated Guard Captain", onEvent)
+Archipelago:AddSetReplyHandler("Defeated Garden Knight", onEvent)
+Archipelago:AddSetReplyHandler("Defeated Siege Engine", onEvent)
+Archipelago:AddSetReplyHandler("Defeated Librarian", onEvent)
+Archipelago:AddSetReplyHandler("Defeated Boss Scavenger", onEvent)
+Archipelago:AddSetReplyHandler("Cleared Cathedral Gauntlet", onEvent)
+Archipelago:AddSetReplyHandler("Reached an Ending", onEvent)
+Archipelago:AddSetReplyHandler("Rang East Bell", onEvent)
+Archipelago:AddSetReplyHandler("Rang West Bell", onEvent)
+Archipelago:AddSetReplyHandler("Granted Firecracker", onEvent)
+Archipelago:AddSetReplyHandler("Granted Firebomb", onEvent)
+Archipelago:AddSetReplyHandler("Granted Icebomb", onEvent)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
