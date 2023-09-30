@@ -27,29 +27,29 @@ function onSetReply(key, value, old)
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
         end
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain" then
-        Tracker:FindObjectForCode("captain", CURRENT_ITEM)
+        Tracker:FindObjectForCode("captain", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight" then
-        Tracker:FindObjectForCode("gknight", CURRENT_ITEM)
+        Tracker:FindObjectForCode("gknight", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine" then 
-        Tracker:FindObjectForCode("engine", CURRENT_ITEM)
+        Tracker:FindObjectForCode("engine", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian" then 
-        Tracker:FindObjectForCode("librarian", CURRENT_ITEM)
+        Tracker:FindObjectForCode("librarian", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger" then 
-        Tracker:FindObjectForCode("scavboss", CURRENT_ITEM)
+        Tracker:FindObjectForCode("scavboss", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet" then 
-        Tracker:FindObjectForCode("gauntlet", CURRENT_ITEM)
+        Tracker:FindObjectForCode("gauntlet", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending" then 
-        Tracker:FindObjectForCode("heir", CURRENT_ITEM)
+        Tracker:FindObjectForCode("heir", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell" then 
-        Tracker:FindObjectForCode("ding", CURRENT_ITEM)
+        Tracker:FindObjectForCode("ding", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell" then 
-        Tracker:FindObjectForCode("dong", CURRENT_ITEM)
+        Tracker:FindObjectForCode("dong", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker" then 
-        Tracker:FindObjectForCode("dynamite", CURRENT_ITEM)
+        Tracker:FindObjectForCode("dynamite", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb" then 
-        Tracker:FindObjectForCode("firebomb", CURRENT_ITEM)
+        Tracker:FindObjectForCode("firebomb", ITEMS)
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb" then 
-        Tracker:FindObjectForCode("icebomb", CURRENT_ITEM)
+        Tracker:FindObjectForCode("icebomb", ITEMS)
     end
 end
 

@@ -1,5 +1,20 @@
 CURRENT_ITEM = nil
 
+ITEMS = {
+    {"captain", "toggle"},
+    {"gknight", "toggle"},
+    {"engine", "toggle"},
+    {"librarian", "toggle"},
+    {"scavboss", "toggle"},
+    {"gauntlet", "toggle"},
+    {"heir", "toggle"},
+    {"ding", "toggle"},
+    {"dong", "toggle"},
+    {"dynamite", "toggle"},
+    {"firebomb", "toggle"},
+    {"icebomb", "toggle"}
+}
+
 ITEM_MAPPING = {
     [509342400] = {"dynamite", "toggle"},
     [509342401] = {"dynamite", "toggle"},
@@ -108,20 +123,20 @@ ITEM_MAPPING = {
     [509342528] = {"icerod", "toggle"},
     [509342529] = {"manual", "consumable"},
 
-    ["Granted Firecracker"] = {"dynamite", "toggle"},
-    ["Granted Firebomb"] = {"firebomb", "toggle"},
-    ["Granted Icebomb"] = {"icebomb", "toggle"},
+    --["Granted Firecracker"] = {"dynamite", "toggle"},
+    --["Granted Firebomb"] = {"firebomb", "toggle"},
+    --["Granted Icebomb"] = {"icebomb", "toggle"},
 
     --[] = {"goldenpower", "toggle"}, -- ?
     --[] = {"justawell", "toggle"}, -- ?
-    ["Rang East Bell"] = {"ding", "toggle"},
-    ["Rang West Bell"] = {"dong", "toggle"},
+    --["Rang East Bell"] = {"ding", "toggle"},
+    --["Rang West Bell"] = {"dong", "toggle"},
     --[] = {"visit", "toggle"}, -- ?
-    ["Defeated Guard Captain"] = {"captain", "toggle"},
-    ["Defeated Garden Knight"] = {"gknight", "toggle"},
-    ["Defeated Siege Engine"] = {"engine", "toggle"},
-    ["Defeated Librarian"] = {"librarian", "toggle"},
-    ["Defeated Boss Scavenger"] = {"scavboss", "toggle"},
-    ["Cleared Cathedral Gauntlet"] = {"gauntlet", "toggle"},
-    ["Reached an Ending"] = {"heir", "toggle"}
+    --["Defeated Guard Captain"] = {"captain", "toggle"},
+    --["Defeated Garden Knight"] = {"gknight", "toggle"},
+    --["Defeated Siege Engine"] = {"engine", "toggle"},
+    --["Defeated Librarian"] = {"librarian", "toggle"},
+    --["Defeated Boss Scavenger"] = {"scavboss", "toggle"},
+    --["Cleared Cathedral Gauntlet"] = {"gauntlet", "toggle"},
+    --["Reached an Ending"] = {"heir", "toggle"}
 }
