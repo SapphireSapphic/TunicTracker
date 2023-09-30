@@ -2909,32 +2909,32 @@
 							}
 						]
 					},
-					//{
-					//	"name": "Guard Captain",
-					//	"short_name": "Captain",
-					//	"map_locations": [
-					//		{
-					//			"map": "fullmap",
-					//			"x": 3900,
-					//			"y": 2565
-					//		},
-					//		{
-					//			"map": "east_forest",
-					//			"x": 220,
-					//			"y": 70,
-					//			"size": 35
-					//		}
-					//	],
-					//	"sections": [
-					//		{
-					//			"name": "Also, you need to defeat this guy!",
-					//			"hosted_item": "captain",
-					//			"access_rules": [
-					//				"ring"
-					//			]
-					//		}
-					//	]
-					//},
+					{
+						"name": "Guard Captain",
+						"short_name": "Captain",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 3900,
+								"y": 2565
+							},
+							{
+								"map": "east_forest",
+								"x": 220,
+								"y": 70,
+								"size": 35
+							}
+						],
+						"sections": [
+							{
+								"name": "Also, you need to defeat this guy!",
+								"hosted_item": "captain",
+								"access_rules": [
+									"ring"
+								]
+							}
+						]
+					},
 					{
 						"name": "Forest Belltower - After Guard Captain",
 						"short_name": "",
