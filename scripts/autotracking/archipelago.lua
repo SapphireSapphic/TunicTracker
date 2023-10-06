@@ -1,8 +1,3 @@
--- this is an example/ default implementation for AP autotracking
--- it will use the mappings defined in item_mapping.lua and location_mapping.lua to track items and locations via thier ids
--- it will also load the AP slot data in the global SLOT_DATA, keep track of the current index of on_item messages in CUR_INDEX
--- addition it will keep track of what items are local items and which one are remote using the globals LOCAL_ITEMS and GLOBAL_ITEMS
--- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
@@ -166,6 +161,15 @@ function onClear(slot_data)
 
     if slot_data['start_with_sword'] then
         print("slot_data['start_with_sword']: " .. slot_data['start_with_sword'])
+        if slot_data['start_with_sword'] == 0 then
+            Tracker:FindObjectForCode("progsword").CurrentStage = 0
+        elseif slot_data['start_with_sword'] == 1 then 
+            Tracker:FindObjectForCode("progsword").CurrentStage = 2
+        end
+    end
+
+    if slot_data['start_with_sword'] then
+        print("slot_data['start_with_sword']: " .. slot_data['start_with_sword'])
         local obj = Tracker:FindObjectForCode("sword")
         if obj then
             obj.CurrentStage = slot_data['start_with_sword']
@@ -199,18 +203,6 @@ function onClear(slot_data)
                            "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker",
                            "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb",
                            "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb"})
-    --Archipelago:Get({"Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb",
-    --                 "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb"})
 end
 
 -- called when an item gets collected
@@ -334,18 +326,6 @@ function onLocation(location_id, location_name)
     --    obj.AvailableChestCount = obj.AvailableChestCount - 1
     --end
 end
-
--- called when the player has moved regions -- UNUSED PAST CODE
---function onChangedRegion(key, current_region, old_region)
---    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
---        if TABS_MAPPING[current_region] then
---            CURRENT_ROOM = TABS_MAPPING[current_region]
---        else
---            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
---        end
---        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
---    end
---end
 
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
