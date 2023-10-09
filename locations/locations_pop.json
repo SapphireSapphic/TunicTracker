@@ -7504,7 +7504,7 @@
 				],
 				"children": [
 					{
-						"name": "Visit the Heir",
+						"name": "Complete the Game",
 						"short_name": "Visit Heir",
 						"map_locations": [
 							{
@@ -7516,19 +7516,18 @@
 								"map": "far_shore",
 								"x": 825,
 								"y": 930,
-								"size": 45
+								"size": 60
 							}
 						],
 						"sections": [
 							{
-								"name": "Now it's Nighttime!",
+								"name": "What ending did you get?",
 								"access_rules": [
 									"red,green,blue,ding,dong",
 									"red,green,blue,[glitches],orb,freeze",
 									"red,green,blue,dash"
 								],
-								"item_count": 1,
-								"hosted_item": "visit"
+								"hosted_item": "heir"
 							}
 						]
 					},

@@ -16,7 +16,7 @@
 					["progsword", "dagger", "icerod", "staff", "orb", "gun", "hourglass","hexquest"],
 					["attrelic", "defrelic", "hprelic", "potionrelic", "sprelic", "mprelic"],
 					["pray","cross","dath","goldenpower","justawell","ding", "dong"],
-					["gknight", "engine", "librarian", "scavboss", "gauntlet", "heir", "", "auto_tab"]
+					["captain", "gknight", "engine", "librarian", "scavboss", "gauntlet", "heir", "auto_tab"]
                 ]
             }
 		]

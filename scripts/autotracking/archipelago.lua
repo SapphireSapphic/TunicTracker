@@ -309,22 +309,6 @@ function onLocation(location_id, location_name)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
-    --if location_name == "Fortress Arena - Siege Engine/Vault Key Pickup" then
-    --    obj = Tracker:FindObjectForCode("@Full World/Path to the Eastern Vault/Eastern Vault Fortress/Fortress Arena/Siege Engine|Vault Key Pickup")
-    --    obj.AvailableChestCount = obj.AvailableChestCount - 1
-    --end
-    --if location_name == "Rooted Ziggurat Lower - Hexagon Blue" then
-    --    obj = Tracker:FindObjectForCode("@Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Lower - Hexagon Blue/Scavenger Queen")
-    --    obj.AvailableChestCount = obj.AvailableChestCount - 1
-    --end
-    --if location_name == "Cathedral Gauntlet - Gauntlet Reward" then
-    --    obj = Tracker:FindObjectForCode("@Full World/The Cathedral/Cathedral Gauntlet/Gauntlet Reward")
-    --    obj.AvailableChestCount = obj.AvailableChestCount - 1
-    --end
-    --if location_name == "Librarian - Hexagon Green" then
-    --    obj = Tracker:FindObjectForCode("@Full World/Ruined Atoll/The Grand Library/The Librarian/Hexagon Green")
-    --    obj.AvailableChestCount = obj.AvailableChestCount - 1
-    --end
 end
 
 -- called when a locations is scouted
