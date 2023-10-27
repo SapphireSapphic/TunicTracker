@@ -1,20 +1,53 @@
--- this is an example/ default implementation for AP autotracking
--- it will use the mappings defined in item_mapping.lua and location_mapping.lua to track items and locations via thier ids
--- it will also load the AP slot data in the global SLOT_DATA, keep track of the current index of on_item messages in CUR_INDEX
--- addition it will keep track of what items are local items and which one are remote using the globals LOCAL_ITEMS and GLOBAL_ITEMS
--- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
---ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+HOSTED = {captain=1,gknight=2,engine=3,librarian=4,scavboss=5,gauntlet=6,heir=7,ding=8,dong=9,dynamite=10,firebomb=11,icebomb=12}
 
 hexprayer = nil
 hexcross = nil
 hexice = nil
+
+function onSetReply(key, value, old)
+    if key == "Slot:" .. Archipelago.PlayerNumber .. ":Current Map" then
+        if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
+            if TABS_MAPPING[value] then
+                CURRENT_ROOM = TABS_MAPPING[value]
+            else
+                CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+        end
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain" then
+        Tracker:FindObjectForCode("captain", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight" then
+        Tracker:FindObjectForCode("gknight", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine" then 
+        Tracker:FindObjectForCode("engine", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian" then 
+        Tracker:FindObjectForCode("librarian", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger" then 
+        Tracker:FindObjectForCode("scavboss", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet" then 
+        Tracker:FindObjectForCode("gauntlet", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending" then 
+        Tracker:FindObjectForCode("heir", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell" then 
+        Tracker:FindObjectForCode("ding", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell" then 
+        Tracker:FindObjectForCode("dong", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker" then 
+        Tracker:FindObjectForCode("dynamite", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb" then 
+        Tracker:FindObjectForCode("firebomb", ITEMS).Active = true
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb" then 
+        Tracker:FindObjectForCode("icebomb", ITEMS).Active = true
+    end
+end
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -63,6 +96,13 @@ function onClear(slot_data)
             end
         end
     end
+    -- reset hosted items
+    for k, _ in pairs(HOSTED) do
+        local obj = Tracker:FindObjectForCode(k)
+        if obj then
+            obj.Active = false
+        end
+    end
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
@@ -84,13 +124,6 @@ function onClear(slot_data)
         print("hexice: " .. hexice)
     end
 
-    --if slot_data['ability_shuffling'] then
-    --    print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
-    --    local obj = Tracker:FindObjectForCode("prayershuffle")
-    --    if obj then
-    --        obj.CurrentStage = slot_data['ability_shuffling']
-    --    end
-    --end
     if slot_data.ability_shuffling then
         print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
         local obj = Tracker:FindObjectForCode("pray")
@@ -98,13 +131,6 @@ function onClear(slot_data)
             obj.Active = slot_data.ability_shuffling == 0
         end
     end
-    --if slot_data['ability_shuffling'] then
-    --    print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
-    --    local obj = Tracker:FindObjectForCode("crossshuffle")
-    --    if obj then
-    --        obj.CurrentStage = slot_data['ability_shuffling']
-    --    end
-    --end
     if slot_data.ability_shuffling then
         print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
         local obj = Tracker:FindObjectForCode("cross")
@@ -112,18 +138,20 @@ function onClear(slot_data)
             obj.Active = slot_data.ability_shuffling == 0
         end
     end
-    --if slot_data['ability_shuffling'] then
-    --    print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
-    --    local obj = Tracker:FindObjectForCode("icerodshuffle")
-    --    if obj then
-    --        obj.CurrentStage = slot_data['ability_shuffling']
-    --    end
-    --end
     if slot_data.ability_shuffling then
         print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
         local obj = Tracker:FindObjectForCode("icerod")
         if obj then
             obj.Active = slot_data.ability_shuffling == 0
+        end
+    end
+
+    if slot_data['start_with_sword'] then
+        print("slot_data['start_with_sword']: " .. slot_data['start_with_sword'])
+        if slot_data['start_with_sword'] == 0 then
+            Tracker:FindObjectForCode("progsword").CurrentStage = 0
+        elseif slot_data['start_with_sword'] == 1 then 
+            Tracker:FindObjectForCode("progsword").CurrentStage = 2
         end
     end
 
@@ -143,10 +171,42 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data.sword_progression then
+        print("slot_data.sword_progression: " .. slot_data.sword_progression)
+        local obj = Tracker:FindObjectForCode("progswordSetting")
+        if obj then
+            obj.CurrentStage = slot_data.sword_progression
+        end
+    end
+
+    -- For Layout Switching
+    if slot_data.sword_progression then
+        print("slot_data.sword_progression: " .. slot_data.sword_progression)
+        local obj = Tracker:FindObjectForCode("progswordLayout")
+        if obj then
+            obj.Active = slot_data.sword_progression
+        end
+    end
+    
     -- manually run snes interface functions after onClear in case we are already ingame
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
     end
+
+    Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
+    Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":Current Map",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb",
+                           "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb"})
 end
 
 -- called when an item gets collected
@@ -253,35 +313,7 @@ function onLocation(location_id, location_name)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
-    if location_name == "Fortress Arena - Siege Engine/Vault Key Pickup" then
-        obj = Tracker:FindObjectForCode("@Full World/Path to the Eastern Vault/Eastern Vault Fortress/Fortress Arena/Siege Engine|Vault Key Pickup")
-        obj.AvailableChestCount = obj.AvailableChestCount - 1
-    end
-    if location_name == "Rooted Ziggurat Lower - Hexagon Blue" then
-        obj = Tracker:FindObjectForCode("@Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Lower - Hexagon Blue/Scavenger Queen")
-        obj.AvailableChestCount = obj.AvailableChestCount - 1
-    end
-    if location_name == "Cathedral Gauntlet - Gauntlet Reward" then
-        obj = Tracker:FindObjectForCode("@Full World/The Cathedral/Cathedral Gauntlet/Gauntlet Reward")
-        obj.AvailableChestCount = obj.AvailableChestCount - 1
-    end
-    if location_name == "Librarian - Hexagon Green" then
-        obj = Tracker:FindObjectForCode("@Full World/Ruined Atoll/The Grand Library/The Librarian/Hexagon Green")
-        obj.AvailableChestCount = obj.AvailableChestCount - 1
-    end
 end
-
--- called when the player has moved regions
---function onChangedRegion(key, current_region, old_region)
---    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
---        if TABS_MAPPING[current_region] then
---            CURRENT_ROOM = TABS_MAPPING[current_region]
---        else
---            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
---        end
---        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
---    end
---end
 
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
@@ -305,5 +337,7 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+--Archipelago:AddSetReplyHandler("Current Map", onChangedRegion) -- OLD OLD OLD
+Archipelago:AddSetReplyHandler("set reply handler", onSetReply)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

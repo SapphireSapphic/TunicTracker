@@ -731,7 +731,7 @@
 	{
 		"name": "Glitch Mode",
 		"type": "progressive",
-		"loop": true,
+		"loop": false,
 		"allow_disabled": false,
 		"stages": [
 			{//Glitchless
@@ -749,7 +749,7 @@
 	{
 		"name": "Randomizer Mode",
 		"type": "progressive",
-		"loop": true,
+		"loop": false,
 		"allow_disabled": false,
 		"stages": [
 			{//Classic
@@ -761,6 +761,24 @@
 				"name": "Hexagon Quest",
 				"img": "images/Hexagon_Quest.png",
 				"codes": "hexagonquest"
+			}
+		]
+	},
+	{
+		"name": "Sword Setting",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Stick and Swords",
+				"img": "images/stickandswords.png",
+				"codes": "progswordSetting"
+			},
+			{
+				"name": "Progressive Swords",
+				"img": "images/progressiveswords.png",
+				"codes": "progswordSetting"
 			}
 		]
 	},
@@ -813,6 +831,14 @@
 		"loop": true,
 		"img":"images/heir.png",
 		"codes": "heir"
+	},
+	//Layout Switching
+	{
+		"name": "Progressive Sword Layout",
+		"type": "toggle",
+		"loop": false,
+		"img":"images/sword1.png",
+		"codes": "progswordLayout"
 	},
 	//Statics
 	{

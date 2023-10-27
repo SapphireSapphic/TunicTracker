@@ -6,7 +6,6 @@ print("Active Variant:")
 print(Tracker.ActiveVariantUID)
 
 if not (string.find(Tracker.ActiveVariantUID, "items_only")) then
-  ScriptHost:LoadScript("scripts/logic_common.lua")
   if PopVersion then
     Tracker:AddMaps("maps/maps_pop.json")
     Tracker:AddLocations("locations/locations_pop.json")
@@ -43,6 +42,9 @@ end
 
 -- Utility Script for helper functions etc.
 ScriptHost:LoadScript("scripts/utils.lua")
+
+-- Logic Script
+ScriptHost:LoadScript("scripts/logic_common.lua")
 
 -- see if the file exists
 function file_exists(file)

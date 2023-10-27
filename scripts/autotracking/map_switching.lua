@@ -1,8 +1,21 @@
 CURRENT_ROOM = nil
-CURRENT_ROOM_ADDRESS = "Lvl_Overworld"
+CURRENT_ROOM_ADDRESS = "Overworld"
 
 TABS_MAPPING = 
 {
-    [""] = "Overworld",
-    [""] = "East Forest"
+    ["Overworld"] = "Overworld",
+    ["East Forest"] = "East Forest",
+    ["Bottom of the Well"] = "Bottom of the Well",
+    ["Dark Tomb"] = "Dark Tomb",
+    ["West Gardens"] = "West Gardens",
+    ["Beneath the Earth"] = "Beneath the Earth",
+    ["Eastern Vault"] = "Eastern Vault",
+    ["Ruined Atoll"] = "Ruined Atoll",
+    ["Frog's Domain"] = "Frog's Domain",
+    ["The Grand Library"] = "The Grand Library",
+    ["The Quarry"] = "The Quarry",
+    ["The Rooted Ziggurat"] = "The Rooted Ziggurat",
+    ["Swamp"] = "Swamp",
+    ["The Cathedral"] = "The Cathedral",
+    ["The Far Shore"] = "The Far Shore"
 }
