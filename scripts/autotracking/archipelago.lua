@@ -6,6 +6,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+HOSTED = {captain=1,gknight=2,engine=3,librarian=4,scavboss=5,gauntlet=6,heir=7,ding=8,dong=9,dynamite=10,firebomb=11,icebomb=12}
 
 hexprayer = nil
 hexcross = nil
@@ -95,6 +96,13 @@ function onClear(slot_data)
             end
         end
     end
+    -- reset hosted items
+    for k, _ in pairs(HOSTED) do
+        local obj = Tracker:FindObjectForCode(k)
+        if obj then
+            obj.Active = false
+        end
+    end
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
@@ -116,13 +124,6 @@ function onClear(slot_data)
         print("hexice: " .. hexice)
     end
 
-    --if slot_data['ability_shuffling'] then
-    --    print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
-    --    local obj = Tracker:FindObjectForCode("prayershuffle")
-    --    if obj then
-    --        obj.CurrentStage = slot_data['ability_shuffling']
-    --    end
-    --end
     if slot_data.ability_shuffling then
         print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
         local obj = Tracker:FindObjectForCode("pray")
@@ -130,13 +131,6 @@ function onClear(slot_data)
             obj.Active = slot_data.ability_shuffling == 0
         end
     end
-    --if slot_data['ability_shuffling'] then
-    --    print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
-    --    local obj = Tracker:FindObjectForCode("crossshuffle")
-    --    if obj then
-    --        obj.CurrentStage = slot_data['ability_shuffling']
-    --    end
-    --end
     if slot_data.ability_shuffling then
         print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
         local obj = Tracker:FindObjectForCode("cross")
@@ -144,13 +138,6 @@ function onClear(slot_data)
             obj.Active = slot_data.ability_shuffling == 0
         end
     end
-    --if slot_data['ability_shuffling'] then
-    --    print("slot_data['ability_shuffling']: " .. slot_data['ability_shuffling'])
-    --    local obj = Tracker:FindObjectForCode("icerodshuffle")
-    --    if obj then
-    --        obj.CurrentStage = slot_data['ability_shuffling']
-    --    end
-    --end
     if slot_data.ability_shuffling then
         print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
         local obj = Tracker:FindObjectForCode("icerod")
@@ -184,6 +171,23 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data.sword_progression then
+        print("slot_data.sword_progression: " .. slot_data.sword_progression)
+        local obj = Tracker:FindObjectForCode("progswordSetting")
+        if obj then
+            obj.CurrentStage = slot_data.sword_progression
+        end
+    end
+
+    -- For Layout Switching
+    if slot_data.sword_progression then
+        print("slot_data.sword_progression: " .. slot_data.sword_progression)
+        local obj = Tracker:FindObjectForCode("progswordLayout")
+        if obj then
+            obj.Active = slot_data.sword_progression
+        end
+    end
+    
     -- manually run snes interface functions after onClear in case we are already ingame
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here

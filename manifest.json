@@ -2,18 +2,12 @@
   "name": "Tunic Randomizer - Item & Map Tracker",
   "game_name": "Tunic",
   "platform": "PC",
-  "package_version": "1.5.7",
+  "package_version": "1.6.0",
   "package_uid": "tunic_sapphiresapphic",
   "author": "SapphireSapphic, Scout_JD, Br00ty",
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
-      "flags": [
-        "ap"
-      ]
-    },
-    "var_progsword": {
-      "display_name": "Map Tracker (Progressive Sword)",
       "flags": [
         "ap"
       ]

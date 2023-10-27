@@ -1,5 +1,16 @@
 {
     "files.associations": {
         "*.json": "jsonc"
-    }
+    },
+    "Lua.diagnostics.globals": [
+        "PopVersion",
+        "AutoTracker",
+        "Tracker",
+        "Archipelago",
+        "ScriptHost",
+        "ENABLE_DEBUG_LOG"
+    ],
+    "Lua.diagnostics.disable": [
+        "lowercase-global"
+    ]
 }
