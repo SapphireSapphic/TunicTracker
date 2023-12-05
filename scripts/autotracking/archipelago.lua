@@ -211,7 +211,7 @@ function onClear(slot_data)
         print("slot_data.entrance_rando: " .. slot_data.entrance_rando)
         local obj = Tracker:FindObjectForCode("er_off")
         if obj then
-            obj.Active = slot_data.entrance_rando == 1
+            obj.CurrentStage = slot_data.entrance_rando
         end
     end
 
