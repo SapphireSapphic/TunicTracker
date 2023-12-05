@@ -61,58 +61,6 @@
             "dropshadow": true,
             "content": [
                 {
-                    "type": "dock",
-                    "dock": "bottom",
-                    "content": [
-                        {
-                            "type": "group",
-                            "header": "Items",
-                            "margin": "0,0,3,0",
-                            "dock": "left",
-                            "content": {
-                                "type": "layout",
-                                "key": "shared_item_grid"
-                            },
-                            "header_content": {
-                                "type": "button_popup",
-                                "style": "settings",
-                                "popup_background": "#55212121",
-                                "layout": "settings_popup"
-                            }
-                        },
-						{
-							"type": "group",
-                            "header": "Other Treasures",
-                            "margin": "0,0,3,0",
-                            "dock": "left",
-                            "content": {
-                                "type": "layout",
-                                "key": "other"
-                            }
-						},
-						{
-							"type": "group",
-                            "header": "Hints",
-                            "margin": "0,0,3,0",
-                            "dock": "left",
-                            "content": {
-                                "type": "layout",
-                                "key": "hints"
-                            }
-						},
-						{
-							"type": "group",
-                            "header": "More Hints",
-                            "margin": "0,0,3,0",
-                            "dock": "left",
-                            "content": {
-                                "type": "layout",
-                                "key": "hints2"
-                            }
-						}
-                    ]
-                },
-                {
                     "type":"tabbed",
 					"tabs": [
 						//{							

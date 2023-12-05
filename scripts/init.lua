@@ -5,7 +5,7 @@ ScriptHost:LoadScript("scripts/settings.lua")
 print("Active Variant:")
 print(Tracker.ActiveVariantUID)
 
-if not (string.find(Tracker.ActiveVariantUID, "items_only")) then
+if not (string.find(Tracker.ActiveVariantUID, "var_itemsonly")) then
   if PopVersion then
     Tracker:AddMaps("maps/maps_pop.json")
     Tracker:AddLocations("locations/locations_pop.json")

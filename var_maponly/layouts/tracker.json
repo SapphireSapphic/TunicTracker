@@ -1,0 +1,288 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "margin": "5",
+        "content": [
+            {
+                "type": "group",
+                "header": "Glitch Mode",
+                "header_background": "#3e4b57",
+                "content":[
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "mode"
+                    }
+                ]
+            }            
+        ]
+    },    
+    "tracker_default": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type":"tabbed",
+					"tabs": [
+						{							
+							"title": "Full Map",
+							"content": {
+								"type": "map",
+								"maps": ["fullmap"]
+							}
+						},
+						{							
+							"title": "Overworld",
+							"content": {
+								"type": "map",
+								"maps": ["overworld"]
+							}
+						},
+						{							
+							"title": "East Forest",
+							"content": {
+								"type": "map",
+								"maps": ["east_forest"]
+							}
+						},
+						{							
+							"title": "Beneath the Well",
+							"content": {
+								"type": "map",
+								"maps": ["well"]
+							}
+						},
+						{							
+							"title": "Dark Tomb",
+							"content": {
+								"type": "map",
+								"maps": ["dark_tomb"]
+							}
+						},
+						{							
+							"title": "West Gardens",
+							"content": {
+								"type": "map",
+								"maps": ["west_gardens"]
+							}
+						},
+						{							
+							"title": "Beneath the Earth",
+							"content": {
+								"type": "map",
+								"maps": ["earth"]
+							}
+						},
+						{							
+							"title": "Eastern Vault",
+							"content": {
+								"type": "map",
+								"maps": ["eastern_vault"]
+							}
+						},
+						{							
+							"title": "Ruined Atoll",
+							"content": {
+								"type": "map",
+								"maps": ["ruined_atoll"]
+							}
+						},
+						{							
+							"title": "Frog's Domain",
+							"content": {
+								"type": "map",
+								"maps": ["frogs_domain"]
+							}
+						},
+						{							
+							"title": "The Grand Library",
+							"content": {
+								"type": "map",
+								"maps": ["library"]
+							}
+						},
+						{							
+							"title": "The Quarry",
+							"content": {
+								"type": "map",
+								"maps": ["quarry"]
+							}
+						},
+						{							
+							"title": "The Rooted Ziggurat",
+							"content": {
+								"type": "map",
+								"maps": ["ziggurat"]
+							}
+						},
+						{							
+							"title": "Old Burying Ground",
+							"content": {
+								"type": "map",
+								"maps": ["graveyard"]
+							}
+						},
+						{							
+							"title": "The Cathedral",
+							"content": {
+								"type": "map",
+								"maps": ["cathedral"]
+							}
+						},
+						{							
+							"title": "The Far Shore",
+							"content": {
+								"type": "map",
+								"maps": ["far_shore"]
+							}
+						},
+						{							
+							"title": "HOLY CROSS",
+							"content": {
+								"type": "map",
+								"maps": ["secrets"]
+							}
+						}
+					]
+                }
+            ]
+        }
+    },
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type":"tabbed",
+					"tabs": [
+						{							
+							"title": "Full Map",
+							"content": {
+								"type": "map",
+								"maps": ["fullmap"]
+							}
+						},
+						{							
+							"title": "Overworld",
+							"content": {
+								"type": "map",
+								"maps": ["overworld"]
+							}
+						},
+						{							
+							"title": "East Forest",
+							"content": {
+								"type": "map",
+								"maps": ["east_forest"]
+							}
+						},
+						{							
+							"title": "Beneath the Well",
+							"content": {
+								"type": "map",
+								"maps": ["well"]
+							}
+						},
+						{							
+							"title": "Dark Tomb",
+							"content": {
+								"type": "map",
+								"maps": ["dark_tomb"]
+							}
+						},
+						{							
+							"title": "West Gardens",
+							"content": {
+								"type": "map",
+								"maps": ["west_gardens"]
+							}
+						},
+						{							
+							"title": "Beneath the Earth",
+							"content": {
+								"type": "map",
+								"maps": ["earth"]
+							}
+						},
+						{							
+							"title": "Eastern Vault",
+							"content": {
+								"type": "map",
+								"maps": ["eastern_vault"]
+							}
+						},
+						{							
+							"title": "Ruined Atoll",
+							"content": {
+								"type": "map",
+								"maps": ["ruined_atoll"]
+							}
+						},
+						{							
+							"title": "Frog's Domain",
+							"content": {
+								"type": "map",
+								"maps": ["frogs_domain"]
+							}
+						},
+						{							
+							"title": "The Grand Library",
+							"content": {
+								"type": "map",
+								"maps": ["library"]
+							}
+						},
+						{							
+							"title": "The Quarry",
+							"content": {
+								"type": "map",
+								"maps": ["quarry"]
+							}
+						},
+						{							
+							"title": "The Rooted Ziggurat",
+							"content": {
+								"type": "map",
+								"maps": ["ziggurat"]
+							}
+						},
+						{							
+							"title": "Old Burying Ground",
+							"content": {
+								"type": "map",
+								"maps": ["graveyard"]
+							}
+						},
+						{							
+							"title": "The Cathedral",
+							"content": {
+								"type": "map",
+								"maps": ["cathedral"]
+							}
+						},
+						{							
+							"title": "The Far Shore",
+							"content": {
+								"type": "map",
+								"maps": ["far_shore"]
+							}
+						},
+						{							
+							"title": "HOLY CROSS",
+							"content": {
+								"type": "map",
+								"maps": ["secrets"]
+							}
+						}
+					]
+                }
+            ]
+        }
+    }
+}
