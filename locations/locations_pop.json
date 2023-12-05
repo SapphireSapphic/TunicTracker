@@ -2344,8 +2344,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 80,
-								"y": 175,
+								"x": 982,
+								"y": 1040,
 								"size": 35
 							},
 							{
@@ -2440,7 +2440,8 @@
 					"grass",
 					"firesword,ring",
 					"dash",
-					"key"
+					"key",
+					"er_on"
 				],
 				"children": [
 					{
@@ -2454,8 +2455,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 180,
-								"y": 25,
+								"x": 468,
+								"y": 402,
 								"size": 35
 							}
 						],
@@ -2490,8 +2491,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 70,
-								"y": -20,
+								"x": 300,
+								"y": 574,
 								"size": 35
 							},
 							{
@@ -2509,18 +2510,18 @@
 						]
 					},
 					{
-						"name": "Forest Belltower",
+						"name": "Forest Belltower Page",
 						"short_name": "Tower Entrance",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3780,
-								"y": 2525
-							},
+							//{
+								//"map": "fullmap",
+								//"x": 3780,
+								//"y": 2525
+							//},
 							{
 								"map": "east_forest",
-								"x": 100,
-								"y": 30,
+								"x": 418,
+								"y": 586,
 								"size": 35
 							}
 						],
@@ -2528,11 +2529,49 @@
 							{
 								"name": "Page Pickup",
 								"item_count": 1
-							},
+							}
+						]
+					},
+					{
+						"name": "Forest Belltower Obscured",
+						"short_name": "Tower Entrance",
+						"map_locations": [
+							//{
+								//"map": "fullmap",
+								//"x": 3780,
+								//"y": 2525
+							//},
+							{
+								"map": "east_forest",
+								"x": 418,
+								"y": 525,
+								"size": 35
+							}
+						],
+						"sections": [
 							{
 								"name": "Obscured Beneath Bell Bottom Floor",
 								"item_count": 1
-							},
+							}
+						]
+					},
+					{
+						"name": "Forest Belltower Save Point",
+						"short_name": "Tower Entrance",
+						"map_locations": [
+							//{
+								//"map": "fullmap",
+								//"x": 3780,
+								//"y": 2525
+							//},
+							{
+								"map": "east_forest",
+								"x": 758,
+								"y": 742,
+								"size": 35
+							}
+						],
+						"sections": [
 							{
 								"name": "Near Save Point",
 								"item_count": 1
@@ -2550,8 +2589,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 100,
-								"y": 290,
+								"x": 1169,
+								"y": 1087,
 								"size": 35
 							}
 						],
@@ -2567,35 +2606,74 @@
 						"name": "Guardhouse 1 Ledge",
 						"short_name": "Ledge",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3795,
-								"y": 2575
-							},
+							//{
+								//"map": "fullmap",
+								//"x": 3795,
+								//"y": 2575
+							//},
 							{
 								"map": "east_forest",
-								"x": 140,
-								"y": 100,
+								"x": 950,
+								"y": 873,
 								"size": 35
-							},
-							{
-								"map": "secrets",
-								"x": -20,
-								"y": 375
 							}
+							//{
+								//"map": "secrets",
+								//"x": -20,
+								//"y": 375
+							//}
 						],
 						"sections": [
 							{
 								"name": "From Guardhouse 1 Chest",
 								"item_count": 1,
 								"capture_item": true
-							},
+							}
+						]
+					},
+					{
+						"name": "Guardhouse 1 Ledge HC",
+						"short_name": "Ledge",
+						"map_locations": [
+							//{
+								//"map": "fullmap",
+								//"x": 3795,
+								//"y": 2575
+							//},
+							{
+								"map": "east_forest",
+								"x": 1024,
+								"y": 880,
+								"size": 35
+							}
+							//{
+								//"map": "secrets",
+								//"x": -20,
+								//"y": 375
+							//}
+						],
+						"sections": [
 							{
 								"name": "Dancing Fox Spirit Holy Cross",
 								"item_count": 1,
 								"access_rules": [
 									"cross"
 								]
+							}
+						]
+					},
+					{
+						"sections": [
+							{
+								"ref": "East Forest/Guardhouse 1 Ledge HC/Dancing Fox Spirit Holy Cross",
+								"name": "Dancing Fox Spirit Holy Cross Chest"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "secrets",
+								"x": -20,
+								"y": 375
 							}
 						]
 					},
@@ -2610,8 +2688,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 175,
-								"y": 325,
+								"x": 1248,
+								"y": 1041,
 								"size": 35
 							}
 						],
@@ -2633,8 +2711,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 220,
-								"y": 355,
+								"x": 1403,
+								"y": 1063,
 								"size": 35
 							}
 						],
@@ -2657,8 +2735,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 310,
-								"y": 305,
+								"x": 1440,
+								"y": 921,
 								"size": 35
 							}
 						],
@@ -2681,8 +2759,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 375,
-								"y": 330,
+								"x": 1497,
+								"y": 900,
 								"size": 35
 							}
 						],
@@ -2698,15 +2776,15 @@
 						"name": "Ambushed by Spiders",
 						"short_name": "Spiders",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3710,
-								"y": 3095
-							},
+							//{
+								//"map": "fullmap",
+								//"x": 3710,
+								//"y": 3095
+							//},
 							{
 								"map": "east_forest",
-								"x": 30,
-								"y": 600,
+								"x": 1434,
+								"y": 1360,
 								"size": 35
 							}
 						],
@@ -2714,8 +2792,7 @@
 							{
 								"name": "Spider Chest",
 								"item_count": 1
-							},
-							{
+							},{
 								"name": "Beneath Spider Chest",
 								"item_count": 1
 							}
@@ -2732,8 +2809,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 210,
-								"y": 710,
+								"x": 1749,
+								"y": 1316,
 								"size": 35
 							}
 						],
@@ -2759,8 +2836,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 210,
-								"y": 750,
+								"x": 1804,
+								"y": 1351,
 								"size": 35
 							}
 						],
@@ -2786,8 +2863,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 315,
-								"y": 600,
+								"x": 1706,
+								"y": 1181,
 								"size": 35
 							},
 							{
@@ -2817,8 +2894,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 80,
-								"y": 490,
+								"x": 1357,
+								"y": 1199,
 								"size": 35
 							}
 						],
@@ -2845,8 +2922,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 230,
-								"y": 450,
+								"x": 1806,
+								"y": 481,
 								"size": 35
 							}
 						],
@@ -2868,8 +2945,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 315,
-								"y": 385,
+								"x": 1447,
+								"y": 270,
 								"size": 35
 							}
 						],
@@ -2884,15 +2961,15 @@
 						"name": "Guardhouse 1",
 						"short_name": "1 Top Floor",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3970,
-								"y": 2605
-							},
+							//{
+								//"map": "fullmap",
+								//"x": 3970,
+								//"y": 2605
+							//},
 							{
 								"map": "east_forest",
-								"x": 290,
-								"y": 110,
+								"x": 1070,
+								"y": 222,
 								"size": 35
 							}
 						],
@@ -2901,7 +2978,26 @@
 								"name": "Upper Floor",
 								"item_count": 1,
 								"capture_item": true
-							},
+							}
+						]
+					},
+					{
+						"name": "Guardhouse 1 Obscured",
+						"short_name": "1 Top Floor",
+						"map_locations": [
+							//{
+								//"map": "fullmap",
+								//"x": 3970,
+								//"y": 2605
+							//},
+							{
+								"map": "east_forest",
+								"x": 1298,
+								"y": 195,
+								"size": 35
+							}
+						],
+						"sections": [
 							{
 								"name": "Upper Floor Obscured",
 								"item_count": 1,
@@ -2920,8 +3016,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 220,
-								"y": 70,
+								"x": 1103,
+								"y": 120,
 								"size": 35
 							}
 						],
@@ -2946,8 +3042,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 225,
-								"y": 5,
+								"x": 777,
+								"y": 543,
 								"size": 35
 							}
 						],
@@ -2969,8 +3065,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 530,
-								"y": 85,
+								"x": 1944,
+								"y": 693,
 								"size": 35
 							}
 						],
@@ -2992,8 +3088,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 645,
-								"y": 80,
+								"x": 2045,
+								"y": 643,
 								"size": 35
 							}
 						],
@@ -3015,8 +3111,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 490,
-								"y": 85,
+								"x": 1989,
+								"y": 737,
 								"size": 35
 							}
 						],
@@ -3038,8 +3134,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 770,
-								"y": 225,
+								"x": 2358,
+								"y": 573,
 								"size": 35
 							},
 							{
@@ -3080,8 +3176,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 90,
-								"y": 120,
+								"x": 928,
+								"y": 931,
 								"size": 35
 							}
 						],
@@ -3106,8 +3202,8 @@
 							},
 							{
 								"map": "east_forest",
-								"x": 725,
-								"y": 195,
+								"x": 2308,
+								"y": 592,
 								"size": 35
 							},
 							{
@@ -3659,12 +3755,13 @@
 					}
 				]
 			},
-			{ //West Gardens
-				"name": "West Gardens",
+			{ //West Garden
+				"name": "West Garden",
 				"access_rules": [
 					"[light]",
 					"dash",
-					"orb,effigy,[glitches]"
+					"orb,effigy,[glitches]",
+					"er_on"
 				],
 				"children": [
 					{
@@ -4272,7 +4369,8 @@
 				"access_rules": [
 					"grass",
 					"firesword,ring",
-					"dash"
+					"dash",
+					"er_on"
 				],
 				"children": [
 					{
@@ -4383,7 +4481,8 @@
 						"name": "Beneath the Fortress",
 						"access_rules": [
 							"[light],pray",
-							"[light],dash"
+							"[light],dash",
+							"[light],er_on"
 						],
 						"children": [
 							{
@@ -4512,7 +4611,8 @@
 						"name": "Eastern Vault Fortress",
 						"access_rules": [
 							"[light],pray",
-							"dash"
+							"dash",
+							"er_on"
 						],
 						"children": [
 							{
@@ -4790,7 +4890,8 @@
 					"firesword,ring",
 					"dash",
 					"orb",
-					"pray"
+					"pray",
+					"er_on"
 				],
 				"children": [
 					{
@@ -5470,7 +5571,8 @@
 						"access_rules": [
 							"orb,pray",
 							"visit,pray",
-							"dash,pray"
+							"dash,pray",
+							"er_on"
 						],
 						"children": [
 							{
@@ -5657,10 +5759,16 @@
 			{ //The Upper Quarry
 				"name": "The Quarry",
 				"access_rules": [
-					"grass",
-					"firesword,ring",
-					"orb",
-					"dash"
+					"[sword],grass",
+					"[staff],grass",
+					"[sword],firesword,ring",
+					"[staff],firesword,ring",
+					"[sword],orb",
+					"[staff],orb",
+					"[sword],dash",
+					"[staff],dash",
+					"[sword],er_on",
+					"[staff],er_on"
 				],
 				"children": [
 					{
@@ -5856,29 +5964,6 @@
 						"sections": [
 							{
 								"name": "Spoopy",
-								"item_count": 1
-							}
-						]
-					},
-					{
-						"name": "[West] Upper Area Near Waterfall",
-						"short_name": "Cube Bridge",
-						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 780,
-								"y": 1830
-							},
-							{
-								"map": "quarry",
-								"x": 155,
-								"y": 805,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Yummy Polygons",
 								"item_count": 1
 							}
 						]
@@ -6174,6 +6259,29 @@
 						],
 						"children": [
 							{
+								"name": "[West] Upper Area Near Waterfall",
+								"short_name": "Cube Bridge",
+								"map_locations": [
+									{
+										"map": "fullmap",
+										"x": 780,
+										"y": 1830
+									},
+									{
+										"map": "quarry",
+										"x": 155,
+										"y": 805,
+										"size": 45
+									}
+								],
+								"sections": [
+									{
+										"name": "Yummy Polygons",
+										"item_count": 1
+									}
+								]
+							},
+							{
 								"name": "[West] Below Shooting Range",
 								"short_name": "Under Range",
 								"map_locations": [
@@ -6392,7 +6500,8 @@
 								"name": "The Rooted Ziggurat",
 								"access_rules": [
 									"[mask],orb,pray",
-									"orb,freeze,[glitches],[mask],pray"
+									"orb,freeze,[glitches],[mask],pray",
+									"er_on"
 								],
 								"children": [
 									{
@@ -6670,7 +6779,8 @@
 				"access_rules": [
 					"grass",
 					"firesword,ring",
-					"dash,visit"
+					"dash,visit",
+					"er_on"
 				],
 				"children": [
 					{
@@ -7273,7 +7383,8 @@
 					"firesword,ring,visit,pray",
 					"grass,orb,freeze,[glitches]",
 					"firesword,ring,orb,freeze,[glitches]",
-					"dash,visit,pray"
+					"dash,visit,pray",
+					"er_on"
 				],
 				"children": [
 					{
@@ -7500,7 +7611,8 @@
 			{ //The Far Shore
 				"name": "The Far Shore",
 				"access_rules": [
-					"pray"
+					"pray",
+					"er_on"
 				],
 				"children": [
 					{

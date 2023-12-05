@@ -33,7 +33,7 @@
 	  "name": "eastern_vault",
     "location_size": 30,
     "location_border_thickness": 7,
-	  "img": "maps/eastern_vault.png"
+	  "img": "maps/eastern_vault_pop.png"
   },
   {
 	  "name": "frogs_domain",
@@ -45,19 +45,19 @@
 	  "name": "graveyard",
     "location_size": 28,
     "location_border_thickness": 7,
-	  "img": "maps/graveyard.png"
+	  "img": "maps/graveyard_pop.png"
   },
   {
 	  "name": "overworld",
     "location_size": 35,
     "location_border_thickness": 8,
-	  "img": "maps/overworld.png"
+	  "img": "maps/overworldpop.png"
   },
   {
 	  "name": "quarry",
     "location_size": 30,
     "location_border_thickness": 7,
-	  "img": "maps/quarry.png"
+	  "img": "maps/quarry_pop.png"
   },
   {
 	  "name": "ruined_atoll",
@@ -69,7 +69,7 @@
 	  "name": "west_gardens",
     "location_size": 28,
     "location_border_thickness": 7,
-	  "img": "maps/west_gardens.png"
+	  "img": "maps/west_gardens_pop.png"
   },
   {
 	  "name": "library",
@@ -81,7 +81,7 @@
 	  "name": "east_forest",
     "location_size": 24,
     "location_border_thickness": 5,
-	  "img": "maps/east_forest.png"
+	  "img": "maps/east_forest_pop.png"
   },
   {
 	  "name": "far_shore",

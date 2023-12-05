@@ -23,29 +23,57 @@ function onSetReply(key, value, old)
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
         end
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain" then
-        Tracker:FindObjectForCode("captain", ITEMS).Active = true
+        Tracker:FindObjectForCode("captain", ITEMS).Active = value
     elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight" then
-        Tracker:FindObjectForCode("gknight", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine" then 
-        Tracker:FindObjectForCode("engine", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian" then 
-        Tracker:FindObjectForCode("librarian", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger" then 
-        Tracker:FindObjectForCode("scavboss", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet" then 
-        Tracker:FindObjectForCode("gauntlet", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending" then 
-        Tracker:FindObjectForCode("heir", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell" then 
-        Tracker:FindObjectForCode("ding", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell" then 
-        Tracker:FindObjectForCode("dong", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker" then 
-        Tracker:FindObjectForCode("dynamite", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb" then 
-        Tracker:FindObjectForCode("firebomb", ITEMS).Active = true
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb" then 
-        Tracker:FindObjectForCode("icebomb", ITEMS).Active = true
+        Tracker:FindObjectForCode("gknight", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine" then
+        Tracker:FindObjectForCode("engine", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian" then
+        Tracker:FindObjectForCode("librarian", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger" then
+        Tracker:FindObjectForCode("scavboss", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet" then
+        Tracker:FindObjectForCode("gauntlet", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending" then
+        Tracker:FindObjectForCode("heir", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell" then
+        Tracker:FindObjectForCode("ding", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell" then
+        Tracker:FindObjectForCode("dong", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker" then
+        Tracker:FindObjectForCode("dynamite", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb" then
+        Tracker:FindObjectForCode("firebomb", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb" then
+        Tracker:FindObjectForCode("icebomb", ITEMS).Active = value
+    end
+end
+
+function retrieved(key, value)
+    if key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain" then
+        Tracker:FindObjectForCode("captain", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight" then
+        Tracker:FindObjectForCode("gknight", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine" then
+        Tracker:FindObjectForCode("engine", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian" then
+        Tracker:FindObjectForCode("librarian", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger" then
+        Tracker:FindObjectForCode("scavboss", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet" then
+        Tracker:FindObjectForCode("gauntlet", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending" then
+        Tracker:FindObjectForCode("heir", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell" then
+        Tracker:FindObjectForCode("ding", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell" then
+        Tracker:FindObjectForCode("dong", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker" then
+        Tracker:FindObjectForCode("dynamite", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb" then
+        Tracker:FindObjectForCode("firebomb", ITEMS).Active = value
+    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb" then
+        Tracker:FindObjectForCode("icebomb", ITEMS).Active = value
     end
 end
 
@@ -179,6 +207,14 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data.entrance_rando then
+        print("slot_data.entrance_rando: " .. slot_data.entrance_rando)
+        local obj = Tracker:FindObjectForCode("er_off")
+        if obj then
+            obj.CurrentStage = slot_data.entrance_rando
+        end
+    end
+
     -- For Layout Switching
     if slot_data.sword_progression then
         print("slot_data.sword_progression: " .. slot_data.sword_progression)
@@ -194,7 +230,7 @@ function onClear(slot_data)
     end
 
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
-    Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":Current Map",
+    local data_storage_list = ({"Slot:" .. Archipelago.PlayerNumber .. ":Current Map",
                            "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain",
                            "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight",
                            "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine",
@@ -207,6 +243,9 @@ function onClear(slot_data)
                            "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker",
                            "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb",
                            "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb"})
+
+    Archipelago:SetNotify(data_storage_list)
+    Archipelago:Get(data_storage_list)
 end
 
 -- called when an item gets collected
@@ -341,3 +380,4 @@ Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("set reply handler", onSetReply)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddRetrievedHandler("retrieved", retrieved)

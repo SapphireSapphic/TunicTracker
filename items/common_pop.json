@@ -123,7 +123,8 @@
 		"type": "toggle",
 		"loop": true,
 		"img":"images/pray.png",
-		"codes": "pray"
+		"codes": "pray",
+		"initial_active_state": true
 	},
 	//{
 	//	"name": "Prayer",
@@ -154,7 +155,8 @@
 		"type": "toggle",
 		"loop": true,
 		"img":"images/cross.png",
-		"codes": "cross"
+		"codes": "cross",
+		"initial_active_state": true
 	},
 	//{
 	//	"name": "Holy Cross",
@@ -184,7 +186,8 @@
 		"type": "toggle",
 		"loop": true,
 		"img":"images/icerod.png",
-		"codes": "icerod,freeze"
+		"codes": "icerod,freeze",
+		"initial_active_state": true
 	},
 	//{
 	//	"name": "Ice Rod",
@@ -779,6 +782,24 @@
 				"name": "Progressive Swords",
 				"img": "images/progressiveswords.png",
 				"codes": "progswordSetting"
+			}
+		]
+	},
+	{
+		"name": "Entrance Rando Setting",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Entrance Rando Off",
+				"img": "images/er_off.png",
+				"codes": "er_off"
+			},
+			{
+				"name": "Entrance Rando On",
+				"img": "images/er_on.png",
+				"codes": "er_on"
 			}
 		]
 	},
