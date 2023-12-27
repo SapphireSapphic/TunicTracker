@@ -85,7 +85,7 @@
 							}
 						},
 						{							
-							"title": "Bottom of the Well",
+							"title": "Beneath the Well",
 							"content": {
 								"type": "map",
 								"maps": ["well"]
