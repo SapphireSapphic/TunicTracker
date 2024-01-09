@@ -3229,7 +3229,7 @@
 				]
 			},
 			{ //Beneath the Well
-				"name": "Bottom of the Well",
+				"name": "Beneath the Well",
 				"access_rules": ["stick","[staff]"],
 				"children": [
 					{

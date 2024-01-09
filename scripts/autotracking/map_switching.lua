@@ -5,7 +5,7 @@ TABS_MAPPING =
 {
     ["Overworld"] = "Overworld",
     ["East Forest"] = "East Forest",
-    ["Bottom of the Well"] = "Bottom of the Well",
+    ["Beneath the Well"] = "Beneath the Well",
     ["Dark Tomb"] = "Dark Tomb",
     ["West Gardens"] = "West Garden",
     ["Beneath the Earth"] = "Beneath the Earth",
