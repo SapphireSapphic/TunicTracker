@@ -207,13 +207,22 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data.entrance_rando then
-        print("slot_data.entrance_rando: " .. slot_data.entrance_rando)
-        local obj = Tracker:FindObjectForCode("er_off")
-        if obj then
-            obj.CurrentStage = slot_data.entrance_rando
+    if slot_data['entrance_rando'] then
+        print("slot_data['start_with_sword']: " .. slot_data['entrance_rando'])
+        if slot_data['entrance_rando'] == 0 then
+            Tracker:FindObjectForCode("er_off").CurrentStage = 0
+        elseif slot_data['entrance_rando'] == 1 then 
+            Tracker:FindObjectForCode("er_off").CurrentStage = 1
         end
     end
+
+    --if slot_data.entrance_rando then
+        --print("slot_data.entrance_rando: " .. slot_data.entrance_rando)
+        --local obj = Tracker:FindObjectForCode("er_off")
+        --if obj then
+            --obj.CurrentStage = slot_data.entrance_rando
+        --end
+    --end
 
     -- For Layout Switching
     if slot_data.sword_progression then

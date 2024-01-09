@@ -66,7 +66,10 @@
 								"access_rules": [
 									"dash,ring",
 									"ring,[light],gknight",
-									"[light],ring,[glitches],orb,freeze"
+									"[light],ring,[glitches],orb,freeze",
+									"dash,staff",
+									"staff,[light],gknight",
+									"[light],staff,[glitches],orb,freeze"
 								],
 								"hosted_item": "dong"
 							}
@@ -2464,7 +2467,8 @@
 							{
 								"name": "Ding!",
 								"access_rules": [
-									"ring"
+									"ring",
+									"staff"
 								],
 								"hosted_item": "ding"
 							},
@@ -3226,6 +3230,7 @@
 			},
 			{ //Beneath the Well
 				"name": "Bottom of the Well",
+				"access_rules": ["stick","[staff]"],
 				"children": [
 					{
 						"name": "[Entryway] Chest",
@@ -4328,7 +4333,7 @@
 								"name": "Will Kill You",
 								"hosted_item": "gknight",
 								"access_rules": [
-									"grass"
+									"grass,sword"
 								]
 							}
 						]
@@ -4479,14 +4484,14 @@
 					},
 					{ //Beneath the Earth
 						"name": "Beneath the Fortress",
-						"access_rules": [
-							"[light],pray",
-							"[light],dash",
-							"[light],er_on"
-						],
 						"children": [
 							{
 								"name": "Obscured Behind Waterfall",
+								"access_rules": [
+									"[light],pray",
+									"[light],dash",
+									"[light],er_on"
+								],
 								"short_name": "Waterfall",
 								"map_locations": [
 									{
@@ -4510,6 +4515,12 @@
 							},
 							{
 								"name": "Bridge",
+								"access_rules": [
+									"[light],pray",
+									"dash",
+									"[light],er_on",
+									"dash,er_on"
+								],
 								"short_name": "Switch",
 								"map_locations": [
 									{
@@ -4538,6 +4549,12 @@
 							},
 							{
 								"name": "Cell Chest 1",
+								"access_rules": [
+									"[light],pray",
+									"dash",
+									"[light],er_on",
+									"[dash],er_on"
+								],
 								"short_name": "First",
 								"map_locations": [
 									{
@@ -4561,6 +4578,12 @@
 							},
 							{
 								"name": "Cell Chest 2",
+								"access_rules": [
+									"[light],pray",
+									"dash",
+									"[light],er_on",
+									"[dash],er_on"
+								],
 								"short_name": "Last",
 								"map_locations": [
 									{
@@ -4584,6 +4607,12 @@
 							},
 							{
 								"name": "Back Room Chest",
+								"access_rules": [
+									"[light],pray",
+									"dash",
+									"[light],er_on",
+									"[dash],er_on"
+								],
 								"short_name": "Barrels",
 								"map_locations": [
 									{
@@ -5313,7 +5342,8 @@
 									{
 										"name": "Don't Kick Fimbleton!",
 										"access_rules": [
-											"orb"
+											"orb",
+											"dash"
 										],
 										"item_count": 1,
 										"capture_item": true
@@ -5772,7 +5802,7 @@
 				],
 				"children": [
 					{
-						"name": "[Back Entrance] Bushes Holy Cross",
+						"name": "[Back Entrance] Bushes Holy Cross", // NO REQS
 						"short_name": "Snowy Trees",
 						"map_locations": [
 							{
@@ -6016,7 +6046,7 @@
 						]
 					},
 					{
-						"name": "[Back Entrance] Chest",
+						"name": "[Back Entrance] Chest", // NO REQS
 						"short_name": "Peaceful",
 						"map_locations": [
 							{
@@ -6204,7 +6234,7 @@
 						]
 					},
 					{
-						"name": "[Back Entrance] Obscured Behind Wall",
+						"name": "[Back Entrance] Obscured Behind Wall", // NO REQS
 						"short_name": "Waterfall",
 						"map_locations": [
 							{
@@ -6227,7 +6257,7 @@
 						]
 					},
 					{
-						"name": "[West] Upper Area Bombable Wall",
+						"name": "[West] Upper Area Bombable Wall", // ONLY MASK+BOMBS
 						"short_name": "Grass Bomb",
 						"map_locations": [
 							{
@@ -7075,6 +7105,7 @@
 							{
 								"name": "[South Graveyard] Guarded By Tentacles",
 								"short_name": "Isolated",
+								"access_rules": ["sword"],
 								"map_locations": [
 									{
 										"map": "fullmap",
@@ -7675,7 +7706,8 @@
 								"name": "A Long, Long Time Ago...",
 								"item_count": 1,
 								"access_rules": [
-									"pray"
+									"pray",
+									"er_on"
 								]
 							}
 						]
