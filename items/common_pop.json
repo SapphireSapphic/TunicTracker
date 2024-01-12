@@ -117,6 +117,14 @@
 		"img":"images/magic_orb.png",
 		"codes": "orb"
 	},
+	//Temporary "Grass Fix" LMAO i hate that this works tbh lmao
+	{
+		"name": "Grass",
+		"type": "toggle",
+		"loop": true,
+		"initial_active_state": true,
+		"codes": "grass"
+	},
 	//Abilities
 	{
 		"name": "Prayer",

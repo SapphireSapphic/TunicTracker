@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.6.3",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.6.3/TunicTracker.zip",
+            "sha256": "c3d901ca4955f4efa8f0cd2e320f4a5c59703a4806d8e1450866e47c6aa0b3cd",
+            "changelog": [
+                "hotfix grass with a dirty temp fix"
+            ]
+        },
+        {
             "package_version": "1.6.2",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.6.2/TunicTracker.zip",
             "sha256": "0c886088168b3dc10213a0cd4a6e6131fa6f4d14ef5f0eed46b920231afb6e50",
