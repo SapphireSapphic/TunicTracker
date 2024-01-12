@@ -5787,18 +5787,13 @@
 				]
 			},
 			{ //The Upper Quarry
-				"name": "The Quarry",
+				"name": "The Quarry 1",
 				"access_rules": [
-					"[sword],grass",
-					"[staff],grass",
-					"[sword],firesword,ring",
-					"[staff],firesword,ring",
-					"[sword],orb",
-					"[staff],orb",
-					"[sword],dash",
-					"[staff],dash",
-					"[sword],er_on",
-					"[staff],er_on"
+					"grass",
+					"firesword,ring",
+					"orb",
+					"dash",
+					"er_on"
 				],
 				"children": [
 					{
@@ -5832,6 +5827,96 @@
 							}
 						]
 					},
+					{
+						"name": "[Back Entrance] Chest", // NO REQS
+						"short_name": "Peaceful",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 825,
+								"y": 1590
+							},
+							{
+								"map": "quarry",
+								"x": 200,
+								"y": 565,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Peaceful Chest",
+								"item_count": 1,
+								"capture_item": true
+							}
+						]
+					},
+					{
+						"name": "[Back Entrance] Obscured Behind Wall", // NO REQS
+						"short_name": "Waterfall",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 805,
+								"y": 1715
+							},
+							{
+								"map": "quarry",
+								"x": 180,
+								"y": 690,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Happy Water!",
+								"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "[West] Upper Area Bombable Wall", // ONLY MASK+BOMBS
+						"short_name": "Grass Bomb",
+						"map_locations": [
+							{
+								"map": "fullmap",
+								"x": 955,
+								"y": 1840
+							},
+							{
+								"map": "quarry",
+								"x": 330,
+								"y": 815,
+								"size": 45
+							}
+						],
+						"sections": [
+							{
+								"name": "Boomy",
+								"item_count": 1,
+								"access_rules": [
+									"boom,mask"
+								]
+							}
+						]
+					}
+				]
+			},
+			{ //The Upper Quarry
+				"name": "The Quarry 2",
+				"access_rules": [
+					"[sword],grass",
+					"[staff],grass",
+					"[sword],firesword,ring",
+					"[staff],firesword,ring",
+					"[sword],orb",
+					"[staff],orb",
+					"[sword],dash",
+					"[staff],dash",
+					"[sword],er_on",
+					"[staff],er_on"
+				],
+				"children": [
 					{
 						"name": "[Central] Obscured Below Entry Walkway",
 						"short_name": "Leaking Obelisk",
@@ -6046,30 +6131,6 @@
 						]
 					},
 					{
-						"name": "[Back Entrance] Chest", // NO REQS
-						"short_name": "Peaceful",
-						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 825,
-								"y": 1590
-							},
-							{
-								"map": "quarry",
-								"x": 200,
-								"y": 565,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Peaceful Chest",
-								"item_count": 1,
-								"capture_item": true
-							}
-						]
-					},
-					{
 						"name": "[East] Upper Floor",
 						"short_name": "Two Ladders",
 						"map_locations": [
@@ -6230,55 +6291,6 @@
 							{
 								"name": "At the Bottom",
 								"item_count": 1
-							}
-						]
-					},
-					{
-						"name": "[Back Entrance] Obscured Behind Wall", // NO REQS
-						"short_name": "Waterfall",
-						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 805,
-								"y": 1715
-							},
-							{
-								"map": "quarry",
-								"x": 180,
-								"y": 690,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Happy Water!",
-								"item_count": 1
-							}
-						]
-					},
-					{
-						"name": "[West] Upper Area Bombable Wall", // ONLY MASK+BOMBS
-						"short_name": "Grass Bomb",
-						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 955,
-								"y": 1840
-							},
-							{
-								"map": "quarry",
-								"x": 330,
-								"y": 815,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Boomy",
-								"item_count": 1,
-								"access_rules": [
-									"boom"
-								]
 							}
 						]
 					},

@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "1.6.2",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.6.2/TunicTracker.zip",
+            "sha256": "0c886088168b3dc10213a0cd4a6e6131fa6f4d14ef5f0eed46b920231afb6e50",
+            "changelog": [
+                "fixed sword autotracking code",
+                "added er autotracking code",
+                "changed 'bottom of the well' to 'beneath the well' (thank you silent)",
+                "various logic fixes (expecting more bugs smile)"
+            ]
+        },
+        {
             "package_version": "1.6.1",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.6.1/TunicTracker.zip",
             "sha256": "6759725566e2909ec7b83bf02cd2417ee5814423cc72f3a2f4ae03dc8409b4a1",
