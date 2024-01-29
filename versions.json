@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.6.4",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.6.4/TunicTracker.zip",
+            "sha256": "7e84c7669f0e969dc258f1308524d005bd7db6c25f2f98a2c64b0d8eb824ce2b",
+            "changelog": [
+                "added new maps for Ziggurat and Library",
+                "fixed locations in Zig not autotracking"
+            ]
+        },
+        {
             "package_version": "1.6.3",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.6.3/TunicTracker.zip",
             "sha256": "c3d901ca4955f4efa8f0cd2e320f4a5c59703a4806d8e1450866e47c6aa0b3cd",

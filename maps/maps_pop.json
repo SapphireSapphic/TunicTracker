@@ -75,7 +75,7 @@
 	  "name": "library",
     "location_size": 25,
     "location_border_thickness": 4,
-	  "img": "maps/library.png"
+	  "img": "maps/library_pop.png"
   },
   {
 	  "name": "east_forest",
@@ -93,7 +93,7 @@
 	  "name": "ziggurat",
     "location_size": 32,
     "location_border_thickness": 7,
-	  "img": "maps/ziggurat.png"
+	  "img": "maps/ziggurat_pop.png"
   },
   {
 	  "name": "secrets",
