@@ -90,6 +90,17 @@
                                 "key": "other"
                             }
 						},
+            // TODO: hide if ladders not shuffled
+            {
+              "type": "group",
+              "header": "Ladders",
+              "margin": "0,0,0,0",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "ladders"
+              }
+            },
 						{
 							"type": "group",
                             "header": "Hints",

@@ -43,6 +43,28 @@
 			}
 		]
 	},
+  "ladders": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "0,0,0,0",
+        "item_margin": "0,0",
+        "item_size": "40",
+        "rows": [
+          ["ladders_near_weathervane", "ladders_near_overworld_checkpoint", "ladders_near_patrol_cave"],
+          ["ladder_near_temple_rafters", "ladders_near_dark_tomb", "ladder_to_quarry"],
+          ["ladders_to_west_bell", "ladders_in_overworld_town", "ladder_to_ruined_atoll"],
+          ["ladder_to_swamp", "ladders_in_well", "ladder_in_dark_tomb"],
+          ["ladder_to_east_forest", "ladders_to_lower_forest", "ladder_to_beneath_the_vault"],
+          ["ladders_in_hourglass_cave", "ladders_in_south_atoll", "ladders_to_frogs_domain"],
+          ["ladders_in_library", "ladders_in_lower_quarry", "ladders_in_swamp"]
+        ]
+      }
+    ]
+  },
 	"hints": {
 		"type":"array",
         "orientation": "horizontal",
