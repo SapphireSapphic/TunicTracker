@@ -249,6 +249,7 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("ladder_to_east_forest").Active = false
         Tracker:FindObjectForCode("ladders_to_lower_forest").Active = false
         Tracker:FindObjectForCode("ladder_to_beneath_the_vault").Active = false
+        Tracker:FindObjectForCode("ladders_in_hourglass_cave").Active = false
         Tracker:FindObjectForCode("ladders_in_south_atoll").Active = false
         Tracker:FindObjectForCode("ladders_to_frogs_domain").Active = false
         Tracker:FindObjectForCode("ladders_in_library").Active = false

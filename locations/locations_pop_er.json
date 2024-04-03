@@ -7,12 +7,12 @@
     "children": [
       {
         "name": "Menu",
-        "access_rules": [],
+        "access_rules": null,
         "children": []
       },
       {
         "name": "Overworld",
-        "access_rules": [],
+        "access_rules": null,
         "children": [
           {
             "name": "[Northwest] Shadowy Corner Chest",
@@ -32,7 +32,7 @@
             "sections": [
               {
                 "name": "Dark Ramps Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -55,7 +55,7 @@
             "sections": [
               {
                 "name": "Hero's Path Key",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -78,7 +78,7 @@
             "sections": [
               {
                 "name": "If you seek to increase your power...",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -101,7 +101,7 @@
             "sections": [
               {
                 "name": "Mind the Autobolt...",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -124,7 +124,7 @@
             "sections": [
               {
                 "name": "Rudeling Camp",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -147,7 +147,7 @@
             "sections": [
               {
                 "name": "Let the flowers guide you",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -170,7 +170,7 @@
             "sections": [
               {
                 "name": "Treasures and Tools",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -193,7 +193,7 @@
             "sections": [
               {
                 "name": "Behind the Trees",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -216,7 +216,7 @@
             "sections": [
               {
                 "name": "Old House Key",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -239,7 +239,7 @@
             "sections": [
               {
                 "name": "End of the Bridge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -262,7 +262,7 @@
             "sections": [
               {
                 "name": "Behind the Trees",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -285,7 +285,7 @@
             "sections": [
               {
                 "name": "Across the Bridge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -308,7 +308,7 @@
             "sections": [
               {
                 "name": "Hidden by Trees",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -331,7 +331,7 @@
             "sections": [
               {
                 "name": "Around the Corner",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -430,7 +430,7 @@
             "sections": [
               {
                 "name": "Deep in the Wall",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -453,7 +453,7 @@
             "sections": [
               {
                 "name": "Let the flowers guide you",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -579,7 +579,7 @@
             "sections": [
               {
                 "name": "Back to Work",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -607,7 +607,7 @@
             "sections": [
               {
                 "name": "Power Up!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -635,7 +635,7 @@
             "sections": [
               {
                 "name": "Sacred Geometry",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -663,7 +663,7 @@
             "sections": [
               {
                 "name": "Use the Holy Cross",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -695,7 +695,7 @@
             "sections": [
               {
                 "name": "Post-Dong!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -727,7 +727,11 @@
             "sections": [
               {
                 "name": "Dong!",
-                "access_rules": [],
+                "access_rules": [
+                  "sword",
+                  "stick",
+                  "staff"
+                ],
                 "hosted_item": "dong"
               }
             ]
@@ -772,7 +776,7 @@
             "sections": [
               {
                 "name": "Under the Bridge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -813,7 +817,7 @@
             "sections": [
               {
                 "name": "Above Locked House",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -836,7 +840,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -907,7 +911,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -930,7 +934,7 @@
             "sections": [
               {
                 "name": "Page",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1005,7 +1009,7 @@
             "sections": [
               {
                 "name": "[Northwest] Fire Wand Pickup",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
@@ -1035,7 +1039,7 @@
             "sections": [
               {
                 "name": "Behind Blue Rudelings",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1068,7 +1072,7 @@
             "sections": [
               {
                 "name": "Underneath the Staff",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1120,7 +1124,7 @@
             "sections": [
               {
                 "name": "Across the Bridge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1221,7 +1225,7 @@
             "sections": [
               {
                 "name": "Effigy Skip",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1268,7 +1272,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1317,7 +1321,7 @@
             "sections": [
               {
                 "name": "Under Bridge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1375,7 +1379,7 @@
             "sections": [
               {
                 "name": "[Southwest] Beach Chest Near Flowers",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
@@ -1405,7 +1409,7 @@
             "sections": [
               {
                 "name": "Page",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1428,7 +1432,7 @@
             "sections": [
               {
                 "name": "Beside the Bridge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1487,7 +1491,7 @@
             "sections": [
               {
                 "name": "Below Jeffry",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1574,7 +1578,7 @@
       },
       {
         "name": "Stick House",
-        "access_rules": [],
+        "access_rules": null,
         "children": [
           {
             "name": "Stick House",
@@ -1594,7 +1598,7 @@
             "sections": [
               {
                 "name": "Stick Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1603,12 +1607,12 @@
       },
       {
         "name": "Windmill",
-        "access_rules": [],
+        "access_rules": null,
         "children": []
       },
       {
         "name": "Old House Back",
-        "access_rules": [],
+        "access_rules": null,
         "children": []
       },
       {
@@ -1650,7 +1654,7 @@
       },
       {
         "name": "Furnace Ladder Area",
-        "access_rules": [],
+        "access_rules": null,
         "children": []
       },
       {
@@ -1681,7 +1685,7 @@
       },
       {
         "name": "Secret Gathering Place",
-        "access_rules": [],
+        "access_rules": null,
         "children": [
           {
             "name": "Secret Gathering Place",
@@ -1731,7 +1735,7 @@
       },
       {
         "name": "Changing Room",
-        "access_rules": [],
+        "access_rules": null,
         "children": [
           {
             "name": "Changing Room",
@@ -1751,7 +1755,7 @@
             "sections": [
               {
                 "name": "Normal Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1803,7 +1807,7 @@
             "sections": [
               {
                 "name": "Normal Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
@@ -1819,7 +1823,7 @@
       },
       {
         "name": "Ruined Shop",
-        "access_rules": [],
+        "access_rules": null,
         "children": [
           {
             "name": "Ruined Shop",
@@ -1839,17 +1843,17 @@
             "sections": [
               {
                 "name": "Chest 1",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Chest 2",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Chest 3",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -1891,7 +1895,7 @@
             "sections": [
               {
                 "name": "Page Pickup",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
@@ -1929,7 +1933,7 @@
             "sections": [
               {
                 "name": "Secret Page Pickup",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2005,7 +2009,7 @@
             "sections": [
               {
                 "name": "Maze Room Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
@@ -2021,7 +2025,7 @@
       },
       {
         "name": "Cube Cave",
-        "access_rules": [],
+        "access_rules": null,
         "children": [
           {
             "name": "Cube Cave",
@@ -2079,17 +2083,17 @@
             "sections": [
               {
                 "name": "Chest 1",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Chest 2",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Chest 3",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2120,7 +2124,7 @@
             "sections": [
               {
                 "name": "Page Pickup",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2173,7 +2177,7 @@
             "sections": [
               {
                 "name": "Page Pickup",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
@@ -2259,7 +2263,7 @@
             "sections": [
               {
                 "name": "Forest Belltower - Obscured Near Bell Top Floor",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
@@ -2291,7 +2295,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2335,7 +2339,7 @@
             "sections": [
               {
                 "name": "Page Pickup",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2353,7 +2357,7 @@
             "sections": [
               {
                 "name": "Obscured Beneath Bell Bottom Floor",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2380,7 +2384,7 @@
             "sections": [
               {
                 "name": "Near Save Point",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2420,7 +2424,7 @@
             "sections": [
               {
                 "name": "Up on the Wall",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2443,7 +2447,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2466,7 +2470,7 @@
             "sections": [
               {
                 "name": "Page",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2489,7 +2493,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2512,7 +2516,7 @@
             "sections": [
               {
                 "name": "Hidden Path",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2560,7 +2564,7 @@
             "sections": [
               {
                 "name": "Follow the Flowers",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2588,7 +2592,7 @@
             "sections": [
               {
                 "name": "From Guardhouse 1 Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2649,12 +2653,12 @@
             "sections": [
               {
                 "name": "Spider Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Beneath Spider Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2762,7 +2766,7 @@
             "sections": [
               {
                 "name": "Upper Floor",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2780,7 +2784,7 @@
             "sections": [
               {
                 "name": "Upper Floor Obscured",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2821,7 +2825,7 @@
             "sections": [
               {
                 "name": "In the Mound",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2853,7 +2857,7 @@
             "sections": [
               {
                 "name": "Hidden Hallway",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2887,7 +2891,7 @@
             "sections": [
               {
                 "name": "Also, you need to defeat this guy!",
-                "access_rules": [],
+                "access_rules": null,
                 "hosted_item": "captain"
               }
             ]
@@ -2922,7 +2926,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2945,7 +2949,7 @@
             "sections": [
               {
                 "name": "Behind the Trees",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -2977,7 +2981,7 @@
             "sections": [
               {
                 "name": "From the top of the Guardhouse",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3033,7 +3037,7 @@
       },
       {
         "name": "Dark Tomb Entry Point",
-        "access_rules": [],
+        "access_rules": null,
         "children": []
       },
       {
@@ -3061,7 +3065,7 @@
             "sections": [
               {
                 "name": "Move the Grave",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3093,7 +3097,7 @@
             "sections": [
               {
                 "name": "Just walk right!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3116,7 +3120,7 @@
             "sections": [
               {
                 "name": "In the Corner",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3139,7 +3143,7 @@
             "sections": [
               {
                 "name": "Watch out!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3162,7 +3166,7 @@
             "sections": [
               {
                 "name": "Follow the red laser of death",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3185,7 +3189,7 @@
             "sections": [
               {
                 "name": "Use a bomb?",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3208,7 +3212,7 @@
             "sections": [
               {
                 "name": "Can you roll?",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3252,7 +3256,7 @@
             "sections": [
               {
                 "name": "Siege Engine",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3314,7 +3318,7 @@
             "sections": [
               {
                 "name": "Mind the Slorms",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3337,7 +3341,7 @@
             "sections": [
               {
                 "name": "You can just go in there",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3360,7 +3364,7 @@
             "sections": [
               {
                 "name": "Ruined Atoll Map",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3383,7 +3387,7 @@
             "sections": [
               {
                 "name": "Just go in there",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3406,7 +3410,7 @@
             "sections": [
               {
                 "name": "Hidden Passage",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3429,7 +3433,7 @@
             "sections": [
               {
                 "name": "Hidden Path",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3452,7 +3456,7 @@
             "sections": [
               {
                 "name": "Behind the Slorms",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3475,7 +3479,7 @@
             "sections": [
               {
                 "name": "Run from the tentacles!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3498,7 +3502,7 @@
             "sections": [
               {
                 "name": "Water Sucks",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3543,7 +3547,7 @@
             "sections": [
               {
                 "name": "Just Climb up There",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3566,7 +3570,7 @@
             "sections": [
               {
                 "name": "Through the Power of Prayer",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3589,7 +3593,7 @@
             "sections": [
               {
                 "name": "Above the Fox Shrine",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3612,7 +3616,7 @@
             "sections": [
               {
                 "name": "So Many Phrends!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3685,7 +3689,7 @@
             "sections": [
               {
                 "name": "Take the Long Way Around",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3758,7 +3762,7 @@
             "sections": [
               {
                 "name": "Survival Tips",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3781,7 +3785,7 @@
             "sections": [
               {
                 "name": "Through the Shallow Water",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3829,7 +3833,7 @@
             "sections": [
               {
                 "name": "Between a Rope and a Bridge Place",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3852,7 +3856,7 @@
             "sections": [
               {
                 "name": "Take the lower path",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3905,7 +3909,7 @@
             "sections": [
               {
                 "name": "As you walk by",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3928,7 +3932,7 @@
             "sections": [
               {
                 "name": "Behind the Way",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3951,7 +3955,7 @@
             "sections": [
               {
                 "name": "By the Rudeling",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3974,7 +3978,7 @@
             "sections": [
               {
                 "name": "Pray to the Wall Man",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -3997,7 +4001,7 @@
             "sections": [
               {
                 "name": "Mind the Chompignoms!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4020,7 +4024,7 @@
             "sections": [
               {
                 "name": "Under Boss Ladder",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4073,7 +4077,7 @@
             "sections": [
               {
                 "name": "Try to be This Strong",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4129,7 +4133,7 @@
             "sections": [
               {
                 "name": "Ice Dagger Cave",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4234,7 +4238,7 @@
             "sections": [
               {
                 "name": "Did Not Kill You",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4257,7 +4261,11 @@
             "sections": [
               {
                 "name": "Will Kill You",
-                "access_rules": [],
+                "access_rules": [
+                  "sword",
+                  "stick",
+                  "staff"
+                ],
                 "hosted_item": "gknight"
               }
             ]
@@ -4310,7 +4318,7 @@
             "sections": [
               {
                 "name": "Skraw!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4333,7 +4341,7 @@
             "sections": [
               {
                 "name": "In the shallow water",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4356,7 +4364,7 @@
             "sections": [
               {
                 "name": "Around the Hill",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4379,7 +4387,7 @@
             "sections": [
               {
                 "name": "Mind the Crabbits",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4402,7 +4410,7 @@
             "sections": [
               {
                 "name": "Near Domain",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4459,7 +4467,7 @@
             "sections": [
               {
                 "name": "His Name is Tom",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4482,7 +4490,7 @@
             "sections": [
               {
                 "name": "Danlarry and Thranmire ate Jerry!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4505,7 +4513,7 @@
             "sections": [
               {
                 "name": "Saved by the Prayer",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4528,7 +4536,7 @@
             "sections": [
               {
                 "name": "Mind the Fairies",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4551,7 +4559,7 @@
             "sections": [
               {
                 "name": "Flowers Guide Thee",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4613,7 +4621,7 @@
             "sections": [
               {
                 "name": "Come from the Overworld",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4644,7 +4652,7 @@
             "sections": [
               {
                 "name": "Up the Ladder",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4667,7 +4675,7 @@
             "sections": [
               {
                 "name": "Around the Tower",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4690,7 +4698,7 @@
             "sections": [
               {
                 "name": "Hidden Ladder Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4825,7 +4833,7 @@
             "sections": [
               {
                 "name": "Oh No! Our Frogs! They're Dead!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4848,7 +4856,7 @@
             "sections": [
               {
                 "name": "Upper Right Corner",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4897,7 +4905,7 @@
             "sections": [
               {
                 "name": "Obscured Doorway Ledge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4920,7 +4928,7 @@
             "sections": [
               {
                 "name": "Mind the Adult Frog",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4943,7 +4951,7 @@
             "sections": [
               {
                 "name": "Altar Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4966,7 +4974,7 @@
             "sections": [
               {
                 "name": "Already Stolen",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -4989,7 +4997,7 @@
             "sections": [
               {
                 "name": "Tobias was Trapped Here Once...",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5012,7 +5020,7 @@
             "sections": [
               {
                 "name": "Frult Meeting",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5200,17 +5208,17 @@
             "sections": [
               {
                 "name": "Page 1",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Page 2",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Page 3",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5239,22 +5247,22 @@
             "sections": [
               {
                 "name": "Chest By Shrine 1",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Chest By Shrine 2",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Chest By Shrine 3",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Behind Chalkboard by Fuse",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5356,7 +5364,7 @@
             "sections": [
               {
                 "name": "Crack in the Wall",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5408,7 +5416,7 @@
             "sections": [
               {
                 "name": "Under the Stairs",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5431,7 +5439,7 @@
             "sections": [
               {
                 "name": "Pray",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5464,7 +5472,7 @@
             "sections": [
               {
                 "name": "Next to the Obelisk",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5487,7 +5495,7 @@
             "sections": [
               {
                 "name": "Heir-To-The-Heir",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5511,6 +5519,8 @@
           "@Fortress Exterior from Overworld,dash",
           "@Fortress Grave Path"
         ],
+        "map_locations": [{"map": "eastern_vault", "x": 600, "y": 715}],
+        "sections": [{"name": "can u get here", "item_count": 1}],
         "children": []
       },
       {
@@ -5617,7 +5627,7 @@
             "sections": [
               {
                 "name": "Drop the Shortcut Rope",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5640,7 +5650,7 @@
             "sections": [
               {
                 "name": "Mind the Custodian",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5663,7 +5673,7 @@
             "sections": [
               {
                 "name": "Lose the Lure or take 2 Damage",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5674,8 +5684,8 @@
         "name": "Eastern Vault Fortress",
         "access_rules": [
           "@Beneath the Vault Back",
-          "@Eastern Vault Fortress Gold Door,dagger,glitches,icerod,orb,staff",
           "@Fortress Courtyard",
+          "@Eastern Vault Fortress Gold Door,dagger,glitches,icerod,orb,staff",
           "@Fortress East Shortcut Lower",
           "@Fortress East Shortcut Upper",
           "@Fortress Exterior from East Forest,glitches,stick",
@@ -5685,6 +5695,8 @@
           "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
           "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword"
         ],
+        "map_locations": [{"map": "eastern_vault", "x": 600, "y": 200}],
+        "sections": [{"name": "can u get here", "item_count": 1}],
         "children": [
           {
             "name": "Westmost Upper Room",
@@ -5704,12 +5716,12 @@
             "sections": [
               {
                 "name": "[West Wing] Dark Room Chest 1",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "[West Wing] Dark Room Chest 2",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5732,7 +5744,7 @@
             "sections": [
               {
                 "name": "He will never visit the Far Shore",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5785,7 +5797,7 @@
             "sections": [
               {
                 "name": "Bomb the Wall",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5841,7 +5853,7 @@
             "sections": [
               {
                 "name": "Mind the Custodians",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5894,7 +5906,7 @@
             "sections": [
               {
                 "name": "Go Around the East Wing",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -5941,7 +5953,7 @@
             "sections": [
               {
                 "name": "Dusty",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6082,7 +6094,7 @@
             "sections": [
               {
                 "name": "Down the Stairs",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6105,7 +6117,7 @@
             "sections": [
               {
                 "name": "Even more Stairs!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6128,7 +6140,7 @@
             "sections": [
               {
                 "name": "Drop that Bridge!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6151,7 +6163,7 @@
             "sections": [
               {
                 "name": "Flowers Guide Thee",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6174,7 +6186,7 @@
             "sections": [
               {
                 "name": "By the Boxes",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6197,7 +6209,7 @@
             "sections": [
               {
                 "name": "Weird path?",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6220,7 +6232,7 @@
             "sections": [
               {
                 "name": "Spoopy",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6243,7 +6255,7 @@
             "sections": [
               {
                 "name": "At the Bottom",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6266,7 +6278,7 @@
             "sections": [
               {
                 "name": "End of the ruined bridge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6289,7 +6301,7 @@
             "sections": [
               {
                 "name": "Reminds me of Blighttown",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6312,7 +6324,7 @@
             "sections": [
               {
                 "name": "In the Miasma Mound",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6335,7 +6347,7 @@
             "sections": [
               {
                 "name": "At the Bottom",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6407,7 +6419,7 @@
             "sections": [
               {
                 "name": "Peaceful Chest",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6430,7 +6442,7 @@
             "sections": [
               {
                 "name": "Happy Water!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6488,7 +6500,7 @@
             "sections": [
               {
                 "name": "Climb Ladder",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6578,7 +6590,7 @@
             "sections": [
               {
                 "name": "Yummy Polygons",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6601,7 +6613,7 @@
             "sections": [
               {
                 "name": "Clever little sneak!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6624,7 +6636,7 @@
             "sections": [
               {
                 "name": "Obscured Path",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6647,7 +6659,7 @@
             "sections": [
               {
                 "name": "End of bridge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6670,7 +6682,7 @@
             "sections": [
               {
                 "name": "Burn Pots",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6693,7 +6705,7 @@
             "sections": [
               {
                 "name": "Go Around",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6716,7 +6728,7 @@
             "sections": [
               {
                 "name": "Drop that Bridge!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6748,7 +6760,7 @@
             "sections": [
               {
                 "name": "Hate them Snipers",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6771,7 +6783,7 @@
             "sections": [
               {
                 "name": "Miasma Pits",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6794,7 +6806,7 @@
             "sections": [
               {
                 "name": "End of the Tracks",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6886,7 +6898,7 @@
             "sections": [
               {
                 "name": "End of the First Floor",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6917,7 +6929,7 @@
             "sections": [
               {
                 "name": "I'm Scared",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6959,7 +6971,7 @@
             "sections": [
               {
                 "name": "They are Dead",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6982,7 +6994,7 @@
             "sections": [
               {
                 "name": "Use the Gun",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7005,7 +7017,7 @@
             "sections": [
               {
                 "name": "Help",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7028,7 +7040,7 @@
             "sections": [
               {
                 "name": "Oh god they're everywhere",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7051,7 +7063,7 @@
             "sections": [
               {
                 "name": "Haircut Time!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7074,7 +7086,7 @@
             "sections": [
               {
                 "name": "Moment of Reprieve",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7194,7 +7206,7 @@
             "sections": [
               {
                 "name": "Go Inside",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7217,7 +7229,7 @@
             "sections": [
               {
                 "name": "Mildly Hidden",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7240,7 +7252,7 @@
             "sections": [
               {
                 "name": "DAGGER STRAP!!!!!",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7263,7 +7275,7 @@
             "sections": [
               {
                 "name": "Gazing out over the Graves",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7286,7 +7298,7 @@
             "sections": [
               {
                 "name": "Through the Nook",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7309,7 +7321,7 @@
             "sections": [
               {
                 "name": "End of Ledge",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7332,7 +7344,7 @@
             "sections": [
               {
                 "name": "Super Clipping",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7355,7 +7367,7 @@
             "sections": [
               {
                 "name": "The Rest of Our Entire Life is Death",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7403,7 +7415,7 @@
             "sections": [
               {
                 "name": "Isolated Island",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7465,7 +7477,7 @@
             "sections": [
               {
                 "name": "Through the hidden passage",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7488,7 +7500,7 @@
             "sections": [
               {
                 "name": "Wall Man Approves these Vibes",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7511,7 +7523,7 @@
             "sections": [
               {
                 "name": "Do You Even Live?",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7534,7 +7546,7 @@
             "sections": [
               {
                 "name": "Up them Ramps",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7557,7 +7569,7 @@
             "sections": [
               {
                 "name": "Overlooking the Graves",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7580,7 +7592,7 @@
             "sections": [
               {
                 "name": "Alternatively, Before the Cathedral",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7603,7 +7615,7 @@
             "sections": [
               {
                 "name": "Between Two Hills",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7626,7 +7638,7 @@
             "sections": [
               {
                 "name": "Hug the Wall",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7658,7 +7670,7 @@
             "sections": [
               {
                 "name": "Down the Hidden Ladder",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7758,7 +7770,7 @@
             "sections": [
               {
                 "name": "By the Books",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7781,7 +7793,7 @@
             "sections": [
               {
                 "name": "Pray to the Wallman",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7804,7 +7816,7 @@
             "sections": [
               {
                 "name": "Beside 3 Miasma Seekers",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7827,7 +7839,7 @@
             "sections": [
               {
                 "name": "Mind the Miasma Seeker",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7850,12 +7862,12 @@
             "sections": [
               {
                 "name": "[2F] Bird Room",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "[2F] Bird Room Secret",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7878,7 +7890,7 @@
             "sections": [
               {
                 "name": "Overlooking Miasma",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7901,7 +7913,7 @@
             "sections": [
               {
                 "name": "Behind the Ladder",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -7924,7 +7936,7 @@
             "sections": [
               {
                 "name": "Before the big reveal...",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -8107,7 +8119,7 @@
             "sections": [
               {
                 "name": "A Long, Long Time Ago...",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -8391,22 +8403,22 @@
             "sections": [
               {
                 "name": "Potion 1",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Potion 2",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Coin 1",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               },
               {
                 "name": "Coin 2",
-                "access_rules": [],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -8444,7 +8456,7 @@
             "sections": [
               {
                 "name": "What ending did you get?",
-                "access_rules": [],
+                "access_rules": null,
                 "hosted_item": "heir"
               }
             ]
@@ -8477,17 +8489,17 @@
             "sections": [
               {
                 "name": "Ice Bomb",
-                "access_rules": [],
+                "access_rules": null,
                 "hosted_item": "icebomb"
               },
               {
                 "name": "Fire Bomb",
-                "access_rules": [],
+                "access_rules": null,
                 "hosted_item": "firebomb"
               },
               {
                 "name": "Dynamite",
-                "access_rules": [],
+                "access_rules": null,
                 "hosted_item": "dynamite"
               }
             ]

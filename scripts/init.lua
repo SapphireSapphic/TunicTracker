@@ -65,3 +65,26 @@ end
 if PopVersion and PopVersion >= "0.18.0" then
   ScriptHost:LoadScript("scripts/autotracking_pop.lua")
 end
+
+-- TODO: remove, for testing only
+Tracker:FindObjectForCode("ladders_near_weathervane").Active = false
+Tracker:FindObjectForCode("ladders_near_overworld_checkpoint").Active = false
+Tracker:FindObjectForCode("ladders_near_patrol_cave").Active = false
+Tracker:FindObjectForCode("ladder_near_temple_rafters").Active = false
+Tracker:FindObjectForCode("ladders_near_dark_tomb").Active = false
+Tracker:FindObjectForCode("ladder_to_quarry").Active = false
+Tracker:FindObjectForCode("ladders_to_west_bell").Active = false
+Tracker:FindObjectForCode("ladders_in_overworld_town").Active = false
+Tracker:FindObjectForCode("ladder_to_ruined_atoll").Active = false
+Tracker:FindObjectForCode("ladder_to_swamp").Active = false
+Tracker:FindObjectForCode("ladders_in_well").Active = false
+Tracker:FindObjectForCode("ladder_in_dark_tomb").Active = false
+Tracker:FindObjectForCode("ladder_to_east_forest").Active = false
+Tracker:FindObjectForCode("ladders_to_lower_forest").Active = false
+Tracker:FindObjectForCode("ladder_to_beneath_the_vault").Active = false
+Tracker:FindObjectForCode("ladders_in_south_atoll").Active = false
+Tracker:FindObjectForCode("ladders_to_frogs_domain").Active = false
+Tracker:FindObjectForCode("ladders_in_library").Active = false
+Tracker:FindObjectForCode("ladders_in_lower_quarry").Active = false
+Tracker:FindObjectForCode("ladders_in_swamp").Active = false
+Tracker:FindObjectForCode("ladders_in_hourglass_cave").Active = false
