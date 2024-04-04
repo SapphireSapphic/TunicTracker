@@ -41,13 +41,13 @@
             },
 			{
                 "type": "group",
-                "header": "Entrance Randomizer",
+                "header": "Ladder Shuffle",
                 "header_background": "#3e4b57",
                 "content":[
                     {
                         "type": "item",
                         "margin": "-5,-1,-5,-5",
-                        "item": "er_off"
+                        "item": "ladder_shuffle_off"
                     }
                 ]
             }
@@ -90,17 +90,6 @@
                                 "key": "other"
                             }
 						},
-            // TODO: hide if ladders not shuffled
-            {
-              "type": "group",
-              "header": "Ladders",
-              "margin": "0,0,0,0",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "ladders"
-              }
-            },
 						{
 							"type": "group",
                             "header": "Hints",
