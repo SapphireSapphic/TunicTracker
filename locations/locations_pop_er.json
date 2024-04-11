@@ -8459,445 +8459,440 @@
         ]
       },
       {
-        "name": "Other",
-        "children": [
+        "name": "Free Bombs",
+        "map_locations": [
           {
-            "name": "Free Bombs",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3000,
-                "y": 3200
-              },
-              {
-                "map": "overworld",
-                "x": 1335,
-                "y": 1450,
-                "size": 45
-              },
-              {
-                "map": "secrets",
-                "x": 890,
-                "y": 470
-              }
-            ],
-            "sections": [
-              {
-                "name": "Ice Bomb",
-                "access_rules": null,
-                "hosted_item": "icebomb"
-              },
-              {
-                "name": "Fire Bomb",
-                "access_rules": null,
-                "hosted_item": "firebomb"
-              },
-              {
-                "name": "Dynamite",
-                "access_rules": null,
-                "hosted_item": "dynamite"
-              }
-            ]
+            "map": "fullmap",
+            "x": 3000,
+            "y": 3200
           },
           {
-            "name": "Inside the Old House",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2730,
-                "y": 2415
-              },
-              {
-                "map": "fullmap",
-                "x": 2920,
-                "y": 2205
-              },
-              {
-                "map": "overworld",
-                "x": 1055,
-                "y": 665,
-                "size": 45
-              },
-              {
-                "map": "overworld",
-                "x": 1245,
-                "y": 455,
-                "size": 45
-              },
-              {
-                "map": "secrets",
-                "x": -20,
-                "y": 515
-              }
-            ],
-            "sections": [
-              {
-                "name": "Normal Chest",
-                "access_rules": [
-                  "@Old House Front"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Holy Cross Chest",
-                "access_rules": [
-                  "@Old House Front,cross"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Shield Pickup",
-                "access_rules": [
-                  "@Old House Front"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Holy Cross Door Page",
-                "access_rules": [
-                  "@Old House Back,cross"
-                ],
-                "item_count": 1
-              }
-            ]
+            "map": "overworld",
+            "x": 1335,
+            "y": 1450,
+            "size": 45
           },
           {
-            "name": "Fountain",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2430,
-                "y": 2660
-              },
-              {
-                "map": "overworld",
-                "x": 755,
-                "y": 910,
-                "size": 45
-              },
-              {
-                "map": "secrets",
-                "x": -20,
-                "y": 655
-              }
-            ],
-            "sections": [
-              {
-                "name": "[Southwest] Fountain Page",
-                "access_rules": [
-                  "@Overworld,dash"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "[Southwest] Fountain Holy Cross",
-                "access_rules": [
-                  "@Overworld Holy Cross"
-                ],
-                "item_count": 1
-              }
-            ]
+            "map": "secrets",
+            "x": 890,
+            "y": 470
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ice Bomb",
+            "access_rules": null,
+            "hosted_item": "icebomb"
           },
           {
-            "name": "Mountain Door",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3010,
-                "y": 1810
-              },
-              {
-                "map": "overworld",
-                "x": 1335,
-                "y": 60,
-                "size": 45
-              },
-              {
-                "map": "secrets",
-                "x": 850,
-                "y": 580
-              }
-            ],
-            "sections": [
-              {
-                "name": "Lower Mountain - Page Before Door",
-                "access_rules": [
-                  "@Lower Mountain"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Top of the Mountain - Page At The Peak",
-                "access_rules": [
-                  "@Top of the Mountain"
-                ],
-                "item_count": 1
-              }
-            ]
+            "name": "Fire Bomb",
+            "access_rules": null,
+            "hosted_item": "firebomb"
           },
           {
-            "name": "Overworld Belltower",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2100,
-                "y": 2550
-              },
-              {
-                "map": "overworld",
-                "x": 425,
-                "y": 800,
-                "size": 45
-              },
-              {
-                "map": "fullmap",
-                "x": 2950,
-                "y": 1595
-              },
-              {
-                "map": "well",
-                "x": 280,
-                "y": 1245,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Chest",
-                "access_rules": [
-                  "@Furnace Walking Path"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Lantern Pickup",
-                "access_rules": [
-                  "@Furnace Fuse"
-                ],
-                "item_count": 1
-              }
-            ]
+            "name": "Dynamite",
+            "access_rules": null,
+            "hosted_item": "dynamite"
+          }
+        ]
+      },
+      {
+        "name": "Inside the Old House",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2730,
+            "y": 2415
           },
           {
-            "name": "Hourglass Cave",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2510,
-                "y": 2850
-              },
-              {
-                "map": "overworld",
-                "x": 760,
-                "y": 1100,
-                "size": 45
-              },
-              {
-                "map": "secrets",
-                "x": 960,
-                "y": 295
-              },
-              {
-                "map": "secrets",
-                "x": -20,
-                "y": 445
-              }
-            ],
-            "sections": [
-              {
-                "name": "Hourglass Chest",
-                "access_rules": [
-                  "@Hourglass Cave"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Holy Cross Chest",
-                "access_rules": [
-                  "@Hourglass Cave Tower,cross"
-                ],
-                "item_count": 1
-              }
-            ]
+            "map": "fullmap",
+            "x": 2920,
+            "y": 2205
           },
           {
-            "name": "The Hero's Sword",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4155,
-                "y": 2725
-              },
-              {
-                "map": "east_forest",
-                "x": 2358,
-                "y": 573,
-                "size": 35
-              },
-              {
-                "map": "fullmap",
-                "x": 1070,
-                "y": 4450
-              },
-              {
-                "map": "far_shore",
-                "x": 1435,
-                "y": 270,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Forest Grave Path - Sword Pickup",
-                "access_rules": [
-                  "@Forest Grave Path by Grave"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Hero's Grave - Tooth Relic",
-                "access_rules": [
-                  "@Hero Relic - East Forest,dash"
-                ],
-                "item_count": 1
-              }
-            ]
+            "map": "overworld",
+            "x": 1055,
+            "y": 665,
+            "size": 45
           },
           {
-            "name": "Vault Hero's Grave",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 5245,
-                "y": 1830
-              },
-              {
-                "map": "eastern_vault",
-                "x": 1660,
-                "y": 650,
-                "size": 45
-              },
-              {
-                "map": "fullmap",
-                "x": 920,
-                "y": 4185
-              },
-              {
-                "map": "far_shore",
-                "x": 1370,
-                "y": 165,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Fortress Grave Path - Obscured Chest Left of Grave",
-                "access_rules": [
-                  "@Fortress Grave Path"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Fortress Grave Path - Chest Right of Grave",
-                "access_rules": [
-                  "@Fortress Grave Path"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Hero's Grave - Flowers Relic",
-                "access_rules": [
-                  "@Hero Relic - Fortress,dash"
-                ],
-                "item_count": 1
-              }
-            ]
+            "map": "overworld",
+            "x": 1245,
+            "y": 455,
+            "size": 45
           },
           {
-            "name": "Monastery",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1010,
-                "y": 1245
-              },
-              {
-                "map": "quarry",
-                "x": 385,
-                "y": 220,
-                "size": 45
-              },
-              {
-                "map": "fullmap",
-                "x": 610,
-                "y": 4180
-              },
-              {
-                "map": "far_shore",
-                "x": 1240,
-                "y": 160,
-                "size": 45
-              }
+            "map": "secrets",
+            "x": -20,
+            "y": 515
+          }
+        ],
+        "sections": [
+          {
+            "name": "Normal Chest",
+            "access_rules": [
+              "@Old House Front"
             ],
-            "sections": [
-              {
-                "name": "Monastery Chest",
-                "access_rules": [
-                  "@Monastery Back"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Hero's Grave - Ash Relic",
-                "access_rules": [
-                  "@Hero Relic - Quarry,dash"
-                ],
-                "item_count": 1
-              }
-            ]
+            "item_count": 1
           },
           {
-            "name": "First Hero's Grave",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4315,
-                "y": 3205
-              },
-              {
-                "map": "graveyard",
-                "x": 825,
-                "y": 345,
-                "size": 45
-              },
-              {
-                "map": "fullmap",
-                "x": 920,
-                "y": 4710
-              },
-              {
-                "map": "far_shore",
-                "x": 1370,
-                "y": 385,
-                "size": 45
-              }
+            "name": "Holy Cross Chest",
+            "access_rules": [
+              "@Old House Front,cross"
             ],
-            "sections": [
-              {
-                "name": "[Outside Cathedral] Obscured Behind Memorial",
-                "access_rules": [
-                  "@Back of Swamp"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Hero's Grave - Feathers Relic",
-                "access_rules": [
-                  "@Hero Relic - Swamp,dash"
-                ],
-                "item_count": 1
-              }
-            ]
+            "item_count": 1
+          },
+          {
+            "name": "Shield Pickup",
+            "access_rules": [
+              "@Old House Front"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Holy Cross Door Page",
+            "access_rules": [
+              "@Old House Back,cross"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fountain",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2430,
+            "y": 2660
+          },
+          {
+            "map": "overworld",
+            "x": 755,
+            "y": 910,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": -20,
+            "y": 655
+          }
+        ],
+        "sections": [
+          {
+            "name": "[Southwest] Fountain Page",
+            "access_rules": [
+              "@Overworld,dash"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "[Southwest] Fountain Holy Cross",
+            "access_rules": [
+              "@Overworld Holy Cross"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mountain Door",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 3010,
+            "y": 1810
+          },
+          {
+            "map": "overworld",
+            "x": 1335,
+            "y": 60,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": 850,
+            "y": 580
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lower Mountain - Page Before Door",
+            "access_rules": [
+              "@Lower Mountain"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Top of the Mountain - Page At The Peak",
+            "access_rules": [
+              "@Top of the Mountain"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "West Furnace",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2100,
+            "y": 2550
+          },
+          {
+            "map": "overworld",
+            "x": 425,
+            "y": 800,
+            "size": 45
+          },
+          {
+            "map": "fullmap",
+            "x": 2950,
+            "y": 1595
+          },
+          {
+            "map": "well",
+            "x": 280,
+            "y": 1245,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [
+              "@Furnace Walking Path"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Lantern Pickup",
+            "access_rules": [
+              "@Furnace Fuse"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Inside Hourglass Cave",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2510,
+            "y": 2850
+          },
+          {
+            "map": "overworld",
+            "x": 760,
+            "y": 1100,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": 960,
+            "y": 295
+          },
+          {
+            "map": "secrets",
+            "x": -20,
+            "y": 445
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hourglass Chest",
+            "access_rules": [
+              "@Hourglass Cave"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Holy Cross Chest",
+            "access_rules": [
+              "@Hourglass Cave Tower,cross"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The Hero's Sword",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 4155,
+            "y": 2725
+          },
+          {
+            "map": "east_forest",
+            "x": 2358,
+            "y": 573,
+            "size": 35
+          },
+          {
+            "map": "fullmap",
+            "x": 1070,
+            "y": 4450
+          },
+          {
+            "map": "far_shore",
+            "x": 1435,
+            "y": 270,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Forest Grave Path - Sword Pickup",
+            "access_rules": [
+              "@Forest Grave Path by Grave"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Hero's Grave - Tooth Relic",
+            "access_rules": [
+              "@Hero Relic - East Forest,dash"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Vault Hero's Grave",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 5245,
+            "y": 1830
+          },
+          {
+            "map": "eastern_vault",
+            "x": 1660,
+            "y": 650,
+            "size": 45
+          },
+          {
+            "map": "fullmap",
+            "x": 920,
+            "y": 4185
+          },
+          {
+            "map": "far_shore",
+            "x": 1370,
+            "y": 165,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Grave Path - Obscured Chest Left of Grave",
+            "access_rules": [
+              "@Fortress Grave Path"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Fortress Grave Path - Chest Right of Grave",
+            "access_rules": [
+              "@Fortress Grave Path"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Hero's Grave - Flowers Relic",
+            "access_rules": [
+              "@Hero Relic - Fortress,dash"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Monastery",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 1010,
+            "y": 1245
+          },
+          {
+            "map": "quarry",
+            "x": 385,
+            "y": 220,
+            "size": 45
+          },
+          {
+            "map": "fullmap",
+            "x": 610,
+            "y": 4180
+          },
+          {
+            "map": "far_shore",
+            "x": 1240,
+            "y": 160,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Monastery Chest",
+            "access_rules": [
+              "@Monastery Back"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Hero's Grave - Ash Relic",
+            "access_rules": [
+              "@Hero Relic - Quarry,dash"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "First Hero's Grave",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 4315,
+            "y": 3205
+          },
+          {
+            "map": "graveyard",
+            "x": 825,
+            "y": 345,
+            "size": 45
+          },
+          {
+            "map": "fullmap",
+            "x": 920,
+            "y": 4710
+          },
+          {
+            "map": "far_shore",
+            "x": 1370,
+            "y": 385,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "[Outside Cathedral] Obscured Behind Memorial",
+            "access_rules": [
+              "@Back of Swamp"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Hero's Grave - Feathers Relic",
+            "access_rules": [
+              "@Hero Relic - Swamp,dash"
+            ],
+            "item_count": 1
           }
         ]
       }
