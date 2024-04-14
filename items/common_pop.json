@@ -53,7 +53,7 @@
 			},
 			{
 				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes"			
+				"codes": "sword,ring,grass,switch,tubes,bigsword"			
 			}
 		]
 	},
@@ -78,7 +78,7 @@
 			},
 			{
 				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes,progsword"			
+				"codes": "sword,ring,grass,switch,tubes,bigsword,progsword"			
 			}
 		]
 	},
@@ -683,7 +683,7 @@
 		"codes": "geometry"
 	},
 	{
-		"name": "Savenger's Mask",
+		"name": "Scavenger's Mask",
 		"type": "toggle",
 		"loop": true,
 		"img":"images/scavengers_mask.png",
@@ -811,6 +811,24 @@
 			}
 		]
 	},
+	{
+		"name": "Ladder Shuffle Setting",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Ladder Shuffle Off",
+				"img": "images/ladder_shuffle_off.png",
+				"codes": "ladder_shuffle_off"
+			},
+			{
+				"name": "Ladder Shuffle On",
+				"img": "images/ladder_shuffle_on.png",
+				"codes": "ladder_shuffle_on"
+			}
+		]
+	},
 	//Bosses
 	{
 		"name": "Guard Captain",
@@ -861,6 +879,154 @@
 		"img":"images/heir.png",
 		"codes": "heir"
 	},
+  //Ladders
+  {
+    "name": "Ladders near Weathervane",
+    "type": "toggle",
+    "img": "images/ladders/near_wv.png",
+    "codes": "ladders_near_weathervane",
+		"initial_active_state": true
+  },
+  {
+    "name": "Ladders near Overworld Checkpoint",
+    "type": "toggle",
+    "img": "images/ladders/near_owc.png",
+    "codes": "ladders_near_overworld_checkpoint",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders near Patrol Cave",
+    "type": "toggle",
+    "img": "images/ladders/near_ptc.png",
+    "codes": "ladders_near_patrol_cave",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladder near Temple Rafters",
+    "type": "toggle",
+    "img": "images/ladders/near_tmp.png",
+    "codes": "ladder_near_temple_rafters",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders near Dark Tomb",
+    "type": "toggle",
+    "img": "images/ladders/near_dt.png",
+    "codes": "ladders_near_dark_tomb",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladder to Quarry",
+    "type": "toggle",
+    "img": "images/ladders/to_qry.png",
+    "codes": "ladder_to_quarry",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders to West Bell",
+    "type": "toggle",
+    "img": "images/ladders/to_wb.png",
+    "codes": "ladders_to_west_bell",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders in Overworld Town",
+    "type": "toggle",
+    "img": "images/ladders/in_twn.png",
+    "codes": "ladders_in_overworld_town",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladder to Ruined Atoll",
+    "type": "toggle",
+    "img": "images/ladders/to_atl.png",
+    "codes": "ladder_to_ruined_atoll",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladder to Swamp",
+    "type": "toggle",
+    "img": "images/ladders/to_swp.png",
+    "codes": "ladder_to_swamp",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders in Well",
+    "type": "toggle",
+    "img": "images/ladders/in_wel.png",
+    "codes": "ladders_in_well",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladder in Dark Tomb",
+    "type": "toggle",
+    "img": "images/ladders/in_dt.png",
+    "codes": "ladder_in_dark_tomb",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladder to East Forest",
+    "type": "toggle",
+    "img": "images/ladders/to_efr.png",
+    "codes": "ladder_to_east_forest",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders to Lower Forest",
+    "type": "toggle",
+    "img": "images/ladders/to_lfr.png",
+    "codes": "ladders_to_lower_forest",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladder to Beneath the Vault",
+    "type": "toggle",
+    "img": "images/ladders/to_btv.png",
+    "codes": "ladder_to_beneath_the_vault",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders in Hourglass Cave",
+    "type": "toggle",
+    "img": "images/ladders/in_hgc.png",
+    "codes": "ladders_in_hourglass_cave",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders in South Atoll",
+    "type": "toggle",
+    "img": "images/ladders/in_atl.png",
+    "codes": "ladders_in_south_atoll",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders to Frog's Domain",
+    "type": "toggle",
+    "img": "images/ladders/to_frg.png",
+    "codes": "ladders_to_frogs_domain",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders in Library",
+    "type": "toggle",
+    "img": "images/ladders/in_lib.png",
+    "codes": "ladders_in_library",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders in Lower Quarry",
+    "type": "toggle",
+    "img": "images/ladders/in_qry.png",
+    "codes": "ladders_in_lower_quarry",
+    "initial_active_state": true
+  },
+  {
+    "name": "Ladders in Swamp",
+    "type": "toggle",
+    "img": "images/ladders/in_swp.png",
+    "codes": "ladders_in_swamp",
+    "initial_active_state": true
+  },
 	//Layout Switching
 	{
 		"name": "Progressive Sword Layout",

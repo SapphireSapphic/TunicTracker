@@ -232,6 +232,10 @@ function onClear(slot_data)
             obj.Active = slot_data.sword_progression
         end
     end
+
+    if slot_data.shuffle_ladders then
+        Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
+    end
     
     -- manually run snes interface functions after onClear in case we are already ingame
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
