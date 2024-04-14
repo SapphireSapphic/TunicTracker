@@ -302,7 +302,7 @@ function onItem(index, item_id, item_name, player_number)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
-    if v[1] == "hexquest" then
+    if v[1] == "hexquest" and slot_data.ability_shuffling then
         print("hexes acquired: " .. obj.AcquiredCount)
         if obj.AcquiredCount >= hexprayer then
             Tracker:FindObjectForCode("pray").Active = true
