@@ -234,7 +234,7 @@ function onClear(slot_data)
     end
 
     if slot_data.shuffle_ladders then
-        Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = 1
+        Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
     end
     
     -- manually run snes interface functions after onClear in case we are already ingame
