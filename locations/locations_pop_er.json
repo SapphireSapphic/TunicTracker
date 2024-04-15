@@ -790,7 +790,31 @@
           "ladders_near_weathervane",
           "@Ruined Passage"
         ],
-        "children": []
+        "children": [
+          {
+            "name": "[East] Between ladders near Ruined Passage",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3440,
+                "y": 2763
+              },
+              {
+                "map": "overworld",
+                "x": 1766,
+                "y": 1012,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Above Ruined Passage",
@@ -817,29 +841,6 @@
             "sections": [
               {
                 "name": "Above Locked House",
-                "access_rules": null,
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "[East] Between ladders near Ruined Passage",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3440,
-                "y": 2763
-              },
-              {
-                "map": "overworld",
-                "x": 1766,
-                "y": 1012,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Chest",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -4433,7 +4434,7 @@
                 "name": "[East] Locked Room Lower Chest",
                 "access_rules": [
                   "dash",
-                  "key"
+                  "key:2"
                 ],
                 "item_count": 1
               },
@@ -4441,7 +4442,7 @@
                 "name": "[East] Locked Room Upper Chest",
                 "access_rules": [
                   "dash",
-                  "key"
+                  "key:2"
                 ],
                 "item_count": 1
               }
