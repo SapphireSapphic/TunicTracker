@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "1.7",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7/TunicTracker.zip",
+            "sha256": "cc491ea802313073f22a051c8274f5efa183de751179e1eefe8093dacdaf9081",
+            "changelog": [
+                "Logic updated for new release of TUNIC randomizer (patrickwhite256)",
+                "Support for laddershuffle was added (patrickwhite256)",
+                "Fix for hexquest without ability shuffle (scipiowright)",
+                "Compress PNG's (nivomi)"
+            ]
+        },
+        {
             "package_version": "1.6.4",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.6.4/TunicTracker.zip",
             "sha256": "7e84c7669f0e969dc258f1308524d005bd7db6c25f2f98a2c64b0d8eb824ce2b",
