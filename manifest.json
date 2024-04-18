@@ -2,7 +2,7 @@
   "name": "Tunic Randomizer - Item & Map Tracker",
   "game_name": "Tunic",
   "platform": "PC",
-  "package_version": "1.7",
+  "package_version": "1.7.1",
   "package_uid": "tunic_sapphiresapphic",
   "author": "SapphireSapphic, Scout_JD, Br00ty",
   "variants": {
@@ -25,5 +25,6 @@
       ]
     }
   },
-  "versions_url": "https://raw.githubusercontent.com/SapphireSapphic/TunicTracker/master/versions.json"
+  "versions_url": "https://raw.githubusercontent.com/SapphireSapphic/TunicTracker/master/versions.json",
+  "min_poptracker_version": "0.26.0"
 }

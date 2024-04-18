@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.7.1",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.1/TunicTracker.zip",
+            "sha256": "f11c3649ec5a5399f5a8ae114b76dda22aed32816aedcb8e0b0eba9ded7a1074",
+            "changelog": [
+                "fixed ability shuffle not autotracking correctly (scipio)",
+                "fixed a location not autotracking correctly",
+                "require minimum pop version"
+            ]
+        },
+        {
             "package_version": "1.7",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7/TunicTracker.zip",
             "sha256": "cc491ea802313073f22a051c8274f5efa183de751179e1eefe8093dacdaf9081",
