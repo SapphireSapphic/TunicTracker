@@ -1,8 +1,8 @@
 -- LAYOUT SWITCHING
 function apLayoutChange()
-    local progSword = Tracker:FindObjectForCode("progswordLayout")
+    local progSword = Tracker:FindObjectForCode("progswordSetting")
     if (string.find(Tracker.ActiveVariantUID, "standard")) then
-        if progSword.Active then
+        if progSword.CurrentStage == 1 then
             Tracker:AddLayouts("layouts/itemspop_progsword.json")
             Tracker:AddLayouts("layouts/broadcastpop_progsword.json")
         else
@@ -12,7 +12,7 @@ function apLayoutChange()
     end
 end
 
-ScriptHost:AddWatchForCode("useApLayout", "progswordLayout", apLayoutChange)
+ScriptHost:AddWatchForCode("useApLayout", "progswordSetting", apLayoutChange)
 
 function ladderLayoutChange()
     local ladders = Tracker:FindObjectForCode("ladder_shuffle_off")

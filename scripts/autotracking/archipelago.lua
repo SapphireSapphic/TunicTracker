@@ -214,15 +214,6 @@ function onClear(slot_data)
         --end
     --end
 
-    -- For Layout Switching
-    if slot_data.sword_progression then
-        print("slot_data.sword_progression: " .. slot_data.sword_progression)
-        local obj = Tracker:FindObjectForCode("progswordLayout")
-        if obj then
-            obj.Active = slot_data.sword_progression
-        end
-    end
-
     if slot_data.shuffle_ladders then
         Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
     end
