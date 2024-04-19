@@ -14,12 +14,11 @@ end
 
 ScriptHost:AddWatchForCode("useApLayout", "progswordSetting", apLayoutChange)
 
-function ladderLayoutChange()
+function updateLayout()
     local ladders = Tracker:FindObjectForCode("ladder_shuffle_off")
+    local layoutString = "layouts/trackerpop"
     if (string.find(Tracker.ActiveVariantUID, "standard") or string.find(Tracker.ActiveVariantUID, "var_itemsonly")) then
         if ladders.CurrentStage == 0 then
-            Tracker:AddLayouts("layouts/trackerpop.json")
-
             Tracker:FindObjectForCode("ladders_near_weathervane").Active = true
             Tracker:FindObjectForCode("ladders_near_overworld_checkpoint").Active = true
             Tracker:FindObjectForCode("ladders_near_patrol_cave").Active = true
@@ -42,7 +41,7 @@ function ladderLayoutChange()
             Tracker:FindObjectForCode("ladders_in_lower_quarry").Active = true
             Tracker:FindObjectForCode("ladders_in_swamp").Active = true
         else
-            Tracker:AddLayouts("layouts/trackerpop_ladders.json")
+            layoutString = layoutString .. "_ladders"
 
             Tracker:FindObjectForCode("ladders_near_weathervane").Active = false
             Tracker:FindObjectForCode("ladders_near_overworld_checkpoint").Active = false
@@ -66,9 +65,15 @@ function ladderLayoutChange()
             Tracker:FindObjectForCode("ladders_in_lower_quarry").Active = false
             Tracker:FindObjectForCode("ladders_in_swamp").Active = false
         end
+
+        if Tracker:FindObjectForCode("show_hints").Active then
+            layoutString = layoutString .. "_hints"
+        end
+
+        Tracker:AddLayouts(layoutString .. ".json")
     end
 
 end
 
-ScriptHost:AddWatchForCode("ladderLayoutOff", "ladder_shuffle_off", ladderLayoutChange)
-ScriptHost:AddWatchForCode("ladderLayoutOn", "ladder_shuffle_on", ladderLayoutChange)
+ScriptHost:AddWatchForCode("ladderLayout", "ladder_shuffle_off", updateLayout)
+ScriptHost:AddWatchForCode("hintsLayout", "show_hints", updateLayout)
