@@ -22,7 +22,7 @@ As of version 1.5, this package is now also compatible with Poptracker, for use 
 
 As of version 1.6, this package supports auto-tabbing (compatible with Poptracker only), and auto-layout switching for when the player is connected to the AP server and has the setting `Progressive Sword` on.
 
-As of version 1.7, this package supports Ladder Shuffle (compatible with Poptracker only) and this packs logic has been fully updated, all thanks to @patrickwhite256 . 
+As of version 1.7, this package supports Ladder Shuffle (compatible with Poptracker only) and this packs logic has been fully updated, all thanks to @patrickwhite256 . 1.7 also features new maps of East Forest and Rooted Ziggurat, thanks to FletchIsAFurry. 
 
 Note: The "Hints" section of the tracker is only intended for generalized hints (ie. "The Laurels are in The Quarry" or "East Forest is on the path of the hero"). For specific location hints, you can click on the corresponding check and mark the item directly (ie. 15 coins in the well hoards the Shield).
 

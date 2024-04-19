@@ -93,7 +93,7 @@
 	  "name": "ziggurat",
     "location_size": 32,
     "location_border_thickness": 7,
-	  "img": "maps/ziggurat_pop.png"
+	  "img": "maps/fletch_ziggurat.png"
   },
   {
 	  "name": "secrets",
