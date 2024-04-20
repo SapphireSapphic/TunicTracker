@@ -271,6 +271,10 @@ function onItem(index, item_id, item_name, player_number)
     if obj then
         if v[2] == "toggle" then
             obj.Active = true
+            if v[1] == "pray" or v[1] == "cross" or v[1] == "icerod" then
+                local manual = Tracker:FindObjectForCode("manual")
+                manual.AcquiredCount = manual.AcquiredCount + 1
+            end
         elseif v[2] == "progressive" then
             if obj.Active then
                 obj.CurrentStage = obj.CurrentStage + 1
