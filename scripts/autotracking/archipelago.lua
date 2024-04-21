@@ -13,7 +13,8 @@ hexcross = 0
 hexice = 0
 
 function onSetReply(key, value, old)
-    if key == "Slot:" .. Archipelago.PlayerNumber .. ":Current Map" then
+    local slot_player = "Slot:" .. Archipelago.PlayerNumber
+    if key == slot_player ":Current Map" then
         if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
             if TABS_MAPPING[value] then
                 CURRENT_ROOM = TABS_MAPPING[value]
@@ -22,57 +23,58 @@ function onSetReply(key, value, old)
             end
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
         end
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain" then
+    elseif key == slot_player .. ":Defeated Guard Captain" then
         Tracker:FindObjectForCode("captain", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight" then
+    elseif key == slot_player .. ":Defeated Garden Knight" then
         Tracker:FindObjectForCode("gknight", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine" then
+    elseif key == slot_player ":Defeated Siege Engine" then
         Tracker:FindObjectForCode("engine", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian" then
+    elseif key == slot_player ":Defeated Librarian" then
         Tracker:FindObjectForCode("librarian", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger" then
+    elseif key == slot_player ":Defeated Boss Scavenger" then
         Tracker:FindObjectForCode("scavboss", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet" then
+    elseif key == slot_player ":Cleared Cathedral Gauntlet" then
         Tracker:FindObjectForCode("gauntlet", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending" then
+    elseif key == slot_player ":Reached an Ending" then
         Tracker:FindObjectForCode("heir", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell" then
+    elseif key == slot_player ":Rang East Bell" then
         Tracker:FindObjectForCode("ding", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell" then
+    elseif key == slot_player ":Rang West Bell" then
         Tracker:FindObjectForCode("dong", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker" then
+    elseif key == slot_player ":Granted Firecracker" then
         Tracker:FindObjectForCode("dynamite", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb" then
+    elseif key == slot_player ":Granted Firebomb" then
         Tracker:FindObjectForCode("firebomb", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb" then
+    elseif key == slot_player ":Granted Icebomb" then
         Tracker:FindObjectForCode("icebomb", ITEMS).Active = value
     end
 end
 
 function retrieved(key, value)
-    if key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain" then
+    local slot_player = "Slot:" .. Archipelago.PlayerNumber
+    if key == slot_player .. ":Defeated Guard Captain" then
         Tracker:FindObjectForCode("captain", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight" then
+    elseif key == slot_player .. ":Defeated Garden Knight" then
         Tracker:FindObjectForCode("gknight", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine" then
+    elseif key == slot_player .. ":Defeated Siege Engine" then
         Tracker:FindObjectForCode("engine", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian" then
+    elseif key == slot_player .. ":Defeated Librarian" then
         Tracker:FindObjectForCode("librarian", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger" then
+    elseif key == slot_player .. ":Defeated Boss Scavenger" then
         Tracker:FindObjectForCode("scavboss", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet" then
+    elseif key == slot_player .. ":Cleared Cathedral Gauntlet" then
         Tracker:FindObjectForCode("gauntlet", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending" then
+    elseif key == slot_player .. ":Reached an Ending" then
         Tracker:FindObjectForCode("heir", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell" then
+    elseif key == slot_player .. ":Rang East Bell" then
         Tracker:FindObjectForCode("ding", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell" then
+    elseif key == slot_player .. ":Rang West Bell" then
         Tracker:FindObjectForCode("dong", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker" then
+    elseif key == slot_player .. ":Granted Firecracker" then
         Tracker:FindObjectForCode("dynamite", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb" then
+    elseif key == slot_player .. ":Granted Firebomb" then
         Tracker:FindObjectForCode("firebomb", ITEMS).Active = value
-    elseif key == "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb" then
+    elseif key == slot_player .. ":Granted Icebomb" then
         Tracker:FindObjectForCode("icebomb", ITEMS).Active = value
     end
 end
@@ -126,10 +128,7 @@ function onClear(slot_data)
     end
     -- reset hosted items
     for k, _ in pairs(HOSTED) do
-        local obj = Tracker:FindObjectForCode(k)
-        if obj then
-            obj.Active = false
-        end
+        Tracker:FindObjectForCode(k).Active = false
     end
 
     LOCAL_ITEMS = {}
@@ -142,67 +141,54 @@ function onClear(slot_data)
     if slot_data['Hexagon Quest Prayer'] then
         hexprayer = slot_data['Hexagon Quest Prayer']
         print("hexprayer: " .. hexprayer)
-    end
-    if slot_data['Hexagon Quest Holy Cross'] then
         hexcross = slot_data['Hexagon Quest Holy Cross']
         print("hexcross: " .. hexcross)
-    end
-    if slot_data['Hexagon Quest Icebolt'] then
         hexice = slot_data['Hexagon Quest Icebolt']
         print("hexice: " .. hexice)
     end
 
     if slot_data.ability_shuffling then
         print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
-        local prayer = Tracker:FindObjectForCode("pray")
-        if prayer then
-            prayer.Active = slot_data.ability_shuffling == 0
-        end
-        local hc = Tracker:FindObjectForCode("cross")
-        if hc then
-            hc.Active = slot_data.ability_shuffling == 0
-        end
-        local icerod = Tracker:FindObjectForCode("icerod")
-        if icerod then
-            icerod.Active = slot_data.ability_shuffling == 0
-        end
+        local should_activate = slot_data.ability_shuffling == 0
+        Tracker:FindObjectForCode("pray").Active = should_activate
+        Tracker:FindObjectForCode("cross").Active = should_activate
+        Tracker:FindObjectForCode("icerod").Active = should_activate
+    end
+
+    if slot_data.sword_progression then
+        print("slot_data.sword_progression: " .. slot_data.sword_progression)
+        Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
     end
 
     if slot_data['start_with_sword'] then
         print("slot_data['start_with_sword']: " .. slot_data['start_with_sword'])
+        local obj = Tracker:FindObjectForCode("progsword")
         if slot_data['start_with_sword'] == 0 then
-            Tracker:FindObjectForCode("progsword").CurrentStage = 0
+            obj.CurrentStage = 0
         elseif slot_data['start_with_sword'] == 1 then 
-            Tracker:FindObjectForCode("progsword").CurrentStage = 2
+            obj.CurrentStage = 2
+            if slot_data.sword_progression == 0 then
+                obj.CurrentStage = 1
+            end
         end
-        local obj = Tracker:FindObjectForCode("sword")
-        if obj then
-            obj.CurrentStage = slot_data['start_with_sword']
+        Tracker:FindObjectForCode("sword").CurrentStage = slot_data['start_with_sword']
+        if slot_data.sword_progression == 0 and slot_data['start_with_sword'] == 1 then
+            Tracker:FindObjectForCode("sword").CurrentStage = 0
         end
     end
 
     if slot_data['hexagon_quest'] then
         print("slot_data['hexagon_quest']: " .. slot_data['hexagon_quest'])
-        local obj = Tracker:FindObjectForCode("hexagonquest")
-        if obj then
-            obj.CurrentStage = slot_data['hexagon_quest']
-        end
-    end
-
-    if slot_data.sword_progression then
-        print("slot_data.sword_progression: " .. slot_data.sword_progression)
-        local obj = Tracker:FindObjectForCode("progswordSetting")
-        if obj then
-            obj.CurrentStage = slot_data.sword_progression
-        end
+        Tracker:FindObjectForCode("hexagonquest").CurrentStage = slot_data['hexagon_quest']
     end
 
     if slot_data['entrance_rando'] then
         print("slot_data['start_with_sword']: " .. slot_data['entrance_rando'])
+        local obj = Tracker:FindObjectForCode("er_off")
         if slot_data['entrance_rando'] == 0 then
-            Tracker:FindObjectForCode("er_off").CurrentStage = 0
+            obj.CurrentStage = 0
         elseif slot_data['entrance_rando'] == 1 then 
-            Tracker:FindObjectForCode("er_off").CurrentStage = 1
+            obj.CurrentStage = 1
         end
     end
 
@@ -226,19 +212,20 @@ function onClear(slot_data)
     end
 
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
-    local data_storage_list = ({"Slot:" .. Archipelago.PlayerNumber .. ":Current Map",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Guard Captain",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Garden Knight",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Siege Engine",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Librarian",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Defeated Boss Scavenger",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Cleared Cathedral Gauntlet",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Reached an Ending",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Rang East Bell",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Rang West Bell",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firecracker",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Granted Firebomb",
-                           "Slot:" .. Archipelago.PlayerNumber .. ":Granted Icebomb"})
+    local slot_player = "Slot:" .. Archipelago.PlayerNumber
+    local data_storage_list = ({slot_player .. ":Current Map",
+                           slot_player .. ":Defeated Guard Captain",
+                           slot_player .. ":Defeated Garden Knight",
+                           slot_player .. ":Defeated Siege Engine",
+                           slot_player .. ":Defeated Librarian",
+                           slot_player .. ":Defeated Boss Scavenger",
+                           slot_player .. ":Cleared Cathedral Gauntlet",
+                           slot_player .. ":Reached an Ending",
+                           slot_player .. ":Rang East Bell",
+                           slot_player .. ":Rang West Bell",
+                           slot_player .. ":Granted Firecracker",
+                           slot_player .. ":Granted Firebomb",
+                           slot_player .. ":Granted Icebomb"})
 
     Archipelago:SetNotify(data_storage_list)
     Archipelago:Get(data_storage_list)
