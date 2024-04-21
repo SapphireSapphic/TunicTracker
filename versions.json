@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.7.2a",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.2a/TunicTracker.zip",
+            "sha256": "853816f821459aa48f4d6b996a94951d60d11eb2c751b0d817f536d8ca4c0881",
+            "changelog": [
+                "hot-fix auto-tabbing (scipio)"
+            ]
+        },
+        {
             "package_version": "1.7.2",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.2/TunicTracker.zip",
             "sha256": "1cddde497aa5725201d07b0a54bedba06dfd29248b5f9e5ebbeb046edcd91120",
