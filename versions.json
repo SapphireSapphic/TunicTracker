@@ -1,6 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "1.7.2",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.2/TunicTracker.zip",
+            "sha256": "1cddde497aa5725201d07b0a54bedba06dfd29248b5f9e5ebbeb046edcd91120",
+            "changelog": [
+                "new east forest map, minor fixes (hatcrab)",
+                "fix ladder shuffle logic (hatcrab)",
+                "make the hint table a toggle (hatcrab)",
+                "code cleanup (scipio)",
+                "fixing pages incrementing up properly (scipio)",
+                "new ziggurat map (brooty)"
+            ]
+        },
+        {
             "package_version": "1.7.1",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.1/TunicTracker.zip",
             "sha256": "f11c3649ec5a5399f5a8ae114b76dda22aed32816aedcb8e0b0eba9ded7a1074",
