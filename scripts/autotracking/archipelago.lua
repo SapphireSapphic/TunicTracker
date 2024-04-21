@@ -14,7 +14,7 @@ hexice = 0
 
 function onSetReply(key, value, old)
     local slot_player = "Slot:" .. Archipelago.PlayerNumber
-    if key == slot_player ":Current Map" then
+    if key == slot_player .. ":Current Map" then
         if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
             if TABS_MAPPING[value] then
                 CURRENT_ROOM = TABS_MAPPING[value]
@@ -27,25 +27,25 @@ function onSetReply(key, value, old)
         Tracker:FindObjectForCode("captain", ITEMS).Active = value
     elseif key == slot_player .. ":Defeated Garden Knight" then
         Tracker:FindObjectForCode("gknight", ITEMS).Active = value
-    elseif key == slot_player ":Defeated Siege Engine" then
+    elseif key == slot_player .. ":Defeated Siege Engine" then
         Tracker:FindObjectForCode("engine", ITEMS).Active = value
-    elseif key == slot_player ":Defeated Librarian" then
+    elseif key == slot_player .. ":Defeated Librarian" then
         Tracker:FindObjectForCode("librarian", ITEMS).Active = value
-    elseif key == slot_player ":Defeated Boss Scavenger" then
+    elseif key == slot_player .. ":Defeated Boss Scavenger" then
         Tracker:FindObjectForCode("scavboss", ITEMS).Active = value
-    elseif key == slot_player ":Cleared Cathedral Gauntlet" then
+    elseif key == slot_player .. ":Cleared Cathedral Gauntlet" then
         Tracker:FindObjectForCode("gauntlet", ITEMS).Active = value
-    elseif key == slot_player ":Reached an Ending" then
+    elseif key == slot_player .. ":Reached an Ending" then
         Tracker:FindObjectForCode("heir", ITEMS).Active = value
-    elseif key == slot_player ":Rang East Bell" then
+    elseif key == slot_player .. ":Rang East Bell" then
         Tracker:FindObjectForCode("ding", ITEMS).Active = value
-    elseif key == slot_player ":Rang West Bell" then
+    elseif key == slot_player .. ":Rang West Bell" then
         Tracker:FindObjectForCode("dong", ITEMS).Active = value
-    elseif key == slot_player ":Granted Firecracker" then
+    elseif key == slot_player .. ":Granted Firecracker" then
         Tracker:FindObjectForCode("dynamite", ITEMS).Active = value
-    elseif key == slot_player ":Granted Firebomb" then
+    elseif key == slot_player .. ":Granted Firebomb" then
         Tracker:FindObjectForCode("firebomb", ITEMS).Active = value
-    elseif key == slot_player ":Granted Icebomb" then
+    elseif key == slot_player .. ":Granted Icebomb" then
         Tracker:FindObjectForCode("icebomb", ITEMS).Active = value
     end
 end
