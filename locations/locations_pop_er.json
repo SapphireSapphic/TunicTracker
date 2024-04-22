@@ -6064,12 +6064,12 @@
       {
         "name": "Quarry",
         "access_rules": [
-          "@Quarry Back,staff",
-          "@Quarry Back,sword",
-          "@Quarry Entry,staff",
-          "@Quarry Entry,sword",
-          "@Quarry Monastery Entry,staff",
-          "@Quarry Monastery Entry,sword"
+          "@Quarry Back,[staff]",
+          "@Quarry Back,[sword]",
+          "@Quarry Entry,[staff]",
+          "@Quarry Entry,[sword]",
+          "@Quarry Monastery Entry,[staff]",
+          "@Quarry Monastery Entry,[sword]"
         ],
         "children": [
           {
