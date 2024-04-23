@@ -3284,21 +3284,21 @@
         "name": "Beneath the Well Front",
         "access_rules": [
           "@Beneath the Well Ladder Exit,ladders_in_well",
-          "@Beneath the Well Main,staff",
-          "@Beneath the Well Main,stick",
-          "@Beneath the Well Main,sword"
+          "@Beneath the Well Main,[staff]",
+          "@Beneath the Well Main,[stick]",
+          "@Beneath the Well Main,[sword]"
         ],
         "children": []
       },
       {
         "name": "Beneath the Well Main",
         "access_rules": [
-          "@Beneath the Well Back,ladders_in_well,staff",
-          "@Beneath the Well Back,ladders_in_well,stick",
-          "@Beneath the Well Back,ladders_in_well,sword",
-          "@Beneath the Well Front,staff",
-          "@Beneath the Well Front,stick",
-          "@Beneath the Well Front,sword"
+          "@Beneath the Well Back,ladders_in_well,[staff]",
+          "@Beneath the Well Back,ladders_in_well,[stick]",
+          "@Beneath the Well Back,ladders_in_well,[sword]",
+          "@Beneath the Well Front,[staff]",
+          "@Beneath the Well Front,[stick]",
+          "@Beneath the Well Front,[sword]"
         ],
         "children": [
           {
@@ -6064,12 +6064,12 @@
       {
         "name": "Quarry",
         "access_rules": [
-          "@Quarry Back,staff",
-          "@Quarry Back,sword",
-          "@Quarry Entry,staff",
-          "@Quarry Entry,sword",
-          "@Quarry Monastery Entry,staff",
-          "@Quarry Monastery Entry,sword"
+          "@Quarry Back,[staff]",
+          "@Quarry Back,[sword]",
+          "@Quarry Entry,[staff]",
+          "@Quarry Entry,[sword]",
+          "@Quarry Monastery Entry,[staff]",
+          "@Quarry Monastery Entry,[sword]"
         ],
         "children": [
           {
