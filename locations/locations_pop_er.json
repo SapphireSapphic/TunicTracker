@@ -8142,7 +8142,6 @@
       {
         "name": "Far Shore to Fortress Region",
         "access_rules": [
-          "@Far Shore,pray",
           "@Fortress Arena Portal"
         ],
         "children": []
