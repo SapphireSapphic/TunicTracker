@@ -7388,7 +7388,7 @@
               {
                 "name": "DJ Khaled - Let's go Golfing!",
                 "access_rules": [
-                  "sword"
+                  "[sword]"
                 ],
                 "item_count": 1
               }
