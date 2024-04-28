@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "1.7.3",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.3/TunicTracker.zip",
+            "sha256": "26b5dfb0a6aa9a358305979336b01f27d69a6338095b1c46011ae9f893594a25",
+            "changelog": [
+                "fix for ladders not loading from autosave properly (hatcrab)",
+                "make weapon optional in well (hatcrab)",
+                "make far shore->fortress portal one directional (hatcrab)",
+                "update 4 skulls to be optional without sword (scipio)"
+            ]
+        },
+        {
             "package_version": "1.7.2a",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.2a/TunicTracker.zip",
             "sha256": "853816f821459aa48f4d6b996a94951d60d11eb2c751b0d817f536d8ca4c0881",
