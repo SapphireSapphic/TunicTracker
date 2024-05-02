@@ -12,6 +12,12 @@
         "ap"
       ]
     },
+    "var_minimal": {
+      "display_name": "Minimal Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    },
     "var_maponly": {
       "display_name": "Map Only Tracker",
       "flags": [
