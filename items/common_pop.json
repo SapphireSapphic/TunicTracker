@@ -282,7 +282,7 @@
 	},
 	//Collectibles
 	{
-		"name": "Souls",
+		"name": "Fairies",
 		"type": "consumable",
 		"loop": true,
 		"img":"images/souls.png",
