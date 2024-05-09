@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.7.4",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.4/TunicTracker.zip",
+            "sha256": "4b048f260433136db83881061ec31f275cf9614665e5180e4f1b7a08cf2107ce",
+            "changelog": [
+                "added minimal layout (hatcrab)",
+                "added MIT license"
+            ]
+        },
+        {
             "package_version": "1.7.3",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.3/TunicTracker.zip",
             "sha256": "26b5dfb0a6aa9a358305979336b01f27d69a6338095b1c46011ae9f893594a25",
