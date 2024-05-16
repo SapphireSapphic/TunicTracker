@@ -142,7 +142,7 @@ function onClear(slot_data)
         print("hexice: " .. hexice)
     end
 
-    if slot_data.ability_shuffling == 1 then
+    if slot_data.ability_shuffling ~= 0 then
         print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
         local should_activate = slot_data.ability_shuffling == 0
         Tracker:FindObjectForCode("pray").Active = should_activate
@@ -150,29 +150,29 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("icerod").Active = should_activate
     end
 
-    if slot_data.sword_progression == 1 then
+    if slot_data.sword_progression ~= 0 then
         print("slot_data.sword_progression: " .. slot_data.sword_progression)
         Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
     end
 
-    if slot_data['start_with_sword'] == 1 then
+    if slot_data['start_with_sword'] ~= 0 then
         print("slot_data['start_with_sword']: " .. slot_data['start_with_sword'])
         local obj = Tracker:FindObjectForCode("progsword")
         if slot_data['start_with_sword'] == 0 then
             obj.CurrentStage = 0
-        elseif slot_data['start_with_sword'] == 1 then 
+        elseif slot_data['start_with_sword'] ~= 0 then 
             obj.CurrentStage = 2
             if slot_data.sword_progression == 0 then
                 obj.CurrentStage = 1
             end
         end
         Tracker:FindObjectForCode("sword").CurrentStage = slot_data['start_with_sword']
-        if slot_data.sword_progression == 0 and slot_data['start_with_sword'] == 1 then
+        if slot_data.sword_progression == 0 and slot_data['start_with_sword'] ~= 0 then
             Tracker:FindObjectForCode("sword").CurrentStage = 0
         end
     end
 
-    if slot_data['hexagon_quest'] == 1 then
+    if slot_data['hexagon_quest'] ~= 0 then
         print("slot_data['hexagon_quest']: " .. slot_data['hexagon_quest'])
         Tracker:FindObjectForCode("hexagonquest").CurrentStage = slot_data['hexagon_quest']
     end
@@ -182,12 +182,12 @@ function onClear(slot_data)
         local obj = Tracker:FindObjectForCode("er_off")
         if slot_data['entrance_rando'] == 0 then
             obj.CurrentStage = 0
-        elseif slot_data['entrance_rando'] == 1 then 
+        elseif slot_data['entrance_rando'] ~= 0 then 
             obj.CurrentStage = 1
         end
     end
 
-    if slot_data.shuffle_ladders == 1 then
+    if slot_data.shuffle_ladders ~= 0 then
         Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
         -- needs to be called because onClear turns all the ladders off and the above line doesn't reenable them if shuffle_ladders is 0
         updateLayout()
@@ -263,7 +263,7 @@ function onItem(index, item_id, item_name, player_number)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
-    if v[1] == "hexquest" and SLOT_DATA.ability_shuffling == 1 then
+    if v[1] == "hexquest" and SLOT_DATA.ability_shuffling ~= 1 then
         print("hexes acquired: " .. obj.AcquiredCount)
         Tracker:FindObjectForCode("pray").Active = obj.AcquiredCount >= hexprayer
         Tracker:FindObjectForCode("cross").Active = obj.AcquiredCount >= hexcross
