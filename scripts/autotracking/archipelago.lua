@@ -142,13 +142,10 @@ function onClear(slot_data)
         print("hexice: " .. hexice)
     end
 
-    if slot_data.ability_shuffling ~= 0 then
-        print("slot_data.ability_shuffling: " .. slot_data.ability_shuffling)
-        local should_activate = slot_data.ability_shuffling == 0
-        Tracker:FindObjectForCode("pray").Active = should_activate
-        Tracker:FindObjectForCode("cross").Active = should_activate
-        Tracker:FindObjectForCode("icerod").Active = should_activate
-    end
+    local should_activate = slot_data.ability_shuffling == 0
+    Tracker:FindObjectForCode("pray").Active = should_activate
+    Tracker:FindObjectForCode("cross").Active = should_activate
+    Tracker:FindObjectForCode("icerod").Active = should_activate
 
     if slot_data.sword_progression ~= 0 then
         print("slot_data.sword_progression: " .. slot_data.sword_progression)
@@ -226,7 +223,6 @@ function onItem(index, item_id, item_name, player_number)
     if index <= CUR_INDEX then
         return
     end
-    local is_local = player_number == Archipelago.PlayerNumber
     CUR_INDEX = index;
     local v = ITEM_MAPPING[item_id]
     if not v then
