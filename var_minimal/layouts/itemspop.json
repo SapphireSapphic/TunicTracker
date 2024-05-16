@@ -11,8 +11,8 @@
         "item_size": 40,
         "rows": [
           ["stick", "sword", "dagger", "staff", "orb", "gun", "dash", "light"],
-          ["mask", "pray", "cross", "icerod", "soul", "wishes", "oldkey"],
-          ["key", "vaultkey", "red", "green", "blue", "ding", "dong"]
+          ["mask", "pray", "cross", "icerod", "soul", "wishes", "hexquest"],
+          ["oldkey","key", "vaultkey", "red", "green", "blue", "ding", "dong"]
         ]
       }
     ]
