@@ -132,7 +132,7 @@ function onClear(slot_data)
         local obj = Tracker:FindObjectForCode("progsword")
         if slot_data['start_with_sword'] == 0 then
             obj.CurrentStage = 0
-        elseif slot_data['start_with_sword'] ~= 0 then 
+        elseif slot_data['start_with_sword'] ~= 0 then
             obj.CurrentStage = 2
             if slot_data.sword_progression == 0 then
                 obj.CurrentStage = 1
@@ -147,6 +147,9 @@ function onClear(slot_data)
     if slot_data['hexagon_quest'] ~= 0 then
         print("slot_data['hexagon_quest']: " .. slot_data['hexagon_quest'])
         Tracker:FindObjectForCode("hexagonquest").CurrentStage = slot_data['hexagon_quest']
+        for _, color in ipairs({"red", "green", "blue"}) do
+            Tracker:FindObjectForCode(color).Active = true
+        end
     end
 
     if slot_data['entrance_rando'] ~= 0 then
@@ -154,7 +157,7 @@ function onClear(slot_data)
         local obj = Tracker:FindObjectForCode("er_off")
         if slot_data['entrance_rando'] == 0 then
             obj.CurrentStage = 0
-        elseif slot_data['entrance_rando'] ~= 0 then 
+        elseif slot_data['entrance_rando'] ~= 0 then
             obj.CurrentStage = 1
         end
     end
