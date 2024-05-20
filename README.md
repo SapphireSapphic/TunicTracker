@@ -6,7 +6,7 @@ If you encounter any issues, please contact SapphireSapphic#8218 on discord.
 Special thanks to SilentDestroyer for making the Tunic randomizer, and also for various insights that hepled make this package possible.
 Shoutouts to Ekkosangen, Jabberrock, and Celeste for noticing little things that make the tracker better :)
 
-East Forest map by [FletchIsAFurry](https://twitter.com/FletchIsAFurry).
+East Forest and Rooted Ziggurat maps by [FletchIsAFurry](https://twitter.com/FletchIsAFurry).
 
 Please note: Autotracker for this package is not currently possible, but likely will be some time in the future. Please stay tuned, whenever this is possible I will work on implementing it immediately.
 

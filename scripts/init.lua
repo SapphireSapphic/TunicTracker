@@ -19,27 +19,16 @@ end
 if PopVersion then
   Tracker:AddItems("items/common_pop.json")
   Tracker:AddItems("items/common_pop_modified.json")
-else
-  Tracker:AddItems("items/common.json")
-end
-
-if PopVersion then
   Tracker:AddLayouts("layouts/itemspop.json")
-else
-  Tracker:AddLayouts("layouts/items.json")
-end
-
-if PopVersion then
   Tracker:AddLayouts("layouts/trackerpop.json")
-else
-  Tracker:AddLayouts("layouts/tracker.json")
-end
-
-if PopVersion then
   Tracker:AddLayouts("layouts/standard_broadcastpop.json")
 else
+  Tracker:AddItems("items/common.json")
+  Tracker:AddLayouts("layouts/items.json")
+  Tracker:AddLayouts("layouts/tracker.json")
   Tracker:AddLayouts("layouts/standard_broadcast.json")
 end
+
 
 -- Utility Script for helper functions etc.
 ScriptHost:LoadScript("scripts/utils.lua")
