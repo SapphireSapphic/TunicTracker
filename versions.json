@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.7.5",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.5/TunicTracker.zip",
+            "sha256": "176d9158dfa1d4c849eff99663c9dd3567dee0a9d045519e22db0541d101c3c7",
+            "changelog": [
+                "general code cleanup (scipio)",
+                "added gold questagons to min. tracker (scipio)"
+            ]
+        },
+        {
             "package_version": "1.7.4",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.4/TunicTracker.zip",
             "sha256": "4b048f260433136db83881061ec31f275cf9614665e5180e4f1b7a08cf2107ce",
