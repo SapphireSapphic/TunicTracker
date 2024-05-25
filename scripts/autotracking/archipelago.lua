@@ -122,10 +122,9 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("cross").Active = should_activate
     Tracker:FindObjectForCode("icerod").Active = should_activate
 
-    if slot_data.sword_progression ~= 0 then
-        --print("slot_data.sword_progression: " .. slot_data.sword_progression)
-        Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
-    end
+    --print("slot_data.sword_progression: " .. slot_data.sword_progression)
+    Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
+    Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
 
     if slot_data.start_with_sword ~= 0 then
         --print("slot_data.start_with_sword: " .. slot_data.start_with_sword)
@@ -150,6 +149,8 @@ function onClear(slot_data)
             obj.CurrentStage = 1
         end
     end
+
+
 
     Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
     -- needs to be called because onClear turns all the ladders off and the above line doesn't reenable them if shuffle_ladders is 0
