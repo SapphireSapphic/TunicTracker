@@ -25,7 +25,7 @@ data_storage_table = {
     ["Granted Icebomb"] = "icebomb",
 }
 
-function onSetReply(key, value, old)
+function onSetReply(key, value, _)
     local slot_player = "Slot:" .. Archipelago.PlayerNumber
     if key == slot_player .. ":Current Map" then
         if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
