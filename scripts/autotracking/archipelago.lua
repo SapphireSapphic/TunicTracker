@@ -25,7 +25,7 @@ data_storage_table = {
     ["Granted Icebomb"] = "icebomb",
 }
 
-function onSetReply(key, value, old)
+function onSetReply(key, value, _)
     local slot_player = "Slot:" .. Archipelago.PlayerNumber
     if key == slot_player .. ":Current Map" then
         if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
@@ -110,11 +110,11 @@ function onClear(slot_data)
 
     if slot_data['Hexagon Quest Prayer'] ~= 0 then
         hexprayer = slot_data['Hexagon Quest Prayer']
-        print("hexprayer: " .. hexprayer)
+        --print("hexprayer: " .. hexprayer)
         hexcross = slot_data['Hexagon Quest Holy Cross']
-        print("hexcross: " .. hexcross)
+        --print("hexcross: " .. hexcross)
         hexice = slot_data['Hexagon Quest Icebolt']
-        print("hexice: " .. hexice)
+        --print("hexice: " .. hexice)
     end
 
     local should_activate = slot_data.ability_shuffling == 0
@@ -122,56 +122,39 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("cross").Active = should_activate
     Tracker:FindObjectForCode("icerod").Active = should_activate
 
-    if slot_data.sword_progression ~= 0 then
-        print("slot_data.sword_progression: " .. slot_data.sword_progression)
-        Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
+    --print("slot_data.sword_progression: " .. slot_data.sword_progression)
+    Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
+    Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
+
+    if slot_data.start_with_sword ~= 0 then
+        --print("slot_data.start_with_sword: " .. slot_data.start_with_sword)
+        Tracker:FindObjectForCode("progsword").CurrentStage = 2
+        Tracker:FindObjectForCode("sword").CurrentStage = 0
     end
 
-    if slot_data['start_with_sword'] ~= 0 then
-        print("slot_data['start_with_sword']: " .. slot_data['start_with_sword'])
-        local obj = Tracker:FindObjectForCode("progsword")
-        if slot_data['start_with_sword'] == 0 then
-            obj.CurrentStage = 0
-        elseif slot_data['start_with_sword'] ~= 0 then
-            obj.CurrentStage = 2
-            if slot_data.sword_progression == 0 then
-                obj.CurrentStage = 1
-            end
-        end
-        Tracker:FindObjectForCode("sword").CurrentStage = slot_data['start_with_sword']
-        if slot_data.sword_progression == 0 and slot_data['start_with_sword'] ~= 0 then
-            Tracker:FindObjectForCode("sword").CurrentStage = 0
-        end
-    end
-
-    if slot_data['hexagon_quest'] ~= 0 then
-        print("slot_data['hexagon_quest']: " .. slot_data['hexagon_quest'])
-        Tracker:FindObjectForCode("hexagonquest").CurrentStage = slot_data['hexagon_quest']
+    if slot_data.hexagon_quest ~= 0 then
+        --print("slot_data['hexagon_quest']: " .. slot_data['hexagon_quest'])
+        Tracker:FindObjectForCode("hexagonquest").CurrentStage = slot_data.hexagon_quest
         for _, color in ipairs({"red", "green", "blue"}) do
             Tracker:FindObjectForCode(color).Active = true
         end
     end
 
-    if slot_data['entrance_rando'] ~= 0 then
-        print("slot_data['entrance_rando']: " .. slot_data['entrance_rando'])
+    if slot_data.entrance_rando ~= 0 then
+        --print("slot_data['entrance_rando']: " .. slot_data['entrance_rando'])
         local obj = Tracker:FindObjectForCode("er_off")
-        if slot_data['entrance_rando'] == 0 then
+        if slot_data.entrance_rando == 0 then
             obj.CurrentStage = 0
-        elseif slot_data['entrance_rando'] ~= 0 then
+        else
             obj.CurrentStage = 1
         end
     end
 
-    if slot_data.shuffle_ladders ~= 0 then
-        Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
-        -- needs to be called because onClear turns all the ladders off and the above line doesn't reenable them if shuffle_ladders is 0
-        updateLayout()
-    end
-    
-    -- manually run snes interface functions after onClear in case we are already ingame
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here
-    end
+
+
+    Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
+    -- needs to be called because onClear turns all the ladders off and the above line doesn't reenable them if shuffle_ladders is 0
+    updateLayout()
 
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
     local slot_player = "Slot:" .. Archipelago.PlayerNumber
