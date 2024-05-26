@@ -3,7 +3,7 @@
         {
             "package_version": "1.7.5a",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.5a/TunicTracker.zip",
-            "sha256": "",
+            "sha256": "f7d010a82aada105c49f0a2706b6a52b6a0a3f888f99c6c3a42eb896c693b461",
             "changelog": [
                 "hot-fix ladder shuffle acting like it's on when it's not (scipio)",
                 "hot-fix sword progression off acting incorrectly (scipio)"
