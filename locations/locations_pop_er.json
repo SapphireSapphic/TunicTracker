@@ -5186,149 +5186,149 @@
                 "y": 3470
               }
             ],
-						"sections": [
-							{
-								"name": "Page 1",
-								"access_rules": null,
-								"item_count": 1
-							},
-							{
-								"name": "Page 2",
-								"access_rules": null,
-								"item_count": 1
-							},
-							{
-								"name": "Page 3",
-								"access_rules": null,
-								"item_count": 1
-							}
-						]
-					},
-					{
-						"name": "Library Lab Page 1",
-						"map_locations": [
-							{
-								"map": "library",
-								"x": 558,
-								"y": 612,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Page",
-								"access_rules": null,
-								"item_count": 1
-							}
-						]
-					},
-					{
-						"name": "Library Lab Page 2",
-						"map_locations": [
-							{
-								"map": "library",
-								"x": 520,
-								"y": 517,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Page",
-								"access_rules": null,
-								"item_count": 1
-							}
-						]
-					},
-					{
-						"name": "Library Lab Page 3",
-						"map_locations": [
-							{
-								"map": "library",
-								"x": 764,
-								"y": 422,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Page",
-								"access_rules": null,
-								"item_count": 1
-							}
-						]
-					},
-					{
-						"name": "Library Lab by Fuse", 
-						"map_locations": [
-							{
-								"map": "library",
-								"x": 227,
-								"y": 423,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Behind Chalkboard",
-								"access_rules": null,
-								"item_count": 1
-							},
-						]
-					},
-					{
-						"name": "Library Lab Chest by Shrine 1",
-						"map_locations": [
-							{
-								"map": "library",
-								"x": 406,
-								"y": 255,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Chest",
-								"access_rules": null,
-								"item_count": 1
-							},
-						],
-					},
-					{
-						"name": "Library Lab Chest by Shrine 2",
-						"map_locations": [
-							{
-								"map": "library",
-								"x": 464,
-								"y": 255,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Chest",
-								"access_rules": null,
-								"item_count": 1
-							},
-						],
-					},
-					{
-						"name": "Library Lab Chest by Shrine 3",
-						"map_locations": [
-							{
-								"map": "library",
-								"x": 570,
-								"y": 270,
-								"size": 45
-							}
-						],
-						"sections": [
-							{
-								"name": "Chest",
-								"access_rules": null,
-								"item_count": 1
-							},
-						]
+            "sections": [
+              {
+                "name": "Page 1",
+                "access_rules": null,
+                "item_count": 1
+              },
+              {
+                "name": "Page 2",
+                "access_rules": null,
+                "item_count": 1
+              },
+              {
+                "name": "Page 3",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Lab Page 1",
+            "map_locations": [
+              {
+                "map": "library",
+                "x": 558,
+                "y": 612,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Page",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Lab Page 2",
+            "map_locations": [
+              {
+                "map": "library",
+                "x": 520,
+                "y": 517,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Page",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Lab Page 3",
+            "map_locations": [
+              {
+                "map": "library",
+                "x": 764,
+                "y": 422,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Page",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Lab by Fuse", 
+            "map_locations": [
+              {
+                "map": "library",
+                "x": 227,
+                "y": 423,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Behind Chalkboard",
+                "access_rules": null,
+                "item_count": 1
+              },
+            ]
+          },
+          {
+            "name": "Library Lab Chest by Shrine 1",
+            "map_locations": [
+              {
+                "map": "library",
+                "x": 406,
+                "y": 255,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "access_rules": null,
+                "item_count": 1
+              },
+            ],
+          },
+          {
+            "name": "Library Lab Chest by Shrine 2",
+            "map_locations": [
+              {
+                "map": "library",
+                "x": 464,
+                "y": 255,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "access_rules": null,
+                "item_count": 1
+              },
+            ],
+          },
+          {
+            "name": "Library Lab Chest by Shrine 3",
+            "map_locations": [
+              {
+                "map": "library",
+                "x": 570,
+                "y": 270,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "access_rules": null,
+                "item_count": 1
+              },
+            ]
           }
         ]
       },
