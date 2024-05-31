@@ -2,9 +2,9 @@
   "name": "Tunic Randomizer - Item & Map Tracker",
   "game_name": "Tunic",
   "platform": "PC",
-  "package_version": "1.7.5a",
+  "package_version": "1.7.6",
   "package_uid": "tunic_sapphiresapphic",
-  "author": "SapphireSapphic, Scout_JD, Br00ty",
+  "author": "SapphireSapphic, Scout_JD, Br00ty, Ukilop",
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
