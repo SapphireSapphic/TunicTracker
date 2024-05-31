@@ -470,7 +470,7 @@
                 "map": "overworld",
                 "x": 1095,
                 "y": 780,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
@@ -481,7 +481,7 @@
                 "map": "west_gardens",
                 "x": 625,
                 "y": 90,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
@@ -492,7 +492,7 @@
                 "map": "east_forest",
                 "x": 1010,
                 "y": 1114,
-                "size": 35
+                "size": 20
               },
               {
                 "map": "fullmap",
@@ -503,7 +503,7 @@
                 "map": "eastern_vault",
                 "x": 630,
                 "y": 890,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
@@ -514,7 +514,7 @@
                 "map": "graveyard",
                 "x": 540,
                 "y": 666,
-                "size": 45
+                "size": 25
               }
             ],
             "sections": [
@@ -8380,13 +8380,13 @@
                 "map": "overworld",
                 "x": 900,
                 "y": 515,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "west_gardens",
                 "x": 630,
                 "y": 10,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
@@ -8397,7 +8397,7 @@
                 "map": "eastern_vault",
                 "x": 330,
                 "y": 640,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
@@ -8408,7 +8408,7 @@
                 "map": "eastern_vault",
                 "x": 390,
                 "y": 290,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
@@ -8419,7 +8419,7 @@
                 "map": "ruined_atoll",
                 "x": 1035,
                 "y": 240,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
@@ -8430,7 +8430,7 @@
                 "map": "graveyard",
                 "x": 505,
                 "y": 500,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
@@ -8441,7 +8441,7 @@
                 "map": "cathedral",
                 "x": 465,
                 "y": 485,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
@@ -8452,7 +8452,7 @@
                 "map": "quarry",
                 "x": 1000,
                 "y": 1120,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
