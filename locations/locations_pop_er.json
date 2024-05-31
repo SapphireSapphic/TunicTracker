@@ -464,7 +464,8 @@
               {
                 "map": "fullmap",
                 "x": 2770,
-                "y": 2500
+                "y": 2500,
+                "size": 35
               },
               {
                 "map": "overworld",
@@ -475,7 +476,8 @@
               {
                 "map": "fullmap",
                 "x": 865,
-                "y": 2510
+                "y": 2510,
+                "size": 35
               },
               {
                 "map": "west_gardens",
@@ -486,7 +488,8 @@
               {
                 "map": "fullmap",
                 "x": 3760,
-                "y": 2670
+                "y": 2670,
+                "size": 35
               },
               {
                 "map": "east_forest",
@@ -497,7 +500,8 @@
               {
                 "map": "fullmap",
                 "x": 4215,
-                "y": 2070
+                "y": 2070,
+                "size": 35
               },
               {
                 "map": "eastern_vault",
@@ -508,7 +512,8 @@
               {
                 "map": "fullmap",
                 "x": 4030,
-                "y": 3526
+                "y": 3526,
+                "size": 35
               },
               {
                 "map": "graveyard",
@@ -2880,7 +2885,8 @@
               {
                 "map": "fullmap",
                 "x": 3900,
-                "y": 2565
+                "y": 2565,
+                "size": 35
               },
               {
                 "map": "east_forest",
@@ -4250,7 +4256,8 @@
               {
                 "map": "fullmap",
                 "x": 960,
-                "y": 2475
+                "y": 2475,
+                "size": 35
               },
               {
                 "map": "west_gardens",
@@ -5178,35 +5185,13 @@
         ],
         "children": [
           {
-            "name": "Library Lab (Trapped Pages)",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1395,
-                "y": 3470
-              }
-            ],
-            "sections": [
-              {
-                "name": "Page 1",
-                "access_rules": null,
-                "item_count": 1
-              },
-              {
-                "name": "Page 2",
-                "access_rules": null,
-                "item_count": 1
-              },
-              {
-                "name": "Page 3",
-                "access_rules": null,
-                "item_count": 1
-              }
-            ]
-          },
-          {
             "name": "Library Lab Page 1",
             "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1405,
+                "y": 3470
+              },
               {
                 "map": "library",
                 "x": 558,
@@ -5225,6 +5210,11 @@
           {
             "name": "Library Lab Page 2",
             "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1390,
+                "y": 3550
+              },
               {
                 "map": "library",
                 "x": 520,
@@ -5243,6 +5233,11 @@
           {
             "name": "Library Lab Page 3",
             "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1665,
+                "y": 3520
+              },
               {
                 "map": "library",
                 "x": 764,
@@ -5261,6 +5256,11 @@
           {
             "name": "Library Lab by Fuse", 
             "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1425,
+                "y": 3350
+              },
               {
                 "map": "library",
                 "x": 227,
@@ -5279,6 +5279,11 @@
           {
             "name": "Library Lab Chest by Shrine 1",
             "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1585,
+                "y": 3320
+              },
               {
                 "map": "library",
                 "x": 406,
@@ -5297,6 +5302,11 @@
           {
             "name": "Library Lab Chest by Shrine 2",
             "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1630,
+                "y": 3320
+              },
               {
                 "map": "library",
                 "x": 464,
@@ -5315,6 +5325,11 @@
           {
             "name": "Library Lab Chest by Shrine 3",
             "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1665,
+                "y": 3350
+              },
               {
                 "map": "library",
                 "x": 570,
@@ -8374,7 +8389,8 @@
               {
                 "map": "fullmap",
                 "x": 2575,
-                "y": 2265
+                "y": 2265,
+                "size": 35
               },
               {
                 "map": "overworld",
@@ -8391,7 +8407,8 @@
               {
                 "map": "fullmap",
                 "x": 870,
-                "y": 2430
+                "y": 2430,
+                "size": 35
               },
               {
                 "map": "eastern_vault",
@@ -8402,7 +8419,8 @@
               {
                 "map": "fullmap",
                 "x": 3915,
-                "y": 1820
+                "y": 1820,
+                "size": 35
               },
               {
                 "map": "eastern_vault",
@@ -8413,7 +8431,8 @@
               {
                 "map": "fullmap",
                 "x": 3975,
-                "y": 1470
+                "y": 1470,
+                "size": 35
               },
               {
                 "map": "ruined_atoll",
@@ -8424,7 +8443,8 @@
               {
                 "map": "fullmap",
                 "x": 2680,
-                "y": 3350
+                "y": 3350,
+                "size": 35
               },
               {
                 "map": "graveyard",
@@ -8435,7 +8455,8 @@
               {
                 "map": "fullmap",
                 "x": 3995,
-                "y": 3360
+                "y": 3360,
+                "size": 35
               },
               {
                 "map": "cathedral",
@@ -8446,7 +8467,8 @@
               {
                 "map": "fullmap",
                 "x": 4895,
-                "y": 3260
+                "y": 3260,
+                "size": 35
               },
               {
                 "map": "quarry",
@@ -8457,7 +8479,8 @@
               {
                 "map": "fullmap",
                 "x": 1625,
-                "y": 2145
+                "y": 2145,
+                "size": 35
               }
             ],
             "sections": [
