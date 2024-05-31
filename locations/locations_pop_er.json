@@ -5273,7 +5273,7 @@
                 "name": "Behind Chalkboard",
                 "access_rules": null,
                 "item_count": 1
-              },
+              }
             ]
           },
           {
@@ -5291,8 +5291,8 @@
                 "name": "Chest",
                 "access_rules": null,
                 "item_count": 1
-              },
-            ],
+              }
+            ]
           },
           {
             "name": "Library Lab Chest by Shrine 2",
@@ -5309,8 +5309,8 @@
                 "name": "Chest",
                 "access_rules": null,
                 "item_count": 1
-              },
-            ],
+              }
+            ]
           },
           {
             "name": "Library Lab Chest by Shrine 3",
@@ -5327,7 +5327,7 @@
                 "name": "Chest",
                 "access_rules": null,
                 "item_count": 1
-              },
+              }
             ]
           }
         ]
@@ -7823,7 +7823,7 @@
               },
               {
                 "map": "cathedral",
-                "x": 505,
+                "x": 550,
                 "y": 180,
                 "size": 35
               }
@@ -7869,8 +7869,8 @@
               },
               {
                 "map": "cathedral",
-                "x": 550,
-                "y": 160,
+                "x": 505,
+                "y": 180,
                 "size": 35
               }
             ],
@@ -7966,8 +7966,8 @@
               },
               {
                 "map": "cathedral",
-                "x": 505,
-                "y": 135,
+                "x": 478,
+                "y": 100,
                 "size": 35
               }
             ],
