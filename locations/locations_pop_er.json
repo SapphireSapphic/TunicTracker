@@ -674,7 +674,7 @@
         "name": "Overworld Belltower",
         "access_rules": [
           "dash",
-          "@Overworld to West Garden Upper,ladders_to_west_bell"
+          "@Overworld to West Garden Upper,$has_ladder|ladders_to_west_bell"
         ],
         "children": [
           {
@@ -705,7 +705,7 @@
       {
         "name": "Overworld Belltower at Bell",
         "access_rules": [
-          "@Overworld Belltower,ladders_to_west_bell",
+          "@Overworld Belltower,$has_ladder|ladders_to_west_bell",
           "@Overworld above Patrol Cave,[glitches],staff"
         ],
         "children": [
@@ -743,15 +743,15 @@
         "access_rules": [
           "dash",
           "@Back of Swamp Laurels Area",
-          "@Swamp Mid,glitches,ladders_in_swamp,stick",
-          "@Swamp Mid,glitches,ladders_in_swamp,sword"
+          "@Swamp Mid,glitches,$has_ladder|ladders_in_swamp,stick",
+          "@Swamp Mid,glitches,$has_ladder|ladders_in_swamp,sword"
         ],
         "children": []
       },
       {
         "name": "Overworld Swamp Lower Entry",
         "access_rules": [
-          "ladder_to_swamp",
+          "$has_ladder|ladder_to_swamp",
           "@Back of Swamp,glitches,stick",
           "@Back of Swamp,glitches,sword",
           "@Caustic Light Cave",
@@ -787,7 +787,7 @@
         "name": "After Ruined Passage",
         "access_rules": [
           "[glitches],dagger,icerod,orb,staff",
-          "ladders_near_weathervane",
+          "$has_ladder|ladders_near_weathervane",
           "@Ruined Passage"
         ],
         "children": [
@@ -820,7 +820,7 @@
         "name": "Above Ruined Passage",
         "access_rules": [
           "dash",
-          "ladders_near_weathervane"
+          "$has_ladder|ladders_near_weathervane"
         ],
         "children": [
           {
@@ -852,14 +852,14 @@
         "name": "East Overworld",
         "access_rules": [
           "[glitches],dagger,icerod,orb,staff",
-          "ladders_near_overworld_checkpoint",
-          "@Above Ruined Passage,ladders_near_weathervane",
+          "$has_ladder|ladders_near_overworld_checkpoint",
+          "@Above Ruined Passage,$has_ladder|ladders_near_weathervane",
           "@Forest Belltower Main",
           "@Fortress Exterior from East Forest,glitches,stick",
           "@Fortress Exterior from East Forest,glitches,sword",
           "@Fortress Exterior from Overworld",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword",
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,stick",
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,sword",
           "@Overworld Special Shop Entry,dash",
           "@Overworld at Patrol Cave,dash"
         ],
@@ -985,11 +985,11 @@
         "access_rules": [
           "@Lower Mountain",
           "@Overworld above Patrol Cave,[glitches],dagger,icerod,orb,staff",
-          "@Overworld above Patrol Cave,ladders_near_patrol_cave",
+          "@Overworld above Patrol Cave,$has_ladder|ladders_near_patrol_cave",
           "@Overworld above Quarry Entrance,dash",
           "@Overworld above Quarry Entrance,orb",
           "@Overworld after Temple Rafters,[glitches],dagger,icerod,orb,staff",
-          "@Overworld after Temple Rafters,ladder_near_temple_rafters"
+          "@Overworld after Temple Rafters,$has_ladder|ladder_near_temple_rafters"
         ],
         "children": [
           {
@@ -1050,7 +1050,7 @@
       {
         "name": "Overworld above Quarry Entrance",
         "access_rules": [
-          "ladders_near_dark_tomb",
+          "$has_ladder|ladders_near_dark_tomb",
           "@Upper Overworld,dash",
           "@Upper Overworld,orb"
         ],
@@ -1084,7 +1084,7 @@
         "name": "Overworld after Temple Rafters",
         "access_rules": [
           "@Sealed Temple Rafters",
-          "@Upper Overworld,ladder_near_temple_rafters"
+          "@Upper Overworld,$has_ladder|ladder_near_temple_rafters"
         ],
         "children": []
       },
@@ -1092,7 +1092,7 @@
         "name": "Overworld Quarry Entry",
         "access_rules": [
           "[glitches],dagger,orb",
-          "@Overworld after Envoy,ladder_to_quarry",
+          "@Overworld after Envoy,$has_ladder|ladder_to_quarry",
           "@Quarry Connector"
         ],
         "children": []
@@ -1104,7 +1104,7 @@
           "bigsword",
           "dash",
           "orb",
-          "@Overworld Quarry Entry,ladder_to_quarry"
+          "@Overworld Quarry Entry,$has_ladder|ladder_to_quarry"
         ],
         "children": [
           {
@@ -1136,7 +1136,7 @@
         "name": "Overworld at Patrol Cave",
         "access_rules": [
           "@East Overworld",
-          "@Overworld above Patrol Cave,ladders_near_patrol_cave",
+          "@Overworld above Patrol Cave,$has_ladder|ladders_near_patrol_cave",
           "@Patrol Cave"
         ],
         "children": []
@@ -1144,10 +1144,10 @@
       {
         "name": "Overworld above Patrol Cave",
         "access_rules": [
-          "ladders_near_overworld_checkpoint",
+          "$has_ladder|ladders_near_overworld_checkpoint",
           "orb",
-          "@Overworld at Patrol Cave,ladders_near_patrol_cave",
-          "@Upper Overworld,ladders_near_patrol_cave"
+          "@Overworld at Patrol Cave,$has_ladder|ladders_near_patrol_cave",
+          "@Upper Overworld,$has_ladder|ladders_near_patrol_cave"
         ],
         "children": [
           {
@@ -1190,20 +1190,20 @@
       {
         "name": "Overworld to West Garden Upper",
         "access_rules": [
-          "@Overworld Belltower,ladders_to_west_bell",
+          "@Overworld Belltower,$has_ladder|ladders_to_west_bell",
           "@West Garden after Boss",
-          "@West Garden,glitches,ladders_to_west_bell,stick",
-          "@West Garden,glitches,ladders_to_west_bell,sword"
+          "@West Garden,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@West Garden,glitches,$has_ladder|ladders_to_west_bell,sword"
         ],
         "children": []
       },
       {
         "name": "Overworld to West Garden from Furnace",
         "access_rules": [
-          "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,stick",
-          "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,sword",
-          "@Furnace Ladder Area,glitches,ladders_to_west_bell,stick",
-          "@Furnace Ladder Area,glitches,ladders_to_west_bell,sword",
+          "@Furnace Ladder Area,glitches,$has_ladder|ladder_in_dark_tomb,stick",
+          "@Furnace Ladder Area,glitches,$has_ladder|ladder_in_dark_tomb,sword",
+          "@Furnace Ladder Area,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@Furnace Ladder Area,glitches,$has_ladder|ladders_to_west_bell,sword",
           "@Furnace Walking Path",
           "@West Garden"
         ],
@@ -1236,7 +1236,7 @@
       {
         "name": "Overworld Well Ladder",
         "access_rules": [
-          "ladders_in_well",
+          "$has_ladder|ladders_in_well",
           "@Beneath the Well Ladder Exit"
         ],
         "children": []
@@ -1245,11 +1245,11 @@
         "name": "Overworld Beach",
         "access_rules": [
           "dash",
-          "ladders_in_overworld_town",
+          "$has_ladder|ladders_in_overworld_town",
           "orb",
           "@Hourglass Cave",
           "@Maze Cave",
-          "@Overworld to Atoll Upper,ladder_to_ruined_atoll",
+          "@Overworld to Atoll Upper,$has_ladder|ladder_to_ruined_atoll",
           "@Ruined Atoll Lower Entry Area",
           "@Ruined Atoll,glitches,stick",
           "@Ruined Atoll,glitches,sword"
@@ -1471,7 +1471,7 @@
           "[glitches],dagger,icerod,orb,staff",
           "dash",
           "@Furnace Ladder Area",
-          "@Overworld Beach,ladders_in_overworld_town"
+          "@Overworld Beach,$has_ladder|ladders_in_overworld_town"
         ],
         "children": [
           {
@@ -1503,7 +1503,7 @@
         "name": "Overworld to Atoll Upper",
         "access_rules": [
           "dash",
-          "@Overworld Beach,ladder_to_ruined_atoll",
+          "@Overworld Beach,$has_ladder|ladder_to_ruined_atoll",
           "@Ruined Atoll"
         ],
         "children": []
@@ -1635,21 +1635,21 @@
       {
         "name": "Furnace Fuse",
         "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
+          "glitches,$has_ladder|ladder_to_quarry,stick",
+          "glitches,$has_ladder|ladder_to_quarry,sword",
+          "glitches,$has_ladder|ladder_to_swamp,stick",
+          "glitches,$has_ladder|ladder_to_swamp,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,sword",
           "@Furnace Ladder Area,dash",
           "@Furnace Walking Path,dash",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,sword",
           "@Overworld Well to Furnace Rail",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,sword"
         ],
         "children": []
       },
@@ -1661,25 +1661,25 @@
       {
         "name": "Furnace Walking Path",
         "access_rules": [
-          "glitches,ladder_in_dark_tomb,ladder_to_swamp,stick",
-          "glitches,ladder_in_dark_tomb,ladder_to_swamp,sword",
-          "glitches,ladder_in_dark_tomb,ladders_in_overworld_town,stick",
-          "glitches,ladder_in_dark_tomb,ladders_in_overworld_town,sword",
-          "glitches,ladder_in_dark_tomb,ladders_near_weathervane,stick",
-          "glitches,ladder_in_dark_tomb,ladders_near_weathervane,sword",
-          "glitches,ladder_to_swamp,ladders_to_west_bell,stick",
-          "glitches,ladder_to_swamp,ladders_to_west_bell,sword",
-          "glitches,ladders_in_overworld_town,ladders_to_west_bell,stick",
-          "glitches,ladders_in_overworld_town,ladders_to_west_bell,sword",
-          "glitches,ladders_near_weathervane,ladders_to_west_bell,stick",
-          "glitches,ladders_near_weathervane,ladders_to_west_bell,sword",
+          "glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladder_to_swamp,stick",
+          "glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladder_to_swamp,sword",
+          "glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladders_in_overworld_town,stick",
+          "glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladders_in_overworld_town,sword",
+          "glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladders_near_weathervane,stick",
+          "glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladders_near_weathervane,sword",
+          "glitches,$has_ladder|ladder_to_swamp,$has_ladder|ladders_to_west_bell,stick",
+          "glitches,$has_ladder|ladder_to_swamp,$has_ladder|ladders_to_west_bell,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,$has_ladder|ladders_to_west_bell,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,$has_ladder|ladders_to_west_bell,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,$has_ladder|ladders_to_west_bell,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,$has_ladder|ladders_to_west_bell,sword",
           "@Dark Tomb Dark Exit",
           "@Furnace Fuse,dash",
           "@Furnace Ladder Area,dash",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,sword",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladder_to_ruined_atoll,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladder_to_ruined_atoll,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,$has_ladder|ladders_to_west_bell,sword",
           "@Overworld to West Garden from Furnace"
         ],
         "children": []
@@ -1766,23 +1766,23 @@
       {
         "name": "Patrol Cave",
         "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_in_well,stick",
-          "glitches,ladders_in_well,sword",
-          "glitches,ladders_near_dark_tomb,stick",
-          "glitches,ladders_near_dark_tomb,sword",
-          "glitches,ladders_near_overworld_checkpoint,stick",
-          "glitches,ladders_near_overworld_checkpoint,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
+          "glitches,$has_ladder|ladder_to_quarry,stick",
+          "glitches,$has_ladder|ladder_to_quarry,sword",
+          "glitches,$has_ladder|ladder_to_swamp,stick",
+          "glitches,$has_ladder|ladder_to_swamp,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,sword",
+          "glitches,$has_ladder|ladders_in_well,stick",
+          "glitches,$has_ladder|ladders_in_well,sword",
+          "glitches,$has_ladder|ladders_near_dark_tomb,stick",
+          "glitches,$has_ladder|ladders_near_dark_tomb,sword",
+          "glitches,$has_ladder|ladders_near_overworld_checkpoint,stick",
+          "glitches,$has_ladder|ladders_near_overworld_checkpoint,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,sword",
           "@Overworld at Patrol Cave",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,sword"
         ],
         "children": [
           {
@@ -1864,18 +1864,18 @@
       {
         "name": "Ruined Passage",
         "access_rules": [
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
+          "glitches,$has_ladder|ladder_to_swamp,stick",
+          "glitches,$has_ladder|ladder_to_swamp,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,sword",
           "@After Ruined Passage",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,sword",
           "@Overworld Ruined Passage Door",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,sword"
         ],
         "children": [
           {
@@ -1983,8 +1983,8 @@
         "name": "Maze Cave",
         "access_rules": [
           "@Overworld Beach",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,sword"
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,stick",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,sword"
         ],
         "children": [
           {
@@ -2136,15 +2136,15 @@
         "name": "Hourglass Cave",
         "access_rules": [
           "@Overworld Beach",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,sword"
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,stick",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,sword"
         ],
         "children": []
       },
       {
         "name": "Hourglass Cave Tower",
         "access_rules": [
-          "@Hourglass Cave,ladders_in_hourglass_cave"
+          "@Hourglass Cave,$has_ladder|ladders_in_hourglass_cave"
         ],
         "children": []
       },
@@ -2195,47 +2195,47 @@
       {
         "name": "Sealed Temple Rafters",
         "access_rules": [
-          "[glitches],dagger,dash,glitches,icerod,ladder_to_quarry,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladder_to_quarry,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladder_to_swamp,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladder_to_swamp,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_in_overworld_town,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_in_overworld_town,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_in_well,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_in_well,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_dark_tomb,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_dark_tomb,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_patrol_cave,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_patrol_cave,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_weathervane,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_weathervane,orb,staff,sword",
-          "dash,glitches,ladder_to_quarry,ladders_near_patrol_cave,orb,staff,stick",
-          "dash,glitches,ladder_to_quarry,ladders_near_patrol_cave,orb,sword",
-          "dash,glitches,ladders_near_dark_tomb,ladders_near_patrol_cave,orb,stick",
-          "dash,glitches,ladders_near_dark_tomb,ladders_near_patrol_cave,orb,sword",
-          "dash,glitches,ladders_near_overworld_checkpoint,orb,stick",
-          "dash,glitches,ladders_near_overworld_checkpoint,orb,sword",
-          "glitches,ladder_near_temple_rafters,ladder_to_quarry,stick",
-          "glitches,ladder_near_temple_rafters,ladder_to_quarry,sword",
-          "glitches,ladder_near_temple_rafters,ladder_to_swamp,stick",
-          "glitches,ladder_near_temple_rafters,ladder_to_swamp,sword",
-          "glitches,ladder_near_temple_rafters,ladders_in_overworld_town,stick",
-          "glitches,ladder_near_temple_rafters,ladders_in_overworld_town,sword",
-          "glitches,ladder_near_temple_rafters,ladders_in_well,stick",
-          "glitches,ladder_near_temple_rafters,ladders_in_well,sword",
-          "glitches,ladder_near_temple_rafters,ladders_near_dark_tomb,stick",
-          "glitches,ladder_near_temple_rafters,ladders_near_dark_tomb,sword",
-          "glitches,ladder_near_temple_rafters,ladders_near_overworld_checkpoint,stick",
-          "glitches,ladder_near_temple_rafters,ladders_near_overworld_checkpoint,sword",
-          "glitches,ladder_near_temple_rafters,ladders_near_patrol_cave,stick",
-          "glitches,ladder_near_temple_rafters,ladders_near_patrol_cave,sword",
-          "glitches,ladder_near_temple_rafters,ladders_near_weathervane,stick",
-          "glitches,ladder_near_temple_rafters,ladders_near_weathervane,sword",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladder_to_quarry,orb,staff,stick",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladder_to_quarry,orb,staff,sword",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladder_to_swamp,orb,staff,stick",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladder_to_swamp,orb,staff,sword",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_in_overworld_town,orb,staff,stick",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_in_overworld_town,orb,staff,sword",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_in_well,orb,staff,stick",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_in_well,orb,staff,sword",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_near_dark_tomb,orb,staff,stick",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_near_dark_tomb,orb,staff,sword",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_near_patrol_cave,orb,staff,stick",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_near_patrol_cave,orb,staff,sword",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_near_weathervane,orb,staff,stick",
+          "[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_near_weathervane,orb,staff,sword",
+          "dash,glitches,$has_ladder|ladder_to_quarry,$has_ladder|ladders_near_patrol_cave,orb,staff,stick",
+          "dash,glitches,$has_ladder|ladder_to_quarry,$has_ladder|ladders_near_patrol_cave,orb,sword",
+          "dash,glitches,$has_ladder|ladders_near_dark_tomb,$has_ladder|ladders_near_patrol_cave,orb,stick",
+          "dash,glitches,$has_ladder|ladders_near_dark_tomb,$has_ladder|ladders_near_patrol_cave,orb,sword",
+          "dash,glitches,$has_ladder|ladders_near_overworld_checkpoint,orb,stick",
+          "dash,glitches,$has_ladder|ladders_near_overworld_checkpoint,orb,sword",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladder_to_quarry,stick",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladder_to_quarry,sword",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladder_to_swamp,stick",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladder_to_swamp,sword",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_in_overworld_town,stick",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_in_overworld_town,sword",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_in_well,stick",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_in_well,sword",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_near_dark_tomb,stick",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_near_dark_tomb,sword",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_near_overworld_checkpoint,stick",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_near_overworld_checkpoint,sword",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_near_patrol_cave,stick",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_near_patrol_cave,sword",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_near_weathervane,stick",
+          "glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_near_weathervane,sword",
           "@Overworld after Temple Rafters",
-          "@Overworld to West Garden Upper,[glitches],dagger,dash,glitches,icerod,ladders_to_west_bell,orb,staff,stick",
-          "@Overworld to West Garden Upper,[glitches],dagger,dash,glitches,icerod,ladders_to_west_bell,orb,staff,sword",
-          "@Overworld to West Garden Upper,glitches,ladder_near_temple_rafters,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladder_near_temple_rafters,ladders_to_west_bell,sword",
+          "@Overworld to West Garden Upper,[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_to_west_bell,orb,staff,stick",
+          "@Overworld to West Garden Upper,[glitches],dagger,dash,glitches,icerod,$has_ladder|ladders_to_west_bell,orb,staff,sword",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladder_near_temple_rafters,$has_ladder|ladders_to_west_bell,sword",
           "@Sealed Temple"
         ],
         "children": []
@@ -2306,25 +2306,25 @@
       {
         "name": "Forest Belltower Main",
         "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_in_well,stick",
-          "glitches,ladders_in_well,sword",
-          "glitches,ladders_near_dark_tomb,stick",
-          "glitches,ladders_near_dark_tomb,sword",
-          "glitches,ladders_near_patrol_cave,stick",
-          "glitches,ladders_near_patrol_cave,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
+          "glitches,$has_ladder|ladder_to_quarry,stick",
+          "glitches,$has_ladder|ladder_to_quarry,sword",
+          "glitches,$has_ladder|ladder_to_swamp,stick",
+          "glitches,$has_ladder|ladder_to_swamp,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,sword",
+          "glitches,$has_ladder|ladders_in_well,stick",
+          "glitches,$has_ladder|ladders_in_well,sword",
+          "glitches,$has_ladder|ladders_near_dark_tomb,stick",
+          "glitches,$has_ladder|ladders_near_dark_tomb,sword",
+          "glitches,$has_ladder|ladders_near_patrol_cave,stick",
+          "glitches,$has_ladder|ladders_near_patrol_cave,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,sword",
           "@East Overworld",
           "@Forest Belltower Upper",
           "@Fortress Exterior from East Forest",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,sword"
         ],
         "children": [
           {
@@ -2369,7 +2369,7 @@
         "name": "Forest Belltower Lower",
         "access_rules": [
           "@East Forest",
-          "@Forest Belltower Main,ladder_to_east_forest"
+          "@Forest Belltower Main,$has_ladder|ladder_to_east_forest"
         ],
         "children": [
           {
@@ -2404,7 +2404,7 @@
           "@Guard House 1 East",
           "@Guard House 1 West",
           "@Guard House 2 Upper",
-          "@Lower Forest,ladders_to_lower_forest"
+          "@Lower Forest,$has_ladder|ladders_to_lower_forest"
         ],
         "children": [
           {
@@ -2637,7 +2637,7 @@
         "name": "Lower Forest",
         "access_rules": [
           "@East Forest,dagger,icerod,orb,staff",
-          "@East Forest,ladders_to_lower_forest",
+          "@East Forest,$has_ladder|ladders_to_lower_forest",
           "@Guard House 2 Lower"
         ],
         "children": [
@@ -2805,7 +2805,7 @@
         "name": "Guard House 2 Upper",
         "access_rules": [
           "@East Forest",
-          "@Guard House 2 Lower,ladders_to_lower_forest"
+          "@Guard House 2 Lower,$has_ladder|ladders_to_lower_forest"
         ],
         "children": [
           {
@@ -2836,7 +2836,7 @@
       {
         "name": "Guard House 2 Lower",
         "access_rules": [
-          "@Guard House 2 Upper,ladders_to_lower_forest",
+          "@Guard House 2 Upper,$has_ladder|ladders_to_lower_forest",
           "@Lower Forest"
         ],
         "children": [
@@ -3045,7 +3045,7 @@
         "name": "Dark Tomb Upper",
         "access_rules": [
           "@Dark Tomb Entry Point,[light]",
-          "@Dark Tomb Main,ladder_in_dark_tomb"
+          "@Dark Tomb Main,$has_ladder|ladder_in_dark_tomb"
         ],
         "children": [
           {
@@ -3077,7 +3077,7 @@
         "name": "Dark Tomb Main",
         "access_rules": [
           "@Dark Tomb Dark Exit,[light]",
-          "@Dark Tomb Upper,ladder_in_dark_tomb"
+          "@Dark Tomb Upper,$has_ladder|ladder_in_dark_tomb"
         ],
         "children": [
           {
@@ -3224,10 +3224,10 @@
         "name": "Dark Tomb Dark Exit",
         "access_rules": [
           "@Dark Tomb Main",
-          "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,stick",
-          "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,sword",
-          "@Furnace Ladder Area,glitches,ladders_to_west_bell,stick",
-          "@Furnace Ladder Area,glitches,ladders_to_west_bell,sword",
+          "@Furnace Ladder Area,glitches,$has_ladder|ladder_in_dark_tomb,stick",
+          "@Furnace Ladder Area,glitches,$has_ladder|ladder_in_dark_tomb,sword",
+          "@Furnace Ladder Area,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@Furnace Ladder Area,glitches,$has_ladder|ladders_to_west_bell,sword",
           "@Furnace Walking Path"
         ],
         "children": []
@@ -3275,7 +3275,7 @@
       {
         "name": "Beneath the Well Ladder Exit",
         "access_rules": [
-          "@Beneath the Well Front,ladders_in_well",
+          "@Beneath the Well Front,$has_ladder|ladders_in_well",
           "@Overworld Well Ladder"
         ],
         "children": []
@@ -3283,7 +3283,7 @@
       {
         "name": "Beneath the Well Front",
         "access_rules": [
-          "@Beneath the Well Ladder Exit,ladders_in_well",
+          "@Beneath the Well Ladder Exit,$has_ladder|ladders_in_well",
           "@Beneath the Well Main,[staff]",
           "@Beneath the Well Main,[stick]",
           "@Beneath the Well Main,[sword]"
@@ -3293,9 +3293,9 @@
       {
         "name": "Beneath the Well Main",
         "access_rules": [
-          "@Beneath the Well Back,ladders_in_well,[staff]",
-          "@Beneath the Well Back,ladders_in_well,[stick]",
-          "@Beneath the Well Back,ladders_in_well,[sword]",
+          "@Beneath the Well Back,$has_ladder|ladders_in_well,[staff]",
+          "@Beneath the Well Back,$has_ladder|ladders_in_well,[stick]",
+          "@Beneath the Well Back,$has_ladder|ladders_in_well,[sword]",
           "@Beneath the Well Front,[staff]",
           "@Beneath the Well Front,[stick]",
           "@Beneath the Well Front,[sword]"
@@ -3513,20 +3513,20 @@
       {
         "name": "Beneath the Well Back",
         "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
-          "@Beneath the Well Main,ladders_in_well",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
+          "glitches,$has_ladder|ladder_to_quarry,stick",
+          "glitches,$has_ladder|ladder_to_quarry,sword",
+          "glitches,$has_ladder|ladder_to_swamp,stick",
+          "glitches,$has_ladder|ladder_to_swamp,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,sword",
+          "@Beneath the Well Main,$has_ladder|ladders_in_well",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,sword",
           "@Overworld Well to Furnace Rail",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,sword",
           "@Well Boss"
         ],
         "children": [
@@ -3653,18 +3653,18 @@
         "name": "West Garden",
         "access_rules": [
           "@Magic Dagger House",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,sword",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladders_in_overworld_town,stick",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladders_in_overworld_town,sword",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,sword",
-          "@Overworld Beach,glitches,ladders_in_overworld_town,ladders_to_west_bell,stick",
-          "@Overworld Beach,glitches,ladders_in_overworld_town,ladders_to_west_bell,sword",
-          "@Overworld Swamp Lower Entry,glitches,ladder_in_dark_tomb,ladder_to_swamp,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_in_dark_tomb,ladder_to_swamp,sword",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_to_west_bell,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_to_west_bell,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladder_to_ruined_atoll,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladder_to_ruined_atoll,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladders_in_overworld_town,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladders_in_overworld_town,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,$has_ladder|ladders_to_west_bell,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladders_in_overworld_town,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladders_in_overworld_town,$has_ladder|ladders_to_west_bell,sword",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladder_to_swamp,stick",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_in_dark_tomb,$has_ladder|ladder_to_swamp,sword",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,$has_ladder|ladders_to_west_bell,sword",
           "@Overworld to West Garden from Furnace",
           "@West Garden Hero's Grave Region",
           "@West Garden Laurels Exit Region,dash",
@@ -4186,12 +4186,12 @@
       {
         "name": "West Garden Laurels Exit Region",
         "access_rules": [
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
-          "@Overworld Beach,glitches,ladders_in_overworld_town,stick",
-          "@Overworld Beach,glitches,ladders_in_overworld_town,sword",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladders_in_overworld_town,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladders_in_overworld_town,sword",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,stick",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,sword",
           "@Overworld West Garden Laurels Entry",
           "@West Garden,dash"
         ],
@@ -4200,22 +4200,22 @@
       {
         "name": "West Garden after Boss",
         "access_rules": [
-          "dash,glitches,ladder_to_swamp,stick",
-          "dash,glitches,ladder_to_swamp,sword",
-          "dash,glitches,ladders_in_overworld_town,stick",
-          "dash,glitches,ladders_in_overworld_town,sword",
-          "dash,glitches,ladders_near_weathervane,stick",
-          "dash,glitches,ladders_near_weathervane,sword",
-          "glitches,ladder_to_swamp,ladders_to_west_bell,stick",
-          "glitches,ladder_to_swamp,ladders_to_west_bell,sword",
-          "glitches,ladders_in_overworld_town,ladders_to_west_bell,stick",
-          "glitches,ladders_in_overworld_town,ladders_to_west_bell,sword",
-          "glitches,ladders_near_weathervane,ladders_to_west_bell,stick",
-          "glitches,ladders_near_weathervane,ladders_to_west_bell,sword",
-          "@Overworld Beach,dash,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,dash,glitches,ladder_to_ruined_atoll,sword",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,sword",
+          "dash,glitches,$has_ladder|ladder_to_swamp,stick",
+          "dash,glitches,$has_ladder|ladder_to_swamp,sword",
+          "dash,glitches,$has_ladder|ladders_in_overworld_town,stick",
+          "dash,glitches,$has_ladder|ladders_in_overworld_town,sword",
+          "dash,glitches,$has_ladder|ladders_near_weathervane,stick",
+          "dash,glitches,$has_ladder|ladders_near_weathervane,sword",
+          "glitches,$has_ladder|ladder_to_swamp,$has_ladder|ladders_to_west_bell,stick",
+          "glitches,$has_ladder|ladder_to_swamp,$has_ladder|ladders_to_west_bell,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,$has_ladder|ladders_to_west_bell,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,$has_ladder|ladders_to_west_bell,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,$has_ladder|ladders_to_west_bell,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,$has_ladder|ladders_to_west_bell,sword",
+          "@Overworld Beach,dash,glitches,$has_ladder|ladder_to_ruined_atoll,stick",
+          "@Overworld Beach,dash,glitches,$has_ladder|ladder_to_ruined_atoll,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,$has_ladder|ladders_to_west_bell,sword",
           "@Overworld to West Garden Upper",
           "@West Garden,dash",
           "@West Garden,sword"
@@ -4282,15 +4282,15 @@
       {
         "name": "Ruined Atoll",
         "access_rules": [
-          "glitches,ladder_to_swamp,orb,stick",
-          "glitches,ladder_to_swamp,orb,sword",
-          "glitches,ladders_in_overworld_town,orb,stick",
-          "glitches,ladders_in_overworld_town,orb,sword",
-          "glitches,ladders_near_weathervane,orb,stick",
-          "glitches,ladders_near_weathervane,orb,sword",
+          "glitches,$has_ladder|ladder_to_swamp,orb,stick",
+          "glitches,$has_ladder|ladder_to_swamp,orb,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,orb,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,orb,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,orb,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,orb,sword",
           "pray",
           "@Overworld to Atoll Upper",
-          "@Ruined Atoll Frog Eye,ladders_to_frogs_domain",
+          "@Ruined Atoll Frog Eye,$has_ladder|ladders_to_frogs_domain",
           "@Ruined Atoll Frog Mouth,dash",
           "@Ruined Atoll Frog Mouth,orb",
           "@Ruined Atoll Lower Entry Area,dash",
@@ -4594,10 +4594,10 @@
         "name": "Ruined Atoll Lower Entry Area",
         "access_rules": [
           "@Overworld Beach",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_in_overworld_town,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_in_overworld_town,sword",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,orb,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,orb,sword",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,$has_ladder|ladders_in_overworld_town,stick",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,$has_ladder|ladders_in_overworld_town,sword",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,orb,stick",
+          "@Overworld Swamp Lower Entry,glitches,$has_ladder|ladder_to_swamp,orb,sword",
           "@Ruined Atoll,[glitches],dagger,icerod,orb,staff",
           "@Ruined Atoll,dash"
         ],
@@ -4630,7 +4630,7 @@
       {
         "name": "Ruined Atoll Ladder Tops",
         "access_rules": [
-          "@Ruined Atoll,ladders_in_south_atoll"
+          "@Ruined Atoll,$has_ladder|ladders_in_south_atoll"
         ],
         "children": [
           {
@@ -4717,7 +4717,7 @@
         "name": "Ruined Atoll Frog Eye",
         "access_rules": [
           "@Frog Stairs Eye Exit",
-          "@Ruined Atoll,ladders_to_frogs_domain"
+          "@Ruined Atoll,$has_ladder|ladders_to_frogs_domain"
         ],
         "children": []
       },
@@ -4733,14 +4733,14 @@
         "name": "Ruined Atoll Statue",
         "access_rules": [
           "@Library Exterior Tree Region",
-          "@Ruined Atoll,ladders_in_south_atoll,pray"
+          "@Ruined Atoll,$has_ladder|ladders_in_south_atoll,pray"
         ],
         "children": []
       },
       {
         "name": "Frog Stairs Eye Exit",
         "access_rules": [
-          "@Frog Stairs Upper,ladders_to_frogs_domain",
+          "@Frog Stairs Upper,$has_ladder|ladders_to_frogs_domain",
           "@Ruined Atoll Frog Eye",
           "@Ruined Atoll,glitches,stick",
           "@Ruined Atoll,glitches,sword"
@@ -4750,8 +4750,8 @@
       {
         "name": "Frog Stairs Upper",
         "access_rules": [
-          "@Frog Stairs Eye Exit,ladders_to_frogs_domain",
-          "@Frog Stairs Lower,ladders_to_frogs_domain",
+          "@Frog Stairs Eye Exit,$has_ladder|ladders_to_frogs_domain",
+          "@Frog Stairs Lower,$has_ladder|ladders_to_frogs_domain",
           "@Ruined Atoll Frog Mouth",
           "@Ruined Atoll,glitches,stick",
           "@Ruined Atoll,glitches,sword"
@@ -4761,8 +4761,8 @@
       {
         "name": "Frog Stairs Lower",
         "access_rules": [
-          "@Frog Stairs Upper,ladders_to_frogs_domain",
-          "@Frog Stairs to Frog's Domain,ladders_to_frogs_domain",
+          "@Frog Stairs Upper,$has_ladder|ladders_to_frogs_domain",
+          "@Frog Stairs to Frog's Domain,$has_ladder|ladders_to_frogs_domain",
           "@Frog's Domain Back"
         ],
         "children": []
@@ -4770,7 +4770,7 @@
       {
         "name": "Frog Stairs to Frog's Domain",
         "access_rules": [
-          "@Frog Stairs Lower,ladders_to_frogs_domain",
+          "@Frog Stairs Lower,$has_ladder|ladders_to_frogs_domain",
           "@Frog's Domain Entry"
         ],
         "children": []
@@ -4785,7 +4785,7 @@
       {
         "name": "Frog's Domain",
         "access_rules": [
-          "@Frog's Domain Entry,ladders_to_frogs_domain"
+          "@Frog's Domain Entry,$has_ladder|ladders_to_frogs_domain"
         ],
         "children": [
           {
@@ -5064,8 +5064,8 @@
       {
         "name": "Library Exterior Tree Region",
         "access_rules": [
-          "@Library Exterior Ladder Region,dash,ladders_in_library,pray",
-          "@Library Exterior Ladder Region,ladders_in_library,orb,pray",
+          "@Library Exterior Ladder Region,dash,$has_ladder|ladders_in_library,pray",
+          "@Library Exterior Ladder Region,$has_ladder|ladders_in_library,orb,pray",
           "@Ruined Atoll Statue"
         ],
         "children": []
@@ -5073,8 +5073,8 @@
       {
         "name": "Library Exterior Ladder Region",
         "access_rules": [
-          "@Library Exterior Tree Region,dash,ladders_in_library",
-          "@Library Exterior Tree Region,ladders_in_library,orb",
+          "@Library Exterior Tree Region,dash,$has_ladder|ladders_in_library",
+          "@Library Exterior Tree Region,$has_ladder|ladders_in_library,orb",
           "@Library Hall Bookshelf"
         ],
         "children": []
@@ -5083,15 +5083,15 @@
         "name": "Library Hall Bookshelf",
         "access_rules": [
           "@Library Exterior Ladder Region",
-          "@Library Hall,ladders_in_library"
+          "@Library Hall,$has_ladder|ladders_in_library"
         ],
         "children": []
       },
       {
         "name": "Library Hall",
         "access_rules": [
-          "@Library Hall Bookshelf,ladders_in_library",
-          "@Library Hall to Rotunda,ladders_in_library",
+          "@Library Hall Bookshelf,$has_ladder|ladders_in_library",
+          "@Library Hall to Rotunda,$has_ladder|ladders_in_library",
           "@Library Hero's Grave Region"
         ],
         "children": [
@@ -5138,7 +5138,7 @@
       {
         "name": "Library Hall to Rotunda",
         "access_rules": [
-          "@Library Hall,ladders_in_library",
+          "@Library Hall,$has_ladder|ladders_in_library",
           "@Library Rotunda to Hall"
         ],
         "children": []
@@ -5147,15 +5147,15 @@
         "name": "Library Rotunda to Hall",
         "access_rules": [
           "@Library Hall to Rotunda",
-          "@Library Rotunda,ladders_in_library"
+          "@Library Rotunda,$has_ladder|ladders_in_library"
         ],
         "children": []
       },
       {
         "name": "Library Rotunda",
         "access_rules": [
-          "@Library Rotunda to Hall,ladders_in_library",
-          "@Library Rotunda to Lab,ladders_in_library"
+          "@Library Rotunda to Hall,$has_ladder|ladders_in_library",
+          "@Library Rotunda to Lab,$has_ladder|ladders_in_library"
         ],
         "children": []
       },
@@ -5163,18 +5163,18 @@
         "name": "Library Rotunda to Lab",
         "access_rules": [
           "@Library Lab Lower",
-          "@Library Rotunda,ladders_in_library"
+          "@Library Rotunda,$has_ladder|ladders_in_library"
         ],
         "children": []
       },
       {
         "name": "Library Lab",
         "access_rules": [
-          "@Library Lab Lower,dash,ladders_in_library",
-          "@Library Lab Lower,ladders_in_library,orb",
-          "@Library Lab to Librarian,ladders_in_library",
+          "@Library Lab Lower,dash,$has_ladder|ladders_in_library",
+          "@Library Lab Lower,$has_ladder|ladders_in_library,orb",
+          "@Library Lab to Librarian,$has_ladder|ladders_in_library",
           "@Library Portal,dash",
-          "@Library Portal,ladders_in_library"
+          "@Library Portal,$has_ladder|ladders_in_library"
         ],
         "children": [
           {
@@ -5271,7 +5271,7 @@
       {
         "name": "Library Lab Lower",
         "access_rules": [
-          "@Library Lab,dash,ladders_in_library",
+          "@Library Lab,dash,$has_ladder|ladders_in_library",
           "@Library Rotunda to Lab"
         ],
         "children": []
@@ -5280,7 +5280,7 @@
         "name": "Library Portal",
         "access_rules": [
           "@Far Shore to Library Region",
-          "@Library Lab,ladders_in_library,pray"
+          "@Library Lab,$has_ladder|ladders_in_library,pray"
         ],
         "children": []
       },
@@ -5288,7 +5288,7 @@
         "name": "Library Lab to Librarian",
         "access_rules": [
           "@Library Arena",
-          "@Library Lab,ladders_in_library"
+          "@Library Lab,$has_ladder|ladders_in_library"
         ],
         "children": []
       },
@@ -5317,8 +5317,8 @@
               {
                 "name": "Hexagon Green",
                 "access_rules": [
-                  "[glitches],ladders_in_library",
-                  "ladders_in_library,sword"
+                  "[glitches],$has_ladder|ladders_in_library",
+                  "$has_ladder|ladders_in_library,sword"
                 ],
                 "item_count": 1,
                 "hosted_item": "librarian"
@@ -5374,28 +5374,28 @@
       {
         "name": "Fortress Exterior from Overworld",
         "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_in_well,stick",
-          "glitches,ladders_in_well,sword",
-          "glitches,ladders_near_dark_tomb,stick",
-          "glitches,ladders_near_dark_tomb,sword",
-          "glitches,ladders_near_patrol_cave,stick",
-          "glitches,ladders_near_patrol_cave,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
+          "glitches,$has_ladder|ladder_to_quarry,stick",
+          "glitches,$has_ladder|ladder_to_quarry,sword",
+          "glitches,$has_ladder|ladder_to_swamp,stick",
+          "glitches,$has_ladder|ladder_to_swamp,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,sword",
+          "glitches,$has_ladder|ladders_in_well,stick",
+          "glitches,$has_ladder|ladders_in_well,sword",
+          "glitches,$has_ladder|ladders_near_dark_tomb,stick",
+          "glitches,$has_ladder|ladders_near_dark_tomb,sword",
+          "glitches,$has_ladder|ladders_near_patrol_cave,stick",
+          "glitches,$has_ladder|ladders_near_patrol_cave,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,sword",
           "@East Overworld",
           "@Fortress Courtyard Upper",
           "@Fortress Courtyard,dash",
           "@Fortress Exterior from East Forest,dash",
           "@Fortress Exterior from East Forest,orb",
           "@Fortress Exterior near cave,dash",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,sword"
         ],
         "children": [
           {
@@ -5449,7 +5449,7 @@
       {
         "name": "Fortress Exterior near cave",
         "access_rules": [
-          "@Beneath the Vault Entry,ladder_to_beneath_the_vault",
+          "@Beneath the Vault Entry,$has_ladder|ladder_to_beneath_the_vault",
           "@Fortress Exterior from Overworld,dash",
           "@Fortress Exterior from Overworld,pray"
         ],
@@ -5506,7 +5506,7 @@
         "name": "Beneath the Vault Entry",
         "access_rules": [
           "@Beneath the Vault Ladder Exit",
-          "@Fortress Exterior near cave,ladder_to_beneath_the_vault"
+          "@Fortress Exterior near cave,$has_ladder|ladder_to_beneath_the_vault"
         ],
         "children": []
       },
@@ -5534,7 +5534,7 @@
         "name": "Beneath the Vault Ladder Exit",
         "access_rules": [
           "@Beneath the Vault Entry",
-          "@Beneath the Vault Front,ladder_to_beneath_the_vault"
+          "@Beneath the Vault Front,$has_ladder|ladder_to_beneath_the_vault"
         ],
         "children": []
       },
@@ -5542,7 +5542,7 @@
         "name": "Beneath the Vault Front",
         "access_rules": [
           "@Beneath the Vault Back",
-          "@Beneath the Vault Ladder Exit,ladder_to_beneath_the_vault"
+          "@Beneath the Vault Ladder Exit,$has_ladder|ladder_to_beneath_the_vault"
         ],
         "children": [
           {
@@ -5690,8 +5690,8 @@
           "@Fortress Exterior from East Forest,glitches,sword",
           "@Fortress Exterior from Overworld,glitches,stick",
           "@Fortress Exterior from Overworld,glitches,sword",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword"
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,stick",
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,sword"
         ],
         "children": [
           {
@@ -5819,8 +5819,8 @@
           "@Fortress Exterior from East Forest,glitches,sword",
           "@Fortress Exterior from Overworld,glitches,stick",
           "@Fortress Exterior from Overworld,glitches,sword",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword"
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,stick",
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,sword"
         ],
         "children": []
       },
@@ -5864,8 +5864,8 @@
           "@Fortress Exterior from East Forest,glitches,sword",
           "@Fortress Exterior from Overworld,glitches,stick",
           "@Fortress Exterior from Overworld,glitches,sword",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword",
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,stick",
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,sword",
           "@Fortress Grave Path Dusty Entrance Region,dash",
           "@Fortress Grave Path Upper,[glitches],dagger,icerod,orb,staff",
           "@Fortress Hero's Grave Region"
@@ -5880,8 +5880,8 @@
           "@Fortress Exterior from East Forest,glitches,sword",
           "@Fortress Exterior from Overworld,glitches,stick",
           "@Fortress Exterior from Overworld,glitches,sword",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword"
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,stick",
+          "@Fortress Exterior near cave,glitches,$has_ladder|ladder_to_beneath_the_vault,sword"
         ],
         "children": [
           {
@@ -6010,8 +6010,8 @@
         "name": "Lower Mountain",
         "access_rules": [
           "@Lower Mountain Stairs,cross",
-          "@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,stick",
-          "@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,sword",
+          "@Overworld above Quarry Entrance,glitches,$has_ladder|ladders_near_dark_tomb,stick",
+          "@Overworld above Quarry Entrance,glitches,$has_ladder|ladders_near_dark_tomb,sword",
           "@Quarry Back",
           "@Upper Overworld"
         ],
@@ -6035,19 +6035,19 @@
       {
         "name": "Quarry Connector",
         "access_rules": [
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_in_well,stick",
-          "glitches,ladders_in_well,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
+          "glitches,$has_ladder|ladder_to_swamp,stick",
+          "glitches,$has_ladder|ladder_to_swamp,sword",
+          "glitches,$has_ladder|ladders_in_overworld_town,stick",
+          "glitches,$has_ladder|ladders_in_overworld_town,sword",
+          "glitches,$has_ladder|ladders_in_well,stick",
+          "glitches,$has_ladder|ladders_in_well,sword",
+          "glitches,$has_ladder|ladders_near_weathervane,stick",
+          "glitches,$has_ladder|ladders_near_weathervane,sword",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,stick",
+          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,sword",
           "@Overworld Quarry Entry",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,stick",
+          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,sword",
           "@Quarry Entry"
         ],
         "children": []
@@ -6735,7 +6735,7 @@
         "name": "Even Lower Quarry",
         "access_rules": [
           "@Lower Quarry,[glitches],dagger,icerod,orb,staff",
-          "@Lower Quarry,ladders_in_lower_quarry"
+          "@Lower Quarry,$has_ladder|ladders_in_lower_quarry"
         ],
         "children": [
           {
@@ -7182,7 +7182,7 @@
           "@Overworld Swamp Lower Entry",
           "@Swamp Mid,[glitches],dagger,orb",
           "@Swamp Mid,dash",
-          "@Swamp Mid,ladders_in_swamp"
+          "@Swamp Mid,$has_ladder|ladders_in_swamp"
         ],
         "children": [
           {
@@ -7425,9 +7425,9 @@
           "@Back of Swamp Laurels Area,[glitches],dagger,dash,icerod,orb,staff",
           "@Swamp Front,[glitches],dagger,orb",
           "@Swamp Front,dash",
-          "@Swamp Front,ladders_in_swamp",
+          "@Swamp Front,$has_ladder|ladders_in_swamp",
           "@Swamp Ledge under Cathedral Door,[glitches],dagger,icerod,orb,staff",
-          "@Swamp Ledge under Cathedral Door,ladders_in_swamp",
+          "@Swamp Ledge under Cathedral Door,$has_ladder|ladders_in_swamp",
           "@Swamp to Cathedral Main Entrance Region,[glitches],dagger,orb"
         ],
         "children": [
@@ -7645,7 +7645,7 @@
       {
         "name": "Swamp Ledge under Cathedral Door",
         "access_rules": [
-          "@Swamp Mid,ladders_in_swamp",
+          "@Swamp Mid,$has_ladder|ladders_in_swamp",
           "@Swamp to Cathedral Treasure Room"
         ],
         "children": [
@@ -8033,8 +8033,8 @@
         "access_rules": [
           "@Back of Swamp",
           "@Cathedral Gauntlet,dash",
-          "@Swamp Mid,glitches,ladders_in_swamp,stick",
-          "@Swamp Mid,glitches,ladders_in_swamp,sword"
+          "@Swamp Mid,glitches,$has_ladder|ladders_in_swamp,stick",
+          "@Swamp Mid,glitches,$has_ladder|ladders_in_swamp,sword"
         ],
         "children": []
       },

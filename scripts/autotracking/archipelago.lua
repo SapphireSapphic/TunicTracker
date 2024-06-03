@@ -153,8 +153,6 @@ function onClear(slot_data)
 
 
     Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
-    -- needs to be called because onClear turns all the ladders off and the above line doesn't reenable them if shuffle_ladders is 0
-    updateLayout()
 
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
     local slot_player = "Slot:" .. Archipelago.PlayerNumber
