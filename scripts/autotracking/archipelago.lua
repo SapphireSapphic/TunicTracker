@@ -9,6 +9,8 @@ HOSTED = {captain=1,gknight=2,engine=3,librarian=4,scavboss=5,gauntlet=6,heir=7,
 hexprayer = 0
 hexcross = 0
 hexice = 0
+progsword_count = 0
+start_with_sword_on = false
 
 data_storage_table = {
     ["Defeated Guard Captain"] = "captain",
@@ -128,6 +130,7 @@ function onClear(slot_data)
 
     if slot_data.start_with_sword ~= 0 then
         --print("slot_data.start_with_sword: " .. slot_data.start_with_sword)
+        start_with_sword_on = true
         Tracker:FindObjectForCode("progsword").CurrentStage = 2
         Tracker:FindObjectForCode("sword").CurrentStage = 0
     end
@@ -200,7 +203,15 @@ function onItem(index, item_id, item_name, player_number)
     end
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
-        if v[2] == "toggle" then
+        -- if progsword and start with sword is on, we need to avoid weird behavior
+        -- so, we're counting up how many progswords you have separately
+        if v[1] == "progsword" then
+            progsword_count = progsword_count + 1
+        end
+        -- start with sword sets it to 2, so we want either 2 or your progsword count, whichever is higher
+        if v[1] == "progsword" and start_with_sword_on then
+            obj.CurrentStage = math.max(2, progsword_count)
+        elseif v[2] == "toggle" then
             obj.Active = true
             if v[1] == "pray" or v[1] == "cross" or v[1] == "icerod" then
                 local manual = Tracker:FindObjectForCode("manual")
