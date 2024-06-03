@@ -8,7 +8,7 @@ Shoutouts to Ekkosangen, Jabberrock, and Celeste for noticing little things that
 
 East Forest and Rooted Ziggurat maps by [FletchIsAFurry](https://twitter.com/FletchIsAFurry).
 
-Please note: Autotracker for this package is not currently possible, but likely will be some time in the future. Please stay tuned, whenever this is possible I will work on implementing it immediately.
+Please note: Autotracker for this package is only available when using Poptracker.
 
 Features of this tracker:
 New to version 1.4 is tracking for Ability Randomizer! Pray, Holy Cross, and Ice Rod are now trackable items that start turned on by default. If you're playing Ability Rando, make sure to turn them off when you start the seed!

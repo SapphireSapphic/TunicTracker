@@ -464,57 +464,62 @@
               {
                 "map": "fullmap",
                 "x": 2770,
-                "y": 2500
+                "y": 2500,
+                "size": 35
               },
               {
                 "map": "overworld",
                 "x": 1095,
                 "y": 780,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 865,
-                "y": 2510
+                "y": 2510,
+                "size": 35
               },
               {
                 "map": "west_gardens",
                 "x": 625,
                 "y": 90,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 3760,
-                "y": 2670
+                "y": 2670,
+                "size": 35
               },
               {
                 "map": "east_forest",
                 "x": 1010,
                 "y": 1114,
-                "size": 35
+                "size": 20
               },
               {
                 "map": "fullmap",
                 "x": 4215,
-                "y": 2070
+                "y": 2070,
+                "size": 35
               },
               {
                 "map": "eastern_vault",
                 "x": 630,
                 "y": 890,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 4030,
-                "y": 3526
+                "y": 3526,
+                "size": 35
               },
               {
                 "map": "graveyard",
                 "x": 540,
                 "y": 666,
-                "size": 45
+                "size": 25
               }
             ],
             "sections": [
@@ -2880,7 +2885,8 @@
               {
                 "map": "fullmap",
                 "x": 3900,
-                "y": 2565
+                "y": 2565,
+                "size": 35
               },
               {
                 "map": "east_forest",
@@ -4250,7 +4256,8 @@
               {
                 "map": "fullmap",
                 "x": 960,
-                "y": 2475
+                "y": 2475,
+                "size": 35
               },
               {
                 "map": "west_gardens",
@@ -5178,11 +5185,11 @@
         ],
         "children": [
           {
-            "name": "Library Lab (Trapped Pages)",
+            "name": "Library Lab Page 1",
             "map_locations": [
-              {
+							{
                 "map": "fullmap",
-                "x": 1395,
+                "x": 1405,
                 "y": 3470
               },
               {
@@ -5190,12 +5197,46 @@
                 "x": 558,
                 "y": 612,
                 "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Page",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Lab Page 2",
+            "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1390,
+                "y": 3550
               },
               {
                 "map": "library",
                 "x": 520,
                 "y": 517,
                 "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Page",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Lab Page 3",
+            "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1665,
+                "y": 3520
               },
               {
                 "map": "library",
@@ -5206,61 +5247,99 @@
             ],
             "sections": [
               {
-                "name": "Page 1",
-                "access_rules": null,
-                "item_count": 1
-              },
-              {
-                "name": "Page 2",
-                "access_rules": null,
-                "item_count": 1
-              },
-              {
-                "name": "Page 3",
+                "name": "Page",
                 "access_rules": null,
                 "item_count": 1
               }
             ]
           },
           {
-            "name": "Library Lab",
+            "name": "Library Lab by Fuse", 
             "map_locations": [
-              {
+							{
                 "map": "fullmap",
-                "x": 1450,
-                "y": 3310
+                "x": 1425,
+                "y": 3350
               },
               {
                 "map": "library",
                 "x": 227,
                 "y": 423,
                 "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Behind Chalkboard",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Lab Chest by Shrine 1",
+            "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1585,
+                "y": 3320
               },
               {
                 "map": "library",
-                "x": 495,
-                "y": 295,
+                "x": 406,
+                "y": 255,
                 "size": 45
               }
             ],
             "sections": [
               {
-                "name": "Chest By Shrine 1",
+                "name": "Chest",
                 "access_rules": null,
                 "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Lab Chest by Shrine 2",
+            "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1630,
+                "y": 3320
               },
               {
-                "name": "Chest By Shrine 2",
+                "map": "library",
+                "x": 464,
+                "y": 255,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chest",
                 "access_rules": null,
                 "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Lab Chest by Shrine 3",
+            "map_locations": [
+							{
+                "map": "fullmap",
+                "x": 1665,
+                "y": 3350
               },
               {
-                "name": "Chest By Shrine 3",
-                "access_rules": null,
-                "item_count": 1
-              },
+                "map": "library",
+                "x": 570,
+                "y": 270,
+                "size": 45
+              }
+            ],
+            "sections": [
               {
-                "name": "Behind Chalkboard by Fuse",
+                "name": "Chest",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -7759,7 +7838,7 @@
               },
               {
                 "map": "cathedral",
-                "x": 505,
+                "x": 550,
                 "y": 180,
                 "size": 35
               }
@@ -7805,8 +7884,8 @@
               },
               {
                 "map": "cathedral",
-                "x": 515,
-                "y": 130,
+                "x": 505,
+                "y": 180,
                 "size": 35
               }
             ],
@@ -7851,7 +7930,7 @@
               },
               {
                 "map": "cathedral",
-                "x": 500,
+                "x": 540,
                 "y": 100,
                 "size": 35
               }
@@ -7902,8 +7981,8 @@
               },
               {
                 "map": "cathedral",
-                "x": 490,
-                "y": 130,
+                "x": 478,
+                "y": 100,
                 "size": 35
               }
             ],
@@ -8310,90 +8389,98 @@
               {
                 "map": "fullmap",
                 "x": 2575,
-                "y": 2265
+                "y": 2265,
+                "size": 35
               },
               {
                 "map": "overworld",
                 "x": 900,
                 "y": 515,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "west_gardens",
                 "x": 630,
                 "y": 10,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 870,
-                "y": 2430
+                "y": 2430,
+                "size": 35
               },
               {
                 "map": "eastern_vault",
                 "x": 330,
                 "y": 640,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 3915,
-                "y": 1820
+                "y": 1820,
+                "size": 35
               },
               {
                 "map": "eastern_vault",
                 "x": 390,
                 "y": 290,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 3975,
-                "y": 1470
+                "y": 1470,
+                "size": 35
               },
               {
                 "map": "ruined_atoll",
                 "x": 1035,
                 "y": 240,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 2680,
-                "y": 3350
+                "y": 3350,
+                "size": 35
               },
               {
                 "map": "graveyard",
                 "x": 505,
                 "y": 500,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 3995,
-                "y": 3360
+                "y": 3360,
+                "size": 35
               },
               {
                 "map": "cathedral",
                 "x": 465,
                 "y": 485,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 4895,
-                "y": 3260
+                "y": 3260,
+                "size": 35
               },
               {
                 "map": "quarry",
                 "x": 1000,
                 "y": 1120,
-                "size": 45
+                "size": 25
               },
               {
                 "map": "fullmap",
                 "x": 1625,
-                "y": 2145
+                "y": 2145,
+                "size": 35
               }
             ],
             "sections": [

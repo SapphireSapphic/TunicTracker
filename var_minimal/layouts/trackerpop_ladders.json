@@ -43,6 +43,15 @@
           "margin":"0,0,5,5",
           "tabs": [
             {
+              "title": "Full Map",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fullmap"
+                ]
+              }
+            },
+            {
               "title": "Overworld",
               "content": {
                 "type": "map",

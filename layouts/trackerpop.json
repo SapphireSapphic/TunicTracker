@@ -121,6 +121,15 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "Full Map",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fullmap"
+                ]
+              }
+            },
+            {
               "title": "Overworld",
               "content": {
                 "type": "map",
