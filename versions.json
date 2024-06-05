@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+        
+            "package_version": "1.7.6",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.6/TunicTracker.zip",
+            "sha256": "8b97f33a4aef814e2d4d07d25950078dd2fc02639de886da7bebd0dbdaf8234e",
+            "changelog": [
+                "adjusted some locations (ukilop)",
+                "Fix interaction between start with sword and progressive sword showing incorrect sword (scipio)",
+                "Cleanup ladder logic (hatcrab)"
+            ]
+        },
+        {
+        
             "package_version": "1.7.5a",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.5a/TunicTracker.zip",
             "sha256": "f7d010a82aada105c49f0a2706b6a52b6a0a3f888f99c6c3a42eb896c693b461",
