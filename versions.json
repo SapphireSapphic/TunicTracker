@@ -2,6 +2,16 @@
     "versions": [
         {
         
+            "package_version": "1.7.6a",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.6a/TunicTracker.zip",
+            "sha256": "4b11aee80fdb94033f969be7c37b7df17e50da300a11f65ed2f3d1b569c97d8b",
+            "changelog": [
+                "Change West to East (scipio)",
+                "clearer description south graveyard location (undergroundmonorail)"
+            ]
+        },
+        {
+        
             "package_version": "1.7.6",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.6/TunicTracker.zip",
             "sha256": "8b97f33a4aef814e2d4d07d25950078dd2fc02639de886da7bebd0dbdaf8234e",
