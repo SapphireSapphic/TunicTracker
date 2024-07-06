@@ -6936,7 +6936,7 @@
               {
                 "name": "You can shoot it",
                 "access_rules": [
-                  "staff",
+                  "staff,dash",
                   "sword"
                 ],
                 "item_count": 1
