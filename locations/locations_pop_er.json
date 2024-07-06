@@ -6540,9 +6540,7 @@
             "sections": [
               {
                 "name": "Boomy",
-                "access_rules": [
-                  "[mask]"
-                ],
+                "access_rules": null,
                 "item_count": 1
               }
             ]
