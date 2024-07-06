@@ -2,6 +2,15 @@
     "versions": [
         {
         
+            "package_version": "1.7.6b",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.6b/TunicTracker.zip",
+            "sha256": "762487a0555814a198d018731f74723facdf5daa83f98aa9d39708fa6dc90806",
+            "changelog": [
+                "update quarry bomb wall logic and upper zig by bridge switch rule (scipio)"
+            ]
+        },
+        {
+        
             "package_version": "1.7.6a",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.6a/TunicTracker.zip",
             "sha256": "4b11aee80fdb94033f969be7c37b7df17e50da300a11f65ed2f3d1b569c97d8b",
