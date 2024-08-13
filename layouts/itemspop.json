@@ -14,7 +14,7 @@
                     ["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
 					["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
 					["stick", "sword", "dagger", "icerod", "staff", "orb", "gun", "hourglass"],
-					["attrelic", "defrelic", "hprelic", "potionrelic", "sprelic", "mprelic","hexquest"],
+					["attrelic", "defrelic", "potionrelic", "hprelic", "sprelic", "mprelic","hexquest"],
 					["pray","cross","dath","goldenpower","justawell","ding", "dong"],
 					["captain", "gknight", "engine", "librarian", "scavboss", "gauntlet", "heir"]
                 ]
