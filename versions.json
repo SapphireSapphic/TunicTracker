@@ -2,6 +2,16 @@
     "versions": [
         {
         
+            "package_version": "2.0.0",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.0/TunicTracker.zip",
+            "sha256": "180914e914c9bce9ed6340e83133a345ecf9740d07324f54400175a70c95a8c5",
+            "changelog": [
+                "fix autotracking of pages when questagon is on/off with new settings",
+                "other issues were fixed that i have idea what they are anymore because its been so long, so enjoy LMAO"
+            ]
+        },
+        {
+        
             "package_version": "1.7.6b",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.6b/TunicTracker.zip",
             "sha256": "762487a0555814a198d018731f74723facdf5daa83f98aa9d39708fa6dc90806",
