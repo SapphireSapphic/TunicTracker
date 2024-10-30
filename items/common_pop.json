@@ -4,28 +4,28 @@
 		"name": "Shield",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/shield.png",
+		"img": "images/shield.png",
 		"codes": "shield"
 	},
 	{
 		"name": "Lantern",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/lantern.png",
+		"img": "images/lantern.png",
 		"codes": "light"
 	},
 	{
 		"name": "Laurels",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/laurels.png",
+		"img": "images/laurels.png",
 		"codes": "dash"
 	},
 	{
 		"name": "Red Vault Key",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/redvaultkey.png",
+		"img": "images/redvaultkey.png",
 		"codes": "vaultkey"
 	},
 	//Weapons
@@ -33,7 +33,7 @@
 		"name": "Stick",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/sword1.png",
+		"img": "images/sword1.png",
 		"codes": "stick,ring,switch,tubes"
 	},
 	{
@@ -49,11 +49,11 @@
 			},
 			{
 				"img": "images/sword3.png",
-				"codes": "sword,ring,grass,switch,tubes"			
+				"codes": "sword,ring,grass,switch,tubes"
 			},
 			{
 				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes,bigsword"			
+				"codes": "sword,ring,grass,switch,tubes,bigsword"
 			}
 		]
 	},
@@ -74,11 +74,11 @@
 			},
 			{
 				"img": "images/sword3.png",
-				"codes": "sword,ring,grass,switch,tubes,progsword"			
+				"codes": "sword,ring,grass,switch,tubes,progsword"
 			},
 			{
 				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes,bigsword,progsword"			
+				"codes": "sword,ring,grass,switch,tubes,bigsword,progsword"
 			}
 		]
 	},
@@ -86,35 +86,35 @@
 		"name": "Magic Dagger",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/magic_dagger.png",
+		"img": "images/magic_dagger.png",
 		"codes": "dagger,freeze"
 	},
 	{
 		"name": "Magic Staff",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/magic_staff.png",
+		"img": "images/magic_staff.png",
 		"codes": "staff,grass,switch,tubes"
 	},
 	{
 		"name": "Magic Hourglass",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/magic_hourglass.png",
+		"img": "images/magic_hourglass.png",
 		"codes": "hourglass"
 	},
 	{
 		"name": "Gun",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/a_gun.png",
+		"img": "images/a_gun.png",
 		"codes": "gun,grass,switch,tubes,boom"
 	},
 	{
 		"name": "Magic Orb",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/magic_orb.png",
+		"img": "images/magic_orb.png",
 		"codes": "orb"
 	},
 	//Temporary "Grass Fix" LMAO i hate that this works tbh lmao
@@ -130,7 +130,7 @@
 		"name": "Prayer",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/pray.png",
+		"img": "images/pray.png",
 		"codes": "pray",
 		"initial_active_state": true
 	},
@@ -162,7 +162,7 @@
 		"name": "Holy Cross",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/cross.png",
+		"img": "images/cross.png",
 		"codes": "cross",
 		"initial_active_state": true
 	},
@@ -193,7 +193,7 @@
 		"name": "Ice Rod",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/icerod.png",
+		"img": "images/icerod.png",
 		"codes": "icerod,freeze",
 		"initial_active_state": true
 	},
@@ -233,28 +233,28 @@
 		"name": "Ice Bomb",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/ice_bomb.png",
+		"img": "images/ice_bomb.png",
 		"codes": "icebomb,freeze,boom"
 	},
 	{
 		"name": "Dynamite",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/dynamite.png",
+		"img": "images/dynamite.png",
 		"codes": "dynamite,boom,grass,switch,tubes"
 	},
 	{
 		"name": "Fire Bomb",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/fire_bomb.png",
+		"img": "images/fire_bomb.png",
 		"codes": "firebomb,fire,grass,tubes"
 	},
 	{
 		"name": "Golden Coin",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/golden_coins.png",
+		"img": "images/golden_coins.png",
 		"codes": "wishes,throwy",
 		"max_quantity": 17
 	},
@@ -262,7 +262,7 @@
 		"name": "Wishes Made",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/wishes.png",
+		"img": "images/wishes.png",
 		"codes": "justawell,throwy",
 		"max_quantity": 17
 	},
@@ -270,14 +270,14 @@
 		"name": "Lure",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/lure.png",
+		"img": "images/lure.png",
 		"codes": "lure"
 	},
 	{
 		"name": "Effigy",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/effigy.png",
+		"img": "images/effigy.png",
 		"codes": "effigy"
 	},
 	//Collectibles
@@ -285,7 +285,7 @@
 		"name": "Fairies",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/souls.png",
+		"img": "images/souls.png",
 		"codes": "soul",
 		"max_quantity": 20
 	},
@@ -293,7 +293,7 @@
 		"name": "Manual Pages",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/manual_pages.png",
+		"img": "images/manual_pages.png",
 		"codes": "manual",
 		"max_quantity": 28
 	},
@@ -301,7 +301,7 @@
 		"name": "Flasks",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/flasks.png",
+		"img": "images/flasks.png",
 		"codes": "heal",
 		"max_quantity": 9
 	},
@@ -309,7 +309,7 @@
 		"name": "Flask Shards",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/flask_shards.png",
+		"img": "images/flask_shards.png",
 		"codes": "healshard",
 		"max_quantity": 12
 	},
@@ -317,7 +317,7 @@
 		"name": "Keys",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/keys.png",
+		"img": "images/keys.png",
 		"codes": "key",
 		"max_quantity": 2
 	},
@@ -325,28 +325,28 @@
 		"name": "Old House Key",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/oldhousekey.png",
+		"img": "images/oldhousekey.png",
 		"codes": "oldkey"
 	},
 	{
 		"name": "Dath Stone",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/dath.png",
+		"img": "images/dath.png",
 		"codes": "dath"
 	},
 	{
 		"name": "Golden Power",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/golden_power.png",
+		"img": "images/golden_power.png",
 		"codes": "goldenpower"
 	},
 	{
 		"name": "Card Slots",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/card_slots.png",
+		"img": "images/card_slots.png",
 		"codes": "slot",
 		"allow_disabled": false,
 		"max_quantity": 5,
@@ -356,7 +356,7 @@
 		"name": "Questagons",
 		"type": "consumable",
 		"loop": true,
-		"img":"images/hex_gold.png",
+		"img": "images/hex_gold.png",
 		"codes": "hexquest",
 		"max_quantity": 50
 	},
@@ -504,217 +504,217 @@
 		"name": "Anklet",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/anklet.png",
+		"img": "images/anklet.png",
 		"codes": "anklet"
 	},
 	{
 		"name": "Aura's Gem",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/auras_gem.png",
+		"img": "images/auras_gem.png",
 		"codes": "gem"
 	},
 	{
 		"name": "Back To Work",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/back_to_work.png",
+		"img": "images/back_to_work.png",
 		"codes": "work"
 	},
 	{
 		"name": "Blue Questagon",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/blue_key.png",
+		"img": "images/blue_key.png",
 		"codes": "blue"
 	},
 	{
 		"name": "Blue Peril Ring", //CYAN RING
 		"type": "toggle",
 		"loop": true,
-		"img":"images/blue_peril_ring.png",
+		"img": "images/blue_peril_ring.png",
 		"codes": "blueperil"
 	},
 	{
 		"name": "Bone",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/bone.png",
+		"img": "images/bone.png",
 		"codes": "bone"
 	},
 	{
 		"name": "Bracer",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/bracer.png",
+		"img": "images/bracer.png",
 		"codes": "bracer"
 	},
 	{
 		"name": "Dagger Strap",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/dagger_strap.png",
+		"img": "images/dagger_strap.png",
 		"codes": "strap"
 	},
 	{
 		"name": "Dusty",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/dusty.png",
+		"img": "images/dusty.png",
 		"codes": "dusty"
 	},
 	{
 		"name": "Fire Sword",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/fire_sword.png",
+		"img": "images/fire_sword.png",
 		"codes": "firesword,fire"
 	},
 	{
 		"name": "Forever Friend",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/forever_friend.png",
+		"img": "images/forever_friend.png",
 		"codes": "friend"
 	},
 	{
 		"name": "Green Questagon",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/green_key.png",
+		"img": "images/green_key.png",
 		"codes": "green"
 	},
 	{
 		"name": "Inverted Ash",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/inverted_ash.png",
+		"img": "images/inverted_ash.png",
 		"codes": "ash"
 	},
 	{
 		"name": "Just Some Pals",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/just_some_pals.png",
+		"img": "images/just_some_pals.png",
 		"codes": "pals"
 	},
 	{
 		"name": "Louder Echo",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/louder_echo.png",
+		"img": "images/louder_echo.png",
 		"codes": "loud"
 	},
 	{
 		"name": "Lucky Cup",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/lucky_cup.png",
+		"img": "images/lucky_cup.png",
 		"codes": "cup"
 	},
 	{
 		"name": "Magic Echo",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/magic_echo.png",
+		"img": "images/magic_echo.png",
 		"codes": "mecho"
 	},
 	{
 		"name": "Mr Mayor",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/mr_mayor.png",
+		"img": "images/mr_mayor.png",
 		"codes": "mayor"
 	},
 	{
 		"name": "Muffling Bell",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/muffling_bell.png",
+		"img": "images/muffling_bell.png",
 		"codes": "bell"
 	},
 	{
 		"name": "Orange Peril Ring",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/orange_peril_ring.png",
+		"img": "images/orange_peril_ring.png",
 		"codes": "orangeperil"
 	},
 	{
 		"name": "Perfume",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/perfume.png",
+		"img": "images/perfume.png",
 		"codes": "perfume"
 	},
 	{
 		"name": "Phonomath",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/phonomath.png",
+		"img": "images/phonomath.png",
 		"codes": "phonomath"
 	},
 	{
 		"name": "Power Up",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/power_up.png",
+		"img": "images/power_up.png",
 		"codes": "powerup"
 	},
 	{
 		"name": "Red Questagon",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/red_key.png",
+		"img": "images/red_key.png",
 		"codes": "red"
 	},
 	{
 		"name": "Regal Weasel",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/regal_weasel.png",
+		"img": "images/regal_weasel.png",
 		"codes": "weasel"
 	},
 	{
 		"name": "Sacred Geometry",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/sacred_geometry.png",
+		"img": "images/sacred_geometry.png",
 		"codes": "geometry"
 	},
 	{
 		"name": "Scavenger's Mask",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/scavengers_mask.png",
+		"img": "images/scavengers_mask.png",
 		"codes": "mask"
 	},
 	{
 		"name": "Secret Legend",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/secret_legend.png",
+		"img": "images/secret_legend.png",
 		"codes": "tunic"
 	},
 	{
 		"name": "Spring Falls",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/spring_falls.png",
+		"img": "images/spring_falls.png",
 		"codes": "spring"
 	},
 	{
 		"name": "Tincture",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/tincture.png",
+		"img": "images/tincture.png",
 		"codes": "tincture"
 	},
 	{
 		"name": "Vintage",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/vintage.png",
+		"img": "images/vintage.png",
 		"codes": "vintage"
 	},
 	//Events
@@ -722,21 +722,21 @@
 		"name": "Ring the East Bell",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/east_bell.png",
+		"img": "images/east_bell.png",
 		"codes": "ding"
 	},
 	{
 		"name": "Ring the West Bell",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/west_bell.png",
+		"img": "images/west_bell.png",
 		"codes": "dong"
 	},
 	{
 		"name": "Visit the Heir",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/first_visit.png",
+		"img": "images/first_visit.png",
 		"codes": "visit"
 	},
 	{
@@ -745,12 +745,12 @@
 		"loop": false,
 		"allow_disabled": false,
 		"stages": [
-			{//Glitchless
+			{ //Glitchless
 				"name": "Glitchless",
 				"img": "images/Glitchless.png",
 				"codes": "mode,glitchless"
 			},
-			{//Glitches
+			{ //Glitches
 				"name": "Glitches",
 				"img": "images/Glitches.png",
 				"codes": "mode,glitches"
@@ -763,12 +763,12 @@
 		"loop": false,
 		"allow_disabled": false,
 		"stages": [
-			{//Classic
+			{ //Classic
 				"name": "Classic",
 				"img": "images/Classic.png",
 				"codes": "hexagonquest"
 			},
-			{//Hexagon Quest
+			{ //Hexagon Quest
 				"name": "Hexagon Quest",
 				"img": "images/Hexagon_Quest.png",
 				"codes": "hexagonquest"
@@ -829,183 +829,272 @@
 			}
 		]
 	},
+	//Tricks Toggles
+	{
+		"name": "Maskless",
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/tricks/maskless_gray.png",
+		"img": "images/tricks/maskless.png",
+		"codes": "maskless"
+	},
+	{
+		"name": "Lanternless",
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/tricks/lanternless_gray.png",
+		"img": "images/tricks/lanternless.png",
+		"codes": "lanternless"
+	},
+	{
+		"name": "Laurels Zips",
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/tricks/laurels_zips_gray.png",
+		"img": "images/tricks/laurels_zips.png",
+		"codes": "laurels_zips"
+	},
+	{
+		"name": "Ice Grapple",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Ice Grapple Off",
+				"img": "images/tricks/ice_grappling_off.png",
+				"codes": "ice_grapple_off"
+			},
+			{
+				"name": "Ice Grapple Easy",
+				"img": "images/tricks/ice_grappling_easy.png",
+				"codes": "ice_grapple_easy"
+			},
+			{
+				"name": "Ice Grapple Medium",
+				"img": "images/tricks/ice_grappling_med.png",
+				"codes": "ice_grapple_med"
+			},
+			{
+				"name": "Ice Grapple Hard",
+				"img": "images/tricks/ice_grappling_hard.png",
+				"codes": "ice_grapple_hard"
+			}
+		]
+	},
+	{
+		"name": "Ladder Storage",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Ladder Storage Off",
+				"img": "images/tricks/ladder_storage_off.png",
+				"codes": "ladder_storage_off"
+			},
+			{
+				"name": "Ladder Storage Easy",
+				"img": "images/tricks/ladder_storage_easy.png",
+				"codes": "ladder_storage_easy"
+			},
+			{
+				"name": "Ladder Storage Medium",
+				"img": "images/tricks/ladder_storage_med.png",
+				"codes": "ladder_storage_med"
+			},
+			{
+				"name": "Ladder Storage Hard",
+				"img": "images/tricks/ladder_storage_hard.png",
+				"codes": "ladder_storage_hard"
+			}
+		]
+	},
+	{
+		"name": "Ladder Storage without Items",
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/tricks/ladder_storage_without_items_gray.png",
+		"img": "images/tricks/ladder_storage_without_items.png",
+		"codes": "storage_no_items"
+	},
 	//Bosses
 	{
 		"name": "Guard Captain",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/captain.png",
+		"img": "images/captain.png",
 		"codes": "captain"
 	},
 	{
 		"name": "Garden Knight",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/gknight.png",
+		"img": "images/gknight.png",
 		"codes": "gknight"
 	},
 	{
 		"name": "Siege Engine",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/engine.png",
+		"img": "images/engine.png",
 		"codes": "engine"
 	},
 	{
 		"name": "The Librarian",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/librarian.png",
+		"img": "images/librarian.png",
 		"codes": "librarian"
 	},
 	{
 		"name": "Scavenger Queen",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/scavboss.png",
+		"img": "images/scavboss.png",
 		"codes": "scavboss"
 	},
 	{
 		"name": "Cathedral Gauntlet",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/gauntlet.png",
+		"img": "images/gauntlet.png",
 		"codes": "gauntlet"
 	},
 	{
 		"name": "The Heir",
 		"type": "toggle",
 		"loop": true,
-		"img":"images/heir.png",
+		"img": "images/heir.png",
 		"codes": "heir"
 	},
-  //Ladders
-  {
-    "name": "Ladders near Weathervane",
-    "type": "toggle",
-    "img": "images/ladders/near_wv.png",
-    "codes": "ladders_near_weathervane"
-  },
-  {
-    "name": "Ladders near Overworld Checkpoint",
-    "type": "toggle",
-    "img": "images/ladders/near_owc.png",
-    "codes": "ladders_near_overworld_checkpoint"
-  },
-  {
-    "name": "Ladders near Patrol Cave",
-    "type": "toggle",
-    "img": "images/ladders/near_ptc.png",
-    "codes": "ladders_near_patrol_cave"
-  },
-  {
-    "name": "Ladder near Temple Rafters",
-    "type": "toggle",
-    "img": "images/ladders/near_tmp.png",
-    "codes": "ladder_near_temple_rafters"
-  },
-  {
-    "name": "Ladders near Dark Tomb",
-    "type": "toggle",
-    "img": "images/ladders/near_dt.png",
-    "codes": "ladders_near_dark_tomb"
-  },
-  {
-    "name": "Ladder to Quarry",
-    "type": "toggle",
-    "img": "images/ladders/to_qry.png",
-    "codes": "ladder_to_quarry"
-  },
-  {
-    "name": "Ladders to West Bell",
-    "type": "toggle",
-    "img": "images/ladders/to_wb.png",
-    "codes": "ladders_to_west_bell"
-  },
-  {
-    "name": "Ladders in Overworld Town",
-    "type": "toggle",
-    "img": "images/ladders/in_twn.png",
-    "codes": "ladders_in_overworld_town"
-  },
-  {
-    "name": "Ladder to Ruined Atoll",
-    "type": "toggle",
-    "img": "images/ladders/to_atl.png",
-    "codes": "ladder_to_ruined_atoll"
-  },
-  {
-    "name": "Ladder to Swamp",
-    "type": "toggle",
-    "img": "images/ladders/to_swp.png",
-    "codes": "ladder_to_swamp"
-  },
-  {
-    "name": "Ladders in Well",
-    "type": "toggle",
-    "img": "images/ladders/in_wel.png",
-    "codes": "ladders_in_well"
-  },
-  {
-    "name": "Ladder in Dark Tomb",
-    "type": "toggle",
-    "img": "images/ladders/in_dt.png",
-    "codes": "ladder_in_dark_tomb"
-  },
-  {
-    "name": "Ladder to East Forest",
-    "type": "toggle",
-    "img": "images/ladders/to_efr.png",
-    "codes": "ladder_to_east_forest"
-  },
-  {
-    "name": "Ladders to Lower Forest",
-    "type": "toggle",
-    "img": "images/ladders/to_lfr.png",
-    "codes": "ladders_to_lower_forest"
-  },
-  {
-    "name": "Ladder to Beneath the Vault",
-    "type": "toggle",
-    "img": "images/ladders/to_btv.png",
-    "codes": "ladder_to_beneath_the_vault"
-  },
-  {
-    "name": "Ladders in Hourglass Cave",
-    "type": "toggle",
-    "img": "images/ladders/in_hgc.png",
-    "codes": "ladders_in_hourglass_cave"
-  },
-  {
-    "name": "Ladders in South Atoll",
-    "type": "toggle",
-    "img": "images/ladders/in_atl.png",
-    "codes": "ladders_in_south_atoll"
-  },
-  {
-    "name": "Ladders to Frog's Domain",
-    "type": "toggle",
-    "img": "images/ladders/to_frg.png",
-    "codes": "ladders_to_frogs_domain"
-  },
-  {
-    "name": "Ladders in Library",
-    "type": "toggle",
-    "img": "images/ladders/in_lib.png",
-    "codes": "ladders_in_library"
-  },
-  {
-    "name": "Ladders in Lower Quarry",
-    "type": "toggle",
-    "img": "images/ladders/in_qry.png",
-    "codes": "ladders_in_lower_quarry"
-  },
-  {
-    "name": "Ladders in Swamp",
-    "type": "toggle",
-    "img": "images/ladders/in_swp.png",
-    "codes": "ladders_in_swamp"
-  },
+	//Ladders
+	{
+		"name": "Ladders near Weathervane",
+		"type": "toggle",
+		"img": "images/ladders/near_wv.png",
+		"codes": "ladders_near_weathervane"
+	},
+	{
+		"name": "Ladders near Overworld Checkpoint",
+		"type": "toggle",
+		"img": "images/ladders/near_owc.png",
+		"codes": "ladders_near_overworld_checkpoint"
+	},
+	{
+		"name": "Ladders near Patrol Cave",
+		"type": "toggle",
+		"img": "images/ladders/near_ptc.png",
+		"codes": "ladders_near_patrol_cave"
+	},
+	{
+		"name": "Ladder near Temple Rafters",
+		"type": "toggle",
+		"img": "images/ladders/near_tmp.png",
+		"codes": "ladder_near_temple_rafters"
+	},
+	{
+		"name": "Ladders near Dark Tomb",
+		"type": "toggle",
+		"img": "images/ladders/near_dt.png",
+		"codes": "ladders_near_dark_tomb"
+	},
+	{
+		"name": "Ladder to Quarry",
+		"type": "toggle",
+		"img": "images/ladders/to_qry.png",
+		"codes": "ladder_to_quarry"
+	},
+	{
+		"name": "Ladders to West Bell",
+		"type": "toggle",
+		"img": "images/ladders/to_wb.png",
+		"codes": "ladders_to_west_bell"
+	},
+	{
+		"name": "Ladders in Overworld Town",
+		"type": "toggle",
+		"img": "images/ladders/in_twn.png",
+		"codes": "ladders_in_overworld_town"
+	},
+	{
+		"name": "Ladder to Ruined Atoll",
+		"type": "toggle",
+		"img": "images/ladders/to_atl.png",
+		"codes": "ladder_to_ruined_atoll"
+	},
+	{
+		"name": "Ladder to Swamp",
+		"type": "toggle",
+		"img": "images/ladders/to_swp.png",
+		"codes": "ladder_to_swamp"
+	},
+	{
+		"name": "Ladders in Well",
+		"type": "toggle",
+		"img": "images/ladders/in_wel.png",
+		"codes": "ladders_in_well"
+	},
+	{
+		"name": "Ladder in Dark Tomb",
+		"type": "toggle",
+		"img": "images/ladders/in_dt.png",
+		"codes": "ladder_in_dark_tomb"
+	},
+	{
+		"name": "Ladder to East Forest",
+		"type": "toggle",
+		"img": "images/ladders/to_efr.png",
+		"codes": "ladder_to_east_forest"
+	},
+	{
+		"name": "Ladders to Lower Forest",
+		"type": "toggle",
+		"img": "images/ladders/to_lfr.png",
+		"codes": "ladders_to_lower_forest"
+	},
+	{
+		"name": "Ladder to Beneath the Vault",
+		"type": "toggle",
+		"img": "images/ladders/to_btv.png",
+		"codes": "ladder_to_beneath_the_vault"
+	},
+	{
+		"name": "Ladders in Hourglass Cave",
+		"type": "toggle",
+		"img": "images/ladders/in_hgc.png",
+		"codes": "ladders_in_hourglass_cave"
+	},
+	{
+		"name": "Ladders in South Atoll",
+		"type": "toggle",
+		"img": "images/ladders/in_atl.png",
+		"codes": "ladders_in_south_atoll"
+	},
+	{
+		"name": "Ladders to Frog's Domain",
+		"type": "toggle",
+		"img": "images/ladders/to_frg.png",
+		"codes": "ladders_to_frogs_domain"
+	},
+	{
+		"name": "Ladders in Library",
+		"type": "toggle",
+		"img": "images/ladders/in_lib.png",
+		"codes": "ladders_in_library"
+	},
+	{
+		"name": "Ladders in Lower Quarry",
+		"type": "toggle",
+		"img": "images/ladders/in_qry.png",
+		"codes": "ladders_in_lower_quarry"
+	},
+	{
+		"name": "Ladders in Swamp",
+		"type": "toggle",
+		"img": "images/ladders/in_swp.png",
+		"codes": "ladders_in_swamp"
+	},
 	//Statics
 	{
 		"name": "Silver Chest",

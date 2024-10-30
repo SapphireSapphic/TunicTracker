@@ -167,7 +167,61 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data.maskless then
+        --print("slot_data.maskless: " .. slot_data.maskless)
+        local obj = Tracker:FindObjectForCode("maskless")
+        if obj then
+            obj.Active = slot_data.maskless == 1
+        end
+    end
 
+    if slot_data.lanternless then
+        --print("slot_data.lanternless: " .. slot_data.lanternless)
+        local obj = Tracker:FindObjectForCode("lanternless")
+        if obj then
+            obj.Active = slot_data.lanternless == 1
+        end
+    end
+
+    if slot_data.laurels_zips then
+        --print("slot_data.laurels_zips: " .. slot_data.laurels_zips)
+        local obj = Tracker:FindObjectForCode("laurels_zips")
+        if obj then
+            obj.Active = slot_data.laurels_zips == 1
+        end
+    end
+
+    if slot_data.ice_grappling then
+        if slot_data.ice_grappling == 0 then
+            Tracker:FindObjectForCode("ice_grapple_off").CurrentStage = 0
+        elseif slot_data.ice_grappling == 1 then
+            Tracker:FindObjectForCode("ice_grapple_off").CurrentStage = 1
+        elseif slot_data.ice_grappling == 2 then
+            Tracker:FindObjectForCode("ice_grapple_off").CurrentStage = 2
+        elseif slot_data.ice_grappling == 3 then
+            Tracker:FindObjectForCode("ice_grapple_off").CurrentStage = 3
+        end
+    end
+
+    if slot_data.ladder_storage then
+        if slot_data.ladder_storage == 0 then
+            Tracker:FindObjectForCode("ladder_storage_off").CurrentStage = 0
+        elseif slot_data.ladder_storage == 1 then
+            Tracker:FindObjectForCode("ladder_storage_off").CurrentStage = 1
+        elseif slot_data.ladder_storage == 2 then
+            Tracker:FindObjectForCode("ladder_storage_off").CurrentStage = 2
+        elseif slot_data.ladder_storage == 3 then
+            Tracker:FindObjectForCode("ladder_storage_off").CurrentStage = 3
+        end
+    end
+
+    if slot_data.ladder_storage_without_items then
+        --print("slot_data.ladder_storage_without_items: " .. slot_data.ladder_storage_without_items)
+        local obj = Tracker:FindObjectForCode("storage_no_items")
+        if obj then
+            obj.Active = slot_data.ladder_storage_without_items == 1
+        end
+    end
 
     Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
 

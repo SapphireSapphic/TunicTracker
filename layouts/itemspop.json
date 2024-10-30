@@ -125,5 +125,169 @@
 				["pray","cross","icerod","silver"]
             ]
         }
-    }
+    },
+	"settings": {
+        "type":"array",
+        "orientation": "vertical",
+        "content": [
+            {
+				"type": "group",
+				"header": "Glitch Mode",
+				"header_background": "#3e4b57",
+				"content": [
+				  {
+					"type": "item",
+					"item_margin": "-5,-1,-5,-5",
+					"item": "mode"
+				  }
+				]
+			  },
+			  {
+				"type": "group",
+				"header": "Classic/Hexagon Quest",
+				"header_background": "#3e4b57",
+				"content": [
+				  {
+					"type": "item",
+					"item_margin": "-5,-1,-5,-5",
+					"item": "hexagonquest"
+				  }
+				]
+			  },
+			  {
+				"type": "group",
+				"header": "Sword Setting",
+				"header_background": "#3e4b57",
+				"content": [
+				  {
+					"type": "item",
+					"item_margin": "-5,-1,-5,-5",
+					"item": "progswordSetting"
+				  }
+				]
+			  },
+			  {
+				"type": "group",
+				"header": "Ladder Shuffle",
+				"header_background": "#3e4b57",
+				"content": [
+				  {
+					"type": "item",
+					"item_margin": "-5,-1,-5,-5",
+					"item": "ladder_shuffle_off"
+				  }
+				]
+			  },
+			{
+				"type": "group",
+				"header": "Pack Settings",
+				"header_background": "#3e4b57",
+				"content": [
+				  {
+					"type": "array",
+					"orientation": "horizontal",
+					"content": [
+					  {
+						"type": "item",
+						"max_width": 80,
+						"item_margin": "5,5,5,5",
+						"item": "auto_tab"
+					  },
+					  {
+						"type": "item",
+						"max_width": 80,
+						"item_margin": "5,5,5,5",
+						"item": "show_hints"
+					  }
+					]
+				  }
+				]
+			  }
+		]
+    },
+	"tricks_toggle": {
+		"type": "array",
+		"orientation": "vertical",
+		"item_size": "20",
+		"content": [
+			{
+				"type": "group",
+				"header": "Maskless",
+				"header_background": "#3e4b57",
+				"content": [
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "maskless",
+						"max_width": 350
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Lanternless",
+				"header_background": "#3e4b57",
+				"content": [
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "lanternless",
+						"max_width": 350
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Laurels Zips",
+				"header_background": "#3e4b57",
+				"content": [
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "laurels_zips",
+						"max_width": 350
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Ice Grappling",
+				"header_background": "#3e4b57",
+				"content": [
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "ice_grapple_off",
+						"max_width": 350
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Ladder Storage",
+				"header_background": "#3e4b57",
+				"content": [
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "ladder_storage_off",
+						"max_width": 350
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Ladder Storage without Items",
+				"header_background": "#3e4b57",
+				"content": [
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "storage_no_items",
+						"max_width": 350
+					}
+				]
+			}
+		]
+	}
 }

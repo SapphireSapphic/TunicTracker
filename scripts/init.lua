@@ -22,13 +22,13 @@ if PopVersion then
   Tracker:AddLayouts("layouts/itemspop.json")
   Tracker:AddLayouts("layouts/trackerpop.json")
   Tracker:AddLayouts("layouts/standard_broadcastpop.json")
+  Tracker:AddLayouts("layouts/settings_popup_pop.json")
 else
   Tracker:AddItems("items/common.json")
   Tracker:AddLayouts("layouts/items.json")
   Tracker:AddLayouts("layouts/tracker.json")
   Tracker:AddLayouts("layouts/standard_broadcast.json")
 end
-
 
 -- Utility Script for helper functions etc.
 ScriptHost:LoadScript("scripts/utils.lua")

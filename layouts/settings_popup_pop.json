@@ -1,0 +1,21 @@
+{
+    "settings_popup": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Settings",
+                "content": {
+                    "type": "layout",
+                    "key": "settings"
+                }
+            },
+            {
+                "title": "Tricks",
+                "content": {
+                    "type": "layout",
+                    "key": "tricks_toggle"
+                }
+            }
+        ]
+    }
+}
