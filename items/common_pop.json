@@ -5,7 +5,7 @@
 		"type": "toggle",
 		"loop": true,
 		"img": "images/shield.png",
-		"codes": "shield"
+		"codes": "shield,ls_item"
 	},
 	{
 		"name": "Lantern",
