@@ -2,6 +2,18 @@
     "versions": [
         {
         
+            "package_version": "2.0.1",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.1/TunicTracker.zip",
+            "sha256": "4b7c6e4f0dcd3bbff83779b3ec4bfae29cdfef0ffdf8d926a03e8efebed22d83",
+            "changelog": [
+                "added a tricks toggle menu along with the other settings",
+                "creat a helper function for set_option (scipio)",
+                "add bomb wall logic (scipio)",
+                "add logic for all tricks, no combat logic yet (scipio)"
+            ]
+        },
+        {
+        
             "package_version": "2.0.0",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.0/TunicTracker.zip",
             "sha256": "180914e914c9bce9ed6340e83133a345ecf9740d07324f54400175a70c95a8c5",
