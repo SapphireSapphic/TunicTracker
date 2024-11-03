@@ -721,7 +721,8 @@
         "access_rules": [
           "@Overworld Belltower,$has_ladder|ladders_to_west_bell",
           "@Overworld above Patrol Cave,[glitches],staff",
-          "$has_ladder|ladders_near_dark_tomb,[glitches],staff"
+          "$has_ladder|ladders_near_dark_tomb,[glitches],staff",
+          "@LS Elev 6,staff,[glitches]"
         ],
         "children": [
           {
@@ -1112,8 +1113,7 @@
         "access_rules": [
           "@Quarry Connector",
           "[ice_grapple_med],dagger,orb",
-          "@Overworld after Envoy,$has_ladder|ladder_to_quarry",
-          "@LS Elev 4"
+          "@Overworld after Envoy,$has_ladder|ladder_to_quarry"
         ],
         "children": []
       },
@@ -2879,8 +2879,7 @@
         "access_rules": [
           "@Forest Belltower Upper",
           "@Guard House 1 East",
-          "@Guard House 1 West,glitches,stick",
-          "@Guard House 1 West,glitches,sword"
+          "@Guard House 1 West,[ladder_storage_easy],ls_item"
         ],
         "children": [
           {
@@ -4713,8 +4712,7 @@
         "access_rules": [
           "@Frog Stairs Upper,$has_ladder|ladders_to_frogs_domain",
           "@Ruined Atoll Frog Eye",
-          "@Ruined Atoll,glitches,stick",
-          "@Ruined Atoll,glitches,sword"
+          "@Ruined Atoll,[ladder_storage_med],ls_item"
         ],
         "children": []
       },
@@ -5844,7 +5842,7 @@
       {
         "name": "Eastern Vault Fortress Gold Door",
         "access_rules": [
-          "@Eastern Vault Fortress,[glitches],dagger,orb",
+          "@Eastern Vault Fortress,[ice_grapple_med],dagger,orb",
           "@Eastern Vault Fortress,pray",
           "@Fortress Arena"
         ],
@@ -6067,20 +6065,9 @@
       {
         "name": "Quarry Connector",
         "access_rules": [
-          "glitches,$has_ladder|ladder_to_swamp,stick",
-          "glitches,$has_ladder|ladder_to_swamp,sword",
-          "glitches,$has_ladder|ladders_in_overworld_town,stick",
-          "glitches,$has_ladder|ladders_in_overworld_town,sword",
-          "glitches,$has_ladder|ladders_in_well,stick",
-          "glitches,$has_ladder|ladders_in_well,sword",
-          "glitches,$has_ladder|ladders_near_weathervane,stick",
-          "glitches,$has_ladder|ladders_near_weathervane,sword",
-          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,$has_ladder|ladder_to_ruined_atoll,sword",
           "@Overworld Quarry Entry",
-          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,$has_ladder|ladders_to_west_bell,sword",
-          "@Quarry Entry"
+          "@Quarry Entry",
+          "@LS Elev 4"
         ],
         "children": []
       },
