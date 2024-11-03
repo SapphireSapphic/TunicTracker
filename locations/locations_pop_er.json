@@ -147,7 +147,11 @@
             "sections": [
               {
                 "name": "Let the flowers guide you",
-                "access_rules": null,
+                "access_rules": [
+                  "gun",
+                  "sword",
+                  "[ice_grapple_hard],orb,dagger"
+                ],
                 "item_count": 1
               }
             ]
@@ -453,7 +457,11 @@
             "sections": [
               {
                 "name": "Let the flowers guide you",
-                "access_rules": null,
+                "access_rules": [
+                  "gun",
+                  "sword",
+                  "[ice_grapple_hard],orb,dagger"
+                ],
                 "item_count": 1
               }
             ]
@@ -679,7 +687,8 @@
         "name": "Overworld Belltower",
         "access_rules": [
           "dash",
-          "@Overworld to West Garden Upper,$has_ladder|ladders_to_west_bell"
+          "@Overworld to West Garden Upper,$has_ladder|ladders_to_west_bell",
+          "[ice_grapple_med],dagger,orb"
         ],
         "children": [
           {
@@ -749,7 +758,9 @@
         "access_rules": [
           "dash",
           "@Back of Swamp Laurels Area",
-          "@Back of Swamp,[ladder_storage_easy],ls_item"
+          "@Back of Swamp,[ladder_storage_med],ls_item",
+          "@Swamp Mid,[ladder_storage_med],ls_item,$has_ladder|ladders_in_swamp",
+          "@Swamp Mid,[ladder_storage_med],ls_item"
         ],
         "children": []
       },
@@ -757,9 +768,10 @@
         "name": "Overworld Swamp Lower Entry",
         "access_rules": [
           "$has_ladder|ladder_to_swamp",
-          "@Back of Swamp,[ladder_storage_easy],ls_item",
           "@Caustic Light Cave",
-          "@Swamp Front"
+          "@Swamp Front",
+          "@Back of Swamp,[ladder_storage_easy],ls_item",
+          "[ice_grapple_hard],dagger,orb"
         ],
         "children": [
           {
@@ -824,7 +836,8 @@
         "name": "Above Ruined Passage",
         "access_rules": [
           "dash",
-          "$has_ladder|ladders_near_weathervane"
+          "$has_ladder|ladders_near_weathervane",
+          "[ice_grapple_hard],dagger,orb"
         ],
         "children": [
           {
@@ -1089,7 +1102,8 @@
         "name": "Overworld after Temple Rafters",
         "access_rules": [
           "@Sealed Temple Rafters",
-          "@Upper Overworld,$has_ladder|ladder_near_temple_rafters"
+          "@Upper Overworld,$has_ladder|ladder_near_temple_rafters",
+          "@Upper Overworld,[ice_grapple_med],dagger,orb"
         ],
         "children": []
       },
@@ -1155,7 +1169,9 @@
           "orb",
           "@Overworld at Patrol Cave,$has_ladder|ladders_near_patrol_cave",
           "@Upper Overworld,$has_ladder|ladders_near_patrol_cave",
-          "@LS Elev 6,[ladder_storage_med]"
+          "@LS Elev 6,[ladder_storage_med]",
+          "@Overworld at Patrol Cave,[ice_grapple_easy],dagger,icerod,orb,staff",
+          "@East Overworld,[ice_grapple_easy],dagger,icerod,orb,staff"
         ],
         "children": [
           {
@@ -1199,7 +1215,8 @@
         "access_rules": [
           "@Overworld Belltower,$has_ladder|ladders_to_west_bell",
           "@West Garden after Boss",
-          "@West Garden,[ladder_storage_easy],ls_item"
+          "@West Garden,[ladder_storage_easy],ls_item",
+          "@Overworld Belltower,[ice_grapple_hard],dagger,orb"
         ],
         "children": []
       },
@@ -1208,6 +1225,7 @@
         "access_rules": [
           "@Furnace Walking Path",
           "@West Garden",
+          "[ice_grapple_hard],dagger,orb,staff,icerod",
           "@Furnace Ladder Area,[ladder_storage_easy],ls_item"
         ],
         "children": [
@@ -1516,7 +1534,8 @@
         "access_rules": [
           "@Beneath the Well Back",
           "@Furnace Fuse",
-          "@Furnace Ladder Area,[ladder_storage_easy],ls_item"
+          "@Furnace Ladder Area,[ladder_storage_easy],ls_item",
+          "@Beneath the Well Front,[ladder_storage_hard],ls_item,$has_ladder|ladders_in_well"
         ],
         "children": []
       },
@@ -1544,7 +1563,8 @@
         "access_rules": [
           "cross",
           "@Southeast Cross Room",
-          "@LS Elev 1,[ladder_storage_hard]"
+          "@LS Elev 1,[ladder_storage_hard]",
+          "[ice_grapple_hard],dagger,orb"
         ],
         "children": []
       },
@@ -1553,7 +1573,8 @@
         "access_rules": [
           "cross",
           "@Fountain Cross Room",
-          "@LS Elev 2,[ladder_storage_hard]"
+          "@LS Elev 2,[ladder_storage_hard]",
+          "[ice_grapple_med],dagger,orb"
         ],
         "children": []
       },
@@ -2377,16 +2398,17 @@
       {
         "name": "East Forest",
         "access_rules": [
-          "@East Forest Dance Fox Spot,[glitches],dagger,icerod,orb,staff",
+          "@Forest Belltower Lower",
           "@East Forest Dance Fox Spot,dash",
           "@East Forest Portal",
-          "@Forest Belltower Lower",
           "@Forest Grave Path Main",
           "@Forest Grave Path Upper",
           "@Guard House 1 East",
           "@Guard House 1 West",
           "@Guard House 2 Upper",
-          "@Lower Forest,$has_ladder|ladders_to_lower_forest"
+          "@Lower Forest,$has_ladder|ladders_to_lower_forest",
+          "@East Forest Dance Fox Spot,[ice_grapple_easy],dagger,icerod,orb,staff",
+          "@Forest Grave Path Main,[ladder_storage_medium],ls_item"
         ],
         "children": [
           {
@@ -2547,7 +2569,11 @@
             "sections": [
               {
                 "name": "Follow the Flowers",
-                "access_rules": null,
+                "access_rules": [
+                  "gun",
+                  "sword",
+                  "[ice_grapple_hard],orb,dagger"
+                ],
                 "item_count": 1
               }
             ]
@@ -2557,9 +2583,10 @@
       {
         "name": "East Forest Dance Fox Spot",
         "access_rules": [
-          "@East Forest,[glitches],dagger,icerod,orb,staff",
           "@East Forest,dash",
-          "@Guard House 1 West"
+          "@Guard House 1 West",
+          "@East Forest,[ice_grapple_easy],dagger,icerod,orb,staff",
+          "@East Forest,[ladder_storage_medium],ls_item"
         ],
         "children": [
           {
@@ -2618,7 +2645,7 @@
       {
         "name": "Lower Forest",
         "access_rules": [
-          "@East Forest,dagger,icerod,orb,staff",
+          "@East Forest,[ice_grapple_easy],dagger,icerod,orb,staff",
           "@East Forest,$has_ladder|ladders_to_lower_forest",
           "@Guard House 2 Lower"
         ],
@@ -2944,7 +2971,8 @@
         "name": "Forest Grave Path Upper",
         "access_rules": [
           "@East Forest",
-          "@Forest Grave Path Main,dash"
+          "@Forest Grave Path Main,dash",
+          "@Forest Grave Path Main,[ice_grapple_hard],dagger,orb,staff,icerod"
         ],
         "children": [
           {
@@ -3248,7 +3276,8 @@
         "name": "Well Boss",
         "access_rules": [
           "@Beneath the Well Back",
-          "@Dark Tomb Checkpoint,[laurels_zips],dash"
+          "@Dark Tomb Checkpoint,[laurels_zips],dash",
+          "@Beneath the Well Front,[ladder_storage_hard],ls_item,$has_ladder|ladders_in_well"
         ],
         "children": []
       },
@@ -3496,7 +3525,8 @@
           "@LS Elev 3,[ladder_storage_med]",
           "@Beneath the Well Main,$has_ladder|ladders_in_well",
           "@Overworld Well to Furnace Rail",
-          "@Well Boss"
+          "@Well Boss",
+          "@Beneath the Well Front,[ladder_storage_hard],ls_item,$has_ladder|ladders_in_well"
         ],
         "children": [
           {
@@ -3626,8 +3656,9 @@
           "@Overworld to West Garden from Furnace",
           "@West Garden Hero's Grave Region",
           "@West Garden Laurels Exit Region,dash",
-          "@West Garden Portal Item,[ice_grapple_med],dagger,icerod,orb,staff",
-          "@West Garden after Boss,dash"
+          "@West Garden Portal Item,[ice_grapple_easy],dagger,icerod,orb,staff",
+          "@West Garden after Boss,dash",
+          "@West Garden after Boss,[ice_grapple_med],dagger,orb"
         ],
         "children": [
           {
@@ -4111,7 +4142,7 @@
         "name": "West Garden Portal Item",
         "access_rules": [
           "@West Garden Portal,dash",
-          "@West Garden,[glitches],dagger,icerod,orb,staff"
+          "@West Garden,[ice_grapple_med],dagger,icerod,orb,staff"
         ],
         "children": [
           {
@@ -4157,7 +4188,8 @@
           "@West Garden,dash",
           "@West Garden,sword",
           "@LS Elev 2",
-          "@West Garden,[ladder_storage_easy],ls_item"
+          "@West Garden,[ladder_storage_easy],ls_item",
+          "@West Garden,[ice_grapple_med],dagger,orb"
         ],
         "children": [
           {
@@ -4222,12 +4254,6 @@
       {
         "name": "Ruined Atoll",
         "access_rules": [
-          "glitches,$has_ladder|ladder_to_swamp,orb,stick",
-          "glitches,$has_ladder|ladder_to_swamp,orb,sword",
-          "glitches,$has_ladder|ladders_in_overworld_town,orb,stick",
-          "glitches,$has_ladder|ladders_in_overworld_town,orb,sword",
-          "glitches,$has_ladder|ladders_near_weathervane,orb,stick",
-          "glitches,$has_ladder|ladders_near_weathervane,orb,sword",
           "pray",
           "@Overworld to Atoll Upper",
           "@Ruined Atoll Frog Eye,$has_ladder|ladders_to_frogs_domain",
@@ -4236,7 +4262,8 @@
           "@Ruined Atoll Lower Entry Area,dash",
           "@Ruined Atoll Lower Entry Area,orb",
           "@Ruined Atoll Portal",
-          "@Ruined Atoll Statue"
+          "@Ruined Atoll Statue",
+          "@LS Elev 1"
         ],
         "children": [
           {
@@ -4374,7 +4401,8 @@
                 "name": "[East] Locked Room Lower Chest",
                 "access_rules": [
                   "dash",
-                  "key:2"
+                  "key:2",
+                  "[ice_grapple_med],dagger,orb"
                 ],
                 "item_count": 1
               },
@@ -4382,7 +4410,8 @@
                 "name": "[East] Locked Room Upper Chest",
                 "access_rules": [
                   "dash",
-                  "key:2"
+                  "key:2",
+                  "[ice_grapple_med],dagger,orb"
                 ],
                 "item_count": 1
               }
@@ -4498,7 +4527,11 @@
             "sections": [
               {
                 "name": "Flowers Guide Thee",
-                "access_rules": null,
+                "access_rules": [
+                  "gun",
+                  "sword",
+                  "[ice_grapple_hard],orb,dagger"
+                ],
                 "item_count": 1
               }
             ]
@@ -4654,7 +4687,8 @@
         "name": "Ruined Atoll Frog Eye",
         "access_rules": [
           "@Frog Stairs Eye Exit",
-          "@Ruined Atoll,$has_ladder|ladders_to_frogs_domain"
+          "@Ruined Atoll,$has_ladder|ladders_to_frogs_domain",
+          "@Ruined Atoll,[ladder_storage_med],ls_item"
         ],
         "children": []
       },
@@ -4690,6 +4724,7 @@
           "@Frog Stairs Eye Exit,$has_ladder|ladders_to_frogs_domain",
           "@Frog Stairs Lower,$has_ladder|ladders_to_frogs_domain",
           "@Ruined Atoll Frog Mouth",
+          "@Frog Stairs Eye Exit,[ice_grapple_easy],dagger,orb,staff,icerod",
           "@Ruined Atoll,[ladder_storage_med],ls_item",
           "@Ruined Atoll,[ladder_storage_easy],ls_item,$has_ladder|ladders_in_south_atoll",
           "@Ruined Atoll,[ladder_storage_easy],ls_item,key:2",
@@ -4702,7 +4737,8 @@
         "access_rules": [
           "@Frog Stairs Upper,$has_ladder|ladders_to_frogs_domain",
           "@Frog Stairs to Frog's Domain,$has_ladder|ladders_to_frogs_domain",
-          "@Frog's Domain Back"
+          "@Frog's Domain Back",
+          "@Frog's Domain,[ladder_storage_hard],ls_item,$has_ladder|ladders_to_frogs_domain"
         ],
         "children": []
       },
@@ -4969,7 +5005,8 @@
         "name": "Frog's Domain Back",
         "access_rules": [
           "@Frog Stairs Lower",
-          "@Frog's Domain,orb"
+          "@Frog's Domain,orb",
+          "@Frog's Domain,[ladder_storage_hard],ls_item,$has_ladder|ladders_to_frogs_domain"
         ],
         "children": [
           {
@@ -5513,9 +5550,10 @@
         "access_rules": [
           "@Eastern Vault Fortress",
           "@Fortress Courtyard Upper",
-          "@Fortress Exterior from Overworld,[glitches],dagger,icerod,orb,staff",
           "@Fortress Exterior from Overworld,dash",
-          "@Fortress Grave Path"
+          "@Fortress Grave Path",
+          "@Fortress Exterior near cave,[ice_grapple_hard],dagger,orb,staff,icerod",
+          "@Fortress Exterior from Overworld,[ice_grapple_easy],dagger,orb,staff,icerod"
         ],
         "children": []
       },
@@ -5524,7 +5562,11 @@
         "access_rules": [
           "@Fortress Courtyard,[ice_grapple_easy],dagger,icerod,orb,staff",
           "@Fortress East Shortcut Upper",
-          "@Fortress Grave Path Upper"
+          "@Fortress Grave Path Upper",
+          "@Fortress Exterior from Overworld,[ladder_storage_med],ls_item",
+          "@Fortress Exterior from East Forest,[ladder_storage_med],ls_item",
+          "@Fortress Exterior near cave,[ladder_storage_med],ls_item,$has_ladder|ladder_to_beneath_the_vault",
+          "Fortress Courtyard,[ice_grapple_easy],dagger,orb,staff,icerod"
         ],
         "children": []
       },
@@ -5680,13 +5722,13 @@
         "name": "Eastern Vault Fortress",
         "access_rules": [
           "@Beneath the Vault Back",
-          "@Eastern Vault Fortress Gold Door,[glitches],dagger,icerod,orb,staff",
           "@Fortress Courtyard",
           "@Fortress East Shortcut Lower",
           "@Fortress East Shortcut Upper",
+          "@Eastern Vault Fortress Gold Door,[ice_grapple_med],dagger,orb,icerod,staff",
           "@Fortress Exterior from Overworld,[ladder_storage_easy],ls_item",
           "@Fortress Exterior from East Forest,[ladder_storage_easy],ls_item",
-          "@Fortress Exterior near Cave,[ladder_storage_easy],ls_item,$has_ladder|ladder_to_beneath_the_vault"
+          "@Fortress Exterior near cave,[ladder_storage_easy],ls_item,$has_ladder|ladder_to_beneath_the_vault"
         ],
         "children": [
           {
@@ -5788,7 +5830,11 @@
             "sections": [
               {
                 "name": "Bomb the Wall",
-                "access_rules": null,
+                "access_rules": [
+                  "gun",
+                  "sword",
+                  "[ice_grapple_hard],orb,dagger"
+                ],
                 "item_count": 1
               }
             ]
@@ -5809,8 +5855,10 @@
         "access_rules": [
           "@Eastern Vault Fortress",
           "@Fortress Courtyard Upper",
-          "@Fortress East Shortcut Lower,[glitches],dagger,icerod,orb,staff",
-          "@Fortress Exterior from Overworld,[ladder_storage_easy],ls_item"
+          "@Fortress East Shortcut Lower,[ice_grapple_easy],dagger,icerod,orb,staff",
+          "@Fortress Exterior from Overworld,[ladder_storage_easy],ls_item",
+          "@Fortress Exterior from East Forest,[ladder_storage_med],ls_item",
+          "@Fortress Exterior near cave,[ladder_storage_med],ls_item,$has_ladder|ladder_to_beneath_the_vault"
         ],
         "children": []
       },
@@ -5851,11 +5899,11 @@
         "access_rules": [
           "@Fortress Courtyard",
           "@Fortress Grave Path Dusty Entrance Region,dash",
-          "@Fortress Grave Path Upper,[glitches],dagger,icerod,orb,staff",
+          "@Fortress Grave Path Upper,[ice_grapple_easy],dagger,icerod,orb,staff",
           "@Fortress Hero's Grave Region",
           "@Fortress Exterior from Overworld,[ladder_storage_easy],ls_item",
           "@Fortress Exterior from East Forest,[ladder_storage_easy],ls_item",
-          "@Fortress Exterior near Cave,[ladder_storage_easy],ls_item,$has_ladder|ladder_to_beneath_the_vault"
+          "@Fortress Exterior near cave,[ladder_storage_easy],ls_item,$has_ladder|ladder_to_beneath_the_vault"
         ],
         "children": []
       },
@@ -5863,7 +5911,9 @@
         "name": "Fortress Grave Path Upper",
         "access_rules": [
           "@Fortress Courtyard Upper",
-          "@Fortress Exterior from Overworld,[ladder_storage_easy],ls_item"
+          "@Fortress Exterior from Overworld,[ladder_storage_easy],ls_item",
+          "@Fortress Exterior from East Forest,[ladder_storage_med],ls_item",
+          "@Fortress Exterior near cave,[ladder_storage_med],ls_item,$has_ladder|ladder_to_beneath_the_vault"
         ],
         "children": [
           {
@@ -6002,7 +6052,8 @@
         "name": "Lower Mountain Stairs",
         "access_rules": [
           "@Lower Mountain,cross",
-          "@Top of the Mountain"
+          "@Top of the Mountain",
+          "@Lower Mountain,[ladder_storage_med],ls_item"
         ],
         "children": []
       },
@@ -6140,7 +6191,10 @@
             "sections": [
               {
                 "name": "Flowers Guide Thee",
-                "access_rules": null,
+                "access_rules": [
+                  "gun",
+                  "sword"
+                ],
                 "item_count": 1
               }
             ]
@@ -6442,7 +6496,11 @@
             "sections": [
               {
                 "name": "Boomy",
-                "access_rules": null,
+                "access_rules": [
+                  "gun",
+                  "sword",
+                  "[ice_grapple_hard],orb,dagger"
+                ],
                 "item_count": 1
               }
             ]
@@ -6521,8 +6579,9 @@
           "@Monastery Front",
           "@Monastery Hero's Grave Region",
           "@Monastery Rope",
-          "@Quarry Monastery Entry,glitches,stick",
-          "@Quarry Monastery Entry,glitches,sword"
+          "@Quarry Entry,[ladder_storage_med],ls_item",
+          "@Quarry Monastery Entry,[ladder_storage_med],ls_item",
+          "@Quarry Back,[ladder_storage_med],ls_item"
         ],
         "children": []
       },
@@ -6713,7 +6772,7 @@
       {
         "name": "Even Lower Quarry",
         "access_rules": [
-          "@Lower Quarry,[glitches],dagger,icerod,orb,staff",
+          "@Lower Quarry,[ice_grapple_easy],dagger,icerod,orb,staff",
           "@Lower Quarry,$has_ladder|ladders_in_lower_quarry"
         ],
         "children": [
@@ -6792,8 +6851,9 @@
         "name": "Lower Quarry Zig Door",
         "access_rules": [
           "@Even Lower Quarry,@Quarry Connector,orb,pray",
-          "@Quarry,impossible",
-          "@Rooted Ziggurat Entry"
+          "@Rooted Ziggurat Entry",
+          "@Quarry,[ice_grapple_hard],dagger,orb,icerod,staff",
+          "@Even Lower Quarry,[ice_grapple_hard],dagger,orb"
         ],
         "children": []
       },
@@ -6915,18 +6975,18 @@
         "name": "Rooted Ziggurat Middle Bottom",
         "access_rules": [
           "@Rooted Ziggurat Lower Front",
-          "@Rooted Ziggurat Middle Top"
+          "@Rooted Ziggurat Middle Top",
+          "@Rooted Ziggurat Lower Back,[ladder_storage_med],ls_item"
         ],
         "children": []
       },
       {
         "name": "Rooted Ziggurat Lower Front",
         "access_rules": [
-          "@Rooted Ziggurat Lower Back,[glitches],dagger,icerod,orb,pray,staff,sword",
+          "@Rooted Ziggurat Lower Back,[ice_grapple_easy],dagger,icerod,orb,staff,pray,sword",
           "@Rooted Ziggurat Lower Back,dash,pray,sword",
-          "@Rooted Ziggurat Lower Back,glitches,stick",
-          "@Rooted Ziggurat Lower Back,glitches,sword",
-          "@Rooted Ziggurat Middle Bottom"
+          "@Rooted Ziggurat Middle Bottom",
+          "@Rooted Ziggurat Lower Back,[ladder_storage_med],ls_item"
         ],
         "children": [
           {
@@ -7122,7 +7182,8 @@
                 "name": "Scavenger Queen",
                 "access_rules": [
                   "[glitches],orb",
-                  "sword"
+                  "sword",
+                  "[ice_grapple_med],dagger,orb"
                 ],
                 "item_count": 1,
                 "hosted_item": "scavboss"
@@ -7163,7 +7224,8 @@
           "@Back of Swamp Laurels Area,[laurels_zips],dash",
           "@Swamp Mid,dash",
           "@Swamp Mid,$has_ladder|ladders_in_swamp",
-          "@LS Elev 0"
+          "@LS Elev 0",
+          "@Back of Swamp,[ladder_storage_med],ls_item"
         ],
         "children": [
           {
@@ -7403,14 +7465,15 @@
       {
         "name": "Swamp Mid",
         "access_rules": [
-          "@Back of Swamp Laurels Area,[ice_grapple_easy],dagger,dash,icerod,orb,staff",
+          "@Back of Swamp Laurels Area,[ice_grapple_easy],dagger,icerod,orb,staff,dash",
           "@Back of Swamp Laurels Area,[laurels_zips],dash",
           "@Swamp Front,[ice_grapple_hard],dagger,orb",
           "@Swamp Front,dash",
           "@Swamp Front,$has_ladder|ladders_in_swamp",
           "@Swamp Ledge under Cathedral Door,[ice_grapple_easy],dagger,icerod,orb,staff",
           "@Swamp Ledge under Cathedral Door,$has_ladder|ladders_in_swamp",
-          "@Swamp to Cathedral Main Entrance Region,[ice_grapple_easy],dagger,orb"
+          "@Swamp to Cathedral Main Entrance Region,[ice_grapple_easy],dagger,orb",
+          "@Back of Swamp,[ladder_storage_med],ls_item"
         ],
         "children": [
           {
@@ -7628,7 +7691,8 @@
         "name": "Swamp Ledge under Cathedral Door",
         "access_rules": [
           "@Swamp Mid,$has_ladder|ladders_in_swamp",
-          "@Swamp to Cathedral Treasure Room"
+          "@Swamp to Cathedral Treasure Room",
+          "@Swamp Mid,[ice_grapple_hard],dagger,orb,icerod,staff"
         ],
         "children": [
           {
@@ -7668,7 +7732,7 @@
         "name": "Swamp to Cathedral Main Entrance Region",
         "access_rules": [
           "@Cathedral",
-          "@Swamp Mid,[glitches],dagger,orb",
+          "@Swamp Mid,[ice_grapple_med],dagger,orb",
           "@Swamp Mid,dash,pray"
         ],
         "children": []
@@ -7729,7 +7793,9 @@
         "name": "Cathedral",
         "access_rules": [
           "@Cathedral Gauntlet Checkpoint",
-          "@Swamp to Cathedral Main Entrance Region"
+          "@Swamp to Cathedral Main Entrance Region",
+          "@Swamp Mid,[ladder_storage_hard],ls_item,$has_ladder|ladders_in_swamp",
+          "@Back of Swamp,[ladder_storage_hard],ls_item"
         ],
         "children": [
           {
@@ -7972,7 +8038,8 @@
       {
         "name": "Cathedral Gauntlet Checkpoint",
         "access_rules": [
-          "@Cathedral"
+          "@Cathedral,pray",
+          "@Cathedral,[ice_grapple_med],dagger,orb"
         ],
         "children": []
       },
