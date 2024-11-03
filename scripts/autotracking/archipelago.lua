@@ -33,6 +33,8 @@ local function set_option(code, slot_data_value, is_multi_stage)
     if not (obj or slot_data_value) then return end
 
     if is_multi_stage then
+        print(code)
+        print(slot_data_value)
         obj.CurrentStage = slot_data_value
     else
         obj.Active = slot_data_value == 1
@@ -176,7 +178,7 @@ function onClear(slot_data)
 
     set_option("laurels_zips", slot_data.laurels_zips, false)
     set_option("ice_grapple_off", slot_data.ice_grappling, true)
-    set_option("ladder_storage_off", slot_data.ladder_storage_off, true)
+    set_option("ladder_storage_off", slot_data.ladder_storage, true)
     set_option("storage_no_items", slot_data.ladder_storage_without_items, false)
 
     Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
