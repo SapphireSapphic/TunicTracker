@@ -39,5 +39,15 @@ function has_ladder(ladderName)
     return Tracker:FindObjectForCode(ladderName).Active
 end
 
+function can_ls()
+    if Tracker:ProviderCountForCode("ls_item") > 0 then
+        return true
+    end
+    if Tracker:FindObjectForCode("storage_no_items").Active then
+        return true
+    end
+    return false
+end
+
 ScriptHost:AddWatchForCode("ladderLayout", "ladder_shuffle_off", updateLayout)
 ScriptHost:AddWatchForCode("hintsLayout", "show_hints", updateLayout)

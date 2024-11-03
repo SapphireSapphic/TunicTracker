@@ -5,7 +5,7 @@
 		"type": "toggle",
 		"loop": true,
 		"img": "images/shield.png",
-		"codes": "shield"
+		"codes": "shield,ls_item"
 	},
 	{
 		"name": "Lantern",
@@ -34,7 +34,7 @@
 		"type": "toggle",
 		"loop": true,
 		"img": "images/sword1.png",
-		"codes": "stick,ring,switch,tubes"
+		"codes": "stick,ring,switch,tubes,ls_item"
 	},
 	{
 		"name": "Sword",
@@ -45,15 +45,15 @@
 		"stages": [
 			{
 				"img": "images/sword2.png",
-				"codes": "sword,ring,grass,switch,tubes"
+				"codes": "sword,ring,grass,switch,tubes,ls_item"
 			},
 			{
 				"img": "images/sword3.png",
-				"codes": "sword,ring,grass,switch,tubes"
+				"codes": "sword,ring,grass,switch,tubes,ls_item"
 			},
 			{
 				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes,bigsword"
+				"codes": "sword,ring,grass,switch,tubes,bigsword,ls_item"
 			}
 		]
 	},
@@ -66,19 +66,19 @@
 		"stages": [
 			{
 				"img": "images/sword1.png",
-				"codes": "stick,ring,switch,tubes,progsword"
+				"codes": "stick,ring,switch,tubes,progsword,ls_item"
 			},
 			{
 				"img": "images/sword2.png",
-				"codes": "sword,ring,grass,switch,tubes,progsword"
+				"codes": "sword,ring,grass,switch,tubes,progsword,ls_item"
 			},
 			{
 				"img": "images/sword3.png",
-				"codes": "sword,ring,grass,switch,tubes,progsword"
+				"codes": "sword,ring,grass,switch,tubes,progsword,ls_item"
 			},
 			{
 				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes,bigsword,progsword"
+				"codes": "sword,ring,grass,switch,tubes,bigsword,progsword,ls_item"
 			}
 		]
 	},
@@ -115,7 +115,7 @@
 		"type": "toggle",
 		"loop": true,
 		"img": "images/magic_orb.png",
-		"codes": "orb"
+		"codes": "orb,ls_item"
 	},
 	//Temporary "Grass Fix" LMAO i hate that this works tbh lmao
 	{
