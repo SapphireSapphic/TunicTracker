@@ -2,6 +2,15 @@
     "versions": [
         {
         
+            "package_version": "2.0.1.1",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.1.1/TunicTracker.zip",
+            "sha256": "0a21f3fb224abd6da7e5bf6f581dd21c54c45b1c31e03d26367a816200dcee8c",
+            "changelog": [
+                "fixed helper function for set_option"
+            ]
+        },
+        {
+        
             "package_version": "2.0.1",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.1/TunicTracker.zip",
             "sha256": "4b7c6e4f0dcd3bbff83779b3ec4bfae29cdfef0ffdf8d926a03e8efebed22d83",

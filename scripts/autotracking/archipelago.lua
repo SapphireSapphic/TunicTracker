@@ -30,11 +30,11 @@ data_storage_table = {
 -- the object's code (that you'd use in FindObjectForCode), the slot data value, and if it's a multi-stage option
 local function set_option(code, slot_data_value, is_multi_stage)
     local obj = Tracker:FindObjectForCode(code)
-    if not (obj or slot_data_value) then return end
+    if not obj or not slot_data_value then return end
 
     if is_multi_stage then
-        print(code)
-        print(slot_data_value)
+        --print(code)
+        --print(slot_data_value)
         obj.CurrentStage = slot_data_value
     else
         obj.Active = slot_data_value == 1
