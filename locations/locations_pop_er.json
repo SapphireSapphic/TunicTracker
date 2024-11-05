@@ -3054,7 +3054,7 @@
       {
         "name": "Dark Tomb Upper",
         "access_rules": [
-          "@Dark Tomb Entry Point,[light]",
+          "@Dark Tomb Entry Point,[$has_lantern]",
           "@Dark Tomb Main,$has_ladder|ladder_in_dark_tomb"
         ],
         "children": [
@@ -3086,7 +3086,7 @@
       {
         "name": "Dark Tomb Main",
         "access_rules": [
-          "@Dark Tomb Dark Exit,[light]",
+          "@Dark Tomb Dark Exit,[$has_lantern]",
           "@Dark Tomb Upper,$has_ladder|ladder_in_dark_tomb"
         ],
         "children": [
@@ -5602,7 +5602,7 @@
               {
                 "name": "Muffling Bell",
                 "access_rules": [
-                  "[light]"
+                  "[$has_lantern]"
                 ],
                 "item_count": 1
               }
@@ -5613,7 +5613,7 @@
       {
         "name": "Beneath the Vault Back",
         "access_rules": [
-          "@Beneath the Vault Front,[light]",
+          "@Beneath the Vault Front,[$has_lantern]",
           "@Eastern Vault Fortress"
         ],
         "children": [
@@ -6590,7 +6590,7 @@
       {
         "name": "Lower Quarry",
         "access_rules": [
-          "@Quarry,[mask]"
+          "@Quarry,[$has_mask]"
         ],
         "children": [
           {
