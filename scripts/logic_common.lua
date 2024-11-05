@@ -40,14 +40,17 @@ function has_ladder(ladderName)
 end
 
 function can_ls()
-    if Tracker:ProviderCountForCode("ls_item") > 0 then
-        return true
-    end
-    if Tracker:FindObjectForCode("storage_no_items").Active then
-        return true
-    end
-    return false
+    return Tracker:ProviderCountForCode("ls_item") > 0 or Tracker:FindObjectForCode("storage_no_items").Active
 end
+
+function has_lantern()
+    return Tracker:FindObjectForCode("light").Active or Tracker:FindObjectForCode("lanternless").Active
+end
+
+function has_mask()
+    return Tracker:FindObjectForCode("mask").Active or Tracker:FindObjectForCode("maskless").Active
+end
+
 
 ScriptHost:AddWatchForCode("ladderLayout", "ladder_shuffle_off", updateLayout)
 ScriptHost:AddWatchForCode("hintsLayout", "show_hints", updateLayout)
