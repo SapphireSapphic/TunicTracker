@@ -2,6 +2,18 @@
     "versions": [
         {
         
+            "package_version": "2.0.2",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.2/TunicTracker.zip",
+            "sha256": "124a6d95f44206f83964a08d4fe2dead983e2504e702ffcf4e67845df2ef06fa",
+            "changelog": [
+                "the scipio update",
+                "add ice grapple through wall in dark tomb hallway",
+                "put in maskless and lanternless",
+                "fix for hex quest ability type"
+            ]
+        },
+        {
+        
             "package_version": "2.0.1.1",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.1.1/TunicTracker.zip",
             "sha256": "0a21f3fb224abd6da7e5bf6f581dd21c54c45b1c31e03d26367a816200dcee8c",
