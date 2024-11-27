@@ -3087,7 +3087,8 @@
         "name": "Dark Tomb Main",
         "access_rules": [
           "@Dark Tomb Dark Exit,[light]",
-          "@Dark Tomb Upper,$has_ladder|ladder_in_dark_tomb"
+          "@Dark Tomb Upper,$has_ladder|ladder_in_dark_tomb",
+	  "@Dark Tomb Upper,ice_grapple_hard,dagger,orb"
         ],
         "children": [
           {
