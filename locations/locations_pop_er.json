@@ -2527,31 +2527,6 @@
             ]
           },
           {
-            "name": "Ice Rod Grapple Chest",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3760,
-                "y": 2985
-              },
-              {
-                "map": "east_forest",
-                "x": 1384,
-                "y": 1266,
-                "size": 35
-              }
-            ],
-            "sections": [
-              {
-                "name": "Freeze the Blob and ascend With Orb",
-                "access_rules": [
-                  "dagger,icerod,orb,staff"
-                ],
-                "item_count": 1
-              }
-            ]
-          },
-          {
             "name": "Bombable Wall",
             "map_locations": [
               {
@@ -2669,6 +2644,31 @@
               {
                 "name": "Beneath Spider Chest",
                 "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+					{
+            "name": "Ice Rod Grapple Chest",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3760,
+                "y": 2985
+              },
+              {
+                "map": "east_forest",
+                "x": 1384,
+                "y": 1266,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Freeze the Blob and ascend With Orb",
+                "access_rules": [
+                  "dagger,icerod,orb,staff"
+                ],
                 "item_count": 1
               }
             ]
