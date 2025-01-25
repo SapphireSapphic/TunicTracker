@@ -149,9 +149,10 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("sword").CurrentStage = 0
     end
 
+    Tracker:FindObjectForCode("hexagonquest").CurrentStage = slot_data.hexagon_quest
     if slot_data.hexagon_quest ~= 0 then
         --print("slot_data['hexagon_quest']: " .. slot_data['hexagon_quest'])
-        Tracker:FindObjectForCode("hexagonquest").CurrentStage = slot_data.hexagon_quest
+        -- this is something hacky to make it care about the heir access rules, should be replaced eventually
         for _, color in ipairs({"red", "green", "blue"}) do
             Tracker:FindObjectForCode(color).Active = true
         end
