@@ -358,7 +358,7 @@
 		"loop": true,
 		"img": "images/hex_gold.png",
 		"codes": "hexquest",
-		"max_quantity": 50
+		"max_quantity": 100
 	},
 	//Stats
 	{

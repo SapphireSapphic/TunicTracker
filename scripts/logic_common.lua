@@ -51,6 +51,17 @@ function has_mask()
     return Tracker:FindObjectForCode("mask").Active or Tracker:FindObjectForCode("maskless").Active
 end
 
+function has_hex_goal_amount()
+    if HEXGOAL ~= nil and HEXGOAL ~= 0 then
+        return Tracker:ProviderCountForCode("hexquest") >= HEXGOAL
+    end
+    return false
+end
+
+function is_hexquest_on()
+    return Tracker:FindObjectForCode("hexagonquest").CurrentStage == 1
+end
+
 
 ScriptHost:AddWatchForCode("ladderLayout", "ladder_shuffle_off", updateLayout)
 ScriptHost:AddWatchForCode("hintsLayout", "show_hints", updateLayout)
