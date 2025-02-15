@@ -8441,22 +8441,22 @@
             "sections": [
               {
                 "name": "Potion 1",
-                "access_rules": null,
+                "access_rules": "sword",
                 "item_count": 1
               },
               {
                 "name": "Potion 2",
-                "access_rules": null,
+                "access_rules": "sword",
                 "item_count": 1
               },
               {
                 "name": "Coin 1",
-                "access_rules": null,
+                "access_rules": "sword",
                 "item_count": 1
               },
               {
                 "name": "Coin 2",
-                "access_rules": null,
+                "access_rules": "sword",
                 "item_count": 1
               }
             ]
