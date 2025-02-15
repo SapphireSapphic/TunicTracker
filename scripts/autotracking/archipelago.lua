@@ -151,11 +151,7 @@ function onClear(slot_data)
 
     Tracker:FindObjectForCode("hexagonquest").CurrentStage = slot_data.hexagon_quest
     if slot_data.hexagon_quest ~= 0 then
-        --print("slot_data['hexagon_quest']: " .. slot_data['hexagon_quest'])
-        -- this is something hacky to make it care about the heir access rules, should be replaced eventually
-        for _, color in ipairs({"red", "green", "blue"}) do
-            Tracker:FindObjectForCode(color).Active = true
-        end
+        HEXGOAL = slot_data["Hexagon Quest Goal"]
     end
 
     set_option("er_off", slot_data.entrance_rando, false)

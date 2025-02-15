@@ -8473,7 +8473,8 @@
       {
         "name": "Spirit Arena Victory",
         "access_rules": [
-          "@Spirit Arena,blue,green,red"
+          "@Spirit Arena,blue,green,red,@Sealed Temple,attrelic,defrelic,potionrelic,hprelic,sprelic,mprelic,sword",
+          "@Spirit Arena,$is_hexquest_on,$has_hex_goal_amount"
         ],
         "children": [
           {
