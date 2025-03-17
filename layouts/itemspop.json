@@ -289,5 +289,38 @@
 				]
 			}
 		]
+	},
+	"tricks_visibility_toggle": {
+		"type": "array",
+		"orientation": "vertical",
+		"item_size": "20",
+		"content": [
+			{
+				"type": "group",
+				"header": "Ice Grappling Visibility",
+				"header_background": "#3e4b57",
+				"content": [
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "vis_ice_grapple_off",
+						"max_width": 350
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Ladder Storage Visibility",
+				"header_background": "#3e4b57",
+				"content": [
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "vis_ladder_storage_off",
+						"max_width": 350
+					}
+				]
+			}
+		]
 	}
 }

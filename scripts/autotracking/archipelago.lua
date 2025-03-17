@@ -164,6 +164,9 @@ function onClear(slot_data)
     set_option("ladder_storage_off", slot_data.ladder_storage, true)
     set_option("storage_no_items", slot_data.ladder_storage_without_items, false)
 
+    set_option("vis_ice_grapple_off", math.max(slot_data.ice_grappling, Tracker:FindObjectForCode("vis_ice_grapple_off").CurrentStage), true)
+    set_option("vis_ladder_storage_off", math.max(slot_data.ladder_storage, Tracker:FindObjectForCode("vis_ladder_storage_off").CurrentStage), true)
+
     Tracker:FindObjectForCode("ladder_shuffle_off").CurrentStage = slot_data.shuffle_ladders
 
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
@@ -254,6 +257,9 @@ function onLocation(location_id, location_name)
     local v = LOCATION_MAPPING[location_id]
     if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
+    end
+    if not v then
+        return
     end
     if not v[1] then
         return
