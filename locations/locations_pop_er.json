@@ -1124,6 +1124,7 @@
           "bigsword",
           "dash",
           "orb",
+	  "gun",
           "@Overworld Quarry Entry,$has_ladder|ladder_to_quarry",
           "@LS Elev 3,[ladder_storage_med]"
         ],
