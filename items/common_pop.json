@@ -918,6 +918,65 @@
 		"img": "images/tricks/ladder_storage_without_items.png",
 		"codes": "storage_no_items"
 	},
+	//Trick visibility toggles
+	{
+		"name": "Visibility for Ice Grapple",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Ice Grapple Visibility Off",
+				"img": "images/tricks/ice_grappling_off.png",
+				"codes": "vis_ice_grapple_off"
+			},
+			{
+				"name": "Visibility for Ice Grapple Easy",
+				"img": "images/tricks/ice_grappling_easy.png",
+				"codes": "vis_ice_grapple_easy"
+			},
+			{
+				"name": "Visibility for Ice Grapple Medium",
+				"img": "images/tricks/ice_grappling_med.png",
+				"codes": "vis_ice_grapple_med"
+			},
+			{
+				"name": "Visibility for Ice Grapple Hard",
+				"img": "images/tricks/ice_grappling_hard.png",
+				"codes": "vis_ice_grapple_hard"
+			}
+		],
+		"initial_stage_idx": 2
+	},
+	{
+		"name": "Visibility for Ladder Storage",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Ladder Storage Visibility Off",
+				"img": "images/tricks/ladder_storage_off.png",
+				"codes": "vis_ladder_storage_off"
+			},
+			{
+				"name": "Visibility for Ladder Storage Easy",
+				"img": "images/tricks/ladder_storage_easy.png",
+				"codes": "vis_ladder_storage_easy"
+			},
+			{
+				"name": "Visibility for Ladder Storage Medium",
+				"img": "images/tricks/ladder_storage_med.png",
+				"codes": "vis_ladder_storage_med"
+			},
+			{
+				"name": "Visibility for Ladder Storage Hard",
+				"img": "images/tricks/ladder_storage_hard.png",
+				"codes": "vis_ladder_storage_hard"
+			}
+		],
+		"initial_stage_idx": 2
+	},
 	//Bosses
 	{
 		"name": "Guard Captain",

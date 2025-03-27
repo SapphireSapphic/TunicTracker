@@ -15,6 +15,13 @@
                     "type": "layout",
                     "key": "tricks_toggle"
                 }
+            },
+            {
+                "title": "Trick Visibility",
+                "content": {
+                    "type": "layout",
+                    "key": "tricks_visibility_toggle"
+                }
             }
         ]
     }
