@@ -6092,52 +6092,6 @@
         ],
         "children": [
           {
-            "name": "[Central] Obscured Below Entry Walkway",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1345,
-                "y": 1840
-              },
-              {
-                "map": "quarry",
-                "x": 720,
-                "y": 815,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Down the Stairs",
-                "access_rules": null,
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "[Central] Below Entry Walkway",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1390,
-                "y": 2045
-              },
-              {
-                "map": "quarry",
-                "x": 765,
-                "y": 1020,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Even more Stairs!",
-                "access_rules": null,
-                "item_count": 1
-              }
-            ]
-          },
-          {
             "name": "[East] Near Bridge",
             "map_locations": [
               {
@@ -6182,29 +6136,6 @@
                   "gun",
                   "sword"
                 ],
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "[Central] Near Shortcut Ladder",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1095,
-                "y": 1765
-              },
-              {
-                "map": "quarry",
-                "x": 470,
-                "y": 740,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "By the Boxes",
-                "access_rules": null,
                 "item_count": 1
               }
             ]
@@ -6488,6 +6419,75 @@
                   "sword",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
                 ],
+                "item_count": 1
+              }
+            ]
+          },
+	  {
+            "name": "[Central] Near Shortcut Ladder",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1095,
+                "y": 1765
+              },
+              {
+                "map": "quarry",
+                "x": 470,
+                "y": 740,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "By the Boxes",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+					{
+            "name": "[Central] Obscured Below Entry Walkway",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1345,
+                "y": 1840
+              },
+              {
+                "map": "quarry",
+                "x": 720,
+                "y": 815,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Down the Stairs",
+                "access_rules": null,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "[Central] Below Entry Walkway",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1390,
+                "y": 2045
+              },
+              {
+                "map": "quarry",
+                "x": 765,
+                "y": 1020,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Even more Stairs!",
+                "access_rules": null,
                 "item_count": 1
               }
             ]
