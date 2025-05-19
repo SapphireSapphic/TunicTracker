@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Breakables",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "visibility_rules": null,
+    "access_rules": [
+          "stick",
+          "sword",
+          "gun",
+          "staff"
+        ],
+    "children": [
+      {
+        "name": "Overworld",
+        "children": [
+          {
+            "name": "[Northwest] Sign by Quarry Gate",
+            "access_rules": [
+              "stick,firesword",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3630,
+                "y": 2710
+              },
+              {
+                "map": "overworld",
+                "x": 1905,
+                "y": 960,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Sign South of Checkpoint",
+            "access_rules": [
+              "stick,firesword",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3630,
+                "y": 2710
+              },
+              {
+                "map": "overworld",
+                "x": 1905,
+                "y": 960,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Sign by Ruined Passage",
+            "access_rules": [
+              "stick,firesword",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3630,
+                "y": 2710
+              },
+              {
+                "map": "overworld",
+                "x": 1905,
+                "y": 960,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "[East] Pots near Slimes",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3630,
+                "y": 2710
+              },
+              {
+                "map": "overworld",
+                "x": 1905,
+                "y": 960,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
