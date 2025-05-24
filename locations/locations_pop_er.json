@@ -1711,31 +1711,73 @@
               },
               {
                 "name": "Pot 1",
-                "visibility_rules": "breakable_shuffle"
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
               },
               {
                 "name": "Pot 2",
-                "visibility_rules": "breakable_shuffle"
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
               },
               {
                 "name": "Pot 3",
-                "visibility_rules": "breakable_shuffle"
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
               },
               {
                 "name": "Pot 4",
-                "visibility_rules": "breakable_shuffle"
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
               },
               {
                 "name": "Pot 5",
-                "visibility_rules": "breakable_shuffle"
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
               },
               {
                 "name": "Pot 6",
-                "visibility_rules": "breakable_shuffle"
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
               },
               {
                 "name": "Pot 7",
-                "visibility_rules": "breakable_shuffle"
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
               }
             ]
           }
@@ -1951,6 +1993,56 @@
                 "name": "Chest 3",
                 "access_rules": null,
                 "item_count": 1
+              },
+              {
+                "name": "Pot 1",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
+              },
+              {
+                "name": "Pot 2",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
+              },
+              {
+                "name": "Pot 3",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
+              },
+              {
+                "name": "Pot 4",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
+              },
+              {
+                "name": "Pot 5",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
               }
             ]
           }
@@ -8785,6 +8877,16 @@
               "@Hourglass Cave Tower,cross"
             ],
             "item_count": 1
+          },
+          {
+            "name": "Sign",
+            "visibility_rules": "breakable_shuffle",
+            "access_rules": [
+              "stick,firesword",
+              "sword",
+              "gun",
+              "staff"
+            ]
           }
         ]
       },

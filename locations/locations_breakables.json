@@ -127,6 +127,438 @@
                 "name": "Pot 5"
               }
             ]
+          },
+          {
+            "name": "[East] Forest Sign",
+            "access_rules": [
+              "stick,firesword",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3578,
+                "y": 2517
+              },
+              {
+                "map": "overworld",
+                "x": 1906,
+                "y": 767,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "[East] Fortress Sign",
+            "access_rules": [
+              "stick,firesword",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3483,
+                "y": 2284
+              },
+              {
+                "map": "overworld",
+                "x": 1808,
+                "y": 530,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Upper Overworld",
+        "children": [
+          {
+            "name": "[North] Pots",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3110,
+                "y": 2015
+              },
+              {
+                "map": "overworld",
+                "x": 1435,
+                "y": 268,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Overworld to West Garden from Furnace",
+        "children": [
+          {
+            "name": "[West] Sign Near West Garden Entrance",
+            "access_rules": [
+              "stick,firesword",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1941,
+                "y": 2489
+              },
+              {
+                "map": "overworld",
+                "x": 270,
+                "y": 737,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          }
+        ]
+
+      },
+      {
+        "name": "Forest Belltower Main",
+        "children": [
+          {
+            "name": "Pots by Slimes",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 380,
+                "y": 470,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forest Belltower Upper",
+        "children": [
+          {
+            "name": "[Upper] Barrels",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 782,
+                "y": 166,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              },
+              {
+                "name": "Barrel 3"
+              }
+            ]
+          },
+          {
+            "name": "Pots after Guard Captain",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 770,
+                "y": 328,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              },
+              {
+                "name": "Pot 8"
+              },
+              {
+                "name": "Pot 9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "East Forest",
+        "children": [
+          {
+            "name": "Sign by Grave Path",
+            "access_rules": [
+              "stick,firesword",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1545,
+                "y": 1084,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "Sign by Guardhouse 1",
+            "access_rules": [
+              "stick,firesword",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1260,
+                "y": 1007,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "Pots by Grave Path",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1607,
+                "y": 1092,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "Pots by Envoy",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1562,
+                "y": 1056,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guardhouse 1 East",
+        "children": [
+          {
+            "name": "Pots",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1265,
+                "y": 87,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guardhouse 2 Lower",
+        "children": [
+          {
+            "name": "Bottom Floor Pots",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1616,
+                "y": 580,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
           }
         ]
       }
