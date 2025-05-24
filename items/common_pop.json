@@ -829,6 +829,14 @@
 			}
 		]
 	},
+	{
+		"name": "Breakable Shuffle",
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/ladder_shuffle_off.png",
+		"img": "images/ladder_shuffle_on.png",
+		"codes": "breakable_shuffle"
+	},
 	//Tricks Toggles
 	{
 		"name": "Maskless",

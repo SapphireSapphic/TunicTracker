@@ -130,18 +130,6 @@
         "type":"array",
         "orientation": "vertical",
         "content": [
-            {
-				"type": "group",
-				"header": "Glitch Mode",
-				"header_background": "#3e4b57",
-				"content": [
-				  {
-					"type": "item",
-					"item_margin": "-5,-1,-5,-5",
-					"item": "mode"
-				  }
-				]
-			  },
 			  {
 				"type": "group",
 				"header": "Classic/Hexagon Quest",
@@ -175,6 +163,18 @@
 					"type": "item",
 					"item_margin": "-5,-1,-5,-5",
 					"item": "ladder_shuffle_off"
+				  }
+				]
+			  },
+			{
+				"type": "group",
+				"header": "Breakable Shuffle",
+				"header_background": "#3e4b57",
+				"content": [
+				  {
+					"type": "item",
+					"item_margin": "-5,-1,-5,-5",
+					"item": "breakable_shuffle"
 				  }
 				]
 			  },
@@ -320,6 +320,18 @@
 						"max_width": 350
 					}
 				]
+			},
+			{
+				"type": "group",
+				"header": "Glitch Mode",
+				"header_background": "#3e4b57",
+				"content": [
+			    {
+					"type": "item",
+					"item_margin": "-5,-1,-5,-5",
+					"item": "mode"
+			    }
+			  ]
 			}
 		]
 	}

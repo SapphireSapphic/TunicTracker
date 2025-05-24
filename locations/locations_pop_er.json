@@ -1708,6 +1708,34 @@
                 "name": "Stick Chest",
                 "access_rules": null,
                 "item_count": 1
+              },
+              {
+                "name": "Pot 1",
+                "visibility_rules": "breakable_shuffle"
+              },
+              {
+                "name": "Pot 2",
+                "visibility_rules": "breakable_shuffle"
+              },
+              {
+                "name": "Pot 3",
+                "visibility_rules": "breakable_shuffle"
+              },
+              {
+                "name": "Pot 4",
+                "visibility_rules": "breakable_shuffle"
+              },
+              {
+                "name": "Pot 5",
+                "visibility_rules": "breakable_shuffle"
+              },
+              {
+                "name": "Pot 6",
+                "visibility_rules": "breakable_shuffle"
+              },
+              {
+                "name": "Pot 7",
+                "visibility_rules": "breakable_shuffle"
               }
             ]
           }

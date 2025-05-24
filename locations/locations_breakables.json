@@ -3,7 +3,7 @@
     "name": "Breakables",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
-    "visibility_rules": null,
+    "visibility_rules": "breakable_shuffle",
     "access_rules": [
           "stick",
           "sword",
