@@ -271,6 +271,11 @@
             ],
             "map_locations": [
               {
+                "map": "fullmap",
+                "x": 3965,
+                "y": 2560
+              },
+              {
                 "map": "east_forest",
                 "x": 380,
                 "y": 470,
@@ -313,6 +318,11 @@
             ],
             "map_locations": [
               {
+                "map": "fullmap",
+                "x": 4025,
+                "y": 2500
+              },
+              {
                 "map": "east_forest",
                 "x": 782,
                 "y": 166,
@@ -340,6 +350,11 @@
               "staff"
             ],
             "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3965,
+                "y": 2500
+              },
               {
                 "map": "east_forest",
                 "x": 770,
@@ -392,6 +407,11 @@
             ],
             "map_locations": [
               {
+                "map": "fullmap",
+                "x": 4055,
+                "y": 2885
+              },
+              {
                 "map": "east_forest",
                 "x": 1545,
                 "y": 1084,
@@ -414,6 +434,11 @@
             ],
             "map_locations": [
               {
+                "map": "fullmap",
+                "x": 3930,
+                "y": 2800
+              },
+              {
                 "map": "east_forest",
                 "x": 1260,
                 "y": 1007,
@@ -435,6 +460,11 @@
               "staff"
             ],
             "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4115,
+                "y": 2885
+              },
               {
                 "map": "east_forest",
                 "x": 1607,
@@ -464,9 +494,14 @@
             ],
             "map_locations": [
               {
+                "map": "fullmap",
+                "x": 4115,
+                "y": 2825
+              },
+              {
                 "map": "east_forest",
                 "x": 1562,
-                "y": 1056,
+                "y": 1046,
                 "size": 35
               }
             ],
@@ -535,6 +570,11 @@
               "staff"
             ],
             "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3910,
+                "y": 2985
+              },
               {
                 "map": "east_forest",
                 "x": 1616,
