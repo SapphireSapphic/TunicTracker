@@ -1124,7 +1124,7 @@
           "bigsword",
           "dash",
           "orb",
-	  "gun",
+	      "gun",
           "@Overworld Quarry Entry,$has_ladder|ladder_to_quarry",
           "@LS Elev 3,[ladder_storage_med],vis_ladder_storage_med"
         ],
@@ -4246,6 +4246,36 @@
                 "name": "Ice Dagger Cave",
                 "access_rules": null,
                 "item_count": 1
+              },
+              {
+                "name": "Pot 1",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
+              },
+              {
+                "name": "Pot 2",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
+              },
+              {
+                "name": "Pot 3",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "gun",
+                  "staff"
+                ]
               }
             ]
           }

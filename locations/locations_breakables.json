@@ -601,6 +601,344 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Beneath the Well Main",
+        "children": [
+          {
+            "name": "[Third Room] Barrels by Bridge",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3533,
+                "y": 742
+              },
+              {
+                "map": "well",
+                "x": 867,
+                "y": 363,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              },
+              {
+                "name": "Barrel 3"
+              }
+            ]
+          },
+          {
+            "name": "[Third Room] Barrels after Back Corridor",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3198,
+                "y": 596
+              },
+              {
+                "map": "well",
+                "x": 532,
+                "y": 246,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              },
+              {
+                "name": "Barrel 3"
+              },
+              {
+                "name": "Barrel 4"
+              },
+              {
+                "name": "Barrel 5"
+              }
+            ]
+          },
+          {
+            "name": "[Third Room] Barrels by West Turret",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3001,
+                "y": 605
+              },
+              {
+                "map": "well",
+                "x": 335,
+                "y": 255,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              },
+              {
+                "name": "Barrel 3"
+              }
+            ]
+          },
+          {
+            "name": "[Third Room] Pots by East Turret",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3447,
+                "y": 638
+              },
+              {
+                "map": "well",
+                "x": 779,
+                "y": 290,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Well Back",
+        "children": [
+          {
+            "name": "[Side Room] Pots by Chest",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3020,
+                "y": 1190
+              },
+              {
+                "map": "well",
+                "x": 355,
+                "y": 840,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Well Boss",
+        "children": [
+          {
+            "name": "Barrels",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3170,
+                "y": 1550
+              },
+              {
+                "map": "well",
+                "x": 500,
+                "y": 1200,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Tomb Main",
+        "children": [
+          {
+            "name": "Pot Hallway Pots",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1801,
+                "y": 867
+              },
+              {
+                "map": "dark_tomb",
+                "x": 744,
+                "y": 491,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              },
+              {
+                "name": "Pot 8"
+              },
+              {
+                "name": "Pot 9"
+              },
+              {
+                "name": "Pot 10"
+              },
+              {
+                "name": "Pot 11"
+              },
+              {
+                "name": "Pot 12"
+              },
+              {
+                "name": "Pot 13"
+              },
+              {
+                "name": "Pot 14"
+              }
+            ]
+          },
+          {
+            "name": "2nd Laser Room Pots",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2119,
+                "y": 1144
+              },
+              {
+                "map": "dark_tomb",
+                "x": 1061,
+                "y": 768,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
