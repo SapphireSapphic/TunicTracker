@@ -1224,6 +1224,221 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Eastern Vault Fortress",
+        "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+        "children": [
+          {
+            "name": "[Central] Pots by Door",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4183,
+                "y": 1375
+              },
+              {
+                "map": "eastern_vault",
+                "x": 600,
+                "y": 200,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              },
+              {
+                "name": "Pot 8"
+              },
+              {
+                "name": "Pot 9"
+              },
+              {
+                "name": "Pot 10"
+              },
+              {
+                "name": "Pot 11"
+              }
+            ]
+          },
+          {
+            "name": "[East Wing] Pots by Broken Checkpoint",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4384,
+                "y": 1571
+              },
+              {
+                "map": "eastern_vault",
+                "x": 803,
+                "y": 392,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Pots by Checkpoint",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4043,
+                "y": 1510
+              },
+              {
+                "map": "eastern_vault",
+                "x": 461,
+                "y": 329,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Pots by Overlook",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4004,
+                "y": 1267
+              },
+              {
+                "map": "eastern_vault",
+                "x": 420,
+                "y": 86,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Slorm Room Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3900,
+                "y": 1345
+              },
+              {
+                "map": "eastern_vault",
+                "x": 319,
+                "y": 161,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Chest Room Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3596,
+                "y": 1331
+              },
+              {
+                "map": "eastern_vault",
+                "x": 20,
+                "y": 156,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Pots by Stairs to Basement",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3856,
+                "y": 1357
+              },
+              {
+                "map": "eastern_vault",
+                "x": 272,
+                "y": 177,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
