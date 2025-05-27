@@ -939,6 +939,291 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Fortress Courtyard westmost pots",
+        "children": [
+          {
+            "name": "Fire Pots",
+            "access_rules": [
+              "@Fortress Courtyard,stick",
+              "@Fortress Courtyard,sword",
+              "@Fortress Courtyard,gun",
+              "@Fortress Courtyard,staff",
+              "@Fortress Exterior near cave,staff",
+              "@Fortress Exterior near cave,gun"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3995,
+                "y": 1863
+              },
+              {
+                "map": "eastern_vault",
+                "x": 415,
+                "y": 682,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 1"
+              },
+              {
+                "name": "Fire Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard west pots",
+        "children": [
+          {
+            "name": "Fire Pots",
+            "access_rules": [
+              "@Fortress Courtyard,stick",
+              "@Fortress Courtyard,sword",
+              "@Fortress Courtyard,gun",
+              "@Fortress Courtyard,staff",
+              "@Fortress Exterior near cave,staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4051,
+                "y": 1834
+              },
+              {
+                "map": "eastern_vault",
+                "x": 465,
+                "y": 652,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 3"
+              },
+              {
+                "name": "Fire Pot 4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard",
+        "children": [
+          {
+            "name": "Fire Pots",
+            "access_rules": [
+              "@Fortress Courtyard,stick",
+              "@Fortress Courtyard,sword",
+              "@Fortress Courtyard,gun",
+              "@Fortress Courtyard,staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4295,
+                "y": 1785
+              },
+              {
+                "map": "eastern_vault",
+                "x": 710,
+                "y": 610,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 5"
+              },
+              {
+                "name": "Fire Pot 6"
+              },
+              {
+                "name": "Fire Pot 7"
+              },
+              {
+                "name": "Fire Pot 8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard Upper pot",
+        "children": [
+          {
+            "name": "Upper Fire Pot",
+            "access_rules": [
+              "@Fortress Courtyard Upper,stick",
+              "@Fortress Courtyard Upper,sword",
+              "@Fortress Courtyard Upper,gun",
+              "@Fortress Courtyard Upper,staff",
+              "@Fortress Courtyard,staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4418,
+                "y": 1855
+              },
+              {
+                "map": "eastern_vault",
+                "x": 834,
+                "y": 676,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Grave Path",
+        "children": [
+          {
+            "name": "[Entry] Pots",
+            "access_rules": [
+              "stick",
+              "sword",
+              "gun",
+              "staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4808,
+                "y": 1831
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1223,
+                "y": 642,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Fire Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4967,
+                "y": 1831
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1383,
+                "y": 642,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Grave Path pots",
+        "children": [
+          {
+            "name": "[By Grave] Pots",
+            "access_rules": [
+              "@Fortress Grave Path,stick",
+              "@Fortress Grave Path,sword",
+              "@Fortress Grave Path,gun",
+              "@Fortress Grave Path,staff",
+              "@Fortress Grave Path Dusty Entrance Region,staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5121,
+                "y": 1858
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1720,
+                "y": 1206,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Grave Path westmost pot",
+        "access_rules": [
+              "@Fortress Grave Path,stick",
+              "@Fortress Grave Path,sword",
+              "@Fortress Grave Path,gun",
+              "@Fortress Grave Path,staff",
+              "@Fortress Grave Path Upper,staff",
+              "@Fortress Grave Path Upper,gun"
+            ],
+        "children": [
+          {
+            "name": "[Central] Fire Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4876,
+                "y": 1831
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1292,
+                "y": 642,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 1"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
