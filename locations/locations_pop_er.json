@@ -5722,15 +5722,28 @@
         "name": "Beneath the Vault Ladder Exit",
         "access_rules": [
           "@Beneath the Vault Entry",
-          "@Beneath the Vault Front,$has_ladder|ladder_to_beneath_the_vault"
+          "@Beneath the Vault Entry Spot,$has_ladder|ladder_to_beneath_the_vault"
+        ],
+        "children": []
+      },
+      {
+        "name": "Beneath the Vault Entry Spot",
+        "access_rules": [
+          "@Beneath the Vault Ladder Exit,$has_ladder|ladder_to_beneath_the_vault",
+          "@Beneath the Vault Front"
         ],
         "children": []
       },
       {
         "name": "Beneath the Vault Front",
         "access_rules": [
-          "@Beneath the Vault Back",
-          "@Beneath the Vault Ladder Exit,$has_ladder|ladder_to_beneath_the_vault"
+          "@Beneath the Vault Back,[$has_lantern]",
+          "@Beneath the Vault Entry Spot,[$has_lantern],stick",
+          "@Beneath the Vault Entry Spot,[$has_lantern],sword",
+          "@Beneath the Vault Entry Spot,[$has_lantern],dash",
+          "@Beneath the Vault Entry Spot,[$has_lantern],staff",
+          "@Beneath the Vault Entry Spot,[$has_lantern],gun",
+          "@Beneath the Vault Entry Spot,[$has_lantern],orb"
         ],
         "children": [
           {
@@ -6129,7 +6142,11 @@
             "sections": [
               {
                 "name": "Dusty",
-                "access_rules": null,
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger"
+                ],
                 "item_count": 1
               }
             ]
@@ -6173,6 +6190,24 @@
                   "vaultkey"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Pot 1",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "staff",
+                  "gun"
+                ]
+              },
+              {
+                "name": "Pot 2",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "staff",
+                  "gun"
+                ]
               }
             ]
           }

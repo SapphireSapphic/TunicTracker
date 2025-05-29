@@ -1158,13 +1158,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 5121,
+                "x": 5100,
                 "y": 1858
               },
               {
                 "map": "eastern_vault",
-                "x": 1720,
-                "y": 1206,
+                "x": 1512,
+                "y": 682,
                 "size": 45
               }
             ],
@@ -1435,6 +1435,269 @@
               },
               {
                 "name": "Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Vault Entry Spot",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "Entry Spot",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5069,
+                "y": 2703
+              },
+              {
+                "map": "earth",
+                "x": 683,
+                "y": 712,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              },
+              {
+                "name": "Crate 6"
+              },
+              {
+                "name": "Crate 7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Vault Front",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "Slorm Room Crates",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4900,
+                "y": 2528
+              },
+              {
+                "map": "earth",
+                "x": 523,
+                "y": 551,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              }
+            ]
+          },
+          {
+            "name": "Crates under Rope",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5083,
+                "y": 2541
+              },
+              {
+                "map": "earth",
+                "x": 696,
+                "y": 552,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              },
+              {
+                "name": "Crate 6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Vault Back",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "Fuse Room Fire Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5094,
+                "y": 2061
+              },
+              {
+                "map": "earth",
+                "x": 707,
+                "y": 71,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 1"
+              },
+              {
+                "name": "Fire Pot 2"
+              },
+              {
+                "name": "Fire Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "Barrels",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5181,
+                "y": 2017
+              },
+              {
+                "map": "earth",
+                "x": 800,
+                "y": 85,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel by Back Room 1"
+              },
+              {
+                "name": "Barrel by Back Room 2"
+              },
+              {
+                "name": "Barrel by Back Room 3"
+              },
+              {
+                "name": "Barrel by Back Room 4"
+              },
+              {
+                "name": "Barrel by Back Room 5"
+              },
+              {
+                "name": "Barrel by Back Room 6"
+              },
+              {
+                "name": "Back Room Barrel 1"
+              },
+              {
+                "name": "Back Room Barrel 2"
+              },
+              {
+                "name": "Back Room Barrel 3"
+              },
+              {
+                "name": "Back Room Barrel 4"
+              },
+              {
+                "name": "Back Room Barrel 5"
+              },
+              {
+                "name": "Back Room Barrel 6"
+              },
+              {
+                "name": "Back Room Barrel 7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Leaf Piles",
+        "access_rules": [
+          "stick",
+          "sword",
+          "dagger",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "Leaf Piles",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5175,
+                "y": 1670
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1590,
+                "y": 490,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Leaf Pile 1"
+              },
+              {
+                "name": "Leaf Pile 2"
+              },
+              {
+                "name": "Leaf Pile 3"
+              },
+              {
+                "name": "Leaf Pile 4"
               }
             ]
           }
