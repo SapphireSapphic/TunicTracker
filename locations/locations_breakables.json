@@ -1702,6 +1702,131 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Ruined Atoll",
+        "access_rules": [],
+        "children": [
+          {
+            "name": "[West] Broken House",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1949,
+                "y": 3724
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 306,
+                "y": 614,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "staff",
+                  "gun"
+                ]
+              },
+              {
+                "name": "Pot 2",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "staff",
+                  "gun"
+                ]
+              },
+              {
+                "name": "Table",
+                "access_rules": [
+                  "stick,firesword",
+                  "sword",
+                  "staff",
+                  "gun"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "[South] Explosive Pot near Birds",
+            "access_rules": [
+                  "stick",
+                  "sword",
+                  "staff",
+                  "gun"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2352,
+                "y": 4160
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 708,
+                "y": 1050,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frog Stairs Upper",
+        "access_rules": [
+                  "stick",
+                  "sword",
+                  "staff",
+                  "gun"
+        ],
+        "children": [
+          {
+            "name": "[Upper] Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
