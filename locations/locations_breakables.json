@@ -2373,6 +2373,62 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Monastery Back",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "Crates",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              },
+              {
+                "name": "Crate 6"
+              },
+              {
+                "name": "Crate 7"
+              },
+              {
+                "name": "Crate 8"
+              },
+              {
+                "name": "Crate 9"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
