@@ -2429,6 +2429,172 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Cathedral",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "[1F] Pots by Stairs",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "cathedral",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Purgatory",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "visibility_rules": [
+          "er_on"
+        ],
+        "children": [
+          {
+            "name": "Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "overworld",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              },
+              {
+                "name": "Pot 8"
+              },
+              {
+                "name": "Pot 9"
+              },
+              {
+                "name": "Pot 10"
+              },
+              {
+                "name": "Pot 11"
+              },
+              {
+                "name": "Pot 12"
+              },
+              {
+                "name": "Pot 13"
+              },
+              {
+                "name": "Pot 14"
+              },
+              {
+                "name": "Pot 15"
+              },
+              {
+                "name": "Pot 16"
+              },
+              {
+                "name": "Pot 17"
+              },
+              {
+                "name": "Pot 18"
+              },
+              {
+                "name": "Pot 19"
+              },
+              {
+                "name": "Pot 20"
+              },
+              {
+                "name": "Pot 21"
+              },
+              {
+                "name": "Pot 22"
+              },
+              {
+                "name": "Pot 23"
+              },
+              {
+                "name": "Pot 24"
+              },
+              {
+                "name": "Pot 25"
+              },
+              {
+                "name": "Pot 26"
+              },
+              {
+                "name": "Pot 27"
+              },
+              {
+                "name": "Pot 28"
+              },
+              {
+                "name": "Pot 29"
+              },
+              {
+                "name": "Pot 30"
+              },
+              {
+                "name": "Pot 31"
+              },
+              {
+                "name": "Pot 32"
+              },
+              {
+                "name": "Pot 33"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
