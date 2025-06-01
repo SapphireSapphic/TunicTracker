@@ -1705,7 +1705,6 @@
       },
       {
         "name": "Ruined Atoll",
-        "access_rules": [],
         "children": [
           {
             "name": "[West] Broken House",
@@ -1755,10 +1754,10 @@
           {
             "name": "[South] Explosive Pot near Birds",
             "access_rules": [
-                  "stick",
-                  "sword",
-                  "staff",
-                  "gun"
+              "stick",
+              "sword",
+              "staff",
+              "gun"
             ],
             "map_locations": [
               {
@@ -1784,10 +1783,10 @@
       {
         "name": "Frog Stairs Upper",
         "access_rules": [
-                  "stick",
-                  "sword",
-                  "staff",
-                  "gun"
+          "stick",
+          "sword",
+          "staff",
+          "gun"
         ],
         "children": [
           {
@@ -1823,6 +1822,553 @@
               },
               {
                 "name": "Pot 6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frog's Domain",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "Pots above Orb Altar",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "Side Room Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "Main Room Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "Slorm Room Pot",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot"
+              }
+            ]
+          },
+          {
+            "name": "Pots after Gate",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "Orb Room Explosive Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frog Stairs Upper",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "Display Cases",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "library",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Display Case 1"
+              },
+              {
+                "name": "Display Case 2"
+              },
+              {
+                "name": "Display Case 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quarry",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "[East] Explosive Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              },
+              {
+                "name": "Explosive Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "[East] Explosive Pot beneath Scaffolding",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quarry Back",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "[Back Entrance] Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Explosive Pots near Shortcut Ladder",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Crates near Shortcut Ladder",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lower Quarry upper pots",
+        "access_rules": [
+          "@Lower Quarry,stick",
+          "@Lower Quarry,sword",
+          "@Lower Quarry,staff",
+          "@Lower Quarry,gun",
+          "@Quarry Back,staff",
+          "@Quarry Back,gun"
+        ],
+        "children": [
+          {
+            "name": "[West] Explosive Pots near Bombable Wall",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lower Quarry",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "[West] Explosive Pot above Shooting Range",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot"
+              }
+            ]
+          },
+          {
+            "name": "[West] Explosive Pots near Isolated Chest",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "[West] Crates by Shooting Range",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              }
+            ]
+          },
+          {
+            "name": "[West] Crates near Isolated Chest",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Even Lower Quarry",
+        "access_rules": [
+          "stick",
+          "sword",
+          "staff",
+          "gun"
+        ],
+        "children": [
+          {
+            "name": "[Lowlands] Crates",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "quarry",
+                "x": 1484,
+                "y": 323,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
               }
             ]
           }
