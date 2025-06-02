@@ -149,10 +149,17 @@
                 "name": "Let the flowers guide you",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
@@ -459,10 +466,43 @@
                 "name": "Let the flowers guide you",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "[Southwest] Cube Cave Bombable Wall",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2630,
+                "y": 2605
+              },
+              {
+                "map": "overworld",
+                "x": 955,
+                "y": 855,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
@@ -2669,8 +2709,15 @@
                   "gun",
                   "sword",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           }
@@ -4678,10 +4725,17 @@
                 "name": "Flowers Guide Thee",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
@@ -5993,10 +6047,17 @@
                 "name": "Bomb the Wall",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           }
@@ -6319,9 +6380,16 @@
                 "name": "Flowers Guide Thee",
                 "access_rules": [
                   "gun",
-                  "sword"
-                ],
-                "item_count": 1
+                  "sword,@Shop"
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
@@ -6601,10 +6669,17 @@
                 "name": "Boomy",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
