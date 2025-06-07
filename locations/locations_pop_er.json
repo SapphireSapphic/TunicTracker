@@ -1753,70 +1753,49 @@
                 "name": "Pot 1",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 2",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 3",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 4",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 5",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 6",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 7",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               }
             ]
@@ -2038,50 +2017,35 @@
                 "name": "Pot 1",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 2",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 3",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 4",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 5",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               }
             ]
@@ -4298,30 +4262,21 @@
                 "name": "Pot 1",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 2",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 3",
                 "visibility_rules": "breakable_shuffle",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "gun",
-                  "staff"
+                  "pot_breaker"
                 ]
               }
             ]
@@ -6255,19 +6210,13 @@
               {
                 "name": "Pot 1",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "staff",
-                  "gun"
+                  "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 2",
                 "access_rules": [
-                  "stick",
-                  "sword",
-                  "staff",
-                  "gun"
+                  "pot_breaker"
                 ]
               }
             ]
@@ -6683,7 +6632,7 @@
               }
             ]
           },
-	  {
+	      {
             "name": "[Central] Near Shortcut Ladder",
             "map_locations": [
               {
@@ -6706,7 +6655,7 @@
               }
             ]
           },
-					{
+          {
             "name": "[Central] Obscured Below Entry Walkway",
             "map_locations": [
               {

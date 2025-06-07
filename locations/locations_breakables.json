@@ -1326,6 +1326,9 @@
               },
               {
                 "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
               }
             ]
           }
@@ -1771,7 +1774,7 @@
             ]
           },
           {
-            "name": "Slorm Room Pot",
+            "name": "Slorm Room",
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1927,6 +1930,38 @@
             "sections": [
               {
                 "name": "Explosive Pot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quarry Monastery Entry",
+        "access_rules": [
+          "@Quarry Monastery Entry,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Central] Explosive Pots near Monastery",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5317,
+                "y": 5171
+              },
+              {
+                "map": "quarry",
+                "x": 580,
+                "y": 396,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
               }
             ]
           }
