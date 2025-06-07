@@ -8929,6 +8929,9 @@
       },
       {
         "name": "Inside Hourglass Cave",
+        "access_rules": [
+          "@Hourglass Cave"
+        ],
         "map_locations": [
           {
             "map": "fullmap",
@@ -8954,27 +8957,19 @@
         ],
         "sections": [
           {
-            "name": "Hourglass Chest",
-            "access_rules": [
-              "@Hourglass Cave"
-            ],
-            "item_count": 1
+            "name": "Hourglass Chest"
           },
           {
             "name": "Holy Cross Chest",
             "access_rules": [
-              "@Hourglass Cave Tower,cross"
-            ],
-            "item_count": 1
+              "cross"
+            ]
           },
           {
             "name": "Sign",
             "visibility_rules": "breakable_shuffle",
             "access_rules": [
-              "stick,firesword",
-              "sword",
-              "gun",
-              "staff"
+              "sign_breaker"
             ]
           }
         ]

@@ -85,7 +85,15 @@
                 "name": "Sign"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "East Overworld",
+        "access_rules": [
+          "@East Overworld,pot_breaker"
+        ],
+        "children": [
           {
             "name": "[East] Pots near Slimes",
             "map_locations": [
@@ -211,13 +219,13 @@
       },
       {
         "name": "Overworld to West Garden from Furnace",
+        "access_rules": [
+              "@Overworld to West Garden from Furnace,sign_breaker",
+              "@Overworld to West Garden from Furnace,stick,firesword"
+            ],
         "children": [
           {
             "name": "[West] Sign Near West Garden Entrance",
-            "access_rules": [
-              "sign_breaker",
-              "stick,firesword"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
