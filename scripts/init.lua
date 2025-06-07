@@ -9,6 +9,7 @@ if not (string.find(Tracker.ActiveVariantUID, "var_itemsonly")) then
   if PopVersion then
     Tracker:AddMaps("maps/maps_pop.json")
     Tracker:AddLocations("locations/locations_pop_er.json")
+    Tracker:AddLocations("locations/locations_breakables.json")
   else
     Tracker:AddMaps("maps/maps.json")
     Tracker:AddLocations("locations/locations.json")

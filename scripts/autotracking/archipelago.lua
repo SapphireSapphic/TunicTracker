@@ -156,6 +156,8 @@ function onClear(slot_data)
 
     set_option("er_off", slot_data.entrance_rando, false)
 
+    set_option("breakable_shuffle", slot_data.breakable_shuffle, false)
+
     set_option("maskless", slot_data.maskless, false)
     set_option("lanternless", slot_data.lanternless, false)
 
