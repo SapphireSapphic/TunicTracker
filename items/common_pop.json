@@ -34,7 +34,7 @@
 		"type": "toggle",
 		"loop": true,
 		"img": "images/sword1.png",
-		"codes": "stick,ring,switch,tubes,ls_item"
+		"codes": "stick,ring,switch,tubes,ls_item,pot_breaker"
 	},
 	{
 		"name": "Sword",
@@ -45,15 +45,15 @@
 		"stages": [
 			{
 				"img": "images/sword2.png",
-				"codes": "sword,ring,grass,switch,tubes,ls_item"
+				"codes": "sword,ring,grass,switch,tubes,ls_item,pot_breaker,sign_breaker"
 			},
 			{
 				"img": "images/sword3.png",
-				"codes": "sword,ring,grass,switch,tubes,ls_item"
+				"codes": "sword,ring,grass,switch,tubes,ls_item,pot_breaker,sign_breaker"
 			},
 			{
 				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes,bigsword,ls_item"
+				"codes": "sword,ring,grass,switch,tubes,bigsword,ls_item,pot_breaker,sign_breaker"
 			}
 		]
 	},
@@ -66,19 +66,19 @@
 		"stages": [
 			{
 				"img": "images/sword1.png",
-				"codes": "stick,ring,switch,tubes,progsword,ls_item"
+				"codes": "stick,ring,switch,tubes,progsword,ls_item,pot_breaker,sign_breaker"
 			},
 			{
 				"img": "images/sword2.png",
-				"codes": "sword,ring,grass,switch,tubes,progsword,ls_item"
+				"codes": "sword,ring,grass,switch,tubes,progsword,ls_item,pot_breaker,sign_breaker"
 			},
 			{
 				"img": "images/sword3.png",
-				"codes": "sword,ring,grass,switch,tubes,progsword,ls_item"
+				"codes": "sword,ring,grass,switch,tubes,progsword,ls_item,pot_breaker,sign_breaker"
 			},
 			{
 				"img": "images/sword4.png",
-				"codes": "sword,ring,grass,switch,tubes,bigsword,progsword,ls_item"
+				"codes": "sword,ring,grass,switch,tubes,bigsword,progsword,ls_item,pot_breaker,sign_breaker"
 			}
 		]
 	},
@@ -94,7 +94,7 @@
 		"type": "toggle",
 		"loop": true,
 		"img": "images/magic_staff.png",
-		"codes": "staff,grass,switch,tubes"
+		"codes": "staff,grass,switch,tubes,pot_breaker,sign_breaker"
 	},
 	{
 		"name": "Magic Hourglass",
@@ -108,7 +108,7 @@
 		"type": "toggle",
 		"loop": true,
 		"img": "images/a_gun.png",
-		"codes": "gun,grass,switch,tubes,boom"
+		"codes": "gun,grass,switch,tubes,boom,pot_breaker,sign_breaker"
 	},
 	{
 		"name": "Magic Orb",

@@ -4,23 +4,18 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "visibility_rules": "breakable_shuffle",
-    "access_rules": [
-          "stick",
-          "sword",
-          "gun",
-          "staff"
-        ],
     "children": [
       {
         "name": "Overworld",
+        "access_rules": [
+          "@Overworld,pot_breaker"
+        ],
         "children": [
           {
             "name": "[Northwest] Sign by Quarry Gate",
             "access_rules": [
-              "stick,firesword",
-              "sword",
-              "gun",
-              "staff"
+              "sign_breaker",
+              "stick,firesword"
             ],
             "map_locations": [
               {
@@ -44,10 +39,8 @@
           {
             "name": "[Central] Sign South of Checkpoint",
             "access_rules": [
-              "stick,firesword",
-              "sword",
-              "gun",
-              "staff"
+              "sign_breaker",
+              "stick,firesword"
             ],
             "map_locations": [
               {
@@ -71,10 +64,8 @@
           {
             "name": "[Central] Sign by Ruined Passage",
             "access_rules": [
-              "stick,firesword",
-              "sword",
-              "gun",
-              "staff"
+              "sign_breaker",
+              "stick,firesword"
             ],
             "map_locations": [
               {
@@ -131,10 +122,8 @@
           {
             "name": "[East] Forest Sign",
             "access_rules": [
-              "stick,firesword",
-              "sword",
-              "gun",
-              "staff"
+              "sign_breaker",
+              "stick,firesword"
             ],
             "map_locations": [
               {
@@ -158,10 +147,8 @@
           {
             "name": "[East] Fortress Sign",
             "access_rules": [
-              "stick,firesword",
-              "sword",
-              "gun",
-              "staff"
+              "sign_breaker",
+              "stick,firesword"
             ],
             "map_locations": [
               {
@@ -186,15 +173,12 @@
       },
       {
         "name": "Upper Overworld",
+        "access_rules": [
+          "@Upper Overworld,pot_breaker"
+        ],
         "children": [
           {
             "name": "[North] Pots",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -231,10 +215,8 @@
           {
             "name": "[West] Sign Near West Garden Entrance",
             "access_rules": [
-              "stick,firesword",
-              "sword",
-              "gun",
-              "staff"
+              "sign_breaker",
+              "stick,firesword"
             ],
             "map_locations": [
               {
@@ -260,15 +242,12 @@
       },
       {
         "name": "Forest Belltower Main",
+        "access_rules": [
+          "@Forest Belltower Main,pot_breaker"
+        ],
         "children": [
           {
             "name": "Pots by Slimes",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -307,15 +286,12 @@
       },
       {
         "name": "Forest Belltower Upper",
+        "access_rules": [
+          "@Forest Belltower Upper,pot_breaker"
+        ],
         "children": [
           {
             "name": "[Upper] Barrels",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -343,12 +319,6 @@
           },
           {
             "name": "Pots after Guard Captain",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -396,14 +366,15 @@
       },
       {
         "name": "East Forest",
+        "access_rules": [
+          "@East Forest,pot_breaker"
+        ],
         "children": [
           {
             "name": "Sign by Grave Path",
             "access_rules": [
-              "stick,firesword",
-              "sword",
-              "gun",
-              "staff"
+              "sign_breaker",
+              "stick,firesword"
             ],
             "map_locations": [
               {
@@ -427,10 +398,8 @@
           {
             "name": "Sign by Guardhouse 1",
             "access_rules": [
-              "stick,firesword",
-              "sword",
-              "gun",
-              "staff"
+              "sign_breaker",
+              "stick,firesword"
             ],
             "map_locations": [
               {
@@ -453,12 +422,6 @@
           },
           {
             "name": "Pots by Grave Path",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -486,12 +449,6 @@
           },
           {
             "name": "Pots by Envoy",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -521,15 +478,12 @@
       },
       {
         "name": "Guardhouse 1 East",
+        "access_rules": [
+          "@Guardhouse 1 East,pot_breaker"
+        ],
         "children": [
           {
             "name": "Pots",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "east_forest",
@@ -560,15 +514,12 @@
       },
       {
         "name": "Guardhouse 2 Lower",
+        "access_rules": [
+          "@Guardhouse 2 Lower,pot_breaker"
+        ],
         "children": [
           {
             "name": "Bottom Floor Pots",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -604,15 +555,12 @@
       },
       {
         "name": "Beneath the Well Main",
+        "access_rules": [
+          "@Beneath the Well Main,pot_breaker"
+        ],
         "children": [
           {
             "name": "[Third Room] Barrels by Bridge",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -640,12 +588,6 @@
           },
           {
             "name": "[Third Room] Barrels after Back Corridor",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -679,12 +621,6 @@
           },
           {
             "name": "[Third Room] Barrels by West Turret",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -712,12 +648,6 @@
           },
           {
             "name": "[Third Room] Pots by East Turret",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -759,15 +689,12 @@
       },
       {
         "name": "Beneath the Well Back",
+        "access_rules": [
+          "@Beneath the Well Back,pot_breaker"
+        ],
         "children": [
           {
             "name": "[Side Room] Pots by Chest",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -797,15 +724,12 @@
       },
       {
         "name": "Well Boss",
+        "access_rules": [
+          "@Well Boss,pot_breaker"
+        ],
         "children": [
           {
             "name": "Barrels",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -832,15 +756,12 @@
       },
       {
         "name": "Dark Tomb Main",
+        "access_rules": [
+          "@Dark Tomb Main,pot_breaker"
+        ],
         "children": [
           {
             "name": "Pot Hallway Pots",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -901,12 +822,6 @@
           },
           {
             "name": "2nd Laser Room Pots",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -946,10 +861,7 @@
           {
             "name": "Fire Pots",
             "access_rules": [
-              "@Fortress Courtyard,stick",
-              "@Fortress Courtyard,sword",
-              "@Fortress Courtyard,gun",
-              "@Fortress Courtyard,staff",
+              "@Fortress Courtyard,pot_breaker",
               "@Fortress Exterior near cave,staff",
               "@Fortress Exterior near cave,gun"
             ],
@@ -983,10 +895,7 @@
           {
             "name": "Fire Pots",
             "access_rules": [
-              "@Fortress Courtyard,stick",
-              "@Fortress Courtyard,sword",
-              "@Fortress Courtyard,gun",
-              "@Fortress Courtyard,staff",
+              "@Fortress Courtyard,pot_breaker",
               "@Fortress Exterior near cave,staff"
             ],
             "map_locations": [
@@ -1015,15 +924,12 @@
       },
       {
         "name": "Fortress Courtyard",
+        "access_rules": [
+          "@Fortress Courtyard,pot_breaker"
+        ],
         "children": [
           {
             "name": "Fire Pots",
-            "access_rules": [
-              "@Fortress Courtyard,stick",
-              "@Fortress Courtyard,sword",
-              "@Fortress Courtyard,gun",
-              "@Fortress Courtyard,staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1060,10 +966,7 @@
           {
             "name": "Upper Fire Pot",
             "access_rules": [
-              "@Fortress Courtyard Upper,stick",
-              "@Fortress Courtyard Upper,sword",
-              "@Fortress Courtyard Upper,gun",
-              "@Fortress Courtyard Upper,staff",
+              "@Fortress Courtyard Upper,pot_breaker",
               "@Fortress Courtyard,staff"
             ],
             "map_locations": [
@@ -1089,15 +992,12 @@
       },
       {
         "name": "Fortress Grave Path",
+        "access_rules": [
+          "@Fortress Grave Path,pot_breaker"
+          ],
         "children": [
           {
             "name": "[Entry] Pots",
-            "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1149,10 +1049,7 @@
           {
             "name": "[By Grave] Pots",
             "access_rules": [
-              "@Fortress Grave Path,stick",
-              "@Fortress Grave Path,sword",
-              "@Fortress Grave Path,gun",
-              "@Fortress Grave Path,staff",
+              "@Fortress Grave Path,pot_breaker",
               "@Fortress Grave Path Dusty Entrance Region,staff"
             ],
             "map_locations": [
@@ -1194,10 +1091,7 @@
       {
         "name": "Fortress Grave Path westmost pot",
         "access_rules": [
-              "@Fortress Grave Path,stick",
-              "@Fortress Grave Path,sword",
-              "@Fortress Grave Path,gun",
-              "@Fortress Grave Path,staff",
+              "@Fortress Grave Path,pot_breaker",
               "@Fortress Grave Path Upper,staff",
               "@Fortress Grave Path Upper,gun"
             ],
@@ -1228,11 +1122,8 @@
       {
         "name": "Eastern Vault Fortress",
         "access_rules": [
-              "stick",
-              "sword",
-              "gun",
-              "staff"
-            ],
+          "@Eastern Vault Fortress,pot_breaker"
+        ],
         "children": [
           {
             "name": "[Central] Pots by Door",
@@ -1443,10 +1334,7 @@
       {
         "name": "Beneath the Vault Entry Spot",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Beneath the Vault Entry Spot,pot_breaker"
         ],
         "children": [
           {
@@ -1499,10 +1387,7 @@
       {
         "name": "Beneath the Vault Front",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Beneath the Vault Front,pot_breaker"
         ],
         "children": [
           {
@@ -1570,10 +1455,7 @@
       {
         "name": "Beneath the Vault Back",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Beneath the Vault Back,pot_breaker"
         ],
         "children": [
           {
@@ -1665,10 +1547,10 @@
       {
         "name": "Fortress Leaf Piles",
         "access_rules": [
-          "stick",
-          "sword",
-          "dagger",
-          "gun"
+          "@Fortress Leaf Piles,stick",
+          "@Fortress Leaf Piles,sword",
+          "@Fortress Leaf Piles,gun",
+          "@Fortress Leaf Piles,dagger"
         ],
         "children": [
           {
@@ -1705,6 +1587,9 @@
       },
       {
         "name": "Ruined Atoll",
+        "access_rules": [
+          "@Ruined Atoll,pot_breaker"
+        ],
         "children": [
           {
             "name": "[West] Broken House",
@@ -1723,42 +1608,22 @@
             ],
             "sections": [
               {
-                "name": "Pot 1",
-                "access_rules": [
-                  "stick",
-                  "sword",
-                  "staff",
-                  "gun"
-                ]
+                "name": "Pot 1"
               },
               {
-                "name": "Pot 2",
-                "access_rules": [
-                  "stick",
-                  "sword",
-                  "staff",
-                  "gun"
-                ]
+                "name": "Pot 2"
               },
               {
                 "name": "Table",
                 "access_rules": [
-                  "stick,firesword",
-                  "sword",
-                  "staff",
-                  "gun"
+                  "sign_breaker",
+                  "stick,firesword"
                 ]
               }
             ]
           },
           {
             "name": "[South] Explosive Pot near Birds",
-            "access_rules": [
-              "stick",
-              "sword",
-              "staff",
-              "gun"
-            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1783,10 +1648,7 @@
       {
         "name": "Frog Stairs Upper",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Frog Stairs Upper,pot_breaker"
         ],
         "children": [
           {
@@ -1830,10 +1692,7 @@
       {
         "name": "Frog's Domain",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Frog's Domain,pot_breaker"
         ],
         "children": [
           {
@@ -1983,12 +1842,9 @@
         ]
       },
       {
-        "name": "Frog Stairs Upper",
+        "name": "Library Lab",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Library Lab,pot_breaker"
         ],
         "children": [
           {
@@ -2023,10 +1879,7 @@
       {
         "name": "Quarry",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Quarry,pot_breaker"
         ],
         "children": [
           {
@@ -2082,10 +1935,7 @@
       {
         "name": "Quarry Back",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Quarry Back,pot_breaker"
         ],
         "children": [
           {
@@ -2183,10 +2033,7 @@
       {
         "name": "Lower Quarry upper pots",
         "access_rules": [
-          "@Lower Quarry,stick",
-          "@Lower Quarry,sword",
-          "@Lower Quarry,staff",
-          "@Lower Quarry,gun",
+          "@Lower Quarry,pot_breaker",
           "@Quarry Back,staff",
           "@Quarry Back,gun"
         ],
@@ -2220,10 +2067,7 @@
       {
         "name": "Lower Quarry",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Lower Quarry,pot_breaker"
         ],
         "children": [
           {
@@ -2342,10 +2186,7 @@
       {
         "name": "Even Lower Quarry",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Even Lower Quarry,pot_breaker"
         ],
         "children": [
           {
@@ -2377,10 +2218,7 @@
       {
         "name": "Monastery Back",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Monastery Back,pot_breaker"
         ],
         "children": [
           {
@@ -2433,10 +2271,7 @@
       {
         "name": "Cathedral",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "@Cathedral,pot_breaker"
         ],
         "children": [
           {
@@ -2468,10 +2303,7 @@
       {
         "name": "Purgatory",
         "access_rules": [
-          "stick",
-          "sword",
-          "staff",
-          "gun"
+          "pot_breaker"
         ],
         "visibility_rules": [
           "er_on"
