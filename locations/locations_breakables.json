@@ -1700,13 +1700,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 3554,
+                "y": 4214
               },
               {
                 "map": "frogs_domain",
-                "x": 1484,
-                "y": 323,
+                "x": 1102,
+                "y": 360,
                 "size": 45
               }
             ],
@@ -1724,13 +1724,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 3505,
+                "y": 4133
               },
               {
                 "map": "frogs_domain",
-                "x": 1484,
-                "y": 323,
+                "x": 1080,
+                "y": 275,
                 "size": 45
               }
             ],
@@ -1751,13 +1751,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 3008,
+                "y": 4924
               },
               {
                 "map": "frogs_domain",
-                "x": 1484,
-                "y": 323,
+                "x": 573,
+                "y": 1066,
                 "size": 45
               }
             ],
@@ -1775,13 +1775,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 3887,
+                "y": 4626
               },
               {
                 "map": "frogs_domain",
-                "x": 1484,
-                "y": 323,
+                "x": 1446,
+                "y": 773,
                 "size": 45
               }
             ],
@@ -1796,13 +1796,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 3229,
+                "y": 4719
               },
               {
                 "map": "frogs_domain",
-                "x": 1484,
-                "y": 323,
+                "x": 800,
+                "y": 865,
                 "size": 45
               }
             ],
@@ -1820,13 +1820,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 3667,
+                "y": 4331
               },
               {
                 "map": "frogs_domain",
-                "x": 1484,
-                "y": 323,
+                "x": 1234,
+                "y": 477,
                 "size": 45
               }
             ],
@@ -1852,13 +1852,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 1520,
+                "y": 3521
               },
               {
                 "map": "library",
-                "x": 1484,
-                "y": 323,
+                "x": 540,
+                "y": 572,
                 "size": 45
               }
             ],
@@ -1887,13 +1887,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 1687,
+                "y": 1532
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 1065,
+                "y": 506,
                 "size": 45
               }
             ],
@@ -1914,13 +1914,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 1420,
+                "y": 1485
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 790,
+                "y": 460,
                 "size": 45
               }
             ],
@@ -1943,13 +1943,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 886,
+                "y": 1507
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 260,
+                "y": 483,
                 "size": 45
               }
             ],
@@ -1976,13 +1976,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 1148,
+                "y": 1851
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 524,
+                "y": 827,
                 "size": 45
               }
             ],
@@ -2000,13 +2000,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 1148,
+                "y": 1791
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 525,
+                "y": 765,
                 "size": 45
               }
             ],
@@ -2043,13 +2043,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 989,
+                "y": 1962
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 362,
+                "y": 939,
                 "size": 45
               }
             ],
@@ -2075,13 +2075,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 708,
+                "y": 2024
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 100,
+                "y": 978,
                 "size": 45
               }
             ],
@@ -2092,17 +2092,17 @@
             ]
           },
           {
-            "name": "[West] Explosive Pots near Isolated Chest",
+            "name": "[West] Near Isolated Chest",
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 1445,
+                "y": 2230
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 820,
+                "y": 1205,
                 "size": 45
               }
             ],
@@ -2112,25 +2112,7 @@
               },
               {
                 "name": "Explosive Pot 2"
-              }
-            ]
-          },
-          {
-            "name": "[West] Crates by Shooting Range",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3129,
-                "y": 3435
               },
-              {
-                "map": "quarry",
-                "x": 1484,
-                "y": 323,
-                "size": 45
-              }
-            ],
-            "sections": [
               {
                 "name": "Crate 1"
               },
@@ -2149,17 +2131,17 @@
             ]
           },
           {
-            "name": "[West] Crates near Isolated Chest",
+            "name": "[West] Crates by Shooting Range",
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 672,
+                "y": 2060
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 48,
+                "y": 1019,
                 "size": 45
               }
             ],
@@ -2194,13 +2176,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 700,
+                "y": 2380
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 80,
+                "y": 1355,
                 "size": 45
               }
             ],
@@ -2226,13 +2208,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 970,
+                "y": 1245
               },
               {
                 "map": "quarry",
-                "x": 1484,
-                "y": 323,
+                "x": 330,
+                "y": 220,
                 "size": 45
               }
             ],
@@ -2279,14 +2261,14 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 4712,
+                "y": 2942
               },
               {
                 "map": "cathedral",
-                "x": 1484,
-                "y": 323,
-                "size": 45
+                "x": 282,
+                "y": 167,
+                "size": 35
               }
             ],
             "sections": [
@@ -2314,13 +2296,13 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 3129,
-                "y": 3435
+                "x": 2032,
+                "y": 3034
               },
               {
                 "map": "overworld",
-                "x": 1484,
-                "y": 323,
+                "x": 338,
+                "y": 1325,
                 "size": 45
               }
             ],
