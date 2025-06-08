@@ -9001,7 +9001,7 @@
           {
             "name": "Holy Cross Chest",
             "access_rules": [
-              "cross"
+              "cross,$has_ladder|ladders_in_hourglass_cave"
             ]
           },
           {
