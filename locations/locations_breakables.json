@@ -1556,47 +1556,6 @@
         ]
       },
       {
-        "name": "Fortress Leaf Piles",
-        "access_rules": [
-          "@Fortress Leaf Piles,stick",
-          "@Fortress Leaf Piles,sword",
-          "@Fortress Leaf Piles,gun",
-          "@Fortress Leaf Piles,dagger"
-        ],
-        "children": [
-          {
-            "name": "Leaf Piles",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 5175,
-                "y": 1670
-              },
-              {
-                "map": "eastern_vault",
-                "x": 1590,
-                "y": 490,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Leaf Pile 1"
-              },
-              {
-                "name": "Leaf Pile 2"
-              },
-              {
-                "name": "Leaf Pile 3"
-              },
-              {
-                "name": "Leaf Pile 4"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "name": "Ruined Atoll",
         "access_rules": [
           "@Ruined Atoll,pot_breaker"

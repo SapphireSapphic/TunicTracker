@@ -6162,8 +6162,47 @@
                   "stick",
                   "sword",
                   "dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Leaf Pile 1",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger",
+                  "gun"
+                ]
+              },
+              {
+                "name": "Leaf Pile 2",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger",
+                  "gun"
+                ]
+              },
+              {
+                "name": "Leaf Pile 3",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger",
+                  "gun"
+                ]
+              },
+              {
+                "name": "Leaf Pile 4",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger",
+                  "gun"
+                ]
               }
             ]
           }
