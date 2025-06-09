@@ -487,7 +487,7 @@
       {
         "name": "Guardhouse 1 East",
         "access_rules": [
-          "@Guardhouse 1 East,pot_breaker"
+          "@Guard House 1 East,pot_breaker"
         ],
         "children": [
           {
@@ -523,7 +523,7 @@
       {
         "name": "Guardhouse 2 Lower",
         "access_rules": [
-          "@Guardhouse 2 Lower,pot_breaker"
+          "@Guard House 2 Lower,pot_breaker"
         ],
         "children": [
           {
