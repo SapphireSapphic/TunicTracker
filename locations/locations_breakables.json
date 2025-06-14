@@ -1,0 +1,2417 @@
+[
+  {
+    "name": "Breakables",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "visibility_rules": "breakable_shuffle",
+    "children": [
+      {
+        "name": "Overworld",
+        "access_rules": [
+          "@Overworld,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Northwest] Sign by Quarry Gate",
+            "access_rules": [
+              "sign_breaker",
+              "stick,firesword"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2046,
+                "y": 2061
+              },
+              {
+                "map": "overworld",
+                "x": 368,
+                "y": 310,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Sign South of Checkpoint",
+            "access_rules": [
+              "sign_breaker",
+              "stick,firesword"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2963,
+                "y": 2438
+              },
+              {
+                "map": "overworld",
+                "x": 1291,
+                "y": 687,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Sign by Ruined Passage",
+            "access_rules": [
+              "sign_breaker",
+              "stick,firesword"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3044,
+                "y": 2673
+              },
+              {
+                "map": "overworld",
+                "x": 1372,
+                "y": 924,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "East Overworld",
+        "access_rules": [
+          "@East Overworld,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[East] Pots near Slimes",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3620,
+                "y": 2710
+              },
+              {
+                "map": "overworld",
+                "x": 1915,
+                "y": 960,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
+          },
+          {
+            "name": "[East] Forest Sign",
+            "access_rules": [
+              "sign_breaker",
+              "stick,firesword"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3578,
+                "y": 2517
+              },
+              {
+                "map": "overworld",
+                "x": 1906,
+                "y": 767,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "[East] Fortress Sign",
+            "access_rules": [
+              "sign_breaker",
+              "stick,firesword"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3483,
+                "y": 2284
+              },
+              {
+                "map": "overworld",
+                "x": 1808,
+                "y": 530,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Upper Overworld",
+        "access_rules": [
+          "@Upper Overworld,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[North] Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3110,
+                "y": 2015
+              },
+              {
+                "map": "overworld",
+                "x": 1435,
+                "y": 268,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Overworld to West Garden from Furnace",
+        "access_rules": [
+              "@Overworld to West Garden from Furnace,sign_breaker",
+              "@Overworld to West Garden from Furnace,stick,firesword"
+            ],
+        "children": [
+          {
+            "name": "[West] Sign Near West Garden Entrance",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1941,
+                "y": 2489
+              },
+              {
+                "map": "overworld",
+                "x": 270,
+                "y": 737,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          }
+        ]
+
+      },
+      {
+        "name": "Forest Belltower Main",
+        "access_rules": [
+          "@Forest Belltower Main,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Pots by Slimes",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3965,
+                "y": 2560
+              },
+              {
+                "map": "east_forest",
+                "x": 380,
+                "y": 470,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forest Belltower Upper",
+        "access_rules": [
+          "@Forest Belltower Upper,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Upper] Barrels",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4025,
+                "y": 2500
+              },
+              {
+                "map": "east_forest",
+                "x": 782,
+                "y": 166,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              },
+              {
+                "name": "Barrel 3"
+              }
+            ]
+          },
+          {
+            "name": "Pots after Guard Captain",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3965,
+                "y": 2500
+              },
+              {
+                "map": "east_forest",
+                "x": 770,
+                "y": 328,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              },
+              {
+                "name": "Pot 8"
+              },
+              {
+                "name": "Pot 9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "East Forest",
+        "access_rules": [
+          "@East Forest,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Sign by Grave Path",
+            "access_rules": [
+              "sign_breaker",
+              "stick,firesword"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3930,
+                "y": 2800
+              },
+              {
+                "map": "east_forest",
+                "x": 1260,
+                "y": 1007,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "Sign by Guardhouse 1",
+            "access_rules": [
+              "sign_breaker",
+              "stick,firesword"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4055,
+                "y": 2885
+              },
+              {
+                "map": "east_forest",
+                "x": 1545,
+                "y": 1084,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sign"
+              }
+            ]
+          },
+          {
+            "name": "Pots by Grave Path",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4115,
+                "y": 2885
+              },
+              {
+                "map": "east_forest",
+                "x": 1607,
+                "y": 1092,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "Pots by Envoy",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4115,
+                "y": 2825
+              },
+              {
+                "map": "east_forest",
+                "x": 1562,
+                "y": 1046,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guardhouse 1 East",
+        "access_rules": [
+          "@Guard House 1 East,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Pots",
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1265,
+                "y": 87,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guardhouse 2 Lower",
+        "access_rules": [
+          "@Guard House 2 Lower,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Bottom Floor Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3910,
+                "y": 2985
+              },
+              {
+                "map": "east_forest",
+                "x": 1616,
+                "y": 580,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Well Main",
+        "access_rules": [
+          "@Beneath the Well Main,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Third Room] Barrels by Bridge",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3533,
+                "y": 742
+              },
+              {
+                "map": "well",
+                "x": 867,
+                "y": 363,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              },
+              {
+                "name": "Barrel 3"
+              }
+            ]
+          },
+          {
+            "name": "[Third Room] Barrels after Back Corridor",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3198,
+                "y": 596
+              },
+              {
+                "map": "well",
+                "x": 532,
+                "y": 246,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              },
+              {
+                "name": "Barrel 3"
+              },
+              {
+                "name": "Barrel 4"
+              },
+              {
+                "name": "Barrel 5"
+              }
+            ]
+          },
+          {
+            "name": "[Third Room] Barrels by West Turret",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3001,
+                "y": 605
+              },
+              {
+                "map": "well",
+                "x": 335,
+                "y": 255,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              },
+              {
+                "name": "Barrel 3"
+              }
+            ]
+          },
+          {
+            "name": "[Third Room] Pots by East Turret",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3447,
+                "y": 638
+              },
+              {
+                "map": "well",
+                "x": 779,
+                "y": 290,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Well Back",
+        "access_rules": [
+          "@Beneath the Well Back,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Side Room] Pots by Chest",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3020,
+                "y": 1190
+              },
+              {
+                "map": "well",
+                "x": 355,
+                "y": 840,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Well Boss",
+        "access_rules": [
+          "@Well Boss,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Barrels",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3170,
+                "y": 1550
+              },
+              {
+                "map": "well",
+                "x": 500,
+                "y": 1200,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel 1"
+              },
+              {
+                "name": "Barrel 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Tomb Main",
+        "access_rules": [
+          "@Dark Tomb Main,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Pot Hallway Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1801,
+                "y": 867
+              },
+              {
+                "map": "dark_tomb",
+                "x": 744,
+                "y": 491,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              },
+              {
+                "name": "Pot 8"
+              },
+              {
+                "name": "Pot 9"
+              },
+              {
+                "name": "Pot 10"
+              },
+              {
+                "name": "Pot 11"
+              },
+              {
+                "name": "Pot 12"
+              },
+              {
+                "name": "Pot 13"
+              },
+              {
+                "name": "Pot 14"
+              }
+            ]
+          },
+          {
+            "name": "2nd Laser Room Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2119,
+                "y": 1144
+              },
+              {
+                "map": "dark_tomb",
+                "x": 1061,
+                "y": 768,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard westmost pots",
+        "children": [
+          {
+            "name": "Fire Pots",
+            "access_rules": [
+              "@Fortress Courtyard,pot_breaker",
+              "@Fortress Exterior near cave,staff",
+              "@Fortress Exterior near cave,gun"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3995,
+                "y": 1863
+              },
+              {
+                "map": "eastern_vault",
+                "x": 415,
+                "y": 682,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 1"
+              },
+              {
+                "name": "Fire Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard west pots",
+        "children": [
+          {
+            "name": "Fire Pots",
+            "access_rules": [
+              "@Fortress Courtyard,pot_breaker",
+              "@Fortress Exterior near cave,staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4051,
+                "y": 1834
+              },
+              {
+                "map": "eastern_vault",
+                "x": 465,
+                "y": 652,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 3"
+              },
+              {
+                "name": "Fire Pot 4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard",
+        "access_rules": [
+          "@Fortress Courtyard,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Fire Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4295,
+                "y": 1785
+              },
+              {
+                "map": "eastern_vault",
+                "x": 710,
+                "y": 610,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 5"
+              },
+              {
+                "name": "Fire Pot 6"
+              },
+              {
+                "name": "Fire Pot 7"
+              },
+              {
+                "name": "Fire Pot 8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard Upper pot",
+        "children": [
+          {
+            "name": "Upper Fire Pot",
+            "access_rules": [
+              "@Fortress Courtyard Upper,pot_breaker",
+              "@Fortress Courtyard,staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4418,
+                "y": 1855
+              },
+              {
+                "map": "eastern_vault",
+                "x": 834,
+                "y": 676,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Grave Path",
+        "access_rules": [
+          "@Fortress Grave Path,pot_breaker"
+          ],
+        "children": [
+          {
+            "name": "[Entry] Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4808,
+                "y": 1831
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1223,
+                "y": 642,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Fire Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4967,
+                "y": 1831
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1383,
+                "y": 642,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Grave Path pots",
+        "children": [
+          {
+            "name": "[By Grave] Pots",
+            "access_rules": [
+              "@Fortress Grave Path,pot_breaker",
+              "@Fortress Grave Path Dusty Entrance Region,staff"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5100,
+                "y": 1858
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1512,
+                "y": 682,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Grave Path westmost pot",
+        "access_rules": [
+              "@Fortress Grave Path,pot_breaker",
+              "@Fortress Grave Path Upper,staff",
+              "@Fortress Grave Path Upper,gun"
+            ],
+        "children": [
+          {
+            "name": "[Central] Fire Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4876,
+                "y": 1831
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1292,
+                "y": 642,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eastern Vault Fortress",
+        "access_rules": [
+          "@Eastern Vault Fortress,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Central] Pots by Door",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4183,
+                "y": 1375
+              },
+              {
+                "map": "eastern_vault",
+                "x": 600,
+                "y": 200,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              },
+              {
+                "name": "Pot 8"
+              },
+              {
+                "name": "Pot 9"
+              },
+              {
+                "name": "Pot 10"
+              },
+              {
+                "name": "Pot 11"
+              }
+            ]
+          },
+          {
+            "name": "[East Wing] Pots by Broken Checkpoint",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4384,
+                "y": 1571
+              },
+              {
+                "map": "eastern_vault",
+                "x": 803,
+                "y": 392,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Pots by Checkpoint",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4043,
+                "y": 1510
+              },
+              {
+                "map": "eastern_vault",
+                "x": 461,
+                "y": 329,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Pots by Overlook",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4004,
+                "y": 1267
+              },
+              {
+                "map": "eastern_vault",
+                "x": 420,
+                "y": 86,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Slorm Room Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3900,
+                "y": 1345
+              },
+              {
+                "map": "eastern_vault",
+                "x": 319,
+                "y": 161,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Chest Room Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3596,
+                "y": 1331
+              },
+              {
+                "map": "eastern_vault",
+                "x": 20,
+                "y": 156,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "[West Wing] Pots by Stairs to Basement",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3856,
+                "y": 1357
+              },
+              {
+                "map": "eastern_vault",
+                "x": 272,
+                "y": 177,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Vault Entry Spot",
+        "access_rules": [
+          "@Beneath the Vault Entry Spot,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Entry Spot",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5069,
+                "y": 2703
+              },
+              {
+                "map": "earth",
+                "x": 683,
+                "y": 712,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              },
+              {
+                "name": "Crate 6"
+              },
+              {
+                "name": "Crate 7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Vault Front",
+        "access_rules": [
+          "@Beneath the Vault Front,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Slorm Room Crates",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4900,
+                "y": 2528
+              },
+              {
+                "map": "earth",
+                "x": 523,
+                "y": 551,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              }
+            ]
+          },
+          {
+            "name": "Crates under Rope",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5083,
+                "y": 2541
+              },
+              {
+                "map": "earth",
+                "x": 696,
+                "y": 552,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              },
+              {
+                "name": "Crate 6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Vault Back",
+        "access_rules": [
+          "@Beneath the Vault Back,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Fuse Room Fire Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5094,
+                "y": 2061
+              },
+              {
+                "map": "earth",
+                "x": 707,
+                "y": 71,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fire Pot 1"
+              },
+              {
+                "name": "Fire Pot 2"
+              },
+              {
+                "name": "Fire Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "Barrels",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5181,
+                "y": 2017
+              },
+              {
+                "map": "earth",
+                "x": 800,
+                "y": 85,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Barrel by Back Room 1"
+              },
+              {
+                "name": "Barrel by Back Room 2"
+              },
+              {
+                "name": "Barrel by Back Room 3"
+              },
+              {
+                "name": "Barrel by Back Room 4"
+              },
+              {
+                "name": "Barrel by Back Room 5"
+              },
+              {
+                "name": "Barrel by Back Room 6"
+              },
+              {
+                "name": "Back Room Barrel 1"
+              },
+              {
+                "name": "Back Room Barrel 2"
+              },
+              {
+                "name": "Back Room Barrel 3"
+              },
+              {
+                "name": "Back Room Barrel 4"
+              },
+              {
+                "name": "Back Room Barrel 5"
+              },
+              {
+                "name": "Back Room Barrel 6"
+              },
+              {
+                "name": "Back Room Barrel 7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ruined Atoll",
+        "access_rules": [
+          "@Ruined Atoll,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[West] Broken House",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1949,
+                "y": 3724
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 306,
+                "y": 614,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Table",
+                "access_rules": [
+                  "sign_breaker",
+                  "stick,firesword"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "[South] Explosive Pot near Birds",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2352,
+                "y": 4160
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 708,
+                "y": 1050,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frog Stairs Upper",
+        "access_rules": [
+          "@Frog Stairs Upper,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Upper] Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3129,
+                "y": 3435
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1320,
+                "y": 60,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frog's Domain",
+        "access_rules": [
+          "@Frog's Domain,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Pots above Orb Altar",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3554,
+                "y": 4214
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1102,
+                "y": 360,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "Side Room Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3505,
+                "y": 4133
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1080,
+                "y": 275,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "Main Room Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3008,
+                "y": 4924
+              },
+              {
+                "map": "frogs_domain",
+                "x": 573,
+                "y": 1066,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "Slorm Room",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3887,
+                "y": 4626
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1446,
+                "y": 773,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot"
+              }
+            ]
+          },
+          {
+            "name": "Pots after Gate",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3229,
+                "y": 4719
+              },
+              {
+                "map": "frogs_domain",
+                "x": 800,
+                "y": 865,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "Orb Room Explosive Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3667,
+                "y": 4331
+              },
+              {
+                "map": "frogs_domain",
+                "x": 1234,
+                "y": 477,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Library Lab",
+        "access_rules": [
+          "@Library Lab,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Display Cases",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1520,
+                "y": 3521
+              },
+              {
+                "map": "library",
+                "x": 540,
+                "y": 572,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Display Case 1"
+              },
+              {
+                "name": "Display Case 2"
+              },
+              {
+                "name": "Display Case 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quarry",
+        "access_rules": [
+          "@Quarry,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[East] Explosive Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1687,
+                "y": 1532
+              },
+              {
+                "map": "quarry",
+                "x": 1065,
+                "y": 506,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              },
+              {
+                "name": "Explosive Pot 3"
+              }
+            ]
+          },
+          {
+            "name": "[East] Explosive Pot beneath Scaffolding",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1420,
+                "y": 1485
+              },
+              {
+                "map": "quarry",
+                "x": 790,
+                "y": 460,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quarry Monastery Entry",
+        "access_rules": [
+          "@Quarry Monastery Entry,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Central] Explosive Pots near Monastery",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1210,
+                "y": 1420
+              },
+              {
+                "map": "quarry",
+                "x": 580,
+                "y": 396,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quarry Back",
+        "access_rules": [
+          "@Quarry Back,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Back Entrance] Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 886,
+                "y": 1507
+              },
+              {
+                "map": "quarry",
+                "x": 260,
+                "y": 483,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Explosive Pots near Shortcut Ladder",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1148,
+                "y": 1851
+              },
+              {
+                "map": "quarry",
+                "x": 524,
+                "y": 827,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              }
+            ]
+          },
+          {
+            "name": "[Central] Crates near Shortcut Ladder",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1148,
+                "y": 1791
+              },
+              {
+                "map": "quarry",
+                "x": 525,
+                "y": 765,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lower Quarry upper pots",
+        "access_rules": [
+          "@Lower Quarry,pot_breaker",
+          "@Quarry Back,staff",
+          "@Quarry Back,gun"
+        ],
+        "children": [
+          {
+            "name": "[West] Explosive Pots near Bombable Wall",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 989,
+                "y": 1962
+              },
+              {
+                "map": "quarry",
+                "x": 362,
+                "y": 939,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lower Quarry",
+        "access_rules": [
+          "@Lower Quarry,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[West] Explosive Pot above Shooting Range",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 708,
+                "y": 2024
+              },
+              {
+                "map": "quarry",
+                "x": 100,
+                "y": 978,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot"
+              }
+            ]
+          },
+          {
+            "name": "[West] Near Isolated Chest",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1445,
+                "y": 2230
+              },
+              {
+                "map": "quarry",
+                "x": 820,
+                "y": 1205,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Explosive Pot 1"
+              },
+              {
+                "name": "Explosive Pot 2"
+              },
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              }
+            ]
+          },
+          {
+            "name": "[West] Crates by Shooting Range",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 672,
+                "y": 2060
+              },
+              {
+                "map": "quarry",
+                "x": 48,
+                "y": 1019,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Even Lower Quarry",
+        "access_rules": [
+          "@Even Lower Quarry,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[Lowlands] Crates",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 700,
+                "y": 2380
+              },
+              {
+                "map": "quarry",
+                "x": 80,
+                "y": 1355,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Monastery Back",
+        "access_rules": [
+          "@Monastery Back,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "Crates",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 970,
+                "y": 1245
+              },
+              {
+                "map": "quarry",
+                "x": 330,
+                "y": 220,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crate 1"
+              },
+              {
+                "name": "Crate 2"
+              },
+              {
+                "name": "Crate 3"
+              },
+              {
+                "name": "Crate 4"
+              },
+              {
+                "name": "Crate 5"
+              },
+              {
+                "name": "Crate 6"
+              },
+              {
+                "name": "Crate 7"
+              },
+              {
+                "name": "Crate 8"
+              },
+              {
+                "name": "Crate 9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cathedral",
+        "access_rules": [
+          "@Cathedral,pot_breaker"
+        ],
+        "children": [
+          {
+            "name": "[1F] Pots by Stairs",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4712,
+                "y": 2942
+              },
+              {
+                "map": "cathedral",
+                "x": 282,
+                "y": 167,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Purgatory",
+        "access_rules": [
+          "pot_breaker"
+        ],
+        "visibility_rules": [
+          "er_on"
+        ],
+        "children": [
+          {
+            "name": "Pots",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2032,
+                "y": 3034
+              },
+              {
+                "map": "overworld",
+                "x": 338,
+                "y": 1325,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pot 1"
+              },
+              {
+                "name": "Pot 2"
+              },
+              {
+                "name": "Pot 3"
+              },
+              {
+                "name": "Pot 4"
+              },
+              {
+                "name": "Pot 5"
+              },
+              {
+                "name": "Pot 6"
+              },
+              {
+                "name": "Pot 7"
+              },
+              {
+                "name": "Pot 8"
+              },
+              {
+                "name": "Pot 9"
+              },
+              {
+                "name": "Pot 10"
+              },
+              {
+                "name": "Pot 11"
+              },
+              {
+                "name": "Pot 12"
+              },
+              {
+                "name": "Pot 13"
+              },
+              {
+                "name": "Pot 14"
+              },
+              {
+                "name": "Pot 15"
+              },
+              {
+                "name": "Pot 16"
+              },
+              {
+                "name": "Pot 17"
+              },
+              {
+                "name": "Pot 18"
+              },
+              {
+                "name": "Pot 19"
+              },
+              {
+                "name": "Pot 20"
+              },
+              {
+                "name": "Pot 21"
+              },
+              {
+                "name": "Pot 22"
+              },
+              {
+                "name": "Pot 23"
+              },
+              {
+                "name": "Pot 24"
+              },
+              {
+                "name": "Pot 25"
+              },
+              {
+                "name": "Pot 26"
+              },
+              {
+                "name": "Pot 27"
+              },
+              {
+                "name": "Pot 28"
+              },
+              {
+                "name": "Pot 29"
+              },
+              {
+                "name": "Pot 30"
+              },
+              {
+                "name": "Pot 31"
+              },
+              {
+                "name": "Pot 32"
+              },
+              {
+                "name": "Pot 33"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

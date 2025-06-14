@@ -149,10 +149,17 @@
                 "name": "Let the flowers guide you",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
@@ -459,10 +466,43 @@
                 "name": "Let the flowers guide you",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "[Southwest] Cube Cave Bombable Wall",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2630,
+                "y": 2605
+              },
+              {
+                "map": "overworld",
+                "x": 955,
+                "y": 855,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
@@ -1124,7 +1164,7 @@
           "bigsword",
           "dash",
           "orb",
-	  "gun",
+	      "gun",
           "@Overworld Quarry Entry,$has_ladder|ladder_to_quarry",
           "@LS Elev 3,[ladder_storage_med],vis_ladder_storage_med"
         ],
@@ -1708,6 +1748,55 @@
                 "name": "Stick Chest",
                 "access_rules": null,
                 "item_count": 1
+              },
+              {
+                "name": "Pot 1",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 2",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 3",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 4",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 5",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 6",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 7",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
               }
             ]
           }
@@ -1923,6 +2012,41 @@
                 "name": "Chest 3",
                 "access_rules": null,
                 "item_count": 1
+              },
+              {
+                "name": "Pot 1",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 2",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 3",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 4",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 5",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
               }
             ]
           }
@@ -2549,8 +2673,15 @@
                   "gun",
                   "sword",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           }
@@ -4126,6 +4257,27 @@
                 "name": "Ice Dagger Cave",
                 "access_rules": null,
                 "item_count": 1
+              },
+              {
+                "name": "Pot 1",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 2",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 3",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "pot_breaker"
+                ]
               }
             ]
           }
@@ -4528,10 +4680,17 @@
                 "name": "Flowers Guide Thee",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
@@ -5572,15 +5731,28 @@
         "name": "Beneath the Vault Ladder Exit",
         "access_rules": [
           "@Beneath the Vault Entry",
-          "@Beneath the Vault Front,$has_ladder|ladder_to_beneath_the_vault"
+          "@Beneath the Vault Entry Spot,$has_ladder|ladder_to_beneath_the_vault"
+        ],
+        "children": []
+      },
+      {
+        "name": "Beneath the Vault Entry Spot",
+        "access_rules": [
+          "@Beneath the Vault Ladder Exit,$has_ladder|ladder_to_beneath_the_vault",
+          "@Beneath the Vault Front"
         ],
         "children": []
       },
       {
         "name": "Beneath the Vault Front",
         "access_rules": [
-          "@Beneath the Vault Back",
-          "@Beneath the Vault Ladder Exit,$has_ladder|ladder_to_beneath_the_vault"
+          "@Beneath the Vault Back,[$has_lantern]",
+          "@Beneath the Vault Entry Spot,[$has_lantern],stick",
+          "@Beneath the Vault Entry Spot,[$has_lantern],sword",
+          "@Beneath the Vault Entry Spot,[$has_lantern],dash",
+          "@Beneath the Vault Entry Spot,[$has_lantern],staff",
+          "@Beneath the Vault Entry Spot,[$has_lantern],gun",
+          "@Beneath the Vault Entry Spot,[$has_lantern],orb"
         ],
         "children": [
           {
@@ -5830,10 +6002,17 @@
                 "name": "Bomb the Wall",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           }
@@ -5979,8 +6158,51 @@
             "sections": [
               {
                 "name": "Dusty",
-                "access_rules": null,
-                "item_count": 1
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger"
+                ]
+              },
+              {
+                "name": "Leaf Pile 1",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger",
+                  "gun"
+                ]
+              },
+              {
+                "name": "Leaf Pile 2",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger",
+                  "gun"
+                ]
+              },
+              {
+                "name": "Leaf Pile 3",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger",
+                  "gun"
+                ]
+              },
+              {
+                "name": "Leaf Pile 4",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "stick",
+                  "sword",
+                  "dagger",
+                  "gun"
+                ]
               }
             ]
           }
@@ -6023,6 +6245,18 @@
                   "vaultkey"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Pot 1",
+                "access_rules": [
+                  "pot_breaker"
+                ]
+              },
+              {
+                "name": "Pot 2",
+                "access_rules": [
+                  "pot_breaker"
+                ]
               }
             ]
           }
@@ -6134,9 +6368,16 @@
                 "name": "Flowers Guide Thee",
                 "access_rules": [
                   "gun",
-                  "sword"
-                ],
-                "item_count": 1
+                  "sword,@Shop"
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
@@ -6416,14 +6657,21 @@
                 "name": "Boomy",
                 "access_rules": [
                   "gun",
-                  "sword",
+                  "sword,@Shop",
                   "[ice_grapple_hard],vis_ice_grapple_hard,orb,dagger"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle",
+                "access_rules": [
+                  "gun",
+                  "sword,@Shop"
+                ]
               }
             ]
           },
-	  {
+	      {
             "name": "[Central] Near Shortcut Ladder",
             "map_locations": [
               {
@@ -6446,7 +6694,7 @@
               }
             ]
           },
-					{
+          {
             "name": "[Central] Obscured Below Entry Walkway",
             "map_locations": [
               {
@@ -6690,12 +6938,12 @@
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 1445,
+                "x": 1505,
                 "y": 2230
               },
               {
                 "map": "quarry",
-                "x": 820,
+                "x": 875,
                 "y": 1205,
                 "size": 45
               }
@@ -8720,6 +8968,9 @@
       },
       {
         "name": "Inside Hourglass Cave",
+        "access_rules": [
+          "@Hourglass Cave"
+        ],
         "map_locations": [
           {
             "map": "fullmap",
@@ -8745,18 +8996,20 @@
         ],
         "sections": [
           {
-            "name": "Hourglass Chest",
-            "access_rules": [
-              "@Hourglass Cave"
-            ],
-            "item_count": 1
+            "name": "Hourglass Chest"
           },
           {
             "name": "Holy Cross Chest",
             "access_rules": [
-              "@Hourglass Cave Tower,cross"
-            ],
-            "item_count": 1
+              "cross,$has_ladder|ladders_in_hourglass_cave"
+            ]
+          },
+          {
+            "name": "Sign",
+            "visibility_rules": "breakable_shuffle",
+            "access_rules": [
+              "sign_breaker"
+            ]
           }
         ]
       },
