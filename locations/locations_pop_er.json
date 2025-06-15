@@ -6248,12 +6248,14 @@
               },
               {
                 "name": "Pot 1",
+                "visibility_rules": "breakable_shuffle",
                 "access_rules": [
                   "pot_breaker"
                 ]
               },
               {
                 "name": "Pot 2",
+                "visibility_rules": "breakable_shuffle",
                 "access_rules": [
                   "pot_breaker"
                 ]
