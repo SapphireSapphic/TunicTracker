@@ -2209,7 +2209,10 @@
       },
       {
         "name": "Cube Cave",
-        "access_rules": null,
+        "access_rules": [
+					"@Overworld,gun",
+					"@Overworld,sword,@Shop"
+				],
         "children": [
           {
             "name": "Cube Cave",
