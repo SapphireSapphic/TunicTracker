@@ -5794,6 +5794,9 @@
         "children": [
           {
             "name": "Bridge",
+	    "access_rules": [
+	      "[$has_lantern]"
+	    ],
             "map_locations": [
               {
                 "map": "fullmap",
