@@ -481,32 +481,6 @@
             ]
           },
           {
-            "name": "[Southwest] Cube Cave Bombable Wall",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2630,
-                "y": 2605
-              },
-              {
-                "map": "overworld",
-                "x": 955,
-                "y": 855,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Break Bombable Wall",
-                "visibility_rules": "breakable_shuffle",
-                "access_rules": [
-                  "gun",
-                  "sword,@Shop"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Coins in the Well",
             "map_locations": [
               {
@@ -2210,9 +2184,9 @@
       {
         "name": "Cube Cave",
         "access_rules": [
-	  "@Overworld,gun",
-	  "@Overworld,sword,@Shop"
-	],
+	      "@Overworld,gun",
+	      "@Overworld,sword,@Shop"
+	    ],
         "children": [
           {
             "name": "Cube Cave",
@@ -2239,8 +2213,11 @@
                 "name": "Holy Cross Chest",
                 "access_rules": [
                   "cross"
-                ],
-                "item_count": 1
+                ]
+              },
+              {
+                "name": "Break Bombable Wall",
+                "visibility_rules": "breakable_shuffle"
               }
             ]
           }
