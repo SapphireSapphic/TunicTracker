@@ -4,7 +4,7 @@
 
             "package_version": "2.1.2",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.2/TunicTracker.zip",
-            "sha256": "61380FA11B17B9701D311E8F67A60B67273F14B8E70CE352C5CCD312B0B3BDDA",
+            "sha256": "EC763617ADE90C50D798CDD85A0E4A42E227F20910176F1E0693F36209E0773C",
             "changelog": [
                 "Fix cube cave showing as in logic without a wall breaker",
                 "Fix chest by bridge in Beneath the Vault Back not requiring lantern (even though it shouldn't smh)"
