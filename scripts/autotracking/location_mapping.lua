@@ -613,3 +613,9 @@ LOCATION_MAPPING = {
     [509350704] = {"@Full World/Quarry Back/[West] Upper Area Bombable Wall/Break Bombable Wall"},
     [509350705] = {"@Full World/Quarry/[East] Bombable Wall/Break Bombable Wall"},
 }
+--local info_string = ""
+--for k, v in pairs(LOCATION_MAPPING) do
+--    local name = string.match(v[1], "[^/]*/[^/]*$")
+--    info_string = info_string .. "\"" .. name .. "\": " .. tostring(k) .. ",\n"
+--end
+--print(info_string)

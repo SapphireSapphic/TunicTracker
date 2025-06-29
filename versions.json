@@ -3,7 +3,7 @@
         {
 
             "package_version": "2.1.3",
-            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.2/TunicTracker.zip",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.3/TunicTracker.zip",
             "sha256": "343F306DA1B93413B4DE440A9AD3DEFFE38B7578A5DF7F16B1F3A6BC15937070",
             "changelog": [
                 "Rename the group name for the Purgatory pots",
