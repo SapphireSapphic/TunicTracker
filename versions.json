@@ -2,6 +2,16 @@
     "versions": [
         {
 
+            "package_version": "2.1.3",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.2/TunicTracker.zip",
+            "sha256": "60EE950F3A6FFF4C91AC5AA854D1D1AF4219B9438F4151E70FC0DEAFC6882C7C",
+            "changelog": [
+                "Rename the group name for the Purgatory pots",
+                "This is in preparation for the UT Poptracker integration for breakable shuffle"
+            ]
+        },
+        {
+
             "package_version": "2.1.2",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.2/TunicTracker.zip",
             "sha256": "EC763617ADE90C50D798CDD85A0E4A42E227F20910176F1E0693F36209E0773C",
