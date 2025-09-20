@@ -2,6 +2,16 @@
     "versions": [
         {
 
+            "package_version": "2.1.4",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.4/TunicTracker.zip",
+            "sha256": "E71D1F3D5DA15F401AF603263095A82E71A02973309B1522B8820F71314BCE14",
+            "changelog": [
+                "Fixed stick alone being considered something that can break signs.",
+                "Moved the square for the tunnel to beach chest up a bit and changed its label."
+            ]
+        },
+        {
+
             "package_version": "2.1.3",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.3/TunicTracker.zip",
             "sha256": "343F306DA1B93413B4DE440A9AD3DEFFE38B7578A5DF7F16B1F3A6BC15937070",
