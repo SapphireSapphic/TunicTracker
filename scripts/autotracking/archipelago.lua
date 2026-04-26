@@ -158,6 +158,9 @@ function onClear(slot_data)
 
     set_option("breakable_shuffle", slot_data.breakable_shuffle, false)
 
+    set_option("fuse_shuffle", slot_data.shuffle_fuses, false)
+    set_option("bell_shuffle", slot_data.shuffle_bells, false)
+
     set_option("maskless", slot_data.maskless, false)
     set_option("lanternless", slot_data.lanternless, false)
 

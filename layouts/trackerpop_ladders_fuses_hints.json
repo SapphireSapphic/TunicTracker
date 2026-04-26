@@ -1,0 +1,242 @@
+{
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#877373",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "margin": "0,0,3,0",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              },
+              "header_content": {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#55212121",
+                "layout": "settings_popup"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Other Treasures",
+              "margin": "0,0,3,0",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "other"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Ladders",
+              "margin": "0,0,0,0",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "ladders"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Fuses",
+              "margin": "0,0,0,0",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "fuses"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hints",
+              "margin": "0,0,3,0",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "hints"
+              }
+            },
+            {
+              "type": "group",
+              "header": "More Hints",
+              "margin": "0,0,3,0",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "hints2"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Full Map",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fullmap"
+                ]
+              }
+            },
+            {
+              "title": "Overworld",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "overworld"
+                ]
+              }
+            },
+            {
+              "title": "East Forest",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "east_forest"
+                ]
+              }
+            },
+            {
+              "title": "Beneath the Well",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "well"
+                ]
+              }
+            },
+            {
+              "title": "Dark Tomb",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "dark_tomb"
+                ]
+              }
+            },
+            {
+              "title": "West Garden",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "west_gardens"
+                ]
+              }
+            },
+            {
+              "title": "Beneath the Earth",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "earth"
+                ]
+              }
+            },
+            {
+              "title": "Eastern Vault",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "eastern_vault"
+                ]
+              }
+            },
+            {
+              "title": "Ruined Atoll",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ruined_atoll"
+                ]
+              }
+            },
+            {
+              "title": "Frog's Domain",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "frogs_domain"
+                ]
+              }
+            },
+            {
+              "title": "The Grand Library",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "library"
+                ]
+              }
+            },
+            {
+              "title": "The Quarry",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "quarry"
+                ]
+              }
+            },
+            {
+              "title": "The Rooted Ziggurat",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ziggurat"
+                ]
+              }
+            },
+            {
+              "title": "Swamp",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "graveyard"
+                ]
+              }
+            },
+            {
+              "title": "The Cathedral",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cathedral"
+                ]
+              }
+            },
+            {
+              "title": "The Far Shore",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "far_shore"
+                ]
+              }
+            },
+            {
+              "title": "HOLY CROSS",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "secrets"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

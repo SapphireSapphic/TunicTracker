@@ -16,9 +16,9 @@
                             ["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
 							["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
 							["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
-							["stick", "sword", "dagger", "icerod", "staff", "orb", "gun"],
+							["stick", "sword", "dagger", "staff", "orb", "gun","hourglass"],
 							["fangs", "idols", "powder", "flowers", "leaves", "shrooms","hexquest"],
-							["pray","cross","hourglass","dath","ding","dong","visit"]
+							["pray","cross", "icerod","dath","ding","dong","visit"]
                         ]
                     },
                     {

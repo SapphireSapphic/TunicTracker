@@ -13,9 +13,9 @@
 					["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
                     ["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
 					["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
-					["progsword", "dagger", "icerod", "staff", "orb", "gun", "hourglass"],
+					["progsword", "dagger", "staff", "orb", "gun", "hourglass"],
 					["attrelic", "defrelic", "potionrelic", "hprelic", "sprelic", "mprelic","hexquest"],
-					["pray","cross","dath","goldenpower","justawell","ding", "dong"],
+					["pray","cross","icerod","dath","justawell","ding", "dong"],
 					["captain", "gknight", "engine", "librarian", "scavboss", "gauntlet", "heir"]
                 ]
             }

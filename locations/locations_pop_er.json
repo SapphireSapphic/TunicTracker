@@ -364,7 +364,7 @@
             ],
             "sections": [
               {
-                "name": "Jeffry",
+                "name": "Chest",
                 "access_rules": [
                   "dash",
                   "orb"
@@ -734,13 +734,14 @@
         "name": "Overworld Belltower at Bell",
         "access_rules": [
           "@Overworld Belltower,$has_ladder|ladders_to_west_bell",
-          "@Overworld above Patrol Cave,[glitches],staff",
-          "$has_ladder|ladders_near_dark_tomb,[glitches],staff",
-          "@LS Elev 6,staff,[glitches]"
+          "@Overworld above Patrol Cave,[glitches],staff,$is_not_bells",
+          "$has_ladder|ladders_near_dark_tomb,[glitches],staff,$is_not_bells",
+          "@LS Elev 6,staff,[glitches],$is_not_bells"
         ],
         "children": [
           {
             "name": "Ring the West Bell",
+            "visibility_rules": "$is_not_bells",
             "map_locations": [
               {
                 "map": "fullmap",
@@ -763,6 +764,35 @@
                   "staff"
                 ],
                 "hosted_item": "dong"
+              }
+            ]
+          },
+          {
+            "name": "Overworld - [West] Ring the West Bell",
+            "chest_unopened_img": "images/west_bell_grey.png",
+            "chest_opened_img": "images/west_bell.png",
+            "visibility_rules": "bell_shuffle",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2105,
+                "y": 2246
+              },
+              {
+                "map": "overworld",
+                "x": 430,
+                "y": 495,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dong!",
+                "access_rules": [
+                  "sword",
+                  "stick",
+                  "staff"
+                ]
               }
             ]
           }
@@ -1527,7 +1557,7 @@
             ],
             "sections": [
               {
-                "name": "Below Jeffry",
+                "name": "After Turret",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -2392,12 +2422,24 @@
               },
               {
                 "name": "Ding!",
+                "visibility_rules": "$is_not_bells",
                 "access_rules": [
                   "sword",
                   "stick",
                   "staff"
                 ],
                 "hosted_item": "ding"
+              },
+              {
+                "name": "Forest Belltower - Ring the East Bell",
+                "chest_unopened_img": "images/east_bell_grey.png",
+                "chest_opened_img": "images/east_bell.png",
+                "visibility_rules": "bell_shuffle",
+                "access_rules": [
+                  "sword",
+                  "stick",
+                  "staff"
+                ]
               }
             ]
           },
@@ -3752,7 +3794,8 @@
               {
                 "name": "Follow the Purple Energy Road",
                 "access_rules": [
-                  "@Furnace Fuse,pray"
+                  "@Furnace Fuse,pray,$not_fs",
+                  "$is_fs,west_furnace_fuse"
                 ],
                 "item_count": 1
               }
@@ -4079,7 +4122,7 @@
             ],
             "sections": [
               {
-                "name": "Pray to the Wall Man",
+                "name": "Press A on the Wall",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -4267,7 +4310,8 @@
         "name": "West Garden Portal",
         "access_rules": [
           "@Far Shore to West Garden Region",
-          "@West Garden Portal Item,dash,pray"
+          "@West Garden Portal Item,dash,pray,$not_fs",
+          "@West Garden Portal Item,dash,pray,$is_fs,west_garden_fuse"
         ],
         "children": []
       },
@@ -4565,7 +4609,7 @@
             ],
             "sections": [
               {
-                "name": "His Name is Tom",
+                "name": "Chest",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -4588,7 +4632,7 @@
             ],
             "sections": [
               {
-                "name": "Danlarry and Thranmire ate Jerry!",
+                "name": "Chest",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -4842,7 +4886,8 @@
         "name": "Ruined Atoll Statue",
         "access_rules": [
           "@Library Exterior Tree Region",
-          "@Ruined Atoll,$has_ladder|ladders_in_south_atoll,pray"
+          "@Ruined Atoll,$has_ladder|ladders_in_south_atoll,pray,$not_fs",
+          "@Ruined Atoll,pray,$is_fs,atoll_northeast_fuse,atoll_northwest_fuse,atoll_southeast_fuse,atoll_southwest_fuse"
         ],
         "children": []
       },
@@ -4943,7 +4988,7 @@
             ],
             "sections": [
               {
-                "name": "Oh No! Our Frogs! They're Dead!",
+                "name": "Frog Meeting",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -5107,7 +5152,7 @@
             ],
             "sections": [
               {
-                "name": "Tobias was Trapped Here Once...",
+                "name": "Still Useful",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -5130,7 +5175,7 @@
             ],
             "sections": [
               {
-                "name": "Frult Meeting",
+                "name": "ORB",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -5163,7 +5208,7 @@
             ],
             "sections": [
               {
-                "name": "Don't Kick Fimbleton!",
+                "name": "Guarded by the Autobolt",
                 "access_rules": [
                   "dash",
                   "orb"
@@ -5465,7 +5510,8 @@
         "name": "Library Portal",
         "access_rules": [
           "@Far Shore to Library Region",
-          "@Library Lab,$has_ladder|ladders_in_library,pray"
+          "@Library Lab,$has_ladder|ladders_in_library,pray,$not_fs",
+          "@Library Lab,$has_ladder|ladders_in_library,pray,$is_fs,library_lab_fuse"
         ],
         "children": []
       },
@@ -5621,7 +5667,8 @@
         "access_rules": [
           "@Beneath the Vault Entry,$has_ladder|ladder_to_beneath_the_vault",
           "@Fortress Exterior from Overworld,dash",
-          "@Fortress Exterior from Overworld,pray",
+          "@Fortress Exterior from Overworld,pray,$not_fs",
+          "@Fortress Exterior from Overworld,pray,$is_fs,fortress_exterior_fuse_1",
           "@Fortress Exterior from Overworld,[ladder_storage_easy],vis_ladder_storage_easy,$can_ls",
           "@Fortress Exterior from East Forest,[ladder_storage_easy],vis_ladder_storage_easy,$can_ls"
         ],
@@ -6005,7 +6052,8 @@
         "name": "Eastern Vault Fortress Gold Door",
         "access_rules": [
           "@Eastern Vault Fortress,[ice_grapple_med],vis_ice_grapple_med,dagger,orb",
-          "@Eastern Vault Fortress,pray",
+          "@Eastern Vault Fortress,pray,$not_fs",
+          "@Eastern Vault Fortress,$is_fs,fortress_exterior_fuse_1,fortress_exterior_fuse_2,beneath_the_vault_fuse,fortress_candles_fuse,fortress_door_left_fuse,fortress_courtyard_upper_fuse,fortress_courtyard_fuse,fortress_door_right_fuse",
           "@Fortress Arena"
         ],
         "children": []
@@ -6251,7 +6299,8 @@
         "name": "Fortress Arena Portal",
         "access_rules": [
           "@Far Shore to Fortress Region",
-          "@Fortress Arena,pray"
+          "@Fortress Arena,pray,$not_fs",
+          "@Fortress Arena,pray,$is_fs,fortress_exterior_fuse_1,fortress_exterior_fuse_2,beneath_the_vault_fuse,fortress_candles_fuse,fortress_door_left_fuse"
         ],
         "children": []
       },
@@ -6533,7 +6582,8 @@
         "name": "Quarry Portal",
         "access_rules": [
           "@Far Shore to Quarry Region",
-          "@Quarry Connector,orb,pray,@Quarry Entry"
+          "@Quarry Connector,orb,pray,@Quarry Entry,$not_fs",
+          "@Quarry Entry,pray,$is_fs,quarry_fuse_1,quarry_fuse_2"
         ],
         "children": []
       },
@@ -7070,7 +7120,8 @@
       {
         "name": "Lower Quarry Zig Door",
         "access_rules": [
-          "@Even Lower Quarry,@Quarry Connector,orb,pray",
+          "@Even Lower Quarry,@Quarry Connector,orb,pray,$not_fs",
+          "@Even Lower Quarry,$is_fs,quarry_fuse_1,quarry_fuse_2",
           "@Rooted Ziggurat Entry",
           "@Quarry,[ice_grapple_hard],vis_ice_grapple_hard,dagger,orb,icerod,staff",
           "@Even Lower Quarry,[ice_grapple_hard],vis_ice_grapple_hard,dagger,orb"
@@ -7203,8 +7254,10 @@
       {
         "name": "Rooted Ziggurat Lower Front",
         "access_rules": [
-          "@Rooted Ziggurat Lower Back,[ice_grapple_easy],vis_ice_grapple_easy,dagger,icerod,orb,staff,pray,sword",
-          "@Rooted Ziggurat Lower Back,dash,pray,sword",
+          "@Rooted Ziggurat Lower Back,[ice_grapple_easy],vis_ice_grapple_easy,dagger,icerod,orb,staff,pray,sword,$not_fs",
+          "@Rooted Ziggurat Lower Back,dash,pray,sword,$not_fs",
+          "@Rooted Ziggurat Lower Back,[ice_grapple_easy],vis_ice_grapple_easy,dagger,icerod,orb,staff,$is_fs,ziggurat_miniboss_fuse",
+          "@Rooted Ziggurat Lower Back,dash,$is_fs,ziggurat_miniboss_fuse",
           "@Rooted Ziggurat Middle Bottom",
           "@Rooted Ziggurat Lower Back,[ladder_storage_med],vis_ladder_storage_med,$can_ls"
         ],
@@ -7366,7 +7419,8 @@
               {
                 "name": "Defeat those Mechs",
                 "access_rules": [
-                  "pray,sword"
+                  "pray,sword,$not_fs",
+                  "$is_fs,ziggurat_miniboss_fuse"
                 ],
                 "item_count": 1
               }
@@ -7378,7 +7432,8 @@
         "name": "Rooted Ziggurat Lower Back",
         "access_rules": [
           "@Rooted Ziggurat Lower Front,dash",
-          "@Rooted Ziggurat Lower Front,pray,sword",
+          "@Rooted Ziggurat Lower Front,pray,sword,$not_fs",
+          "@Rooted Ziggurat Lower Front,$is_fs,ziggurat_miniboss_fuse",
           "@Rooted Ziggurat Portal Room Entrance"
         ],
         "children": [
@@ -7415,7 +7470,8 @@
       {
         "name": "Rooted Ziggurat Portal Room Entrance",
         "access_rules": [
-          "@Rooted Ziggurat Lower Back,pray",
+          "@Rooted Ziggurat Lower Back,pray,$not_fs",
+          "@Rooted Ziggurat Lower Back,$is_fs,ziggurat_teleporter_fuse",
           "@Rooted Ziggurat Portal Room Exit"
         ],
         "children": []
@@ -7432,7 +7488,8 @@
         "name": "Rooted Ziggurat Portal Room Exit",
         "access_rules": [
           "@Rooted Ziggurat Portal Room Entrance",
-          "@Rooted Ziggurat Portal,impossible_1"
+          "@Rooted Ziggurat Portal,impossible_1,$not_fs",
+          "@Rooted Ziggurat Portal,$is_fs,ziggurat_teleporter_fuse"
         ],
         "children": []
       },
@@ -7649,7 +7706,7 @@
             ],
             "sections": [
               {
-                "name": "DJ Khaled - Let's go Golfing!",
+                "name": "Let's go Golfing!",
                 "access_rules": [
                   "[sword]"
                 ],
@@ -7761,7 +7818,7 @@
             ],
             "sections": [
               {
-                "name": "Wall Man Approves these Vibes",
+                "name": "You can also dash across here",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -7953,7 +8010,8 @@
         "access_rules": [
           "@Cathedral",
           "@Swamp Mid,[ice_grapple_med],vis_ice_grapple_med,dagger,orb",
-          "@Swamp Mid,dash,pray"
+          "@Swamp Mid,dash,pray,$not_fs",
+          "@Swamp Mid,$is_fs,swamp_fuse_1,swamp_fuse_2,swamp_fuse_3"
         ],
         "children": []
       },
@@ -8058,7 +8116,7 @@
             ],
             "sections": [
               {
-                "name": "Pray to the Wallman",
+                "name": "Press A on the Wall",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -8132,7 +8190,7 @@
                 "item_count": 1
               },
               {
-                "name": "[2F] Bird Room Secret",
+                "name": "[2F] Bird Room Secret Wall",
                 "access_rules": null,
                 "item_count": 1
               }
@@ -8258,7 +8316,8 @@
       {
         "name": "Cathedral Gauntlet Checkpoint",
         "access_rules": [
-          "@Cathedral,pray",
+          "@Cathedral,pray,$not_fs",
+          "@Cathedral,pray,$is_fs,cathedral_elevator_fuse",
           "@Cathedral,[ice_grapple_med],vis_ice_grapple_med,dagger,orb"
         ],
         "children": []
@@ -8403,7 +8462,8 @@
       {
         "name": "Far Shore to Quarry Region",
         "access_rules": [
-          "@Far Shore,@Quarry Connector,orb,pray",
+          "@Far Shore,@Quarry Connector,orb,pray,$not_fs",
+          "@Far Shore,$is_fs,quarry_fuse_1,quarry_fuse_2",
           "@Quarry Portal"
         ],
         "children": []
@@ -8411,14 +8471,16 @@
       {
         "name": "Far Shore to Fortress Region",
         "access_rules": [
-          "@Fortress Arena Portal"
+          "@Fortress Arena Portal",
+          "@Far Shore,$is_fs,fortress_exterior_fuse_1,fortress_exterior_fuse_2,beneath_the_vault_fuse,fortress_candles_fuse,fortress_door_left_fuse"
         ],
         "children": []
       },
       {
         "name": "Far Shore to Library Region",
         "access_rules": [
-          "@Far Shore,impossible_2",
+          "@Far Shore,impossible_2,$not_fs",
+          "@Far Shore,$is_fs,library_lab_fuse",
           "@Library Portal"
         ],
         "children": []
@@ -8426,7 +8488,8 @@
       {
         "name": "Far Shore to West Garden Region",
         "access_rules": [
-          "@Far Shore,@West Garden,pray",
+          "@Far Shore,@West Garden,pray,$not_fs",
+          "@Far Shore,$is_fs,west_garden_fuse",
           "@West Garden Portal"
         ],
         "children": []
@@ -8948,6 +9011,15 @@
               "@Furnace Fuse"
             ],
             "item_count": 1
+          },
+          {
+            "name": "Activate Fuse",
+            "visibility_rules": "fuse_shuffle",
+            "chest_unopened_img": "images/fuse.png",
+            "chest_opened_img": "images/fuse_closed.png",
+            "access_rules": [
+              "@Furnace Fuse,pray"
+            ]
           }
         ]
       },

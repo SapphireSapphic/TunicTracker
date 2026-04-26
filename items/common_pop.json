@@ -336,13 +336,6 @@
 		"codes": "dath"
 	},
 	{
-		"name": "Golden Power",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/golden_power.png",
-		"codes": "goldenpower"
-	},
-	{
 		"name": "Card Slots",
 		"type": "consumable",
 		"loop": true,
@@ -837,6 +830,14 @@
 		"img": "images/breakable_shuffle_option.png",
 		"codes": "breakable_shuffle"
 	},
+	{
+		"name": "Fuse Shuffle",
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/fuse_shuffle_option.png",
+		"img": "images/fuse_shuffle_option.png",
+		"codes": "fuse_shuffle"
+	},
 	//Tricks Toggles
 	{
 		"name": "Maskless",
@@ -1161,6 +1162,145 @@
 		"type": "toggle",
 		"img": "images/ladders/in_swp.png",
 		"codes": "ladders_in_swamp"
+	},
+	//Fuses
+	{
+		"name": "Swamp Fuse 1",
+		"type": "toggle",
+		"img": "images/fuses/swamp_fuse_1.png",
+		"codes": "swamp_fuse_1"
+	},
+	{
+		"name": "Swamp Fuse 2",
+		"type": "toggle",
+		"img": "images/fuses/swamp_fuse_2.png",
+		"codes": "swamp_fuse_2"
+	},
+	{
+		"name": "Swamp Fuse 3",
+		"type": "toggle",
+		"img": "images/fuses/swamp_fuse_3.png",
+		"codes": "swamp_fuse_3"
+	},
+	{
+		"name": "Cathedral Elevator Fuse",
+		"type": "toggle",
+		"img": "images/fuses/cathedral_elevator_fuse.png",
+		"codes": "cathedral_elevator_fuse"
+	},
+	{
+		"name": "Quarry Fuse 1",
+		"type": "toggle",
+		"img": "images/fuses/quarry_fuse_1.png",
+		"codes": "quarry_fuse_1"
+	},
+	{
+		"name": "Quarry Fuse 2",
+		"type": "toggle",
+		"img": "images/fuses/quarry_fuse_2.png",
+		"codes": "quarry_fuse_2"
+	},
+	{
+		"name": "Ziggurat Miniboss Fuse",
+		"type": "toggle",
+		"img": "images/fuses/ziggurat_miniboss_fuse.png",
+		"codes": "ziggurat_miniboss_fuse"
+	},
+	{
+		"name": "Ziggurat Teleporter Fuse",
+		"type": "toggle",
+		"img": "images/fuses/ziggurat_teleporter_fuse.png",
+		"codes": "ziggurat_teleporter_fuse"
+	},
+	{
+		"name": "Fortress Exterior Fuse 1",
+		"type": "toggle",
+		"img": "images/fuses/fortress_exterior_fuse_1.png",
+		"codes": "fortress_exterior_fuse_1"
+	},
+	{
+		"name": "Fortress Exterior Fuse 2",
+		"type": "toggle",
+		"img": "images/fuses/fortress_exterior_fuse_2.png",
+		"codes": "fortress_exterior_fuse_2"
+	},
+	{
+		"name": "Fortress Courtyard Upper Fuse",
+		"type": "toggle",
+		"img": "images/fuses/fortress_courtyard_upper_fuse.png",
+		"codes": "fortress_courtyard_upper_fuse"
+	},
+	{
+		"name": "Fortress Courtyard Fuse",
+		"type": "toggle",
+		"img": "images/fuses/fortress_courtyard_fuse.png",
+		"codes": "fortress_courtyard_fuse"
+	},
+	{
+		"name": "Beneath the Vault Fuse",
+		"type": "toggle",
+		"img": "images/fuses/beneath_the_vault_fuse.png",
+		"codes": "beneath_the_vault_fuse"
+	},
+	{
+		"name": "Fortress Candles Fuse",
+		"type": "toggle",
+		"img": "images/fuses/fortress_candles_fuse.png",
+		"codes": "fortress_candles_fuse"
+	},
+	{
+		"name": "Fortress Door Left Fuse",
+		"type": "toggle",
+		"img": "images/fuses/fortress_door_left_fuse.png",
+		"codes": "fortress_door_left_fuse"
+	},
+	{
+		"name": "Fortress Door Right Fuse",
+		"type": "toggle",
+		"img": "images/fuses/fortress_door_right_fuse.png",
+		"codes": "fortress_door_right_fuse"
+	},
+	{
+		"name": "West Furnace Fuse",
+		"type": "toggle",
+		"img": "images/fuses/west_furnace_fuse.png",
+		"codes": "west_furnace_fuse"
+	},
+	{
+		"name": "West Garden Fuse",
+		"type": "toggle",
+		"img": "images/fuses/west_garden_fuse.png",
+		"codes": "west_garden_fuse"
+	},
+	{
+		"name": "Atoll Northeast Fuse",
+		"type": "toggle",
+		"img": "images/fuses/atoll_northeast_fuse.png",
+		"codes": "atoll_northeast_fuse"
+	},
+	{
+		"name": "Atoll Northwest Fuse",
+		"type": "toggle",
+		"img": "images/fuses/atoll_northwest_fuse.png",
+		"codes": "atoll_northwest_fuse"
+	},
+	{
+		"name": "Atoll Southeast Fuse",
+		"type": "toggle",
+		"img": "images/fuses/atoll_southeast_fuse.png",
+		"codes": "atoll_southeast_fuse"
+	},
+	{
+		"name": "Atoll Southwest Fuse",
+		"type": "toggle",
+		"img": "images/fuses/atoll_southwest_fuse.png",
+		"codes": "atoll_southwest_fuse"
+	},
+	{
+		"name": "Library Lab Fuse",
+		"type": "toggle",
+		"img": "images/fuses/library_lab_fuse.png",
+		"codes": "library_lab_fuse"
 	},
 	//Statics
 	{

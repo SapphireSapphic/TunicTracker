@@ -16,16 +16,20 @@ ScriptHost:AddWatchForCode("useApLayout", "progswordSetting", apLayoutChange)
 
 function updateLayout()
     local ladders = Tracker:FindObjectForCode("ladder_shuffle_off")
+    local fuses = Tracker:FindObjectForCode("fuse_shuffle")
     local layoutString = "layouts/trackerpop"
     if (string.find(Tracker.ActiveVariantUID, "standard") or string.find(Tracker.ActiveVariantUID, "var_itemsonly") or string.find(Tracker.ActiveVariantUID, "var_minimal")) then
         if ladders.CurrentStage ~= 0 then
             layoutString = layoutString .. "_ladders"
         end
+        if fuses.Active then
+            layoutString = layoutString .. "_fuses"
+        end
 
         if Tracker:FindObjectForCode("show_hints").Active then
             layoutString = layoutString .. "_hints"
         end
-
+        Tracker:AddLayouts(layoutString .. ".json")
         Tracker:AddLayouts(layoutString .. ".json")
     end
 
@@ -37,6 +41,18 @@ function has_ladder(ladderName)
     end
 
     return Tracker:FindObjectForCode(ladderName).Active
+end
+
+function is_fs()
+    return Tracker:FindObjectForCode("fuse_shuffle").Active == true
+end
+
+function not_fs()
+    return Tracker:FindObjectForCode("fuse_shuffle").Active == false
+end
+
+function is_not_bells()
+    return Tracker:FindObjectForCode("bell_shuffle").Active == false
 end
 
 function can_ls()
@@ -64,4 +80,5 @@ end
 
 
 ScriptHost:AddWatchForCode("ladderLayout", "ladder_shuffle_off", updateLayout)
+ScriptHost:AddWatchForCode("fuseLayout", "fuse_shuffle", updateLayout)
 ScriptHost:AddWatchForCode("hintsLayout", "show_hints", updateLayout)
