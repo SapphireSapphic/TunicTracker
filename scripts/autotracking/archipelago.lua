@@ -55,7 +55,9 @@ function onSetReply(key, value, _)
     end
     for long_name, short_name in pairs(data_storage_table) do
         if key == slot_player .. ":" .. long_name then
+            if (short_name == "ding" or short_name == "dong") and Tracker:FindObjectForCode("bell_shuffle").Active then goto continue end
             Tracker:FindObjectForCode(short_name, ITEMS).Active = value
+            ::continue::
         end
     end
 end
@@ -63,7 +65,9 @@ end
 function retrieved(key, value)
     for long_name, short_name in pairs(data_storage_table) do
         if key == "Slot:" .. Archipelago.PlayerNumber .. ":" .. long_name then
+            if (short_name == "ding" or short_name == "dong") and Tracker:FindObjectForCode("bell_shuffle").Active then goto continue end
             Tracker:FindObjectForCode(short_name, ITEMS).Active = value
+            ::continue::
         end
     end
 end
