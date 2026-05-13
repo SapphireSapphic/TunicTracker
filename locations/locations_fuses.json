@@ -590,7 +590,7 @@
         ]
       },
       {
-        "name": "Rooted Ziggurat Miniboss Platform",
+        "name": "Rooted Ziggurat Lower Miniboss Platform",
         "access_rules": [
           "@Rooted Ziggurat Lower Front,sword",
           "@Rooted Ziggurat Lower Back,[ice_grapple_easy],vis_ice_grapple_easy,dagger,icerod,orb,staff,sword",
