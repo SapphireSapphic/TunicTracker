@@ -1264,7 +1264,7 @@
 						],
 						"sections": [
 							{
-								"name": "Jeffry",
+								"name": "Chest",
 								"access_rules": ["dash","orb"],
 								"item_count": 1,
 								"capture_item": true
@@ -1430,7 +1430,7 @@
 						],
 						"sections": [
 							{
-								"name": "Below Jeffry",
+								"name": "After Turret",
 								"access_rules": ["grass","firesword,ring","dash","orb"],
 								"item_count": 1,
 								"capture_item": true
@@ -3606,7 +3606,7 @@
 						],
 						"sections": [
 							{
-								"name": "Pray to the Wall Man",
+								"name": "Press A on the Wall",
 								"item_count": 1,
 								"capture_item": true
 							}
@@ -4575,7 +4575,7 @@
 						],
 						"sections": [
 							{
-								"name": "His Name is Tom",
+								"name": "Chest",
 								"item_count": 1,
 								"capture_item": true
 							}
@@ -4599,7 +4599,7 @@
 						],
 						"sections": [
 							{
-								"name": "Danlarry and Thranmire ate Jerry!",
+								"name": "Chest",
 								"item_count": 1,
 								"capture_item": true
 							}
@@ -4722,7 +4722,7 @@
 								],
 								"sections": [
 									{
-										"name": "Don't Kick Fimbleton!",
+										"name": "Guarded by the Autobolt",
 										"access_rules": ["orb"],
 										"item_count": 1,
 										"capture_item": true
@@ -4772,7 +4772,7 @@
 								],
 								"sections": [
 									{
-										"name": "Oh No! Our Frogs! They're Dead!",
+										"name": "Frog Meeting",
 										"item_count": 1
 									}
 								]
@@ -4937,7 +4937,7 @@
 								],
 								"sections": [
 									{
-										"name": "Tobias was Trapped Here Once...",
+										"name": "Still Useful",
 										"item_count": 1,
 										"capture_item": true
 									}
@@ -4961,7 +4961,7 @@
 								],
 								"sections": [
 									{
-										"name": "Frult Meeting",
+										"name": "ORB",
 										"item_count": 1,
 										"capture_item": true
 									}
@@ -6458,7 +6458,7 @@
 								],
 								"sections": [
 									{
-										"name": "Wall Man Approves these Vibes",
+										"name": "You can also dash across here",
 										"item_count": 1
 									}
 								]
@@ -6677,7 +6677,7 @@
 						],
 						"sections": [
 							{
-								"name": "Pray to the Wallman",
+								"name": "Press A on the Wall",
 								"item_count": 1
 							}
 						]

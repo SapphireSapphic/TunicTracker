@@ -214,13 +214,6 @@
 		"codes": "dath"
 	},
 	{
-		"name": "Golden Power",
-		"type": "toggle",
-		"loop": true,
-		"img":"images/golden_power.png",
-		"codes": "goldenpower"
-	},
-	{
 		"name": "Card Slots",
 		"type": "consumable",
 		"loop": true,

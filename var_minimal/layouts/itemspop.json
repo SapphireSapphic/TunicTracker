@@ -58,5 +58,51 @@
         ]
       }
     ]
+  },
+  "fuses": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "0,0,0,0",
+        "item_margin": "2,2",
+        "item_size": "40",
+        "rows": [
+          [
+            "swamp_fuse_1",
+            "quarry_fuse_1",
+            "fortress_exterior_fuse_1",
+            "beneath_the_vault_fuse",
+            "atoll_northeast_fuse",
+            "west_furnace_fuse"
+          ],
+          [
+            "swamp_fuse_2",
+            "quarry_fuse_2",
+            "fortress_exterior_fuse_2",
+            "fortress_candles_fuse",
+            "atoll_northwest_fuse",
+            "west_garden_fuse"
+          ],
+          [
+            "swamp_fuse_3",
+            "ziggurat_miniboss_fuse",
+            "fortress_courtyard_upper_fuse",
+            "fortress_door_left_fuse",
+            "atoll_southeast_fuse",
+            "library_lab_fuse"
+          ],
+          [
+            "cathedral_elevator_fuse",
+            "ziggurat_teleporter_fuse",
+            "fortress_courtyard_fuse",
+            "fortress_door_right_fuse",
+            "atoll_southwest_fuse"
+          ],
+        ]
+      }
+    ]
   }
 }

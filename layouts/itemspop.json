@@ -13,9 +13,9 @@
 					["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
                     ["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
 					["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
-					["stick", "sword", "dagger", "icerod", "staff", "orb", "gun", "hourglass"],
+					["stick", "sword", "dagger", "staff", "orb", "gun", "hourglass"],
 					["attrelic", "defrelic", "potionrelic", "hprelic", "sprelic", "mprelic","hexquest"],
-					["pray","cross","dath","goldenpower","justawell","ding", "dong"],
+					["pray","cross","icerod","dath","justawell","ding", "dong"],
 					["captain", "gknight", "engine", "librarian", "scavboss", "gauntlet", "heir"]
                 ]
             }
@@ -43,28 +43,49 @@
 			}
 		]
 	},
-  "ladders": {
-    "type": "array",
-    "orientation": "horizontal",
-    "content": [
-      {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "margin": "0,0,0,0",
-        "item_margin": "2,2",
-        "item_size": "40",
-        "rows": [
-          ["ladders_near_weathervane", "ladders_near_overworld_checkpoint", "ladders_near_patrol_cave"],
-          ["ladder_near_temple_rafters", "ladders_near_dark_tomb", "ladder_in_dark_tomb"],
-          ["ladders_to_west_bell", "ladders_in_overworld_town", "ladders_in_hourglass_cave"],
-          ["ladders_in_well", "ladder_to_quarry", "ladders_in_lower_quarry"],
-          ["ladder_to_east_forest", "ladders_to_lower_forest", "ladder_to_beneath_the_vault"],
-          ["ladder_to_ruined_atoll", "ladders_in_south_atoll", "ladders_to_frogs_domain"],
-          ["ladders_in_library", "ladder_to_swamp", "ladders_in_swamp"]
-        ]
-      }
-    ]
-  },
+	"ladders": {
+		"type": "array",
+		"orientation": "horizontal",
+		"content": [
+		{
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"margin": "0,0,0,0",
+			"item_margin": "2,2",
+			"item_size": "40",
+			"rows": [
+			["ladders_near_weathervane", "ladders_near_overworld_checkpoint", "ladders_near_patrol_cave"],
+			["ladder_near_temple_rafters", "ladders_near_dark_tomb", "ladder_in_dark_tomb"],
+			["ladders_to_west_bell", "ladders_in_overworld_town", "ladders_in_hourglass_cave"],
+			["ladders_in_well", "ladder_to_quarry", "ladders_in_lower_quarry"],
+			["ladder_to_east_forest", "ladders_to_lower_forest", "ladder_to_beneath_the_vault"],
+			["ladder_to_ruined_atoll", "ladders_in_south_atoll", "ladders_to_frogs_domain"],
+			["ladders_in_library", "ladder_to_swamp", "ladders_in_swamp"]
+			]
+		}
+		]
+	},
+	"fuses": {
+		"type": "array",
+		"orientation": "horizontal",
+		"content": [
+			{
+				"type": "itemgrid",
+				"h_alignment": "center",
+				"margin": "0,0,0,0",
+				"item_margin": "2,2",
+				"item_size": "40",
+				"rows": [
+					["swamp_fuse_1", "swamp_fuse_2", "swamp_fuse_3", "cathedral_elevator_fuse"],
+					["quarry_fuse_1", "quarry_fuse_2", "ziggurat_miniboss_fuse", "ziggurat_teleporter_fuse"],
+					["fortress_exterior_fuse_1", "fortress_exterior_fuse_2", "fortress_courtyard_upper_fuse", "fortress_courtyard_fuse"],
+					["beneath_the_vault_fuse", "fortress_candles_fuse", "fortress_door_left_fuse", "fortress_door_right_fuse"],
+					["atoll_northeast_fuse", "atoll_northwest_fuse", "atoll_southeast_fuse", "atoll_southwest_fuse"],
+					["west_furnace_fuse", "west_garden_fuse", "library_lab_fuse"]
+				]
+			}
+		]
+	},
 	"hints": {
 		"type":"array",
         "orientation": "horizontal",
@@ -180,6 +201,18 @@
 			  },
 			{
 				"type": "group",
+				"header": "Fuse Shuffle",
+				"header_background": "#3e4b57",
+				"content": [
+				  {
+					"type": "item",
+					"item_margin": "-5,-1,-5,-5",
+					"item": "fuse_shuffle"
+				  }
+				]
+			  },
+			{
+				"type": "group",
 				"header": "Pack Settings",
 				"header_background": "#3e4b57",
 				"content": [
@@ -187,6 +220,12 @@
 					"type": "array",
 					"orientation": "horizontal",
 					"content": [
+					  {
+						"type": "item",
+						"max_width": 80,
+						"item_margin": "5,5,5,5",
+						"item": "bell_shuffle"
+					  },
 					  {
 						"type": "item",
 						"max_width": 80,

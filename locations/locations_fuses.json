@@ -1,0 +1,658 @@
+[
+  {
+    "name": "Fuses",
+    "chest_unopened_img": "images/fuse.png",
+    "chest_opened_img": "images/fuse_closed.png",
+    "visibility_rules": "fuse_shuffle",
+    "children": [
+      {
+        "name": "Overworld",
+        "access_rules": [
+          "@Overworld,dash,pray"
+        ],
+        "children": [
+          {
+            "name": "Overworld - [Southeast] Activate Fuse",
+            "access_rules": [
+              "@Overworld,dash,pray"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3560,
+                "y": 3048
+              },
+              {
+                "map": "overworld",
+                "x": 1886,
+                "y": 1295,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Swamp Mid",
+        "access_rules": [
+          "@Swamp Mid"
+        ],
+        "children": [
+          {
+            "name": "Swamp - [Central] Activate Fuse",
+            "access_rules": [
+              "@Swamp Mid,sword,pray,swamp_fuse_1"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4315,
+                "y": 3486
+              },
+              {
+                "map": "graveyard",
+                "x": 825,
+                "y": 625,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          },
+          {
+            "name": "Swamp - [Outside Cathedral] Activate Fuse",
+            "access_rules": [
+              "@Swamp Mid,sword,pray,swamp_fuse_1,swamp_fuse_2"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4315,
+                "y": 3057
+              },
+              {
+                "map": "graveyard",
+                "x": 825,
+                "y": 197,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "West Garden",
+        "access_rules": [
+          "@West Garden,pray"
+        ],
+        "children": [
+          {
+            "name": "West Garden - [South Highlands] Activate Fuse",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 958,
+                "y": 3167
+              },
+              {
+                "map": "west_gardens",
+                "x": 719,
+                "y": 746,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ruined Atoll",
+        "access_rules": [
+          "@Ruined Atoll,pray"
+        ],
+        "children": [
+          {
+            "name": "Ruined Atoll - [Northwest] Activate Fuse",
+            "access_rules": [
+              "@Ruined Atoll,pray,dash",
+              "@Ruined Atoll,pray,orb"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1915,
+                "y": 3325
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 271,
+                "y": 217,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          },
+          {
+            "name": "Ruined Atoll - [Northeast] Activate Fuse",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2937,
+                "y": 3299
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 1293,
+                "y": 192,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          },
+          {
+            "name": "Ruined Atoll - [Southwest] Activate Fuse",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1920,
+                "y": 4013
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 276,
+                "y": 906,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ruined Atoll Ladder Tops",
+        "access_rules": [
+          "@Ruined Atoll Ladder Tops,pray"
+        ],
+        "children": [
+          {
+            "name": "Ruined Atoll - [Southeast] Activate Fuse",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2941,
+                "y": 4015
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 1297,
+                "y": 908,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Library Lab",
+        "access_rules": [
+          "@Library Lab,pray,$has_ladder|ladders_in_library"
+        ],
+        "children": [
+          {
+            "name": "Library Lab - Activate Fuse",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1366,
+                "y": 3311
+              },
+              {
+                "map": "library",
+                "x": 312,
+                "y": 313,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Exterior from Overworld",
+        "access_rules": [
+          "@Fortress Exterior from Overworld,pray"
+        ],
+        "children": [
+          {
+            "name": "Fortress Courtyard - [From Overworld] Activate Fuse",
+            "access_rules": [
+              "@Fortress Exterior from Overworld,pray"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4188,
+                "y": 2217
+              },
+              {
+                "map": "eastern_vault",
+                "x": 605,
+                "y": 1037,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard - [Near Cave] Activate Fuse",
+            "access_rules": [
+              "@Fortress Exterior from Overworld,pray,fortress_exterior_fuse_1"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3889,
+                "y": 2002
+              },
+              {
+                "map": "eastern_vault",
+                "x": 306,
+                "y": 826,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard Upper",
+        "access_rules": [
+          "@Fortress Courtyard Upper,pray"
+        ],
+        "children": [
+          {
+            "name": "Fortress Courtyard - [Upper] Activate Fuse",
+            "access_rules": [
+              "@Fortress Courtyard Upper,pray,fortress_exterior_fuse_1"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4350,
+                "y": 1953
+              },
+              {
+                "map": "eastern_vault",
+                "x": 769,
+                "y": 773,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard",
+        "access_rules": [
+          "@Fortress Courtyard,pray"
+        ],
+        "children": [
+          {
+            "name": "Fortress Courtyard - [Central] Activate Fuse",
+            "access_rules": [
+              "@Fortress Courtyard,pray,fortress_exterior_fuse_1,fortress_courtyard_upper_fuse"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4182,
+                "y": 1884
+              },
+              {
+                "map": "eastern_vault",
+                "x": 600,
+                "y": 704,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Vault Back",
+        "access_rules": [
+          "@Beneath the Vault Back,pray"
+        ],
+        "children": [
+          {
+            "name": "Beneath the Fortress - Activate Fuse",
+            "access_rules": [
+              "@Beneath the Vault Back,pray,fortress_exterior_fuse_1,fortress_exterior_fuse_2"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 5090,
+                "y": 2166
+              },
+              {
+                "map": "earth",
+                "x": 705,
+                "y": 173,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eastern Vault Fortress",
+        "access_rules": [
+          "@Eastern Vault Fortress,pray"
+        ],
+        "children": [
+          {
+            "name": "Eastern Vault Fortress - [Candle Room] Activate Fuse",
+            "access_rules": [
+              "@Eastern Vault Fortress,pray,fortress_exterior_fuse_1,fortress_exterior_fuse_2,beneath_the_vault_fuse"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3713,
+                "y": 1490
+              },
+              {
+                "map": "eastern_vault",
+                "x": 130,
+                "y": 310,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          },
+          {
+            "name": "Eastern Vault Fortress - [Left of Door] Activate Fuse",
+            "access_rules": [
+              "@Eastern Vault Fortress,pray,fortress_exterior_fuse_1,fortress_exterior_fuse_2,beneath_the_vault_fuse,fortress_candles_fuse"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4123,
+                "y": 1338
+              },
+              {
+                "map": "eastern_vault",
+                "x": 541,
+                "y": 159,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          },
+          {
+            "name": "Eastern Vault Fortress - [Right of Door] Activate Fuse",
+            "access_rules": [
+              "@Eastern Vault Fortress,pray,fortress_exterior_fuse_1,fortress_courtyard_upper_fuse,fortress_courtyard_fuse"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4244,
+                "y": 1338
+              },
+              {
+                "map": "eastern_vault",
+                "x": 661,
+                "y": 159,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quarry Connector",
+        "access_rules": [
+          "@Quarry Connector,orb,pray"
+        ],
+        "children": [
+          {
+            "name": "Quarry Entryway - Activate Fuse",
+            "access_rules": [
+              "@Quarry Connector,orb,pray"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2046,
+                "y": 1927
+              },
+              {
+                "map": "quarry",
+                "x": 1279,
+                "y": 1211,
+                "size": 45
+              },
+              {
+                "map": "overworld",
+                "x": 390,
+                "y": 177,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quarry Entry",
+        "access_rules": [
+          "@Quarry Entry,pray"
+        ],
+        "children": [
+          {
+            "name": "Quarry - Activate Fuse",
+            "access_rules": [
+              "@Quarry Entry,pray,quarry_fuse_1"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 1881,
+                "y": 2242
+              },
+              {
+                "map": "quarry",
+                "x": 1241,
+                "y": 1227,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rooted Ziggurat Lower Back",
+        "access_rules": [
+          "@Rooted Ziggurat Lower Back,pray"
+        ],
+        "children": [
+          {
+            "name": "Rooted Ziggurat Lower - [Before Boss] Activate Fuse",
+            "access_rules": [
+              "@Rooted Ziggurat Lower Back,pray"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 635,
+                "y": 831
+              },
+              {
+                "map": "ziggurat",
+                "x": 1667,
+                "y": 1441,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rooted Ziggurat Lower Miniboss Platform",
+        "access_rules": [
+          "@Rooted Ziggurat Lower Front,sword",
+          "@Rooted Ziggurat Lower Back,[ice_grapple_easy],vis_ice_grapple_easy,dagger,icerod,orb,staff,sword",
+          "@Rooted Ziggurat Lower Back,dash,sword",
+          "@Rooted Ziggurat Lower Back,[ladder_storage_med],vis_ladder_storage_med,$can_ls"
+        ],
+        "children": [
+          {
+            "name": "Rooted Ziggurat Lower - [Miniboss] Activate Fuse",
+            "access_rules": [
+              "sword,pray"
+            ],
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 472,
+                "y": 1390
+              },
+              {
+                "map": "ziggurat",
+                "x": 1219,
+                "y": 1355,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cathedral",
+        "access_rules": [
+          "@Swamp Mid,pray"
+        ],
+        "children": [
+          {
+            "name": "Cathedral - Activate Fuse",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4725,
+                "y": 2864
+              },
+              {
+                "map": "cathedral",
+                "x": 293,
+                "y": 106,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fuse"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

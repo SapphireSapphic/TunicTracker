@@ -17,6 +17,13 @@
     ]
   },
   {
+    "name": "Bell Shuffle",
+    "codes": "bell_shuffle",
+    "loop": true,
+    "type": "toggle",
+    "img": "images/bell_shuffle_option.png"
+  },
+  {
     "name": "Show Hints",
     "codes": "show_hints",
     "loop": true,

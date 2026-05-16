@@ -55,7 +55,9 @@ function onSetReply(key, value, _)
     end
     for long_name, short_name in pairs(data_storage_table) do
         if key == slot_player .. ":" .. long_name then
+            if (short_name == "ding" or short_name == "dong") and Tracker:FindObjectForCode("bell_shuffle").Active then goto continue end
             Tracker:FindObjectForCode(short_name, ITEMS).Active = value
+            ::continue::
         end
     end
 end
@@ -63,7 +65,9 @@ end
 function retrieved(key, value)
     for long_name, short_name in pairs(data_storage_table) do
         if key == "Slot:" .. Archipelago.PlayerNumber .. ":" .. long_name then
+            if (short_name == "ding" or short_name == "dong") and Tracker:FindObjectForCode("bell_shuffle").Active then goto continue end
             Tracker:FindObjectForCode(short_name, ITEMS).Active = value
+            ::continue::
         end
     end
 end
@@ -157,6 +161,9 @@ function onClear(slot_data)
     set_option("er_off", slot_data.entrance_rando, false)
 
     set_option("breakable_shuffle", slot_data.breakable_shuffle, false)
+
+    set_option("fuse_shuffle", slot_data.shuffle_fuses, false)
+    set_option("bell_shuffle", slot_data.shuffle_bells, false)
 
     set_option("maskless", slot_data.maskless, false)
     set_option("lanternless", slot_data.lanternless, false)
