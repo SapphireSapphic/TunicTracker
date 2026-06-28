@@ -2,6 +2,15 @@
     "versions": [
         {
 
+            "package_version": "2.2.2",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.2.2/TunicTracker.zip",
+            "sha256": "67E3654508A583E1D60B17C4A32D7976AC290CB86EAB2ADDBBB3FC004E4CCC6B",
+            "changelog": [
+                "Fix the tunnel to beach not marking off properly."
+            ]
+        },
+        {
+
             "package_version": "2.1.5",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.5/TunicTracker.zip",
             "sha256": "9E57DAFE67177D2567F270643F82E45590CFD088ED6A0F5405133EB32DE64F00",
