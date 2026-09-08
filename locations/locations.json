@@ -13,11 +13,6 @@
 						"short_name": "Bombs",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3000,
-								"y": 3200
-							},
-							{
 								"map": "overworld",
 								"x": 1335,
 								"y": 1450,
@@ -50,11 +45,6 @@
 						"short_name": "West Bell",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2105,
-								"y": 2246
-							},
-							{
 								"map": "overworld",
 								"x": 430,
 								"y": 495,
@@ -73,11 +63,6 @@
 						"name": "Teleporter Secret",
 						"short_name": "Secret",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2955,
-								"y": 3050
-							},
 							{
 								"map": "overworld",
 								"x": 1280,
@@ -104,11 +89,6 @@
 						"short_name": "Stick",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2920,
-								"y": 2785
-							},
-							{
 								"map": "overworld",
 								"x": 1245,
 								"y": 1035,
@@ -127,11 +107,6 @@
 						"name": "Dark Ramps Chest",
 						"short_name": "Dark Chest",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2860,
-								"y": 2100
-							},
 							{
 								"map": "overworld",
 								"x": 1185,
@@ -152,11 +127,6 @@
 						"short_name": "Ground Key",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2780,
-								"y": 2320
-							},
-							{
 								"map": "overworld",
 								"x": 1105,
 								"y": 570,
@@ -175,16 +145,6 @@
 						"name": "Inside the Old House",
 						"short_name": "Old House",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2730,
-								"y": 2415
-							},
-							{
-								"map": "fullmap",
-								"x": 2920,
-								"y": 2205
-							},
 							{
 								"map": "overworld",
 								"x": 1055,
@@ -233,11 +193,6 @@
 						"short_name": "Windmill Page",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2750,
-								"y": 2240
-							},
-							{
 								"map": "overworld",
 								"x": 1075,
 								"y": 490,
@@ -256,11 +211,6 @@
 						"name": "Chest Behind Windmill",
 						"short_name": "Behind Windmill",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2460,
-								"y": 2200
-							},
 							{
 								"map": "overworld",
 								"x": 785,
@@ -281,11 +231,6 @@
 						"short_name": "Camp",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2035,
-								"y": 2130
-							},
-							{
 								"map": "overworld",
 								"x": 360,
 								"y": 380,
@@ -305,11 +250,6 @@
 						"short_name": "Staff Peek",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2170,
-								"y": 1940
-							},
-							{
 								"map": "overworld",
 								"x": 495,
 								"y": 190,
@@ -328,11 +268,6 @@
 						"name": "Inside the Gathering Place",
 						"short_name": "Gathering Place",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2540,
-								"y": 2085
-							},
 							{
 								"map": "overworld",
 								"x": 865,
@@ -371,11 +306,6 @@
 						"short_name": "Cube",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2830,
-								"y": 2655
-							},
-							{
 								"map": "overworld",
 								"x": 1155,
 								"y": 905,
@@ -402,11 +332,6 @@
 						"short_name": "Breakable Wall",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3165,
-								"y": 2575
-							},
-							{
 								"map": "overworld",
 								"x": 1490,
 								"y": 825,
@@ -425,11 +350,6 @@
 						"name": "Eastern Silver Door",
 						"short_name": "E Code Door",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3560,
-								"y": 2815
-							},
 							{
 								"map": "overworld",
 								"x": 1885,
@@ -450,11 +370,6 @@
 						"short_name": "East Beach",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3530,
-								"y": 2980
-							},
-							{
 								"map": "overworld",
 								"x": 1855,
 								"y": 1230,
@@ -474,11 +389,6 @@
 						"name": "Caustic Light",
 						"short_name": "Light",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3560,
-								"y": 2910
-							},
 							{
 								"map": "overworld",
 								"x": 1885,
@@ -506,11 +416,6 @@
 						"short_name": "Above Door",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3150,
-								"y": 2665
-							},
-							{
 								"map": "overworld",
 								"x": 1475,
 								"y": 915,
@@ -530,11 +435,6 @@
 						"name": "Weather Vane",
 						"short_name": "Vane",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3560,
-								"y": 2625
-							},
 							{
 								"map": "overworld",
 								"x": 1885,
@@ -561,11 +461,6 @@
 						"short_name": "Below Vane",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3640,
-								"y": 2710
-							},
-							{
 								"map": "overworld",
 								"x": 1965,
 								"y": 960,
@@ -586,11 +481,6 @@
 						"short_name": "Telepage",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2520,
-								"y": 2475
-							},
-							{
 								"map": "overworld",
 								"x": 845,
 								"y": 725,
@@ -610,11 +500,6 @@
 						"name": "Wind Chimes",
 						"short_name": "Chimes",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2735,
-								"y": 2460
-							},
 							{
 								"map": "overworld",
 								"x": 1060,
@@ -641,11 +526,6 @@
 						"short_name": "Next to Mill",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2530,
-								"y": 2285
-							},
-							{
 								"map": "overworld",
 								"x": 855,
 								"y": 535,
@@ -664,11 +544,6 @@
 						"name": "Windmill Secret",
 						"short_name": "Mill Secret",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2580,
-								"y": 2330
-							},
 							{
 								"map": "overworld",
 								"x": 900,
@@ -695,11 +570,6 @@
 						"short_name": "Empty Shop",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2285,
-								"y": 2585
-							},
-							{
 								"map": "overworld",
 								"x": 610,
 								"y": 835,
@@ -718,11 +588,6 @@
 						"name": "Fountain",
 						"short_name": "Fountain",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2430,
-								"y": 2660
-							},
 							{
 								"map": "overworld",
 								"x": 755,
@@ -756,11 +621,6 @@
 						"short_name": "Fountain Door",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2430,
-								"y": 2590
-							},
-							{
 								"map": "overworld",
 								"x": 755,
 								"y": 840,
@@ -779,11 +639,6 @@
 						"name": "Envoy Guarding Key",
 						"short_name": "Envoy Key",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2585,
-								"y": 2815
-							},
 							{
 								"map": "overworld",
 								"x": 910,
@@ -805,11 +660,6 @@
 						"short_name": "W Bridge",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2430,
-								"y": 2960
-							},
-							{
 								"map": "overworld",
 								"x": 755,
 								"y": 1210,
@@ -829,11 +679,6 @@
 						"name": "West of Fountain",
 						"short_name": "Fountain W",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2185,
-								"y": 2705
-							},
 							{
 								"map": "overworld",
 								"x": 510,
@@ -855,11 +700,6 @@
 						"short_name": "E of Well",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2865,
-								"y": 2560
-							},
-							{
 								"map": "overworld",
 								"x": 1190,
 								"y": 810,
@@ -880,11 +720,6 @@
 						"short_name": "W of Well",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2635,
-								"y": 2535
-							},
-							{
 								"map": "overworld",
 								"x": 960,
 								"y": 785,
@@ -903,11 +738,6 @@
 						"name": "Gazebo Page",
 						"short_name": "Gazebo",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3360,
-								"y": 2440
-							},
 							{
 								"map": "overworld",
 								"x": 1685,
@@ -929,11 +759,6 @@
 						"short_name": "Keeper Page",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3520,
-								"y": 2435
-							},
-							{
 								"map": "overworld",
 								"x": 1845,
 								"y": 685,
@@ -953,11 +778,6 @@
 						"name": "NE Flowers Secret",
 						"short_name": "NE Flowers",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3425,
-								"y": 2290
-							},
 							{
 								"map": "overworld",
 								"x": 1750,
@@ -983,11 +803,6 @@
 						"name": "Rudeling Dance Floor",
 						"short_name": "Patrol",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3450,
-								"y": 2085
-							},
 							{
 								"map": "overworld",
 								"x": 1775,
@@ -1019,11 +834,6 @@
 						"short_name": "Staff",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2345,
-								"y": 1825
-							},
-							{
 								"map": "overworld",
 								"x": 670,
 								"y": 75,
@@ -1049,11 +859,6 @@
 						"short_name": "Top of Fall",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3445,
-								"y": 1965
-							},
-							{
 								"map": "overworld",
 								"x": 1770,
 								"y": 215,
@@ -1073,11 +878,6 @@
 						"name": "Behind the Mountain Door",
 						"short_name": "Mountain Door",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3010,
-								"y": 1810
-							},
 							{
 								"map": "overworld",
 								"x": 1335,
@@ -1111,11 +911,6 @@
 						"short_name": "Sealed Temple",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3005,
-								"y": 2110
-							},
-							{
 								"map": "overworld",
 								"x": 1330,
 								"y": 360,
@@ -1146,11 +941,6 @@
 						"short_name": "E Grapple",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3315,
-								"y": 2140
-							},
-							{
 								"map": "overworld",
 								"x": 1640,
 								"y": 390,
@@ -1171,11 +961,6 @@
 						"short_name": "After W Bell",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2300,
-								"y": 2315
-							},
-							{
 								"map": "overworld",
 								"x": 625,
 								"y": 565,
@@ -1195,11 +980,6 @@
 						"name": "Secret of the Moss",
 						"short_name": "Moss",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2100,
-								"y": 2430
-							},
 							{
 								"map": "overworld",
 								"x": 425,
@@ -1226,11 +1006,6 @@
 						"short_name": "Next to Moss",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2195,
-								"y": 2400
-							},
-							{
 								"map": "overworld",
 								"x": 520,
 								"y": 650,
@@ -1250,11 +1025,6 @@
 						"name": "South of the West Bell",
 						"short_name": "S of W Bell",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2115,
-								"y": 2665
-							},
 							{
 								"map": "overworld",
 								"x": 440,
@@ -1276,11 +1046,6 @@
 						"short_name": "Behind Bolt",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1905,
-								"y": 2660
-							},
-							{
 								"map": "overworld",
 								"x": 230,
 								"y": 910,
@@ -1300,11 +1065,6 @@
 						"name": "Autobolt Island",
 						"short_name": "Boltland",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1775,
-								"y": 2680
-							},
 							{
 								"map": "overworld",
 								"x": 100,
@@ -1326,11 +1086,6 @@
 						"short_name": "Below W Bridge",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2430,
-								"y": 3040
-							},
-							{
 								"map": "overworld",
 								"x": 755,
 								"y": 1290,
@@ -1351,20 +1106,10 @@
 						"short_name": "Furnace",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2100,
-								"y": 2550
-							},
-							{
 								"map": "overworld",
 								"x": 425,
 								"y": 800,
 								"size": 45
-							},
-							{
-								"map": "fullmap",
-								"x": 2950,
-								"y": 1595
 							},
 							{
 								"map": "well",
@@ -1392,11 +1137,6 @@
 						"short_name": "Outside Furnace",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2055,
-								"y": 2565
-							},
-							{
 								"map": "overworld",
 								"x": 380,
 								"y": 815,
@@ -1417,11 +1157,6 @@
 						"short_name": "Behind Bolt",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2125,
-								"y": 2750
-							},
-							{
 								"map": "overworld",
 								"x": 450,
 								"y": 1000,
@@ -1441,11 +1176,6 @@
 						"name": "Magic Hourglass Cave",
 						"short_name": "Hourglass",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2510,
-								"y": 2850
-							},
 							{
 								"map": "overworld",
 								"x": 760,
@@ -1483,11 +1213,6 @@
 						"short_name": "SW Flowers",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2635,
-								"y": 3000
-							},
-							{
 								"map": "overworld",
 								"x": 960,
 								"y": 1250,
@@ -1512,11 +1237,6 @@
 						"name": "Sand Hook",
 						"short_name": "Sand Hook",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2760,
-								"y": 3020
-							},
 							{
 								"map": "overworld",
 								"x": 1085,
@@ -1549,11 +1269,6 @@
 						"short_name": "Bridge Page",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2980,
-								"y": 2915
-							},
-							{
 								"map": "overworld",
 								"x": 1305,
 								"y": 1165,
@@ -1574,11 +1289,6 @@
 						"short_name": "C Bridge",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3090,
-								"y": 2910
-							},
-							{
 								"map": "overworld",
 								"x": 1415,
 								"y": 1160,
@@ -1598,11 +1308,6 @@
 						"name": "Invisible Maze",
 						"short_name": "Invis Maze",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3005,
-								"y": 2850
-							},
 							{
 								"map": "overworld",
 								"x": 1330,
@@ -1634,11 +1339,6 @@
 						"short_name": "E Plat",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3455,
-								"y": 3030
-							},
-							{
 								"map": "overworld",
 								"x": 1780,
 								"y": 1280,
@@ -1658,11 +1358,6 @@
 						"name": "First Locked Door",
 						"short_name": "1st Lock",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3175,
-								"y": 2725
-							},
 							{
 								"map": "overworld",
 								"x": 1500,
@@ -1688,11 +1383,6 @@
 						"short_name": "Envoy Bridge",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2075,
-								"y": 2220
-							},
-							{
 								"map": "overworld",
 								"x": 400,
 								"y": 470,
@@ -1712,11 +1402,6 @@
 						"name": "Character Customization Room",
 						"short_name": "Customizer",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2595,
-								"y": 2680
-							},
 							{
 								"map": "overworld",
 								"x": 920,
@@ -1738,11 +1423,6 @@
 						"short_name": "Tomb Island",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2350,
-								"y": 2170
-							},
-							{
 								"map": "overworld",
 								"x": 675,
 								"y": 420,
@@ -1763,11 +1443,6 @@
 						"short_name": "Beach Pass",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2580,
-								"y": 2860
-							},
-							{
 								"map": "overworld",
 								"x": 905,
 								"y": 1110,
@@ -1786,11 +1461,6 @@
 						"name": "West Beach Bridge",
 						"short_name": "W B Bridge",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1915,
-								"y": 2785
-							},
 							{
 								"map": "overworld",
 								"x": 240,
@@ -1812,11 +1482,6 @@
 						"short_name": "Bomb Under Gate",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2630,
-								"y": 2605
-							},
-							{
 								"map": "overworld",
 								"x": 955,
 								"y": 855,
@@ -1836,11 +1501,6 @@
 						"short_name": "Shop",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2575,
-								"y": 2265
-							},
-							{
 								"map": "overworld",
 								"x": 900,
 								"y": 515,
@@ -1853,20 +1513,10 @@
 								"size": 45
 							},
 							{
-								"map": "fullmap",
-								"x": 870,
-								"y": 2430
-							},
-							{
 								"map": "eastern_vault",
 								"x": 330,
 								"y": 640,
 								"size": 45
-							},
-							{
-								"map": "fullmap",
-								"x": 3915,
-								"y": 1820
 							},
 							{
 								"map": "eastern_vault",
@@ -1875,20 +1525,10 @@
 								"size": 45
 							},
 							{
-								"map": "fullmap",
-								"x": 3975,
-								"y": 1470
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 1035,
 								"y": 240,
 								"size": 45
-							},
-							{
-								"map": "fullmap",
-								"x": 2680,
-								"y": 3350
 							},
 							{
 								"map": "graveyard",
@@ -1897,31 +1537,16 @@
 								"size": 45
 							},
 							{
-								"map": "fullmap",
-								"x": 3995,
-								"y": 3360
-							},
-							{
 								"map": "cathedral",
 								"x": 465,
 								"y": 485,
 								"size": 45
 							},
 							{
-								"map": "fullmap",
-								"x": 4895,
-								"y": 3260
-							},
-							{
 								"map": "quarry",
 								"x": 1000,
 								"y": 1120,
 								"size": 45
-							},
-							{
-								"map": "fullmap",
-								"x": 1625,
-								"y": 2145
 							}
 						],
 						"sections": [
@@ -1956,20 +1581,10 @@
 						"short_name": "Well?",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2770,
-								"y": 2500
-							},
-							{
 								"map": "overworld",
 								"x": 1095,
 								"y": 780,
 								"size": 45
-							},
-							{
-								"map": "fullmap",
-								"x": 865,
-								"y": 2510
 							},
 							{
 								"map": "west_gardens",
@@ -1978,31 +1593,16 @@
 								"size": 45
 							},
 							{
-								"map": "fullmap",
-								"x": 3760,
-								"y": 2670
-							},
-							{
 								"map": "east_forest",
 								"x": 80,
 								"y": 175,
 								"size": 35
 							},
 							{
-								"map": "fullmap",
-								"x": 4215,
-								"y": 2070
-							},
-							{
 								"map": "eastern_vault",
 								"x": 630,
 								"y": 890,
 								"size": 45
-							},
-							{
-								"map": "fullmap",
-								"x": 4030,
-								"y": 3526
 							},
 							{
 								"map": "graveyard",
@@ -2047,11 +1647,6 @@
 						"short_name": "East Bell",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3860,
-								"y": 2520
-							},
-							{
 								"map": "east_forest",
 								"x": 180,
 								"y": 25,
@@ -2075,11 +1670,6 @@
 						"short_name": "From Bell",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3945,
-								"y": 2345
-							},
-							{
 								"map": "eastern_vault",
 								"x": 560,
 								"y": 1165,
@@ -2090,11 +1680,6 @@
 								"x": 70,
 								"y": -20,
 								"size": 35
-							},
-							{
-								"map": "fullmap",
-								"x": 3750,
-								"y": 2475
 							}
 						],
 						"sections": [
@@ -2109,11 +1694,6 @@
 						"name": "Bell Tower Entrance",
 						"short_name": "Tower Entrance",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3780,
-								"y": 2525
-							},
 							{
 								"map": "east_forest",
 								"x": 100,
@@ -2141,11 +1721,6 @@
 						"short_name": "Telescope",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3780,
-								"y": 2785
-							},
-							{
 								"map": "east_forest",
 								"x": 100,
 								"y": 290,
@@ -2164,11 +1739,6 @@
 						"name": "Guardhouse Ledge",
 						"short_name": "Ledge",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3795,
-								"y": 2575
-							},
 							{
 								"map": "east_forest",
 								"x": 140,
@@ -2200,11 +1770,6 @@
 						"short_name": "Lower Forest",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3855,
-								"y": 2820
-							},
-							{
 								"map": "east_forest",
 								"x": 175,
 								"y": 325,
@@ -2222,11 +1787,6 @@
 						"name": "Teleporter Page",
 						"short_name": "Telepage",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3900,
-								"y": 2850
-							},
 							{
 								"map": "east_forest",
 								"x": 220,
@@ -2247,11 +1807,6 @@
 						"short_name": "Above Shrine",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3990,
-								"y": 2800
-							},
-							{
 								"map": "east_forest",
 								"x": 310,
 								"y": 305,
@@ -2270,11 +1825,6 @@
 						"name": "Behind the Shrine",
 						"short_name": "Behind",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4055,
-								"y": 2825
-							},
 							{
 								"map": "east_forest",
 								"x": 375,
@@ -2295,11 +1845,6 @@
 						"short_name": "Spiders",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3710,
-								"y": 3095
-							},
-							{
 								"map": "east_forest",
 								"x": 30,
 								"y": 600,
@@ -2318,11 +1863,6 @@
 						"short_name": "Under Spiders",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3680,
-								"y": 3095
-							},
-							{
 								"map": "east_forest",
 								"x": 0,
 								"y": 600,
@@ -2340,11 +1880,6 @@
 						"name": "Lower Orb Chest",
 						"short_name": "Lower Orb",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3890,
-								"y": 3205
-							},
 							{
 								"map": "east_forest",
 								"x": 210,
@@ -2366,11 +1901,6 @@
 						"short_name": "Past Lorb",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3890,
-								"y": 3245
-							},
-							{
 								"map": "east_forest",
 								"x": 210,
 								"y": 750,
@@ -2390,11 +1920,6 @@
 						"name": "Secret of the Golden Obelisk",
 						"short_name": "Obelisk",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3995,
-								"y": 3095
-							},
 							{
 								"map": "east_forest",
 								"x": 315,
@@ -2421,11 +1946,6 @@
 						"short_name": "Blob",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3760,
-								"y": 2985
-							},
-							{
 								"map": "east_forest",
 								"x": 80,
 								"y": 490,
@@ -2446,11 +1966,6 @@
 						"short_name": "Lower Floor",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3910,
-								"y": 2945
-							},
-							{
 								"map": "east_forest",
 								"x": 230,
 								"y": 450,
@@ -2469,11 +1984,6 @@
 						"short_name": "",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3995,
-								"y": 2880
-							},
-							{
 								"map": "east_forest",
 								"x": 315,
 								"y": 385,
@@ -2491,11 +2001,6 @@
 						"name": "Guardhouse 1 Top Floor",
 						"short_name": "1 Top Floor",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3970,
-								"y": 2605
-							},
 							{
 								"map": "east_forest",
 								"x": 290,
@@ -2521,11 +2026,6 @@
 						"short_name": "Captain",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3900,
-								"y": 2565
-							},
-							{
 								"map": "east_forest",
 								"x": 220,
 								"y": 70,
@@ -2545,11 +2045,6 @@
 						"short_name": "",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3905,
-								"y": 2500
-							},
-							{
 								"map": "east_forest",
 								"x": 225,
 								"y": 5,
@@ -2567,11 +2062,6 @@
 						"name": "Across the Bridges",
 						"short_name": "Bridges",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4195,
-								"y": 2580
-							},
 							{
 								"map": "east_forest",
 								"x": 515,
@@ -2591,11 +2081,6 @@
 						"short_name": "Upper Path",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4325,
-								"y": 2575
-							},
-							{
 								"map": "east_forest",
 								"x": 645,
 								"y": 80,
@@ -2613,11 +2098,6 @@
 						"name": "Lower Path Chest",
 						"short_name": "Lower Path",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4175,
-								"y": 2580
-							},
 							{
 								"map": "east_forest",
 								"x": 495,
@@ -2637,20 +2117,10 @@
 						"short_name": "Sword",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4155,
-								"y": 2725
-							},
-							{
 								"map": "east_forest",
 								"x": 770,
 								"y": 225,
 								"size": 35
-							},
-							{
-								"map": "fullmap",
-								"x": 1070,
-								"y": 4450
 							},
 							{
 								"map": "far_shore",
@@ -2677,11 +2147,6 @@
 						"short_name": "Bomb Wall",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3770,
-								"y": 2615
-							},
-							{
 								"map": "east_forest",
 								"x": 90,
 								"y": 120,
@@ -2700,11 +2165,6 @@
 						"name": "Grave Secret",
 						"short_name": "Grave Secret",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4405,
-								"y": 2690
-							},
 							{
 								"map": "east_forest",
 								"x": 725,
@@ -2736,11 +2196,6 @@
 						"short_name": "Entrance",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3390,
-								"y": 665
-							},
-							{
 								"map": "well",
 								"x": 720,
 								"y": 1315,
@@ -2758,11 +2213,6 @@
 						"name": "Entrance Waterfall",
 						"short_name": "1st Waterfall",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3430,
-								"y": 765
-							},
 							{
 								"map": "well",
 								"x": 760,
@@ -2782,11 +2232,6 @@
 						"short_name": "Page",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3305,
-								"y": 1120
-							},
-							{
 								"map": "well",
 								"x": 635,
 								"y": 770,
@@ -2805,11 +2250,6 @@
 						"short_name": "C Waterfall",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3655,
-								"y": 1035
-							},
-							{
 								"map": "well",
 								"x": 985,
 								"y": 685,
@@ -2827,11 +2267,6 @@
 						"name": "Isolated Water Chest",
 						"short_name": "Isolated",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3265,
-								"y": 960
-							},
 							{
 								"map": "well",
 								"x": 595,
@@ -2852,11 +2287,6 @@
 						"short_name": "Rubble",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3630,
-								"y": 405
-							},
-							{
 								"map": "well",
 								"x": 960,
 								"y": 55,
@@ -2875,11 +2305,6 @@
 						"short_name": "Hidden Room",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3055,
-								"y": 350
-							},
-							{
 								"map": "well",
 								"x": 385,
 								"y": 0,
@@ -2897,11 +2322,6 @@
 						"name": "Under the Stairs",
 						"short_name": "Under Stairs",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2780,
-								"y": 825
-							},
 							{
 								"map": "well",
 								"x": 110,
@@ -2922,11 +2342,6 @@
 						"short_name": "Mound",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3230,
-								"y": 775
-							},
-							{
 								"map": "well",
 								"x": 560,
 								"y": 425,
@@ -2946,11 +2361,6 @@
 						"short_name": "Ladder",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3080,
-								"y": 1190
-							},
-							{
 								"map": "well",
 								"x": 410,
 								"y": 840,
@@ -2968,11 +2378,6 @@
 						"name": "Top of Ladder Secret",
 						"short_name": "Ladder Secret",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3250,
-								"y": 1365
-							},
 							{
 								"map": "well",
 								"x": 580,
@@ -2993,11 +2398,6 @@
 						"short_name": "Fox Shrine",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3500,
-								"y": 1350
-							},
-							{
 								"map": "well",
 								"x": 830,
 								"y": 1000,
@@ -3017,11 +2417,6 @@
 						"short_name": "Phrends",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2830,
-								"y": 1190
-							},
-							{
 								"map": "well",
 								"x": 160,
 								"y": 840,
@@ -3039,11 +2434,6 @@
 						"name": "Balcony Chest",
 						"short_name": "Balcony",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2755,
-								"y": 1045
-							},
 							{
 								"map": "well",
 								"x": 85,
@@ -3063,11 +2453,6 @@
 						"name": "Shrine Page",
 						"short_name": "Page",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3230,
-								"y": 1550
-							},
 							{
 								"map": "well",
 								"x": 560,
@@ -3094,11 +2479,6 @@
 						"short_name": "On Tomb",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1580,
-								"y": 550
-							},
-							{
 								"map": "dark_tomb",
 								"x": 520,
 								"y": 175,
@@ -3116,11 +2496,6 @@
 						"name": "Balcony Chest",
 						"short_name": "Balcony",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1555,
-								"y": 1135
-							},
 							{
 								"map": "dark_tomb",
 								"x": 495,
@@ -3140,11 +2515,6 @@
 						"short_name": "Behind Stairs",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1225,
-								"y": 1055
-							},
-							{
 								"map": "dark_tomb",
 								"x": 165,
 								"y": 680,
@@ -3162,11 +2532,6 @@
 						"name": "Spikes Corner",
 						"short_name": "Spikes Corner",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1515,
-								"y": 1195
-							},
 							{
 								"map": "dark_tomb",
 								"x": 455,
@@ -3187,11 +2552,6 @@
 						"short_name": "Laser Path",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1915,
-								"y": 910
-							},
-							{
 								"map": "dark_tomb",
 								"x": 855,
 								"y": 535,
@@ -3209,11 +2569,6 @@
 						"name": "Guarded by Lazers",
 						"short_name": "Lazers...",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1895,
-								"y": 995
-							},
 							{
 								"map": "dark_tomb",
 								"x": 835,
@@ -3233,11 +2588,6 @@
 						"name": "Guarded by Many Lazers",
 						"short_name": "LAZERS!!!!!",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2200,
-								"y": 1135
-							},
 							{
 								"map": "dark_tomb",
 								"x": 1140,
@@ -3263,16 +2613,6 @@
 						"name": "Hero's Grave",
 						"short_name": "Grave",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1325,
-								"y": 2570
-							},
-							{
-								"map": "fullmap",
-								"x": 460,
-								"y": 4450
-							},
 							{
 								"map": "west_gardens",
 								"x": 1085,
@@ -3300,11 +2640,6 @@
 						"short_name": "Hidden",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1400,
-								"y": 2555
-							},
-							{
 								"map": "west_gardens",
 								"x": 1160,
 								"y": 135,
@@ -3322,11 +2657,6 @@
 						"name": "Silver Door Beneath Bridge",
 						"short_name": "Silver Door",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 960,
-								"y": 2590
-							},
 							{
 								"map": "west_gardens",
 								"x": 720,
@@ -3346,11 +2676,6 @@
 						"name": "Fisherman's Perch",
 						"short_name": "Fisherman",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 620,
-								"y": 2540
-							},
 							{
 								"map": "west_gardens",
 								"x": 380,
@@ -3372,11 +2697,6 @@
 						"short_name": "Terry Page",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 625,
-								"y": 2595
-							},
-							{
 								"map": "west_gardens",
 								"x": 385,
 								"y": 175,
@@ -3396,11 +2716,6 @@
 						"short_name": "Broken Bridge",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 410,
-								"y": 2770
-							},
-							{
 								"map": "west_gardens",
 								"x": 170,
 								"y": 350,
@@ -3418,11 +2733,6 @@
 						"name": "Shallow Island Chest",
 						"short_name": "Shallow Island",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 290,
-								"y": 2900
-							},
 							{
 								"map": "west_gardens",
 								"x": 50,
@@ -3444,11 +2754,6 @@
 						"short_name": "Shortcuts",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 890,
-								"y": 2710
-							},
-							{
 								"map": "west_gardens",
 								"x": 650,
 								"y": 290,
@@ -3468,11 +2773,6 @@
 						"short_name": "Isolated Walkway",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1180,
-								"y": 2745
-							},
-							{
 								"map": "west_gardens",
 								"x": 940,
 								"y": 325,
@@ -3491,11 +2791,6 @@
 						"name": "Fairy Tree",
 						"short_name": "Fairy Tree",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 220,
-								"y": 2980
-							},
 							{
 								"map": "west_gardens",
 								"x": -20,
@@ -3523,11 +2818,6 @@
 						"short_name": "On the Way",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 840,
-								"y": 3105
-							},
-							{
 								"map": "west_gardens",
 								"x": 600,
 								"y": 685,
@@ -3546,11 +2836,6 @@
 						"short_name": "Under Shrine",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 930,
-								"y": 3125
-							},
-							{
 								"map": "west_gardens",
 								"x": 690,
 								"y": 705,
@@ -3568,11 +2853,6 @@
 						"name": "Across the Way",
 						"short_name": "Across the Way",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 825,
-								"y": 2755
-							},
 							{
 								"map": "west_gardens",
 								"x": 585,
@@ -3593,11 +2873,6 @@
 						"short_name": "Under Obelisk",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 935,
-								"y": 3205
-							},
-							{
 								"map": "west_gardens",
 								"x": 695,
 								"y": 785,
@@ -3616,11 +2891,6 @@
 						"name": "Behind the Magic Dagger Page",
 						"short_name": "Behind Dagger Page",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1240,
-								"y": 3030
-							},
 							{
 								"map": "west_gardens",
 								"x": 1000,
@@ -3642,11 +2912,6 @@
 						"short_name": "Dagger Island",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1190,
-								"y": 3050
-							},
-							{
 								"map": "west_gardens",
 								"x": 950,
 								"y": 630,
@@ -3665,11 +2930,6 @@
 						"name": "Magic Dagger Cave",
 						"short_name": "Dagger Cave",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1120,
-								"y": 3000
-							},
 							{
 								"map": "west_gardens",
 								"x": 880,
@@ -3690,11 +2950,6 @@
 						"short_name": "Behind Grass",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1210,
-								"y": 2800
-							},
-							{
 								"map": "west_gardens",
 								"x": 970,
 								"y": 380,
@@ -3713,11 +2968,6 @@
 						"name": "Garden Tiles",
 						"short_name": "Tiles",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 960,
-								"y": 2795
-							},
 							{
 								"map": "west_gardens",
 								"x": 720,
@@ -3744,11 +2994,6 @@
 						"short_name": "Boss Ladder",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1045,
-								"y": 2735
-							},
-							{
 								"map": "west_gardens",
 								"x": 805,
 								"y": 315,
@@ -3766,11 +3011,6 @@
 						"name": "Below the Bridge Mound",
 						"short_name": "Bridge Mound",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 890,
-								"y": 2910
-							},
 							{
 								"map": "west_gardens",
 								"x": 650,
@@ -3792,11 +3032,6 @@
 						"short_name": "Garden Knight",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 960,
-								"y": 2475
-							},
-							{
 								"map": "west_gardens",
 								"x": 720,
 								"y": 55,
@@ -3815,11 +3050,6 @@
 						"name": "Garden Knight Reward",
 						"short_name": "Boss Reward",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1195,
-								"y": 2470
-							},
 							{
 								"map": "west_gardens",
 								"x": 955,
@@ -3847,11 +3077,6 @@
 						"short_name": "Vault Path",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3875,
-								"y": 2315
-							},
-							{
 								"map": "eastern_vault",
 								"x": 490,
 								"y": 1135,
@@ -3870,11 +3095,6 @@
 						"name": "Behind the Obelisk",
 						"short_name": "Obelisk",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4220,
-								"y": 2275
-							},
 							{
 								"map": "eastern_vault",
 								"x": 635,
@@ -3895,11 +3115,6 @@
 						"short_name": "Before Down",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3850,
-								"y": 1950
-							},
-							{
 								"map": "eastern_vault",
 								"x": 265,
 								"y": 770,
@@ -3919,11 +3134,6 @@
 						"name": "Eastern Vault Page",
 						"short_name": "Vault Page",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3935,
-								"y": 1895
-							},
 							{
 								"map": "eastern_vault",
 								"x": 350,
@@ -3949,11 +3159,6 @@
 								"short_name": "Waterfall",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4555,
-										"y": 2300
-									},
-									{
 										"map": "earth",
 										"x": 170,
 										"y": 310,
@@ -3971,11 +3176,6 @@
 								"name": "Hit the Switch",
 								"short_name": "Switch",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4500,
-										"y": 2200
-									},
 									{
 										"map": "earth",
 										"x": 115,
@@ -3997,11 +3197,6 @@
 								"short_name": "First",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 5135,
-										"y": 2395
-									},
-									{
 										"map": "earth",
 										"x": 750,
 										"y": 405,
@@ -4020,11 +3215,6 @@
 								"short_name": "Last",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 5245,
-										"y": 2310
-									},
-									{
 										"map": "earth",
 										"x": 860,
 										"y": 320,
@@ -4042,11 +3232,6 @@
 								"name": "Surrounded by Barrels",
 								"short_name": "Barrels",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 5185,
-										"y": 1970
-									},
 									{
 										"map": "earth",
 										"x": 800,
@@ -4072,11 +3257,6 @@
 								"short_name": "West Upper",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 3650,
-										"y": 1355
-									},
-									{
 										"map": "eastern_vault",
 										"x": 65,
 										"y": 175,
@@ -4095,11 +3275,6 @@
 								"short_name": "West Balcony",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 3625,
-										"y": 1490
-									},
-									{
 										"map": "eastern_vault",
 										"x": 40,
 										"y": 310,
@@ -4117,11 +3292,6 @@
 								"name": "Obelisk Candles Secret",
 								"short_name": "Candle Fairy",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 3715,
-										"y": 1570
-									},
 									{
 										"map": "eastern_vault",
 										"x": 130,
@@ -4148,20 +3318,10 @@
 								"short_name": "Vault Grave",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 5245,
-										"y": 1830
-									},
-									{
 										"map": "eastern_vault",
 										"x": 1660,
 										"y": 650,
 										"size": 45
-									},
-									{
-										"map": "fullmap",
-										"x": 920,
-										"y": 4185
 									},
 									{
 										"map": "far_shore",
@@ -4188,11 +3348,6 @@
 								"short_name": "Leaves",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 5175,
-										"y": 1730
-									},
-									{
 										"map": "eastern_vault",
 										"x": 1590,
 										"y": 550,
@@ -4213,11 +3368,6 @@
 								"short_name": "Outside Lower",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4675,
-										"y": 1470
-									},
-									{
 										"map": "eastern_vault",
 										"x": 1090,
 										"y": 290,
@@ -4236,11 +3386,6 @@
 								"name": "Upper Outside Chest",
 								"short_name": "Outside Upper",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4825,
-										"y": 1770
-									},
 									{
 										"map": "eastern_vault",
 										"x": 1240,
@@ -4261,11 +3406,6 @@
 								"short_name": "Secret Door",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4355,
-										"y": 1325
-									},
-									{
 										"map": "eastern_vault",
 										"x": 770,
 										"y": 145,
@@ -4284,11 +3424,6 @@
 								"name": "Behind The Golden Door",
 								"short_name": "Gold Door",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4185,
-										"y": 1250
-									},
 									{
 										"map": "eastern_vault",
 										"x": 600,
@@ -4325,11 +3460,6 @@
 						"short_name": "Beach",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2825,
-								"y": 3355
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 1180,
 								"y": 245,
@@ -4349,11 +3479,6 @@
 						"short_name": "Bird",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2435,
-								"y": 3545
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 790,
 								"y": 435,
@@ -4372,11 +3497,6 @@
 						"short_name": "Water",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2475,
-								"y": 3610
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 830,
 								"y": 500,
@@ -4394,11 +3514,6 @@
 						"name": "Brick House Top",
 						"short_name": "Brick Top",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2385,
-								"y": 4065
-							},
 							{
 								"map": "ruined_atoll",
 								"x": 740,
@@ -4419,11 +3534,6 @@
 						"short_name": "Key",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2865,
-								"y": 3300
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 1220,
 								"y": 190,
@@ -4441,11 +3551,6 @@
 						"name": "Bottom of Brick Walkway",
 						"short_name": "Bottom Walkway",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2945,
-								"y": 3430
-							},
 							{
 								"map": "ruined_atoll",
 								"x": 1300,
@@ -4466,11 +3571,6 @@
 						"short_name": "Top Walkway",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2945,
-								"y": 3560
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 1300,
 								"y": 450,
@@ -4489,11 +3589,6 @@
 						"name": "Locked Brick House",
 						"short_name": "Locked House",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2900,
-								"y": 3760
-							},
 							{
 								"map": "ruined_atoll",
 								"x": 1255,
@@ -4514,11 +3609,6 @@
 						"short_name": "Under Telescope",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2945,
-								"y": 3940
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 1300,
 								"y": 830,
@@ -4537,11 +3627,6 @@
 						"name": "Hidden Ladder Chest",
 						"short_name": "Hidden Ladder",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2700,
-								"y": 4055
-							},
 							{
 								"map": "ruined_atoll",
 								"x": 1055,
@@ -4562,11 +3647,6 @@
 						"short_name": "Near Crabbo",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2370,
-								"y": 4330
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 725,
 								"y": 1220,
@@ -4585,11 +3665,6 @@
 						"name": "By the Husher's Gate",
 						"short_name": "Husher Gate",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2160,
-								"y": 4300
-							},
 							{
 								"map": "ruined_atoll",
 								"x": 515,
@@ -4610,11 +3685,6 @@
 						"short_name": "Obscured",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 2150,
-								"y": 3970
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 505,
 								"y": 860,
@@ -4633,11 +3703,6 @@
 						"name": "Behind the Envoy",
 						"short_name": "Envoy",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 2065,
-								"y": 3670
-							},
 							{
 								"map": "ruined_atoll",
 								"x": 420,
@@ -4658,11 +3723,6 @@
 						"short_name": "Boomflower",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1835,
-								"y": 3555
-							},
-							{
 								"map": "ruined_atoll",
 								"x": 190,
 								"y": 445,
@@ -4681,11 +3741,6 @@
 						"name": "Celeste Secret",
 						"short_name": "Celeste",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1715,
-								"y": 3735
-							},
 							{
 								"map": "ruined_atoll",
 								"x": 70,
@@ -4709,11 +3764,6 @@
 								"short_name": "Grapplebolt",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4060,
-										"y": 4055
-									},
-									{
 										"map": "frogs_domain",
 										"x": 1625,
 										"y": 195,
@@ -4733,11 +3783,6 @@
 								"name": "Grapple Above the Fox Shrine",
 								"short_name": "Shrine Grapple",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 3255,
-										"y": 4325
-									},
 									{
 										"map": "frogs_domain",
 										"x": 820,
@@ -4759,11 +3804,6 @@
 								"short_name": "Table",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 3560,
-										"y": 4065
-									},
-									{
 										"map": "frogs_domain",
 										"x": 1125,
 										"y": 205,
@@ -4781,11 +3821,6 @@
 								"name": "Hidden Behind the Table",
 								"short_name": "Hidden",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 3685,
-										"y": 4055
-									},
 									{
 										"map": "frogs_domain",
 										"x": 1250,
@@ -4806,11 +3841,6 @@
 								"short_name": "Bath",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 3330,
-										"y": 4130
-									},
-									{
 										"map": "frogs_domain",
 										"x": 895,
 										"y": 270,
@@ -4829,11 +3859,6 @@
 								"name": "Obscured Doorway Ledge",
 								"short_name": "Ledge",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 3155,
-										"y": 4460
-									},
 									{
 										"map": "frogs_domain",
 										"x": 720,
@@ -4854,11 +3879,6 @@
 								"short_name": "NW Chest",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 2500,
-										"y": 4735
-									},
-									{
 										"map": "frogs_domain",
 										"x": 65,
 										"y": 875,
@@ -4876,11 +3896,6 @@
 								"name": "Altar Chest",
 								"short_name": "Altar",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 2910,
-										"y": 4835
-									},
 									{
 										"map": "frogs_domain",
 										"x": 475,
@@ -4901,11 +3916,6 @@
 								"short_name": "Gold Door",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 3435,
-										"y": 4675
-									},
-									{
 										"map": "frogs_domain",
 										"x": 1000,
 										"y": 815,
@@ -4923,11 +3933,6 @@
 								"name": "Baby Slorm Pool",
 								"short_name": "Slorm Pool",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 3755,
-										"y": 4775
-									},
 									{
 										"map": "frogs_domain",
 										"x": 1320,
@@ -4947,11 +3952,6 @@
 								"name": "Magic Orb",
 								"short_name": "Morb",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 3600,
-										"y": 4265
-									},
 									{
 										"map": "frogs_domain",
 										"x": 1165,
@@ -4977,11 +3977,6 @@
 								"name": "Library Rug Secret",
 								"short_name": "Rug",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 1080,
-										"y": 3540
-									},
 									{
 										"map": "library",
 										"x": 115,
@@ -5009,20 +4004,10 @@
 								"short_name": "Grave",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 1075,
-										"y": 3405
-									},
-									{
 										"map": "library",
 										"x": 110,
 										"y": 125,
 										"size": 45
-									},
-									{
-										"map": "fullmap",
-										"x": 600,
-										"y": 4705
 									},
 									{
 										"map": "far_shore",
@@ -5045,11 +4030,6 @@
 								"short_name": "Stolen Pages",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 1395,
-										"y": 3470
-									},
-									{
 										"map": "library",
 										"x": 430,
 										"y": 190,
@@ -5069,11 +4049,6 @@
 								"name": "The Librarian's Stash",
 								"short_name": "Stash",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 1450,
-										"y": 3310
-									},
 									{
 										"map": "library",
 										"x": 485,
@@ -5100,11 +4075,6 @@
 								"name": "The Librarian",
 								"short_name": "Librarian",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 1250,
-										"y": 3700
-									},
 									{
 										"map": "library",
 										"x": 285,
@@ -5139,11 +4109,6 @@
 						"short_name": "Snowy Trees",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 980,
-								"y": 1130
-							},
-							{
 								"map": "quarry",
 								"x": 355,
 								"y": 105,
@@ -5169,11 +4134,6 @@
 						"short_name": "Leaking Obelisk",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1345,
-								"y": 1840
-							},
-							{
 								"map": "quarry",
 								"x": 720,
 								"y": 815,
@@ -5191,11 +4151,6 @@
 						"name": "Backtrack but Below",
 						"short_name": "Backtrack Below",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1390,
-								"y": 2045
-							},
 							{
 								"map": "quarry",
 								"x": 765,
@@ -5216,11 +4171,6 @@
 						"short_name": "Beyond Bridge",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1405,
-								"y": 1710
-							},
-							{
 								"map": "quarry",
 								"x": 780,
 								"y": 685,
@@ -5239,11 +4189,6 @@
 						"name": "Behind the Bombable Wall",
 						"short_name": "Bombable Wall",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1510,
-								"y": 1645
-							},
 							{
 								"map": "quarry",
 								"x": 885,
@@ -5264,11 +4209,6 @@
 						"short_name": "Boxes",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1095,
-								"y": 1765
-							},
-							{
 								"map": "quarry",
 								"x": 470,
 								"y": 740,
@@ -5286,11 +4226,6 @@
 						"name": "Obscured Walkway",
 						"short_name": "Obscured",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1630,
-								"y": 1470
-							},
 							{
 								"map": "quarry",
 								"x": 1005,
@@ -5310,11 +4245,6 @@
 						"short_name": "Dark Telescope",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1840,
-								"y": 1385
-							},
-							{
 								"map": "quarry",
 								"x": 1215,
 								"y": 360,
@@ -5332,11 +4262,6 @@
 						"name": "Cube Scaffolding Bridge",
 						"short_name": "Cube Bridge",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 780,
-								"y": 1830
-							},
 							{
 								"map": "quarry",
 								"x": 155,
@@ -5356,11 +4281,6 @@
 						"short_name": "Tiny Stairs",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1525,
-								"y": 1545
-							},
-							{
 								"map": "quarry",
 								"x": 900,
 								"y": 520,
@@ -5378,11 +4298,6 @@
 						"name": "End of the Ruined Bridge",
 						"short_name": "Ruined Bridge",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1315,
-								"y": 1650
-							},
 							{
 								"map": "quarry",
 								"x": 690,
@@ -5403,11 +4318,6 @@
 						"short_name": "Peaceful",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 825,
-								"y": 1590
-							},
-							{
 								"map": "quarry",
 								"x": 200,
 								"y": 565,
@@ -5427,11 +4337,6 @@
 						"short_name": "Two Ladders",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1575,
-								"y": 1260
-							},
-							{
 								"map": "quarry",
 								"x": 950,
 								"y": 235,
@@ -5449,11 +4354,6 @@
 						"name": "In the Miasma Mound",
 						"short_name": "Miasma Mound",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1360,
-								"y": 1465
-							},
 							{
 								"map": "quarry",
 								"x": 735,
@@ -5474,11 +4374,6 @@
 						"short_name": "Above Shrine",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1210,
-								"y": 1245
-							},
-							{
 								"map": "quarry",
 								"x": 585,
 								"y": 220,
@@ -5497,11 +4392,6 @@
 						"name": "Dash Above Fox Shrine",
 						"short_name": "Dash Shrine",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 1160,
-								"y": 1180
-							},
 							{
 								"map": "quarry",
 								"x": 535,
@@ -5523,20 +4413,10 @@
 						"short_name": "Monastery",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1010,
-								"y": 1245
-							},
-							{
 								"map": "quarry",
 								"x": 385,
 								"y": 220,
 								"size": 45
-							},
-							{
-								"map": "fullmap",
-								"x": 610,
-								"y": 4180
 							},
 							{
 								"map": "far_shore",
@@ -5564,11 +4444,6 @@
 						"short_name": "Large Spiral Stairs",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 1145,
-								"y": 1685
-							},
-							{
 								"map": "quarry",
 								"x": 520,
 								"y": 660,
@@ -5587,11 +4462,6 @@
 						"short_name": "Waterfall",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 805,
-								"y": 1715
-							},
-							{
 								"map": "quarry",
 								"x": 180,
 								"y": 690,
@@ -5609,11 +4479,6 @@
 						"name": "Grass Bomb Chest",
 						"short_name": "Grass Bomb",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 955,
-								"y": 1840
-							},
 							{
 								"map": "quarry",
 								"x": 330,
@@ -5638,11 +4503,6 @@
 								"short_name": "Under Range",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 630,
-										"y": 2255
-									},
-									{
 										"map": "quarry",
 										"x": 5,
 										"y": 1230,
@@ -5662,11 +4522,6 @@
 								"short_name": "Range Boxes",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 745,
-										"y": 1935
-									},
-									{
 										"map": "quarry",
 										"x": 120,
 										"y": 910,
@@ -5684,11 +4539,6 @@
 								"name": "Shooting Range Chest",
 								"short_name": "Shooting Range",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 625,
-										"y": 2165
-									},
 									{
 										"map": "quarry",
 										"x": 0,
@@ -5709,11 +4559,6 @@
 								"short_name": "Scaffolding",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 1445,
-										"y": 2230
-									},
-									{
 										"map": "quarry",
 										"x": 820,
 										"y": 1205,
@@ -5732,11 +4577,6 @@
 								"name": "Under Lower Bridge",
 								"short_name": "Under Bridge",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 970,
-										"y": 2355
-									},
 									{
 										"map": "quarry",
 										"x": 345,
@@ -5757,11 +4597,6 @@
 								"short_name": "Lower Bridge",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 1035,
-										"y": 2380
-									},
-									{
 										"map": "quarry",
 										"x": 410,
 										"y": 1355,
@@ -5780,11 +4615,6 @@
 								"name": "Under Snipers Chest",
 								"short_name": "Under Snipers",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 1160,
-										"y": 2380
-									},
 									{
 										"map": "quarry",
 										"x": 535,
@@ -5805,11 +4635,6 @@
 								"short_name": "",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 755,
-										"y": 2380
-									},
-									{
 										"map": "quarry",
 										"x": 130,
 										"y": 1355,
@@ -5828,11 +4653,6 @@
 								"name": "On the Way to the Ziggurat",
 								"short_name": "Way to Zigg",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 1505,
-										"y": 2325
-									},
 									{
 										"map": "quarry",
 										"x": 880,
@@ -5857,11 +4677,6 @@
 										"short_name": "Switch",
 										"map_locations": [
 											{
-												"map": "fullmap",
-												"x": 510,
-												"y": 2100
-											},
-											{
 												"map": "ziggurat",
 												"x": 430,
 												"y": 905,
@@ -5880,11 +4695,6 @@
 										"name": "Ziggy Bottom",
 										"short_name": "Bottom",
 										"map_locations": [
-											{
-												"map": "fullmap",
-												"x": 490,
-												"y": 2390
-											},
 											{
 												"map": "ziggurat",
 												"x": 410,
@@ -5905,11 +4715,6 @@
 										"short_name": "First Horror",
 										"map_locations": [
 											{
-												"map": "fullmap",
-												"x": 450,
-												"y": 1740
-											},
-											{
 												"map": "ziggurat",
 												"x": 220,
 												"y": 70,
@@ -5929,11 +4734,6 @@
 										"short_name": "Corpses",
 										"map_locations": [
 											{
-												"map": "fullmap",
-												"x": 340,
-												"y": 940
-											},
-											{
 												"map": "ziggurat",
 												"x": 615,
 												"y": 410,
@@ -5951,11 +4751,6 @@
 										"name": "Miasma Spider Ambush",
 										"short_name": "Ambush",
 										"map_locations": [
-											{
-												"map": "fullmap",
-												"x": 10,
-												"y": 1050
-											},
 											{
 												"map": "ziggurat",
 												"x": 280,
@@ -5976,11 +4771,6 @@
 										"short_name": "Autobolts",
 										"map_locations": [
 											{
-												"map": "fullmap",
-												"x": 330,
-												"y": 1105
-											},
-											{
 												"map": "ziggurat",
 												"x": 600,
 												"y": 580,
@@ -5999,11 +4789,6 @@
 										"name": "Hell",
 										"short_name": "Hell",
 										"map_locations": [
-											{
-												"map": "fullmap",
-												"x": 530,
-												"y": 1060
-											},
 											{
 												"map": "ziggurat",
 												"x": 800,
@@ -6024,11 +4809,6 @@
 										"short_name": "Barber",
 										"map_locations": [
 											{
-												"map": "fullmap",
-												"x": 630,
-												"y": 1165
-											},
-											{
 												"map": "ziggurat",
 												"x": 905,
 												"y": 630,
@@ -6047,11 +4827,6 @@
 										"name": "Lonely Chest",
 										"short_name": "Lonely",
 										"map_locations": [
-											{
-												"map": "fullmap",
-												"x": 400,
-												"y": 1165
-											},
 											{
 												"map": "ziggurat",
 												"x": 675,
@@ -6072,11 +4847,6 @@
 										"short_name": "Isolated",
 										"map_locations": [
 											{
-												"map": "fullmap",
-												"x": 670,
-												"y": 1200
-											},
-											{
 												"map": "ziggurat",
 												"x": 935,
 												"y": 670,
@@ -6095,11 +4865,6 @@
 										"name": "Boss Scavenger",
 										"short_name": "Boss",
 										"map_locations": [
-											{
-												"map": "fullmap",
-												"x": 1155,
-												"y": 890
-											},
 											{
 												"map": "ziggurat",
 												"x": 1180,
@@ -6131,11 +4896,6 @@
 						"short_name": "After Cathedral",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3565,
-								"y": 3290
-							},
-							{
 								"map": "graveyard",
 								"x": 75,
 								"y": 430,
@@ -6156,11 +4916,6 @@
 						"short_name": "Tower Bottom",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3755,
-								"y": 3590
-							},
-							{
 								"map": "graveyard",
 								"x": 265,
 								"y": 730,
@@ -6179,11 +4934,6 @@
 						"short_name": "Shallow Island",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 3765,
-								"y": 3285
-							},
-							{
 								"map": "graveyard",
 								"x": 275,
 								"y": 425,
@@ -6201,11 +4951,6 @@
 						"name": "Corner by the Well",
 						"short_name": "Well Corner",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4030,
-								"y": 3750
-							},
 							{
 								"map": "graveyard",
 								"x": 540,
@@ -6229,11 +4974,6 @@
 								"short_name": "Hilltop",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4095,
-										"y": 3565
-									},
-									{
 										"map": "graveyard",
 										"x": 605,
 										"y": 705,
@@ -6252,11 +4992,6 @@
 								"name": "Under Telescope",
 								"short_name": "Under Scope",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4530,
-										"y": 3605
-									},
 									{
 										"map": "graveyard",
 										"x": 1040,
@@ -6277,11 +5012,6 @@
 								"short_name": "Above Grave",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4350,
-										"y": 3720
-									},
-									{
 										"map": "graveyard",
 										"x": 860,
 										"y": 860,
@@ -6300,11 +5030,6 @@
 								"name": "Beside the Grave",
 								"short_name": "By Grave",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4290,
-										"y": 3745
-									},
 									{
 										"map": "graveyard",
 										"x": 800,
@@ -6325,11 +5050,6 @@
 								"short_name": "Wide Open",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4100,
-										"y": 3785
-									},
-									{
 										"map": "graveyard",
 										"x": 610,
 										"y": 925,
@@ -6348,11 +5068,6 @@
 								"name": "Red Skull Golfing",
 								"short_name": "Skolf",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4180,
-										"y": 3730
-									},
 									{
 										"map": "graveyard",
 										"x": 690,
@@ -6373,11 +5088,6 @@
 								"short_name": "Isolated",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4610,
-										"y": 3780
-									},
-									{
 										"map": "graveyard",
 										"x": 1120,
 										"y": 920,
@@ -6396,11 +5106,6 @@
 								"name": "Pillar Dash Chest",
 								"short_name": "Pillar Dash",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4090,
-										"y": 3685
-									},
 									{
 										"map": "graveyard",
 										"x": 600,
@@ -6422,11 +5127,6 @@
 								"short_name": "Ladder Secret",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4340,
-										"y": 3615
-									},
-									{
 										"map": "graveyard",
 										"x": 850,
 										"y": 755,
@@ -6445,11 +5145,6 @@
 								"short_name": "Corner Wall",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4590,
-										"y": 3700
-									},
-									{
 										"map": "graveyard",
 										"x": 1100,
 										"y": 840,
@@ -6467,11 +5162,6 @@
 								"name": "Under the Hero's Grave",
 								"short_name": "Under Grave",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4270,
-										"y": 3180
-									},
 									{
 										"map": "graveyard",
 										"x": 780,
@@ -6492,11 +5182,6 @@
 								"short_name": "Hidden Ramps",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4525,
-										"y": 3385
-									},
-									{
 										"map": "graveyard",
 										"x": 1035,
 										"y": 525,
@@ -6515,11 +5200,6 @@
 								"name": "The Telescope Chest",
 								"short_name": "Scope",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4555,
-										"y": 3640
-									},
 									{
 										"map": "graveyard",
 										"x": 1065,
@@ -6540,11 +5220,6 @@
 								"short_name": "Graveyard End",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4605,
-										"y": 3380
-									},
-									{
 										"map": "graveyard",
 										"x": 1115,
 										"y": 520,
@@ -6564,11 +5239,6 @@
 								"short_name": "Two Hills",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4675,
-										"y": 3270
-									},
-									{
 										"map": "graveyard",
 										"x": 1185,
 										"y": 410,
@@ -6587,11 +5257,6 @@
 								"short_name": "Secret Wall",
 								"map_locations": [
 									{
-										"map": "fullmap",
-										"x": 4240,
-										"y": 2860
-									},
-									{
 										"map": "graveyard",
 										"x": 750,
 										"y": 0,
@@ -6609,11 +5274,6 @@
 								"name": "Obscured Chest",
 								"short_name": "Obscured",
 								"map_locations": [
-									{
-										"map": "fullmap",
-										"x": 4140,
-										"y": 3360
-									},
 									{
 										"map": "graveyard",
 										"x": 650,
@@ -6641,11 +5301,6 @@
 						"short_name": "Library",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4935,
-								"y": 2955
-							},
-							{
 								"map": "cathedral",
 								"x": 505,
 								"y": 180,
@@ -6664,11 +5319,6 @@
 						"short_name": "Secret",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4870,
-								"y": 2955
-							},
-							{
 								"map": "cathedral",
 								"x": 440,
 								"y": 180,
@@ -6686,11 +5336,6 @@
 						"name": "Library Double Secret",
 						"short_name": "Double Secret",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4570,
-								"y": 3025
-							},
 							{
 								"map": "cathedral",
 								"x": 140,
@@ -6717,11 +5362,6 @@
 						"short_name": "Ruin Copies",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4945,
-								"y": 2905
-							},
-							{
 								"map": "cathedral",
 								"x": 515,
 								"y": 130,
@@ -6741,11 +5381,6 @@
 						"short_name": "Spikes",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4785,
-								"y": 2955
-							},
-							{
 								"map": "cathedral",
 								"x": 355,
 								"y": 180,
@@ -6764,11 +5399,6 @@
 						"name": "Birdcage Room",
 						"short_name": "Birdcage",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4930,
-								"y": 2875
-							},
 							{
 								"map": "cathedral",
 								"x": 500,
@@ -6793,11 +5423,6 @@
 						"short_name": "Balcony",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4850,
-								"y": 2875
-							},
-							{
 								"map": "cathedral",
 								"x": 420,
 								"y": 100,
@@ -6816,11 +5441,6 @@
 						"name": "Top of the Library",
 						"short_name": "Library Top",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4920,
-								"y": 2905
-							},
 							{
 								"map": "cathedral",
 								"x": 490,
@@ -6841,11 +5461,6 @@
 						"short_name": "Lazer Hall",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4565,
-								"y": 2875
-							},
-							{
 								"map": "cathedral",
 								"x": 135,
 								"y": 100,
@@ -6864,11 +5479,6 @@
 						"name": "Cathedral Gauntlet",
 						"short_name": "Gauntlet",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4960,
-								"y": 3565
-							},
 							{
 								"map": "cathedral",
 								"x": 530,
@@ -6890,20 +5500,10 @@
 						"short_name": "Grave",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4315,
-								"y": 3205
-							},
-							{
 								"map": "graveyard",
 								"x": 825,
 								"y": 345,
 								"size": 45
-							},
-							{
-								"map": "fullmap",
-								"x": 920,
-								"y": 4710
 							},
 							{
 								"map": "far_shore",
@@ -6937,11 +5537,6 @@
 						"short_name": "Visit Heir",
 						"map_locations": [
 							{
-								"map": "fullmap",
-								"x": 4485,
-								"y": 731
-							},
-							{
 								"map": "far_shore",
 								"x": 825,
 								"y": 930,
@@ -6961,16 +5556,6 @@
 						"name": "First Manual Page",
 						"short_name": "Page",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 3005,
-								"y": 2995
-							},
-							{
-								"map": "fullmap",
-								"x": 4482,
-								"y": 1020
-							},
 							{
 								"map": "far_shore",
 								"x": 825,
@@ -6996,11 +5581,6 @@
 						"name": "Forever Friend",
 						"short_name": "Friend",
 						"map_locations": [
-							{
-								"map": "fullmap",
-								"x": 4237,
-								"y": 945
-							},
 							{
 								"map": "far_shore",
 								"x": 575,

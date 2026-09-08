@@ -18,11 +18,6 @@
             "name": "[Northwest] Shadowy Corner Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2860,
-                "y": 2100
-              },
-              {
                 "map": "overworld",
                 "x": 1185,
                 "y": 350,
@@ -41,11 +36,6 @@
             "name": "[West] Key Pickup",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2780,
-                "y": 2320
-              },
-              {
                 "map": "overworld",
                 "x": 1105,
                 "y": 570,
@@ -63,11 +53,6 @@
           {
             "name": "[Northwest] Page By Well",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2750,
-                "y": 2240
-              },
               {
                 "map": "overworld",
                 "x": 1075,
@@ -89,11 +74,6 @@
             "name": "[Northwest] Chest Near Turret",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2460,
-                "y": 2200
-              },
-              {
                 "map": "overworld",
                 "x": 785,
                 "y": 450,
@@ -114,11 +94,6 @@
             "name": "[Northwest] Chest Near Quarry Gate",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2035,
-                "y": 2130
-              },
-              {
                 "map": "overworld",
                 "x": 360,
                 "y": 380,
@@ -138,11 +113,6 @@
           {
             "name": "[Central] Bombable Wall",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3165,
-                "y": 2575
-              },
               {
                 "map": "overworld",
                 "x": 1490,
@@ -173,11 +143,6 @@
             "name": "[West] Page on Teleporter",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2520,
-                "y": 2475
-              },
-              {
                 "map": "overworld",
                 "x": 845,
                 "y": 725,
@@ -195,11 +160,6 @@
           {
             "name": "[West] Obscured Behind Windmill",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2530,
-                "y": 2285
-              },
               {
                 "map": "overworld",
                 "x": 855,
@@ -219,11 +179,6 @@
             "name": "[Southwest] Key Pickup",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2585,
-                "y": 2815
-              },
-              {
                 "map": "overworld",
                 "x": 910,
                 "y": 1065,
@@ -241,11 +196,6 @@
           {
             "name": "[Southwest] South Chest Near Guard",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2430,
-                "y": 2960
-              },
               {
                 "map": "overworld",
                 "x": 755,
@@ -267,11 +217,6 @@
             "name": "[Southwest] Chest Guarded By Turret",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2185,
-                "y": 2705
-              },
-              {
                 "map": "overworld",
                 "x": 510,
                 "y": 955,
@@ -289,11 +234,6 @@
           {
             "name": "[Central] Chest Across From Well",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2865,
-                "y": 2560
-              },
               {
                 "map": "overworld",
                 "x": 1190,
@@ -313,11 +253,6 @@
             "name": "[West] Obscured Near Well",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2635,
-                "y": 2535
-              },
-              {
                 "map": "overworld",
                 "x": 960,
                 "y": 785,
@@ -336,11 +271,6 @@
             "name": "[West] Chest Behind Moss Wall",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2195,
-                "y": 2400
-              },
-              {
                 "map": "overworld",
                 "x": 520,
                 "y": 650,
@@ -358,11 +288,6 @@
           {
             "name": "[Southwest] Grapple Chest Over Walkway",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2115,
-                "y": 2665
-              },
               {
                 "map": "overworld",
                 "x": 440,
@@ -385,11 +310,6 @@
             "name": "[Southeast] Page on Pillar by Swamp",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3455,
-                "y": 3030
-              },
-              {
                 "map": "overworld",
                 "x": 1780,
                 "y": 1280,
@@ -409,11 +329,6 @@
           {
             "name": "[Northwest] Page on Pillar by Dark Tomb",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2350,
-                "y": 2170
-              },
               {
                 "map": "overworld",
                 "x": 675,
@@ -435,11 +350,6 @@
             "name": "[Southwest] Obscured In Tunnel To Beach",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2580,
-                "y": 2860
-              },
-              {
                 "map": "overworld",
                 "x": 923,
                 "y": 1020,
@@ -459,11 +369,6 @@
           {
             "name": "[Southwest] Bombable Wall Near Fountain",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2630,
-                "y": 2605
-              },
               {
                 "map": "overworld",
                 "x": 955,
@@ -494,22 +399,10 @@
             "name": "Coins in the Well",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2770,
-                "y": 2500,
-                "size": 35
-              },
-              {
                 "map": "overworld",
                 "x": 1095,
                 "y": 780,
                 "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 865,
-                "y": 2510,
-                "size": 35
               },
               {
                 "map": "west_gardens",
@@ -518,34 +411,16 @@
                 "size": 25
               },
               {
-                "map": "fullmap",
-                "x": 3760,
-                "y": 2670,
-                "size": 35
-              },
-              {
                 "map": "east_forest",
                 "x": 1010,
                 "y": 1114,
                 "size": 20
               },
               {
-                "map": "fullmap",
-                "x": 4215,
-                "y": 2070,
-                "size": 35
-              },
-              {
                 "map": "eastern_vault",
                 "x": 630,
                 "y": 890,
                 "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 4030,
-                "y": 3526,
-                "size": 35
               },
               {
                 "map": "graveyard",
@@ -597,11 +472,6 @@
             "name": "[South] Starting Platform Holy Cross",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2955,
-                "y": 3050
-              },
-              {
                 "map": "overworld",
                 "x": 1280,
                 "y": 1300,
@@ -624,11 +494,6 @@
           {
             "name": "[West] Windchimes Holy Cross",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2735,
-                "y": 2460
-              },
               {
                 "map": "overworld",
                 "x": 1060,
@@ -653,11 +518,6 @@
             "name": "[West] Windmill Holy Cross",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2580,
-                "y": 2330
-              },
-              {
                 "map": "overworld",
                 "x": 900,
                 "y": 580,
@@ -680,11 +540,6 @@
           {
             "name": "[West] Moss Wall Holy Cross",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2100,
-                "y": 2430
-              },
               {
                 "map": "overworld",
                 "x": 425,
@@ -719,11 +574,6 @@
             "name": "[West] Chest After Bell",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2300,
-                "y": 2315
-              },
-              {
                 "map": "overworld",
                 "x": 625,
                 "y": 565,
@@ -754,11 +604,6 @@
             "visibility_rules": "$is_not_bells",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2105,
-                "y": 2246
-              },
-              {
                 "map": "overworld",
                 "x": 430,
                 "y": 495,
@@ -783,11 +628,6 @@
             "chest_opened_img": "images/west_bell.png",
             "visibility_rules": "bell_shuffle",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2105,
-                "y": 2246
-              },
               {
                 "map": "overworld",
                 "x": 430,
@@ -832,11 +672,6 @@
             "name": "[Southeast] Chest Near Swamp",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3530,
-                "y": 2980
-              },
-              {
                 "map": "overworld",
                 "x": 1855,
                 "y": 1230,
@@ -868,11 +703,6 @@
             "name": "[East] Between ladders near Ruined Passage",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3440,
-                "y": 2763
-              },
-              {
                 "map": "overworld",
                 "x": 1766,
                 "y": 1012,
@@ -902,11 +732,6 @@
           {
             "name": "[East] Chest In Trees",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3150,
-                "y": 2665
-              },
               {
                 "map": "overworld",
                 "x": 1475,
@@ -947,11 +772,6 @@
             "name": "[East] Weathervane Holy Cross",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3560,
-                "y": 2625
-              },
-              {
                 "map": "overworld",
                 "x": 1885,
                 "y": 875,
@@ -977,11 +797,6 @@
             "name": "[East] Chest Near Pots",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3640,
-                "y": 2710
-              },
-              {
                 "map": "overworld",
                 "x": 1965,
                 "y": 960,
@@ -1000,11 +815,6 @@
             "name": "[East] Page Near Secret Shop",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3360,
-                "y": 2440
-              },
-              {
                 "map": "overworld",
                 "x": 1685,
                 "y": 690,
@@ -1022,11 +832,6 @@
           {
             "name": "[Northeast] Flowers Holy Cross",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3425,
-                "y": 2290
-              },
               {
                 "map": "overworld",
                 "x": 1750,
@@ -1076,11 +881,6 @@
             "name": "Magic Staff",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2345,
-                "y": 1825
-              },
-              {
                 "map": "overworld",
                 "x": 670,
                 "y": 75,
@@ -1111,11 +911,6 @@
             "name": "[Northeast] Chest Above Patrol Cave",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3445,
-                "y": 1965
-              },
-              {
                 "map": "overworld",
                 "x": 1770,
                 "y": 215,
@@ -1145,11 +940,6 @@
           {
             "name": "[Northwest] Chest Near Golden Obelisk",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2170,
-                "y": 1940
-              },
               {
                 "map": "overworld",
                 "x": 495,
@@ -1198,11 +988,6 @@
             "name": "[Northwest] Chest Beneath Quarry Gate",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2075,
-                "y": 2220
-              },
-              {
                 "map": "overworld",
                 "x": 400,
                 "y": 470,
@@ -1246,11 +1031,6 @@
           {
             "name": "[East] Grapple Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3315,
-                "y": 2140
-              },
               {
                 "map": "overworld",
                 "x": 1640,
@@ -1301,11 +1081,6 @@
           {
             "name": "[West] Near Gardens Entrance",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2055,
-                "y": 2565
-              },
               {
                 "map": "overworld",
                 "x": 380,
@@ -1369,11 +1144,6 @@
             "name": "[Southwest] West Beach Guarded By Turret",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1904,
-                "y": 2680
-              },
-              {
                 "map": "overworld",
                 "x": 229,
                 "y": 930,
@@ -1393,11 +1163,6 @@
           {
             "name": "[Southwest] West Beach Guarded By Turret 2",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1775,
-                "y": 2680
-              },
               {
                 "map": "overworld",
                 "x": 100,
@@ -1420,11 +1185,6 @@
             "name": "[Southwest] Beach Chest Beneath Guard",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2430,
-                "y": 3040
-              },
-              {
                 "map": "overworld",
                 "x": 755,
                 "y": 1210,
@@ -1442,11 +1202,6 @@
           {
             "name": "[Southwest] Flowers Holy Cross",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2635,
-                "y": 3000
-              },
               {
                 "map": "overworld",
                 "x": 960,
@@ -1472,11 +1227,6 @@
           {
             "name": "Sand Hook",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2760,
-                "y": 3020
-              },
               {
                 "map": "overworld",
                 "x": 1085,
@@ -1508,11 +1258,6 @@
             "name": "[South] Beach Page",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2980,
-                "y": 2915
-              },
-              {
                 "map": "overworld",
                 "x": 1305,
                 "y": 1165,
@@ -1531,11 +1276,6 @@
             "name": "[South] Beach Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3090,
-                "y": 2910
-              },
-              {
                 "map": "overworld",
                 "x": 1415,
                 "y": 1160,
@@ -1553,11 +1293,6 @@
           {
             "name": "[Southwest] From West Garden",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1915,
-                "y": 2785
-              },
               {
                 "map": "overworld",
                 "x": 240,
@@ -1590,11 +1325,6 @@
           {
             "name": "[Southwest] Tunnel Guarded By Turret",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2125,
-                "y": 2750
-              },
               {
                 "map": "overworld",
                 "x": 450,
@@ -1783,11 +1513,6 @@
             "name": "Stick House",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2920,
-                "y": 2785
-              },
-              {
                 "map": "overworld",
                 "x": 1245,
                 "y": 1035,
@@ -1935,11 +1660,6 @@
             "name": "Secret Gathering Place",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2540,
-                "y": 2085
-              },
-              {
                 "map": "overworld",
                 "x": 865,
                 "y": 335,
@@ -1985,11 +1705,6 @@
             "name": "Changing Room",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2595,
-                "y": 2680
-              },
-              {
                 "map": "overworld",
                 "x": 920,
                 "y": 930,
@@ -2016,11 +1731,6 @@
           {
             "name": "Patrol Cave",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3450,
-                "y": 2085
-              },
               {
                 "map": "overworld",
                 "x": 1775,
@@ -2057,11 +1767,6 @@
           {
             "name": "Ruined Shop",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2285,
-                "y": 2585
-              },
               {
                 "map": "overworld",
                 "x": 610,
@@ -2136,11 +1841,6 @@
             "name": "Ruined Passage",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3225,
-                "y": 2725
-              },
-              {
                 "map": "overworld",
                 "x": 1500,
                 "y": 975,
@@ -2180,11 +1880,6 @@
             "name": "Special Shop",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3520,
-                "y": 2435
-              },
-              {
                 "map": "overworld",
                 "x": 1845,
                 "y": 685,
@@ -2211,11 +1906,6 @@
           {
             "name": "Caustic Light Cave",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3560,
-                "y": 2910
-              },
               {
                 "map": "overworld",
                 "x": 1885,
@@ -2250,11 +1940,6 @@
           {
             "name": "Maze Cave",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3005,
-                "y": 2850
-              },
               {
                 "map": "overworld",
                 "x": 1330,
@@ -2302,11 +1987,6 @@
             "name": "Cube Cave",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2830,
-                "y": 2655
-              },
-              {
                 "map": "overworld",
                 "x": 1155,
                 "y": 905,
@@ -2348,11 +2028,6 @@
             "name": "Southeast Cross Door",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3560,
-                "y": 2815
-              },
-              {
                 "map": "overworld",
                 "x": 1885,
                 "y": 1065,
@@ -2389,11 +2064,6 @@
           {
             "name": "Fountain Cross Door",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2430,
-                "y": 2590
-              },
               {
                 "map": "overworld",
                 "x": 755,
@@ -2437,11 +2107,6 @@
           {
             "name": "Sealed Temple",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3005,
-                "y": 2110
-              },
               {
                 "map": "overworld",
                 "x": 1330,
@@ -2490,11 +2155,6 @@
             "name": "East Bell",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3860,
-                "y": 2520
-              },
-              {
                 "map": "east_forest",
                 "x": 474,
                 "y": 302,
@@ -2533,11 +2193,6 @@
           {
             "name": "Forest Belltower - After Guard Captain",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3905,
-                "y": 2500
-              },
               {
                 "map": "east_forest",
                 "x": 783,
@@ -2658,11 +2313,6 @@
             "name": "Near Telescope",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3780,
-                "y": 2785
-              },
-              {
                 "map": "east_forest",
                 "x": 1234,
                 "y": 1136,
@@ -2680,11 +2330,6 @@
           {
             "name": "Near Save Point",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3855,
-                "y": 2820
-              },
               {
                 "map": "east_forest",
                 "x": 1270,
@@ -2704,11 +2349,6 @@
             "name": "Page On Teleporter",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3900,
-                "y": 2850
-              },
-              {
                 "map": "east_forest",
                 "x": 1438,
                 "y": 1130,
@@ -2726,11 +2366,6 @@
           {
             "name": "Above Save Point",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3990,
-                "y": 2800
-              },
               {
                 "map": "east_forest",
                 "x": 1478,
@@ -2752,11 +2387,6 @@
             "name": "Above Save Point Obscured",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4055,
-                "y": 2825
-              },
-              {
                 "map": "east_forest",
                 "x": 1562,
                 "y": 950,
@@ -2776,11 +2406,6 @@
           {
             "name": "Bombable Wall",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3770,
-                "y": 2615
-              },
               {
                 "map": "east_forest",
                 "x": 1010,
@@ -2919,11 +2544,6 @@
             "name": "Ice Rod Grapple Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3760,
-                "y": 2985
-              },
-              {
                 "map": "east_forest",
                 "x": 1384,
                 "y": 1266,
@@ -2943,11 +2563,6 @@
           {
             "name": "Lower Grapple Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3890,
-                "y": 3205
-              },
               {
                 "map": "east_forest",
                 "x": 1774,
@@ -2969,11 +2584,6 @@
             "name": "Lower Dash Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3890,
-                "y": 3245
-              },
-              {
                 "map": "east_forest",
                 "x": 1850,
                 "y": 1428,
@@ -2993,11 +2603,6 @@
           {
             "name": "Golden Obelisk Holy Cross",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3995,
-                "y": 3095
-              },
               {
                 "map": "east_forest",
                 "x": 1746,
@@ -3096,11 +2701,6 @@
             "name": "Guardhouse 2 - Upper Floor",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3995,
-                "y": 2880
-              },
-              {
                 "map": "east_forest",
                 "x": 1453,
                 "y": 170,
@@ -3127,11 +2727,6 @@
           {
             "name": "Guardhouse 2 - Bottom Floor Secret",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3910,
-                "y": 2945
-              },
               {
                 "map": "east_forest",
                 "x": 1812,
@@ -3160,12 +2755,6 @@
           {
             "name": "Guard Captain",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3900,
-                "y": 2565,
-                "size": 35
-              },
               {
                 "map": "east_forest",
                 "x": 1982,
@@ -3212,11 +2801,6 @@
             "name": "Forest Grave Path - Above Gate",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4325,
-                "y": 2575
-              },
-              {
                 "map": "east_forest",
                 "x": 1948,
                 "y": 782,
@@ -3236,11 +2820,6 @@
           {
             "name": "Forest Grave Path - Obscured Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4175,
-                "y": 2580
-              },
               {
                 "map": "east_forest",
                 "x": 1862,
@@ -3273,11 +2852,6 @@
             "name": "Forest Grave Path - Upper Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4205,
-                "y": 2580
-              },
-              {
                 "map": "east_forest",
                 "x": 1852,
                 "y": 838,
@@ -3305,11 +2879,6 @@
           {
             "name": "Forest Grave Path - Holy Cross Code by Grave",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4405,
-                "y": 2690
-              },
               {
                 "map": "east_forest",
                 "x": 2214,
@@ -3361,11 +2930,6 @@
             "name": "Skulls Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1580,
-                "y": 550
-              },
-              {
                 "map": "dark_tomb",
                 "x": 520,
                 "y": 175,
@@ -3394,11 +2958,6 @@
             "name": "Spike Maze Upper Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1555,
-                "y": 1135
-              },
-              {
                 "map": "dark_tomb",
                 "x": 495,
                 "y": 760,
@@ -3416,11 +2975,6 @@
           {
             "name": "Spike Maze Near Stairs",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1225,
-                "y": 1055
-              },
               {
                 "map": "dark_tomb",
                 "x": 165,
@@ -3440,11 +2994,6 @@
             "name": "Spike Maze Near Exit",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1515,
-                "y": 1195
-              },
-              {
                 "map": "dark_tomb",
                 "x": 455,
                 "y": 820,
@@ -3463,11 +3012,6 @@
             "name": "1st Laser Room Obscured",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1915,
-                "y": 910
-              },
-              {
                 "map": "dark_tomb",
                 "x": 855,
                 "y": 535,
@@ -3485,11 +3029,6 @@
           {
             "name": "1st Laser Room",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1895,
-                "y": 995
-              },
               {
                 "map": "dark_tomb",
                 "x": 835,
@@ -3518,11 +3057,6 @@
           {
             "name": "2nd Laser Room",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2200,
-                "y": 1135
-              },
               {
                 "map": "dark_tomb",
                 "x": 1140,
@@ -3553,11 +3087,6 @@
           {
             "name": "[Passage To Dark Tomb] Page Pickup",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3230,
-                "y": 1550
-              },
               {
                 "map": "well",
                 "x": 560,
@@ -3625,11 +3154,6 @@
             "name": "[Entryway] Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3390,
-                "y": 665
-              },
-              {
                 "map": "well",
                 "x": 720,
                 "y": 1315,
@@ -3649,11 +3173,6 @@
           {
             "name": "[Entryway] Obscured Behind Waterfall",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3430,
-                "y": 765
-              },
               {
                 "map": "well",
                 "x": 760,
@@ -3675,11 +3194,6 @@
             "name": "[Second Room] Page",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3305,
-                "y": 1120
-              },
-              {
                 "map": "well",
                 "x": 635,
                 "y": 770,
@@ -3697,11 +3211,6 @@
           {
             "name": "[Second Room] Obscured Behind Waterfall",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3655,
-                "y": 1035
-              },
               {
                 "map": "well",
                 "x": 985,
@@ -3721,11 +3230,6 @@
             "name": "[Second Room] Underwater Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3265,
-                "y": 960
-              },
-              {
                 "map": "well",
                 "x": 595,
                 "y": 610,
@@ -3744,11 +3248,6 @@
             "name": "[Back Corridor] Right Secret",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3630,
-                "y": 405
-              },
-              {
                 "map": "well",
                 "x": 960,
                 "y": 55,
@@ -3766,11 +3265,6 @@
           {
             "name": "[Back Corridor] Left Secret",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3055,
-                "y": 350
-              },
               {
                 "map": "well",
                 "x": 385,
@@ -3792,11 +3286,6 @@
             "name": "[Third Room] Beneath Platform Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2780,
-                "y": 825
-              },
-              {
                 "map": "well",
                 "x": 110,
                 "y": 475,
@@ -3814,11 +3303,6 @@
           {
             "name": "[Third Room] Tentacle Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3230,
-                "y": 775
-              },
               {
                 "map": "well",
                 "x": 560,
@@ -3850,11 +3334,6 @@
             "name": "[Side Room] Chest By Pots",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3080,
-                "y": 1190
-              },
-              {
                 "map": "well",
                 "x": 410,
                 "y": 840,
@@ -3872,11 +3351,6 @@
           {
             "name": "[Save Room] Upper Floor Chest 1",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3250,
-                "y": 1365
-              },
               {
                 "map": "well",
                 "x": 580,
@@ -3896,11 +3370,6 @@
             "name": "[Save Room] Upper Floor Chest 2",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3500,
-                "y": 1350
-              },
-              {
                 "map": "well",
                 "x": 830,
                 "y": 1000,
@@ -3918,11 +3387,6 @@
           {
             "name": "[Side Room] Chest By Phrends",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2830,
-                "y": 1190
-              },
               {
                 "map": "well",
                 "x": 160,
@@ -3943,11 +3407,6 @@
           {
             "name": "[Powered Secret Room] Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2755,
-                "y": 1045
-              },
               {
                 "map": "well",
                 "x": 85,
@@ -3986,11 +3445,6 @@
             "name": "[North] Obscured Beneath Hero's Memorial",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1400,
-                "y": 2555
-              },
-              {
                 "map": "west_gardens",
                 "x": 1160,
                 "y": 135,
@@ -4010,11 +3464,6 @@
           {
             "name": "[North] Behind Holy Cross Door",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 960,
-                "y": 2590
-              },
               {
                 "map": "west_gardens",
                 "x": 720,
@@ -4036,11 +3485,6 @@
             "name": "[North] Across From Page Pickup",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 620,
-                "y": 2540
-              },
-              {
                 "map": "west_gardens",
                 "x": 380,
                 "y": 120,
@@ -4060,11 +3504,6 @@
           {
             "name": "[North] Page Pickup",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 625,
-                "y": 2595
-              },
               {
                 "map": "west_gardens",
                 "x": 385,
@@ -4086,11 +3525,6 @@
             "name": "[West] Past Flooded Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 410,
-                "y": 2770
-              },
-              {
                 "map": "west_gardens",
                 "x": 170,
                 "y": 350,
@@ -4110,11 +3544,6 @@
           {
             "name": "[West] In Flooded Walkway",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 290,
-                "y": 2900
-              },
               {
                 "map": "west_gardens",
                 "x": 50,
@@ -4136,11 +3565,6 @@
             "name": "[Central Lowlands] Chest Near Shortcut Bridge",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 890,
-                "y": 2710
-              },
-              {
                 "map": "west_gardens",
                 "x": 650,
                 "y": 290,
@@ -4161,11 +3585,6 @@
             "name": "[Central Lowlands] Passage Beneath Bridge",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1180,
-                "y": 2745
-              },
-              {
                 "map": "west_gardens",
                 "x": 940,
                 "y": 325,
@@ -4185,11 +3604,6 @@
           {
             "name": "[West Lowlands] Tree Holy Cross Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 220,
-                "y": 2980
-              },
               {
                 "map": "west_gardens",
                 "x": -20,
@@ -4216,11 +3630,6 @@
             "name": "[Central Lowlands] Chest Beneath Faeries",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 840,
-                "y": 3105
-              },
-              {
                 "map": "west_gardens",
                 "x": 600,
                 "y": 685,
@@ -4240,11 +3649,6 @@
           {
             "name": "[Central Lowlands] Chest Beneath Save Point",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 930,
-                "y": 3125
-              },
               {
                 "map": "west_gardens",
                 "x": 690,
@@ -4266,11 +3670,6 @@
             "name": "[West Highlands] Upper Left Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 825,
-                "y": 2755
-              },
-              {
                 "map": "west_gardens",
                 "x": 585,
                 "y": 335,
@@ -4290,11 +3689,6 @@
           {
             "name": "[South Highlands] Secret Chest Beneath Fuse",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 935,
-                "y": 3205
-              },
               {
                 "map": "west_gardens",
                 "x": 695,
@@ -4316,11 +3710,6 @@
             "name": "[Southeast Lowlands] Outside Cave",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1190,
-                "y": 3050
-              },
-              {
                 "map": "west_gardens",
                 "x": 950,
                 "y": 630,
@@ -4341,11 +3730,6 @@
             "name": "[Central Highlands] Behind Guard Captain",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1210,
-                "y": 2800
-              },
-              {
                 "map": "west_gardens",
                 "x": 970,
                 "y": 380,
@@ -4365,11 +3749,6 @@
           {
             "name": "[Central Highlands] Holy Cross (Blue Lines)",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 960,
-                "y": 2795
-              },
               {
                 "map": "west_gardens",
                 "x": 720,
@@ -4396,11 +3775,6 @@
             "name": "[Central Highlands] Top of Ladder Before Boss",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1045,
-                "y": 2735
-              },
-              {
                 "map": "west_gardens",
                 "x": 805,
                 "y": 315,
@@ -4420,11 +3794,6 @@
           {
             "name": "[Central Lowlands] Below Left Walkway",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 890,
-                "y": 2910
-              },
               {
                 "map": "west_gardens",
                 "x": 650,
@@ -4454,11 +3823,6 @@
           {
             "name": "[Southeast Lowlands] Ice Dagger Pickup",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1120,
-                "y": 3000
-              },
               {
                 "map": "west_gardens",
                 "x": 880,
@@ -4525,11 +3889,6 @@
             "name": "[East Lowlands] Page Behind Ice Dagger House",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1240,
-                "y": 3030
-              },
-              {
                 "map": "west_gardens",
                 "x": 1000,
                 "y": 610,
@@ -4570,11 +3929,6 @@
           {
             "name": "[Central Highlands] After Garden Knight",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1195,
-                "y": 2470
-              },
               {
                 "map": "west_gardens",
                 "x": 955,
@@ -4619,11 +3973,6 @@
             "name": "[North] Guarded By Bird",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2435,
-                "y": 3545
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 790,
                 "y": 435,
@@ -4641,11 +3990,6 @@
           {
             "name": "[North] Obscured Beneath Bridge",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2475,
-                "y": 3610
-              },
               {
                 "map": "ruined_atoll",
                 "x": 830,
@@ -4665,11 +4009,6 @@
             "name": "[Northeast] Key Pickup",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2865,
-                "y": 3300
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 1220,
                 "y": 190,
@@ -4687,11 +4026,6 @@
           {
             "name": "[Northeast] Chest Beneath Brick Walkway",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2945,
-                "y": 3430
-              },
               {
                 "map": "ruined_atoll",
                 "x": 1300,
@@ -4711,11 +4045,6 @@
             "name": "[Northeast] Chest On Brick Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2945,
-                "y": 3560
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 1300,
                 "y": 450,
@@ -4733,11 +4062,6 @@
           {
             "name": "Locked Brick House",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2900,
-                "y": 3760
-              },
               {
                 "map": "ruined_atoll",
                 "x": 1255,
@@ -4768,11 +4092,6 @@
             "name": "[South] Chest Near Big Crabs",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2370,
-                "y": 4330
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 725,
                 "y": 1220,
@@ -4790,11 +4109,6 @@
           {
             "name": "[South] Near Birds",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2160,
-                "y": 4300
-              },
               {
                 "map": "ruined_atoll",
                 "x": 515,
@@ -4816,11 +4130,6 @@
             "name": "[Southwest] Obscured Behind Fuse",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2150,
-                "y": 3970
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 505,
                 "y": 860,
@@ -4839,11 +4148,6 @@
             "name": "[Northwest] Behind Envoy",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2065,
-                "y": 3670
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 420,
                 "y": 560,
@@ -4861,11 +4165,6 @@
           {
             "name": "[Northwest] Bombable Wall",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1835,
-                "y": 3555
-              },
               {
                 "map": "ruined_atoll",
                 "x": 190,
@@ -4895,11 +4194,6 @@
           {
             "name": "[West] Near Kevin Block",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1715,
-                "y": 3735
-              },
               {
                 "map": "ruined_atoll",
                 "x": 70,
@@ -4932,11 +4226,6 @@
             "name": "[North] From Lower Overworld Entrance",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2825,
-                "y": 3355
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 1180,
                 "y": 245,
@@ -4963,11 +4252,6 @@
             "name": "[South] Upper Floor On Bricks",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2385,
-                "y": 4065
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 740,
                 "y": 955,
@@ -4986,11 +4270,6 @@
             "name": "[Southeast] Chest Near Fuse",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2945,
-                "y": 3940
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 1300,
                 "y": 830,
@@ -5008,11 +4287,6 @@
           {
             "name": "[South] Upper Floor On Power Line",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2700,
-                "y": 4055
-              },
               {
                 "map": "ruined_atoll",
                 "x": 1055,
@@ -5118,11 +4392,6 @@
             "name": "Grapple Above Hot Tub",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3255,
-                "y": 4325
-              },
-              {
                 "map": "frogs_domain",
                 "x": 820,
                 "y": 465,
@@ -5144,11 +4413,6 @@
             "name": "Side Room Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3560,
-                "y": 4065
-              },
-              {
                 "map": "frogs_domain",
                 "x": 1125,
                 "y": 205,
@@ -5169,11 +4433,6 @@
             "name": "Side Room Secret Passage",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3685,
-                "y": 4055
-              },
-              {
                 "map": "frogs_domain",
                 "x": 1250,
                 "y": 195,
@@ -5193,11 +4452,6 @@
           {
             "name": "Side Room Grapple Secret",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3330,
-                "y": 4130
-              },
               {
                 "map": "frogs_domain",
                 "x": 895,
@@ -5220,11 +4474,6 @@
             "name": "Above Vault",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3155,
-                "y": 4460
-              },
-              {
                 "map": "frogs_domain",
                 "x": 720,
                 "y": 600,
@@ -5244,11 +4493,6 @@
           {
             "name": "Main Room Top Floor",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2500,
-                "y": 4735
-              },
               {
                 "map": "frogs_domain",
                 "x": 65,
@@ -5270,11 +4514,6 @@
             "name": "Main Room Bottom Floor",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2910,
-                "y": 4835
-              },
-              {
                 "map": "frogs_domain",
                 "x": 475,
                 "y": 975,
@@ -5294,11 +4533,6 @@
           {
             "name": "Near Vault",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3435,
-                "y": 4675
-              },
               {
                 "map": "frogs_domain",
                 "x": 1000,
@@ -5320,11 +4554,6 @@
             "name": "Slorm Room",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3755,
-                "y": 4775
-              },
-              {
                 "map": "frogs_domain",
                 "x": 1320,
                 "y": 915,
@@ -5344,11 +4573,6 @@
           {
             "name": "Magic Orb Pickup",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3600,
-                "y": 4265
-              },
               {
                 "map": "frogs_domain",
                 "x": 1165,
@@ -5379,11 +4603,6 @@
           {
             "name": "Escape Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4060,
-                "y": 4055
-              },
               {
                 "map": "frogs_domain",
                 "x": 1625,
@@ -5450,11 +4669,6 @@
           {
             "name": "Library Hall",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1080,
-                "y": 3540
-              },
               {
                 "map": "library",
                 "x": 1333,
@@ -5531,11 +4745,6 @@
           {
             "name": "Library Lab Page 1",
             "map_locations": [
-							{
-                "map": "fullmap",
-                "x": 1405,
-                "y": 3470
-              },
               {
                 "map": "library",
                 "x": 558,
@@ -5559,11 +4768,6 @@
           {
             "name": "Library Lab Page 2",
             "map_locations": [
-							{
-                "map": "fullmap",
-                "x": 1390,
-                "y": 3550
-              },
               {
                 "map": "library",
                 "x": 520,
@@ -5587,11 +4791,6 @@
           {
             "name": "Library Lab Page 3",
             "map_locations": [
-							{
-                "map": "fullmap",
-                "x": 1665,
-                "y": 3520
-              },
               {
                 "map": "library",
                 "x": 764,
@@ -5615,11 +4814,6 @@
           {
             "name": "Library Lab by Fuse", 
             "map_locations": [
-							{
-                "map": "fullmap",
-                "x": 1425,
-                "y": 3350
-              },
               {
                 "map": "library",
                 "x": 227,
@@ -5638,11 +4832,6 @@
           {
             "name": "Library Lab Chest by Shrine 1",
             "map_locations": [
-							{
-                "map": "fullmap",
-                "x": 1665,
-                "y": 3350
-              },
               {
                 "map": "library",
                 "x": 570,
@@ -5661,11 +4850,6 @@
           {
             "name": "Library Lab Chest by Shrine 2",
             "map_locations": [
-							{
-                "map": "fullmap",
-                "x": 1630,
-                "y": 3320
-              },
               {
                 "map": "library",
                 "x": 464,
@@ -5684,11 +4868,6 @@
           {
             "name": "Library Lab Chest by Shrine 3",
             "map_locations": [
-							{
-                "map": "fullmap",
-                "x": 1585,
-                "y": 3320
-              },
               {
                 "map": "library",
                 "x": 406,
@@ -5757,11 +4936,6 @@
             "name": "The Librarian",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1250,
-                "y": 3700
-              },
-              {
                 "map": "library",
                 "x": 331,
                 "y": 746,
@@ -5802,11 +4976,6 @@
             "name": "Fortress Courtyard - From East Belltower",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3945,
-                "y": 2345
-              },
-              {
                 "map": "eastern_vault",
                 "x": 560,
                 "y": 1165,
@@ -5818,11 +4987,6 @@
                 "x": 306,
                 "y": 474,
                 "size": 35
-              },
-              {
-                "map": "fullmap",
-                "x": 3750,
-                "y": 2475
               }
             ],
             "sections": [
@@ -5852,11 +5016,6 @@
             "name": "Fortress Courtyard - Below Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3875,
-                "y": 2315
-              },
-              {
                 "map": "eastern_vault",
                 "x": 490,
                 "y": 1135,
@@ -5874,11 +5033,6 @@
           {
             "name": "Fortress Courtyard - Near Fuse",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4220,
-                "y": 2275
-              },
               {
                 "map": "eastern_vault",
                 "x": 635,
@@ -5918,11 +5072,6 @@
             "name": "Fortress Courtyard - Chest Near Cave",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3850,
-                "y": 1950
-              },
-              {
                 "map": "eastern_vault",
                 "x": 265,
                 "y": 770,
@@ -5940,11 +5089,6 @@
           {
             "name": "Fortress Courtyard - Page Near Cave",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3935,
-                "y": 1895
-              },
               {
                 "map": "eastern_vault",
                 "x": 350,
@@ -6034,11 +5178,6 @@
             "name": "Obscured Behind Waterfall",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4555,
-                "y": 2300
-              },
-              {
                 "map": "earth",
                 "x": 170,
                 "y": 310,
@@ -6071,11 +5210,6 @@
 	    ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4500,
-                "y": 2200
-              },
-              {
                 "map": "earth",
                 "x": 115,
                 "y": 210,
@@ -6101,11 +5235,6 @@
             "name": "Cell Chest 1",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 5135,
-                "y": 2395
-              },
-              {
                 "map": "earth",
                 "x": 750,
                 "y": 405,
@@ -6124,11 +5253,6 @@
             "name": "Cell Chest 2",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 5245,
-                "y": 2310
-              },
-              {
                 "map": "earth",
                 "x": 860,
                 "y": 320,
@@ -6146,11 +5270,6 @@
           {
             "name": "Back Room Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 5185,
-                "y": 1970
-              },
               {
                 "map": "earth",
                 "x": 800,
@@ -6200,11 +5319,6 @@
             "name": "Westmost Upper Room",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3650,
-                "y": 1355
-              },
-              {
                 "map": "eastern_vault",
                 "x": 65,
                 "y": 175,
@@ -6228,11 +5342,6 @@
             "name": "[West Wing] Page Pickup",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3625,
-                "y": 1490
-              },
-              {
                 "map": "eastern_vault",
                 "x": 40,
                 "y": 310,
@@ -6250,11 +5359,6 @@
           {
             "name": "[West Wing] Candles Holy Cross",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3715,
-                "y": 1570
-              },
               {
                 "map": "eastern_vault",
                 "x": 130,
@@ -6280,11 +5384,6 @@
           {
             "name": "[East Wing] Bombable Wall",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4355,
-                "y": 1325
-              },
               {
                 "map": "eastern_vault",
                 "x": 770,
@@ -6362,11 +5461,6 @@
             "name": "Fortress East Shortcut - Chest Near Slimes",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4675,
-                "y": 1470
-              },
-              {
                 "map": "eastern_vault",
                 "x": 1090,
                 "y": 290,
@@ -6409,11 +5503,6 @@
             "name": "Fortress Grave Path - Upper Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4825,
-                "y": 1770
-              },
-              {
                 "map": "eastern_vault",
                 "x": 1240,
                 "y": 590,
@@ -6455,11 +5544,6 @@
           {
             "name": "Fortress Leaf Piles - Secret Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 5175,
-                "y": 1730
-              },
               {
                 "map": "eastern_vault",
                 "x": 1590,
@@ -6531,11 +5615,6 @@
           {
             "name": "Fortress Arena",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4185,
-                "y": 1250
-              },
               {
                 "map": "eastern_vault",
                 "x": 600,
@@ -6681,11 +5760,6 @@
             "name": "[East] Near Bridge",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1405,
-                "y": 1710
-              },
-              {
                 "map": "quarry",
                 "x": 780,
                 "y": 685,
@@ -6703,11 +5777,6 @@
           {
             "name": "[East] Bombable Wall",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1510,
-                "y": 1645
-              },
               {
                 "map": "quarry",
                 "x": 885,
@@ -6737,11 +5806,6 @@
             "name": "[East] Obscured Near Telescope",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1630,
-                "y": 1470
-              },
-              {
                 "map": "quarry",
                 "x": 1005,
                 "y": 445,
@@ -6759,11 +5823,6 @@
           {
             "name": "[East] Near Telescope",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1840,
-                "y": 1385
-              },
               {
                 "map": "quarry",
                 "x": 1215,
@@ -6783,11 +5842,6 @@
             "name": "[East] Obscured Near Winding Staircase",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1525,
-                "y": 1545
-              },
-              {
                 "map": "quarry",
                 "x": 900,
                 "y": 520,
@@ -6805,11 +5859,6 @@
           {
             "name": "[Central] Top Floor Overhang",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1315,
-                "y": 1650
-              },
               {
                 "map": "quarry",
                 "x": 690,
@@ -6829,11 +5878,6 @@
             "name": "[East] Upper Floor",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1575,
-                "y": 1260
-              },
-              {
                 "map": "quarry",
                 "x": 950,
                 "y": 235,
@@ -6852,11 +5896,6 @@
             "name": "[East] Obscured Beneath Scaffolding",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1360,
-                "y": 1465
-              },
-              {
                 "map": "quarry",
                 "x": 735,
                 "y": 440,
@@ -6874,11 +5913,6 @@
           {
             "name": "[Central] Obscured Behind Staircase",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1145,
-                "y": 1685
-              },
               {
                 "map": "quarry",
                 "x": 520,
@@ -6917,11 +5951,6 @@
             "name": "[Back Entrance] Bushes Holy Cross",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 980,
-                "y": 1130
-              },
-              {
                 "map": "quarry",
                 "x": 355,
                 "y": 105,
@@ -6947,11 +5976,6 @@
             "name": "[Back Entrance] Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 825,
-                "y": 1590
-              },
-              {
                 "map": "quarry",
                 "x": 200,
                 "y": 565,
@@ -6970,11 +5994,6 @@
             "name": "[Back Entrance] Obscured Behind Wall",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 805,
-                "y": 1715
-              },
-              {
                 "map": "quarry",
                 "x": 180,
                 "y": 690,
@@ -6992,11 +6011,6 @@
           {
             "name": "[West] Upper Area Bombable Wall",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 955,
-                "y": 1840
-              },
               {
                 "map": "quarry",
                 "x": 330,
@@ -7027,11 +6041,6 @@
             "name": "[Central] Near Shortcut Ladder",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1095,
-                "y": 1765
-              },
-              {
                 "map": "quarry",
                 "x": 470,
                 "y": 740,
@@ -7050,11 +6059,6 @@
             "name": "[Central] Obscured Below Entry Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1345,
-                "y": 1840
-              },
-              {
                 "map": "quarry",
                 "x": 720,
                 "y": 815,
@@ -7072,11 +6076,6 @@
           {
             "name": "[Central] Below Entry Walkway",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1390,
-                "y": 2045
-              },
               {
                 "map": "quarry",
                 "x": 765,
@@ -7106,11 +6105,6 @@
             "name": "[Central] Above Ladder",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1210,
-                "y": 1245
-              },
-              {
                 "map": "quarry",
                 "x": 585,
                 "y": 220,
@@ -7128,11 +6122,6 @@
           {
             "name": "[Central] Above Ladder Dash Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1160,
-                "y": 1180
-              },
               {
                 "map": "quarry",
                 "x": 535,
@@ -7203,11 +6192,6 @@
             "name": "[West] Upper Area Near Waterfall",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 780,
-                "y": 1830
-              },
-              {
                 "map": "quarry",
                 "x": 155,
                 "y": 805,
@@ -7225,11 +6209,6 @@
           {
             "name": "[West] Below Shooting Range",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 630,
-                "y": 2255
-              },
               {
                 "map": "quarry",
                 "x": 5,
@@ -7249,11 +6228,6 @@
             "name": "[West] Shooting Range Secret Path",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 745,
-                "y": 1935
-              },
-              {
                 "map": "quarry",
                 "x": 120,
                 "y": 910,
@@ -7271,11 +6245,6 @@
           {
             "name": "[West] Near Shooting Range",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 625,
-                "y": 2165
-              },
               {
                 "map": "quarry",
                 "x": 0,
@@ -7295,11 +6264,6 @@
             "name": "[West] Lower Area Isolated Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1505,
-                "y": 2230
-              },
-              {
                 "map": "quarry",
                 "x": 875,
                 "y": 1205,
@@ -7318,11 +6282,6 @@
             "name": "[West] Lower Area Below Bridge",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 970,
-                "y": 2355
-              },
-              {
                 "map": "quarry",
                 "x": 345,
                 "y": 1330,
@@ -7340,11 +6299,6 @@
           {
             "name": "[West] Lower Area After Bridge",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1035,
-                "y": 2380
-              },
               {
                 "map": "quarry",
                 "x": 410,
@@ -7374,11 +6328,6 @@
             "name": "[Lowlands] Upper Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1160,
-                "y": 2380
-              },
-              {
                 "map": "quarry",
                 "x": 535,
                 "y": 1355,
@@ -7396,11 +6345,6 @@
           {
             "name": "[Lowlands] Below Broken Ladder",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 755,
-                "y": 2380
-              },
               {
                 "map": "quarry",
                 "x": 130,
@@ -7502,12 +6446,6 @@
             "name": "Garden Knight",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 960,
-                "y": 2475,
-                "size": 35
-              },
-              {
                 "map": "west_gardens",
                 "x": 720,
                 "y": 55,
@@ -7576,11 +6514,6 @@
           {
             "name": "[Lowlands] Near Elevator",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1505,
-                "y": 2325
-              },
               {
                 "map": "quarry",
                 "x": 880,
@@ -7659,11 +6592,6 @@
             "name": "Upper - Near Bridge Switch",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 510,
-                "y": 2100
-              },
-              {
                 "map": "ziggurat",
                 "x": 1318,
                 "y": 472,
@@ -7696,11 +6624,6 @@
             "name": "Upper - Beneath Bridge To Administrator",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 490,
-                "y": 2390
-              },
-              {
                 "map": "ziggurat",
                 "x": 1570,
                 "y": 769,
@@ -7726,11 +6649,6 @@
           {
             "name": "Tower - Inside Tower",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 450,
-                "y": 1740
-              },
               {
                 "map": "ziggurat",
                 "x": 1743,
@@ -7770,11 +6688,6 @@
             "name": "Lower - Near Corpses",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 340,
-                "y": 940
-              },
-              {
                 "map": "ziggurat",
                 "x": 532,
                 "y": 1084,
@@ -7791,11 +6704,6 @@
           {
             "name": "Lower - Spider Ambush",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 10,
-                "y": 1050
-              },
               {
                 "map": "ziggurat",
                 "x": 271,
@@ -7823,11 +6731,6 @@
             "name": "Lower - Guarded By Double Turrets",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 330,
-                "y": 1105
-              },
-              {
                 "map": "ziggurat",
                 "x": 702,
                 "y": 1227,
@@ -7844,11 +6747,6 @@
           {
             "name": "Lower - Guarded By Double Turrets 2",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 530,
-                "y": 1060
-              },
               {
                 "map": "ziggurat",
                 "x": 960,
@@ -7878,11 +6776,6 @@
             "name": "Lower - After 2nd Double Turret Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 630,
-                "y": 1165
-              },
-              {
                 "map": "ziggurat",
                 "x": 1182,
                 "y": 1023,
@@ -7899,11 +6792,6 @@
           {
             "name": "Lower - Left Of Checkpoint Before Fuse",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 400,
-                "y": 1165
-              },
               {
                 "map": "ziggurat",
                 "x": 853,
@@ -7933,11 +6821,6 @@
           {
             "name": "Lower - After Guarded Fuse",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 670,
-                "y": 1200
-              },
               {
                 "map": "ziggurat",
                 "x": 1221,
@@ -7971,11 +6854,6 @@
           {
             "name": "Lower - Hexagon Blue",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1155,
-                "y": 890
-              },
               {
                 "map": "ziggurat",
                 "x": 2358,
@@ -8063,11 +6941,6 @@
             "name": "[Entrance] Obscured Inside Watchtower",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3755,
-                "y": 3590
-              },
-              {
                 "map": "graveyard",
                 "x": 265,
                 "y": 730,
@@ -8085,11 +6958,6 @@
           {
             "name": "[Entrance] North Small Island",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3765,
-                "y": 3285
-              },
               {
                 "map": "graveyard",
                 "x": 275,
@@ -8109,11 +6977,6 @@
             "name": "[Entrance] South Near Fence",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4030,
-                "y": 3750
-              },
-              {
                 "map": "graveyard",
                 "x": 540,
                 "y": 890,
@@ -8131,11 +6994,6 @@
           {
             "name": "[South Graveyard] Upper Walkway On Pedestal",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4095,
-                "y": 3565
-              },
               {
                 "map": "graveyard",
                 "x": 605,
@@ -8157,11 +7015,6 @@
             "name": "[South Graveyard] Obscured Beneath Telescope",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4530,
-                "y": 3605
-              },
-              {
                 "map": "graveyard",
                 "x": 1040,
                 "y": 745,
@@ -8181,11 +7034,6 @@
           {
             "name": "[South Graveyard] Above Big Skeleton",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4350,
-                "y": 3720
-              },
               {
                 "map": "graveyard",
                 "x": 860,
@@ -8207,11 +7055,6 @@
             "name": "[South Graveyard] Guarded By Big Skeleton",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4290,
-                "y": 3745
-              },
-              {
                 "map": "graveyard",
                 "x": 800,
                 "y": 885,
@@ -8232,11 +7075,6 @@
             "name": "[South Graveyard] Chest Near Graves",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4100,
-                "y": 3785
-              },
-              {
                 "map": "graveyard",
                 "x": 610,
                 "y": 925,
@@ -8254,11 +7092,6 @@
           {
             "name": "[South Graveyard] 4 Orange Skulls",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4180,
-                "y": 3730
-              },
               {
                 "map": "graveyard",
                 "x": 690,
@@ -8281,11 +7114,6 @@
           {
             "name": "[South Graveyard] Guarded By Tentacles",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4610,
-                "y": 3780
-              },
               {
                 "map": "graveyard",
                 "x": 1120,
@@ -8322,11 +7150,6 @@
             "name": "[South Graveyard] Upper Walkway Dash Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4090,
-                "y": 3685
-              },
-              {
                 "map": "graveyard",
                 "x": 600,
                 "y": 825,
@@ -8347,11 +7170,6 @@
             "name": "[South Graveyard] Obscured Behind Ridge",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4340,
-                "y": 3615
-              },
-              {
                 "map": "graveyard",
                 "x": 850,
                 "y": 755,
@@ -8369,11 +7187,6 @@
           {
             "name": "[Central] South Secret Passage",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4590,
-                "y": 3700
-              },
               {
                 "map": "graveyard",
                 "x": 1100,
@@ -8395,11 +7208,6 @@
             "name": "[Central] Beneath Memorial",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4270,
-                "y": 3180
-              },
-              {
                 "map": "graveyard",
                 "x": 780,
                 "y": 320,
@@ -8419,11 +7227,6 @@
           {
             "name": "[Central] Near Ramps Up",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4525,
-                "y": 3385
-              },
               {
                 "map": "graveyard",
                 "x": 1035,
@@ -8445,11 +7248,6 @@
             "name": "[Upper Graveyard] Near Telescope",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4555,
-                "y": 3640
-              },
-              {
                 "map": "graveyard",
                 "x": 1065,
                 "y": 780,
@@ -8469,11 +7267,6 @@
           {
             "name": "[Upper Graveyard] Near Shield Fleemers",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4605,
-                "y": 3380
-              },
               {
                 "map": "graveyard",
                 "x": 1115,
@@ -8495,11 +7288,6 @@
             "name": "[Upper Graveyard] Obscured Behind Hill",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4675,
-                "y": 3270
-              },
-              {
                 "map": "graveyard",
                 "x": 1185,
                 "y": 410,
@@ -8519,11 +7307,6 @@
           {
             "name": "[Central] Obscured Behind Northern Mountain",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4140,
-                "y": 3360
-              },
               {
                 "map": "graveyard",
                 "x": 650,
@@ -8553,11 +7336,6 @@
           {
             "name": "[Outside Cathedral] Near Moonlight Bridge Door",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4240,
-                "y": 2860
-              },
               {
                 "map": "graveyard",
                 "x": 750,
@@ -8626,11 +7404,6 @@
             "name": "[Entrance] Above Entryway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3565,
-                "y": 3290
-              },
-              {
                 "map": "graveyard",
                 "x": 75,
                 "y": 430,
@@ -8662,11 +7435,6 @@
             "name": "[1F] Library",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4935,
-                "y": 2955
-              },
-              {
                 "map": "cathedral",
                 "x": 550,
                 "y": 180,
@@ -8685,11 +7453,6 @@
             "name": "[1F] Library Secret",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4870,
-                "y": 2955
-              },
-              {
                 "map": "cathedral",
                 "x": 440,
                 "y": 180,
@@ -8707,11 +7470,6 @@
           {
             "name": "[1F] Guarded By Lasers",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4945,
-                "y": 2905
-              },
               {
                 "map": "cathedral",
                 "x": 505,
@@ -8733,11 +7491,6 @@
             "name": "[1F] Near Spikes",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4785,
-                "y": 2955
-              },
-              {
                 "map": "cathedral",
                 "x": 355,
                 "y": 180,
@@ -8757,11 +7510,6 @@
           {
             "name": "Birdcage Room",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4930,
-                "y": 2875
-              },
               {
                 "map": "cathedral",
                 "x": 540,
@@ -8790,11 +7538,6 @@
             "name": "[2F] Entryway Upper Walkway",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4850,
-                "y": 2875
-              },
-              {
                 "map": "cathedral",
                 "x": 420,
                 "y": 100,
@@ -8815,11 +7558,6 @@
             "name": "[2F] Library",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4920,
-                "y": 2905
-              },
-              {
                 "map": "cathedral",
                 "x": 478,
                 "y": 100,
@@ -8839,11 +7577,6 @@
           {
             "name": "[2F] Guarded By Lasers",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4565,
-                "y": 2875
-              },
               {
                 "map": "cathedral",
                 "x": 135,
@@ -8874,11 +7607,6 @@
           {
             "name": "Secret Legend Trophy Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4570,
-                "y": 3025
-              },
               {
                 "map": "cathedral",
                 "x": 140,
@@ -8927,11 +7655,6 @@
           {
             "name": "Cathedral Gauntlet",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4960,
-                "y": 3565
-              },
               {
                 "map": "cathedral",
                 "x": 530,
@@ -8984,11 +7707,6 @@
             "name": "Secret Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4237,
-                "y": 945
-              },
-              {
                 "map": "far_shore",
                 "x": 575,
                 "y": 1155,
@@ -9017,16 +7735,6 @@
           {
             "name": "Page Pickup",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3005,
-                "y": 2995
-              },
-              {
-                "map": "fullmap",
-                "x": 4482,
-                "y": 1020
-              },
               {
                 "map": "far_shore",
                 "x": 825,
@@ -9114,16 +7822,6 @@
             "name": "Hero's Grave",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1325,
-                "y": 2570
-              },
-              {
-                "map": "fullmap",
-                "x": 460,
-                "y": 4450
-              },
-              {
                 "map": "west_gardens",
                 "x": 1085,
                 "y": 150,
@@ -9165,20 +7863,10 @@
             "name": "Hero's Grave",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1075,
-                "y": 3405
-              },
-              {
                 "map": "library",
                 "x": 1123,
                 "y": 928,
                 "size": 45
-              },
-              {
-                "map": "fullmap",
-                "x": 600,
-                "y": 4705
               },
               {
                 "map": "far_shore",
@@ -9289,12 +7977,6 @@
             "name": "Shop",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2575,
-                "y": 2265,
-                "size": 35
-              },
-              {
                 "map": "overworld",
                 "x": 900,
                 "y": 515,
@@ -9307,22 +7989,10 @@
                 "size": 25
               },
               {
-                "map": "fullmap",
-                "x": 870,
-                "y": 2430,
-                "size": 35
-              },
-              {
                 "map": "eastern_vault",
                 "x": 330,
                 "y": 640,
                 "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 3915,
-                "y": 1820,
-                "size": 35
               },
               {
                 "map": "eastern_vault",
@@ -9331,22 +8001,10 @@
                 "size": 25
               },
               {
-                "map": "fullmap",
-                "x": 3975,
-                "y": 1470,
-                "size": 35
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 1035,
                 "y": 240,
                 "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 2680,
-                "y": 3350,
-                "size": 35
               },
               {
                 "map": "graveyard",
@@ -9355,34 +8013,16 @@
                 "size": 25
               },
               {
-                "map": "fullmap",
-                "x": 3995,
-                "y": 3360,
-                "size": 35
-              },
-              {
                 "map": "cathedral",
                 "x": 465,
                 "y": 485,
                 "size": 25
               },
               {
-                "map": "fullmap",
-                "x": 4895,
-                "y": 3260,
-                "size": 35
-              },
-              {
                 "map": "quarry",
                 "x": 1000,
                 "y": 1120,
                 "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 1625,
-                "y": 2145,
-                "size": 35
               }
             ],
             "sections": [
@@ -9436,11 +8076,6 @@
             "name": "Complete the Game",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4485,
-                "y": 731
-              },
-              {
                 "map": "far_shore",
                 "x": 825,
                 "y": 930,
@@ -9460,11 +8095,6 @@
       {
         "name": "Free Bombs",
         "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 3000,
-            "y": 3200
-          },
           {
             "map": "overworld",
             "x": 1335,
@@ -9498,16 +8128,6 @@
       {
         "name": "Inside the Old House",
         "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2730,
-            "y": 2415
-          },
-          {
-            "map": "fullmap",
-            "x": 2920,
-            "y": 2205
-          },
           {
             "map": "overworld",
             "x": 1055,
@@ -9561,11 +8181,6 @@
         "name": "Fountain",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 2430,
-            "y": 2660
-          },
-          {
             "map": "overworld",
             "x": 755,
             "y": 910,
@@ -9597,11 +8212,6 @@
       {
         "name": "Mountain Door",
         "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 3010,
-            "y": 1810
-          },
           {
             "map": "overworld",
             "x": 1335,
@@ -9635,20 +8245,10 @@
         "name": "West Furnace",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 2100,
-            "y": 2550
-          },
-          {
             "map": "overworld",
             "x": 425,
             "y": 800,
             "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 2950,
-            "y": 1595
           },
           {
             "map": "well",
@@ -9689,11 +8289,6 @@
           "@Hourglass Cave"
         ],
         "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2510,
-            "y": 2850
-          },
           {
             "map": "overworld",
             "x": 760,
@@ -9738,20 +8333,10 @@
         "name": "The Hero's Sword",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 4155,
-            "y": 2725
-          },
-          {
             "map": "east_forest",
             "x": 2272,
             "y": 704,
             "size": 35
-          },
-          {
-            "map": "fullmap",
-            "x": 1070,
-            "y": 4450
           },
           {
             "map": "far_shore",
@@ -9781,20 +8366,10 @@
         "name": "Vault Hero's Grave",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 5245,
-            "y": 1830
-          },
-          {
             "map": "eastern_vault",
             "x": 1660,
             "y": 650,
             "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 920,
-            "y": 4185
           },
           {
             "map": "far_shore",
@@ -9831,20 +8406,10 @@
         "name": "Monastery",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 1010,
-            "y": 1245
-          },
-          {
             "map": "quarry",
             "x": 385,
             "y": 220,
             "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 610,
-            "y": 4180
           },
           {
             "map": "far_shore",
@@ -9874,20 +8439,10 @@
         "name": "First Hero's Grave",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 4315,
-            "y": 3205
-          },
-          {
             "map": "graveyard",
             "x": 825,
             "y": 345,
             "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 920,
-            "y": 4710
           },
           {
             "map": "far_shore",

@@ -19,11 +19,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2046,
-                "y": 2061
-              },
-              {
                 "map": "overworld",
                 "x": 368,
                 "y": 310,
@@ -44,11 +39,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2963,
-                "y": 2438
-              },
-              {
                 "map": "overworld",
                 "x": 1291,
                 "y": 687,
@@ -68,11 +58,6 @@
               "stick,firesword"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3044,
-                "y": 2673
-              },
               {
                 "map": "overworld",
                 "x": 1372,
@@ -97,11 +82,6 @@
           {
             "name": "[East] Pots near Slimes",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3620,
-                "y": 2710
-              },
               {
                 "map": "overworld",
                 "x": 1915,
@@ -135,11 +115,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3578,
-                "y": 2517
-              },
-              {
                 "map": "overworld",
                 "x": 1906,
                 "y": 767,
@@ -159,11 +134,6 @@
               "stick,firesword"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3483,
-                "y": 2284
-              },
               {
                 "map": "overworld",
                 "x": 1808,
@@ -188,11 +158,6 @@
           {
             "name": "[North] Pots",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3110,
-                "y": 2015
-              },
               {
                 "map": "overworld",
                 "x": 1435,
@@ -228,11 +193,6 @@
             "name": "[West] Sign Near West Garden Entrance",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1941,
-                "y": 2489
-              },
-              {
                 "map": "overworld",
                 "x": 270,
                 "y": 737,
@@ -257,11 +217,6 @@
           {
             "name": "Pots by Slimes",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3965,
-                "y": 2560
-              },
               {
                 "map": "east_forest",
                 "x": 380,
@@ -302,11 +257,6 @@
             "name": "[Upper] Barrels",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4025,
-                "y": 2500
-              },
-              {
                 "map": "east_forest",
                 "x": 782,
                 "y": 166,
@@ -328,11 +278,6 @@
           {
             "name": "Pots after Guard Captain",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3965,
-                "y": 2500
-              },
               {
                 "map": "east_forest",
                 "x": 770,
@@ -386,11 +331,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3930,
-                "y": 2800
-              },
-              {
                 "map": "east_forest",
                 "x": 1260,
                 "y": 1007,
@@ -411,11 +351,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4055,
-                "y": 2885
-              },
-              {
                 "map": "east_forest",
                 "x": 1545,
                 "y": 1084,
@@ -431,11 +366,6 @@
           {
             "name": "Pots by Grave Path",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4115,
-                "y": 2885
-              },
               {
                 "map": "east_forest",
                 "x": 1607,
@@ -466,11 +396,6 @@
           {
             "name": "Pots by Envoy",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4115,
-                "y": 2825
-              },
               {
                 "map": "east_forest",
                 "x": 1562,
@@ -538,11 +463,6 @@
             "name": "Bottom Floor Pots",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3910,
-                "y": 2985
-              },
-              {
                 "map": "east_forest",
                 "x": 1616,
                 "y": 580,
@@ -579,11 +499,6 @@
             "name": "[Third Room] Barrels by Bridge",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3533,
-                "y": 742
-              },
-              {
                 "map": "well",
                 "x": 867,
                 "y": 363,
@@ -605,11 +520,6 @@
           {
             "name": "[Third Room] Barrels after Back Corridor",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3198,
-                "y": 596
-              },
               {
                 "map": "well",
                 "x": 532,
@@ -639,11 +549,6 @@
             "name": "[Third Room] Barrels by West Turret",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3001,
-                "y": 605
-              },
-              {
                 "map": "well",
                 "x": 335,
                 "y": 255,
@@ -665,11 +570,6 @@
           {
             "name": "[Third Room] Pots by East Turret",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3447,
-                "y": 638
-              },
               {
                 "map": "well",
                 "x": 779,
@@ -713,11 +613,6 @@
             "name": "[Side Room] Pots by Chest",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3020,
-                "y": 1190
-              },
-              {
                 "map": "well",
                 "x": 355,
                 "y": 840,
@@ -748,11 +643,6 @@
             "name": "Barrels",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3170,
-                "y": 1550
-              },
-              {
                 "map": "well",
                 "x": 500,
                 "y": 1200,
@@ -779,11 +669,6 @@
           {
             "name": "Pot Hallway Pots",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1801,
-                "y": 867
-              },
               {
                 "map": "dark_tomb",
                 "x": 744,
@@ -840,11 +725,6 @@
             "name": "2nd Laser Room Pots",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2119,
-                "y": 1144
-              },
-              {
                 "map": "dark_tomb",
                 "x": 1061,
                 "y": 768,
@@ -886,11 +766,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3995,
-                "y": 1863
-              },
-              {
                 "map": "eastern_vault",
                 "x": 415,
                 "y": 682,
@@ -922,11 +797,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4051,
-                "y": 1834
-              },
-              {
                 "map": "eastern_vault",
                 "x": 465,
                 "y": 652,
@@ -953,11 +823,6 @@
           {
             "name": "Fire Pots",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4295,
-                "y": 1785
-              },
               {
                 "map": "eastern_vault",
                 "x": 710,
@@ -996,11 +861,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4418,
-                "y": 1855
-              },
-              {
                 "map": "eastern_vault",
                 "x": 834,
                 "y": 676,
@@ -1025,11 +885,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4808,
-                "y": 1831
-              },
-              {
                 "map": "eastern_vault",
                 "x": 1223,
                 "y": 642,
@@ -1051,11 +906,6 @@
               "@Fortress Grave Path Combat,pot_breaker"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4967,
-                "y": 1831
-              },
               {
                 "map": "eastern_vault",
                 "x": 1383,
@@ -1084,11 +934,6 @@
               "pot_breaker"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 5100,
-                "y": 1858
-              },
               {
                 "map": "eastern_vault",
                 "x": 1512,
@@ -1134,11 +979,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4876,
-                "y": 1831
-              },
-              {
                 "map": "eastern_vault",
                 "x": 1292,
                 "y": 642,
@@ -1162,11 +1002,6 @@
           {
             "name": "[Central] Pots by Door",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4183,
-                "y": 1375
-              },
               {
                 "map": "eastern_vault",
                 "x": 600,
@@ -1214,11 +1049,6 @@
             "name": "[East Wing] Pots by Broken Checkpoint",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4384,
-                "y": 1571
-              },
-              {
                 "map": "eastern_vault",
                 "x": 803,
                 "y": 392,
@@ -1240,11 +1070,6 @@
           {
             "name": "[West Wing] Pots by Checkpoint",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4043,
-                "y": 1510
-              },
               {
                 "map": "eastern_vault",
                 "x": 461,
@@ -1268,11 +1093,6 @@
             "name": "[West Wing] Pots by Overlook",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4004,
-                "y": 1267
-              },
-              {
                 "map": "eastern_vault",
                 "x": 420,
                 "y": 86,
@@ -1291,11 +1111,6 @@
           {
             "name": "[West Wing] Slorm Room Pots",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3900,
-                "y": 1345
-              },
               {
                 "map": "eastern_vault",
                 "x": 319,
@@ -1319,11 +1134,6 @@
             "name": "[West Wing] Chest Room Pots",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3596,
-                "y": 1331
-              },
-              {
                 "map": "eastern_vault",
                 "x": 20,
                 "y": 156,
@@ -1342,11 +1152,6 @@
           {
             "name": "[West Wing] Pots by Stairs to Basement",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3856,
-                "y": 1357
-              },
               {
                 "map": "eastern_vault",
                 "x": 272,
@@ -1377,11 +1182,6 @@
           {
             "name": "Entry Spot",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 5069,
-                "y": 2703
-              },
               {
                 "map": "earth",
                 "x": 683,
@@ -1431,11 +1231,6 @@
             "name": "Slorm Room Crates",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4900,
-                "y": 2528
-              },
-              {
                 "map": "earth",
                 "x": 523,
                 "y": 551,
@@ -1454,11 +1249,6 @@
           {
             "name": "Crates under Rope",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 5083,
-                "y": 2541
-              },
               {
                 "map": "earth",
                 "x": 696,
@@ -1499,11 +1289,6 @@
             "name": "Fuse Room Fire Pots",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 5094,
-                "y": 2061
-              },
-              {
                 "map": "earth",
                 "x": 707,
                 "y": 71,
@@ -1525,11 +1310,6 @@
           {
             "name": "Barrels",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 5181,
-                "y": 2017
-              },
               {
                 "map": "earth",
                 "x": 800,
@@ -1591,11 +1371,6 @@
             "name": "[West] Broken House",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1949,
-                "y": 3724
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 306,
                 "y": 614,
@@ -1622,11 +1397,6 @@
             "name": "[South] Explosive Pot near Birds",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2352,
-                "y": 4160
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 708,
                 "y": 1050,
@@ -1650,11 +1420,6 @@
           {
             "name": "[Upper] Pots",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3129,
-                "y": 3435
-              },
               {
                 "map": "frogs_domain",
                 "x": 1320,
@@ -1695,11 +1460,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3554,
-                "y": 4214
-              },
-              {
                 "map": "frogs_domain",
                 "x": 1102,
                 "y": 360,
@@ -1721,11 +1481,6 @@
               "@Frog's Domain Main,pot_breaker"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3505,
-                "y": 4133
-              },
               {
                 "map": "frogs_domain",
                 "x": 1080,
@@ -1752,11 +1507,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3008,
-                "y": 4924
-              },
-              {
                 "map": "frogs_domain",
                 "x": 573,
                 "y": 1066,
@@ -1779,11 +1529,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3887,
-                "y": 4626
-              },
-              {
                 "map": "frogs_domain",
                 "x": 1446,
                 "y": 773,
@@ -1802,11 +1547,6 @@
               "@Frog's Domain Main,pot_breaker"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3229,
-                "y": 4719
-              },
               {
                 "map": "frogs_domain",
                 "x": 800,
@@ -1829,11 +1569,6 @@
               "@Frog's Domain Main,pot_breaker"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3667,
-                "y": 4331
-              },
               {
                 "map": "frogs_domain",
                 "x": 1234,
@@ -1861,11 +1596,6 @@
           {
             "name": "Display Cases",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1520,
-                "y": 3521
-              },
               {
                 "map": "library",
                 "x": 540,
@@ -1897,11 +1627,6 @@
             "name": "[East] Explosive Pots",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1687,
-                "y": 1532
-              },
-              {
                 "map": "quarry",
                 "x": 1065,
                 "y": 506,
@@ -1923,11 +1648,6 @@
           {
             "name": "[East] Explosive Pot beneath Scaffolding",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1420,
-                "y": 1485
-              },
               {
                 "map": "quarry",
                 "x": 790,
@@ -1952,11 +1672,6 @@
           {
             "name": "[Central] Explosive Pots near Monastery",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1210,
-                "y": 1420
-              },
               {
                 "map": "quarry",
                 "x": 580,
@@ -1984,11 +1699,6 @@
           {
             "name": "[Back Entrance] Pots",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 886,
-                "y": 1507
-              },
               {
                 "map": "quarry",
                 "x": 260,
@@ -2018,11 +1728,6 @@
             "name": "[Central] Explosive Pots near Shortcut Ladder",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1148,
-                "y": 1851
-              },
-              {
                 "map": "quarry",
                 "x": 524,
                 "y": 827,
@@ -2041,11 +1746,6 @@
           {
             "name": "[Central] Crates near Shortcut Ladder",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1148,
-                "y": 1791
-              },
               {
                 "map": "quarry",
                 "x": 525,
@@ -2088,11 +1788,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 989,
-                "y": 1962
-              },
-              {
                 "map": "quarry",
                 "x": 362,
                 "y": 939,
@@ -2120,11 +1815,6 @@
             "name": "[West] Explosive Pot above Shooting Range",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 708,
-                "y": 2024
-              },
-              {
                 "map": "quarry",
                 "x": 100,
                 "y": 978,
@@ -2140,11 +1830,6 @@
           {
             "name": "[West] Near Isolated Chest",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1445,
-                "y": 2230
-              },
               {
                 "map": "quarry",
                 "x": 820,
@@ -2179,11 +1864,6 @@
           {
             "name": "[West] Crates by Shooting Range",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 672,
-                "y": 2060
-              },
               {
                 "map": "quarry",
                 "x": 48,
@@ -2221,11 +1901,6 @@
             "name": "[Lowlands] Crates",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 700,
-                "y": 2380
-              },
-              {
                 "map": "quarry",
                 "x": 80,
                 "y": 1355,
@@ -2252,11 +1927,6 @@
           {
             "name": "Crates",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 970,
-                "y": 1245
-              },
               {
                 "map": "quarry",
                 "x": 330,
@@ -2306,11 +1976,6 @@
             "name": "[1F] Pots by Stairs",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4712,
-                "y": 2942
-              },
-              {
                 "map": "cathedral",
                 "x": 282,
                 "y": 167,
@@ -2340,11 +2005,6 @@
           {
             "name": "Purgatory Pots",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2032,
-                "y": 3034
-              },
               {
                 "map": "overworld",
                 "x": 338,

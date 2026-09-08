@@ -1,0 +1,4534 @@
+[
+  {
+    "name": "Full Map Overview",
+    "children": [
+      {
+        "name": "Checks",
+        "children": [
+          {
+            "name": "Full World",
+            "color": "#059134",
+            "chest_unopened_img": "images/chest_closed.png",
+            "chest_opened_img": "images/chest_open.png",
+            "children": [
+              {
+                "name": "Overworld",
+                "children": [
+                  {
+                    "name": "Free Bombs",
+                    "short_name": "Bombs",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3000,
+                        "y": 3200
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Free Bombs/Ice Bomb"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Free Bombs/Fire Bomb"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Free Bombs/Dynamite"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ring the West Bell",
+                    "short_name": "West Bell",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2105,
+                        "y": 2246
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Ring the West Bell/Dong!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Teleporter Secret",
+                    "short_name": "Secret",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2955,
+                        "y": 3050
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Teleporter Secret/Back to Work"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Stick House",
+                    "short_name": "Stick",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2920,
+                        "y": 2785
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Stick House/You got an item!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Dark Ramps Chest",
+                    "short_name": "Dark Chest",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2860,
+                        "y": 2100
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Dark Ramps Chest/Watch your Step"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Key on the Ground",
+                    "short_name": "Ground Key",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2780,
+                        "y": 2320
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Key on the Ground/Hero's Path Key"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Inside the Old House",
+                    "short_name": "Old House",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2730,
+                        "y": 2415
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 2920,
+                        "y": 2205
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Inside the Old House/Chest in House"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Inside the Old House/Code in House"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Inside the Old House/Shield in Cave"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Inside the Old House/Waterfall Entrance"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Page Behind Windmill",
+                    "short_name": "Windmill Page",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2750,
+                        "y": 2240
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Page Behind Windmill/If you seek to increase your power..."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chest Behind Windmill",
+                    "short_name": "Behind Windmill",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2460,
+                        "y": 2200
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Chest Behind Windmill/Mind the Autobolt..."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Rudeling Camp",
+                    "short_name": "Camp",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2035,
+                        "y": 2130
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Rudeling Camp/Watch out!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Underneath the Staff",
+                    "short_name": "Staff Peek",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2170,
+                        "y": 1940
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Underneath the Staff/Ran away from the Rudelings?"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Inside the Gathering Place",
+                    "short_name": "Gathering Place",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2540,
+                        "y": 2085
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Inside the Gathering Place/Input the Code"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Inside the Gathering Place/10 Souls"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Inside the Gathering Place/20 Souls"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Rotating Cube Secret",
+                    "short_name": "Cube",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2830,
+                        "y": 2655
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Rotating Cube Secret/In my mind..."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Breakable Wall",
+                    "short_name": "Breakable Wall",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3165,
+                        "y": 2575
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Behind the Breakable Wall/Let the flowers guide you"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Eastern Silver Door",
+                    "short_name": "E Code Door",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3560,
+                        "y": 2815
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Eastern Silver Door/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sitting on the East Beach",
+                    "short_name": "East Beach",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3530,
+                        "y": 2980
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Sitting on the East Beach/Under the Bridge"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Caustic Light",
+                    "short_name": "Light",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3560,
+                        "y": 2910
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Caustic Light/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Above First Locked Door",
+                    "short_name": "Above Door",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3150,
+                        "y": 2665
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Above First Locked Door/Through the Trees"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Weather Vane",
+                    "short_name": "Vane",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3560,
+                        "y": 2625
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Weather Vane/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Below the Vane",
+                    "short_name": "Below Vane",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3640,
+                        "y": 2710
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Below the Vane/Just Sittin' There"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Page on Teleporter",
+                    "short_name": "Telepage",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2520,
+                        "y": 2475
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Page on Teleporter/Treasures & Tools"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wind Chimes",
+                    "short_name": "Chimes",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2735,
+                        "y": 2460
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Wind Chimes/Power Up!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Next to the Windmill",
+                    "short_name": "Next to Mill",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2530,
+                        "y": 2285
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Next to the Windmill/Behind the Trees"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Windmill Secret",
+                    "short_name": "Mill Secret",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2580,
+                        "y": 2330
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Windmill Secret/Sacred Geometry"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Abandoned Merchant",
+                    "short_name": "Empty Shop",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2285,
+                        "y": 2585
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Abandoned Merchant/So Sad"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Fountain",
+                    "short_name": "Fountain",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2430,
+                        "y": 2660
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Fountain/Dash to the Page"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Fountain/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Inside the Silver Door",
+                    "short_name": "Fountain Door",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2430,
+                        "y": 2590
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Inside the Silver Door/Take Your Rightful Place"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Envoy Guarding Key",
+                    "short_name": "Envoy Key",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2585,
+                        "y": 2815
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Envoy Guarding Key/Old House Key"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Western Bridge Chest",
+                    "short_name": "W Bridge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2430,
+                        "y": 2960
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Western Bridge Chest/End of the Bridge"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "West of Fountain",
+                    "short_name": "Fountain W",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2185,
+                        "y": 2705
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/West of Fountain/Behind the Trees"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "East of the Well",
+                    "short_name": "E of Well",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2865,
+                        "y": 2560
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/East of the Well/Across the Bridge"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "West of Well",
+                    "short_name": "W of Well",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2635,
+                        "y": 2535
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/West of Well/Hidden by Trees"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gazebo Page",
+                    "short_name": "Gazebo",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3360,
+                        "y": 2440
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Gazebo Page/The Map!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shopkeeper Page",
+                    "short_name": "Keeper Page",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3520,
+                        "y": 2435
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Shopkeeper Page/Say Hi to the Skeleton!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NE Flowers Secret",
+                    "short_name": "NE Flowers",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3425,
+                        "y": 2290
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/NE Flowers Secret/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Rudeling Dance Floor",
+                    "short_name": "Patrol",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3450,
+                        "y": 2085
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Rudeling Dance Floor/Entrance of Cave"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Rudeling Dance Floor/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Magic Staff",
+                    "short_name": "Staff",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2345,
+                        "y": 1825
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Magic Staff/Ooh Shiny!"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Magic Staff/Where do the Fairies Hide?"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Top of the Waterfall",
+                    "short_name": "Top of Fall",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3445,
+                        "y": 1965
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Top of the Waterfall/Behind Blue Rudelings"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Mountain Door",
+                    "short_name": "Mountain Door",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3010,
+                        "y": 1810
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Behind the Mountain Door/Hints & Tips"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Behind the Mountain Door/Follow the Golden Path"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Inside the Sealed Temple",
+                    "short_name": "Sealed Temple",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3005,
+                        "y": 2110
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Inside the Sealed Temple/Use the Holy Cross"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Inside the Sealed Temple/Inside the Temple"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "East Grapple Chest",
+                    "short_name": "E Grapple",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3315,
+                        "y": 2140
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/East Grapple Chest/Grapple Across"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "After West Bell Tower",
+                    "short_name": "After W Bell",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2300,
+                        "y": 2315
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/After West Bell Tower/Post-Dong!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Secret of the Moss",
+                    "short_name": "Moss",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2100,
+                        "y": 2430
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Secret of the Moss/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Moss",
+                    "short_name": "Next to Moss",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2195,
+                        "y": 2400
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Behind the Moss/Around the Corner"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "South of the West Bell",
+                    "short_name": "S of W Bell",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2115,
+                        "y": 2665
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/South of the West Bell/Chest"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Autobolt",
+                    "short_name": "Behind Bolt",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1905,
+                        "y": 2660
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Behind the Autobolt/Watch Out!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Autobolt Island",
+                    "short_name": "Boltland",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1775,
+                        "y": 2680
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Autobolt Island/Get Across"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Below the Western Bridge",
+                    "short_name": "Below W Bridge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2430,
+                        "y": 3040
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Below the Western Bridge/Below"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "West Furnace Chest",
+                    "short_name": "Furnace",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2100,
+                        "y": 2550
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 2950,
+                        "y": 1595
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/West Furnace Chest/Drawing Light from Deep Below"
+                      },
+                      {
+                        "ref": "Full World/Overworld/West Furnace Chest/Grab the Lantern!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Outside West Furnace",
+                    "short_name": "Outside Furnace",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2055,
+                        "y": 2565
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Outside West Furnace/Effigy Skip"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Autobolt",
+                    "short_name": "Behind Bolt",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2125,
+                        "y": 2750
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Behind the Autobolt/After Turret"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Magic Hourglass Cave",
+                    "short_name": "Hourglass",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2510,
+                        "y": 2850
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Magic Hourglass Cave/Deal with the Bolts"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Magic Hourglass Cave/Column Maze"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SW Flowers Secret",
+                    "short_name": "SW Flowers",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2635,
+                        "y": 3000
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/SW Flowers Secret/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sand Hook",
+                    "short_name": "Sand Hook",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2760,
+                        "y": 3020
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Sand Hook/Chest"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Sand Hook/Secret"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Under the Central Bridge",
+                    "short_name": "Bridge Page",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2980,
+                        "y": 2915
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Under the Central Bridge/Page"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Central Bridge Chest",
+                    "short_name": "C Bridge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3090,
+                        "y": 2910
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Central Bridge Chest/Beside the Bridge"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Invisible Maze",
+                    "short_name": "Invis Maze",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3005,
+                        "y": 2850
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Invisible Maze/In the Maze"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Invisible Maze/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "East Platform Page",
+                    "short_name": "E Plat",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3455,
+                        "y": 3030
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/East Platform Page/Dash Across"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "First Locked Door",
+                    "short_name": "1st Lock",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3175,
+                        "y": 2725
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/First Locked Door/Everything hurts way more when I'm tired."
+                      },
+                      {
+                        "ref": "Full World/Overworld/First Locked Door/Mr. Mayor!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bridge Envoy Chest",
+                    "short_name": "Envoy Bridge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2075,
+                        "y": 2220
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Bridge Envoy Chest/Across the Bridge"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Character Customization Room",
+                    "short_name": "Customizer",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2595,
+                        "y": 2680
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Character Customization Room/Get some new colors!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Dark Tomb Island Page",
+                    "short_name": "Tomb Island",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2350,
+                        "y": 2170
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Dark Tomb Island Page/A Terrible Power Rises"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "West Beach Passage",
+                    "short_name": "Beach Pass",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2580,
+                        "y": 2860
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/West Beach Passage/Deep in the Wall"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "West Beach Bridge",
+                    "short_name": "W B Bridge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1915,
+                        "y": 2785
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/West Beach Bridge/Dash Across"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bomb Below the Gate",
+                    "short_name": "Bomb Under Gate",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2630,
+                        "y": 2605
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Bomb Below the Gate/Let the flowers guide you"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shop",
+                    "short_name": "Shop",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2575,
+                        "y": 2265
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 870,
+                        "y": 2430
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 3915,
+                        "y": 1820
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 3975,
+                        "y": 1470
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 2680,
+                        "y": 3350
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 3995,
+                        "y": 3360
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 4895,
+                        "y": 3260
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 1625,
+                        "y": 2145
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Shop/Benevolent Shopkeeper"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Shop/Buy Something, Will Ya?"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Shop/Price-Gouging Skeleton"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Shop/Pay to see something nice?"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Just a Well?",
+                    "short_name": "Well?",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2770,
+                        "y": 2500
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 865,
+                        "y": 2510
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 3760,
+                        "y": 2670
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 4215,
+                        "y": 2070
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 4030,
+                        "y": 3526
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Overworld/Just a Well?/Make 3 Wishes"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Just a Well?/Make 6 Wishes"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Just a Well?/Make 10 Wishes"
+                      },
+                      {
+                        "ref": "Full World/Overworld/Just a Well?/Make 15 Wishes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "East Forest",
+                "children": [
+                  {
+                    "name": "Ring the East Bell",
+                    "short_name": "East Bell",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3860,
+                        "y": 2520
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Ring the East Bell/Ding!"
+                      },
+                      {
+                        "ref": "Full World/East Forest/Ring the East Bell/Down the Stairs"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "From the Belltower",
+                    "short_name": "From Bell",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3945,
+                        "y": 2345
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 3750,
+                        "y": 2475
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/From the Belltower/Crack in the Wall"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bell Tower Entrance",
+                    "short_name": "Tower Entrance",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3780,
+                        "y": 2525
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Bell Tower Entrance/Altar Page"
+                      },
+                      {
+                        "ref": "Full World/East Forest/Bell Tower Entrance/Behind the Pots"
+                      },
+                      {
+                        "ref": "Full World/East Forest/Bell Tower Entrance/Next to the Fox Shrine"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Telescope Chest",
+                    "short_name": "Telescope",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3780,
+                        "y": 2785
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Telescope Chest/Up on the Wall"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Guardhouse Ledge",
+                    "short_name": "Ledge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3795,
+                        "y": 2575
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Guardhouse Ledge/Surrounded by Flowers"
+                      },
+                      {
+                        "ref": "Full World/East Forest/Guardhouse Ledge/Do the Forest Dance!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Lower Forest Entrance",
+                    "short_name": "Lower Forest",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3855,
+                        "y": 2820
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Lower Forest Entrance/Beside the Swords"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Teleporter Page",
+                    "short_name": "Telepage",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3900,
+                        "y": 2850
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Teleporter Page/Moment of Safety"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Above the Shrine",
+                    "short_name": "Above Shrine",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3990,
+                        "y": 2800
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Above the Shrine/Mind the Rudelings!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Shrine",
+                    "short_name": "Behind",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4055,
+                        "y": 2825
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Behind the Shrine/Hidden Path"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ambushed by Spiders",
+                    "short_name": "Spiders",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3710,
+                        "y": 3095
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Ambushed by Spiders/Kill Them"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Under Spiders",
+                    "short_name": "Under Spiders",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3680,
+                        "y": 3095
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Under Spiders/Walk Around"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Lower Orb Chest",
+                    "short_name": "Lower Orb",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3890,
+                        "y": 3205
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Lower Orb Chest/Grapple Across"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Past Lower Orb",
+                    "short_name": "Past Lorb",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3890,
+                        "y": 3245
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Past Lower Orb/Dash Across"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Secret of the Golden Obelisk",
+                    "short_name": "Obelisk",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3995,
+                        "y": 3095
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Secret of the Golden Obelisk/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Freeze the Blob",
+                    "short_name": "Blob",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3760,
+                        "y": 2985
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Freeze the Blob/Ascend With Orb"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Guardhouse 2 Lower Floor",
+                    "short_name": "Lower Floor",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3910,
+                        "y": 2945
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Guardhouse 2 Lower Floor/Hidden Hallway"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Guardhouse 2 Top Floor",
+                    "short_name": "",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3995,
+                        "y": 2880
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Guardhouse 2 Top Floor/In the Mound"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Guardhouse 1 Top Floor",
+                    "short_name": "1 Top Floor",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3970,
+                        "y": 2605
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Guardhouse 1 Top Floor/Beside the Boss Door"
+                      },
+                      {
+                        "ref": "Full World/East Forest/Guardhouse 1 Top Floor/Behind the Pots"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Guard Captain",
+                    "short_name": "Captain",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3900,
+                        "y": 2565
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Guard Captain/Also, you need to defeat this guy!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Guard Captain Reward",
+                    "short_name": "",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3905,
+                        "y": 2500
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Guard Captain Reward/It is your time to shine!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Across the Bridges",
+                    "short_name": "Bridges",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4195,
+                        "y": 2580
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Across the Bridges/From the top of the Guardhouse"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Upper Path Chest",
+                    "short_name": "Upper Path",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4325,
+                        "y": 2575
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Upper Path Chest/Mind the Rudeling"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Lower Path Chest",
+                    "short_name": "Lower Path",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4175,
+                        "y": 2580
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Lower Path Chest/Behind the Trees"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "The Hero's Sword",
+                    "short_name": "Sword",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4155,
+                        "y": 2725
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 1070,
+                        "y": 4450
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/The Hero's Sword/You got an Item!"
+                      },
+                      {
+                        "ref": "Full World/East Forest/The Hero's Sword/Pray to the Hero"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bombable Wall",
+                    "short_name": "Bomb Wall",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3770,
+                        "y": 2615
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Bombable Wall/Follow the Flowers"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Grave Secret",
+                    "short_name": "Grave Secret",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4405,
+                        "y": 2690
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/East Forest/Grave Secret/Single Money Chest"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Beneath the Well",
+                "children": [
+                  {
+                    "name": "Entrance Chest",
+                    "short_name": "Entrance",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3390,
+                        "y": 665
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Entrance Chest/Mind the Slorms"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Entrance Waterfall",
+                    "short_name": "1st Waterfall",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3430,
+                        "y": 765
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Entrance Waterfall/You can just go in there"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Well Page",
+                    "short_name": "Page",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3305,
+                        "y": 1120
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Well Page/Ruined Atoll Map"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind Central Waterfall",
+                    "short_name": "C Waterfall",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3655,
+                        "y": 1035
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Behind Central Waterfall/Just go in there"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Isolated Water Chest",
+                    "short_name": "Isolated",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3265,
+                        "y": 960
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Isolated Water Chest/Hidden Passage"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Rubble",
+                    "short_name": "Rubble",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3630,
+                        "y": 405
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Behind the Rubble/Hidden Path"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Hidden Room",
+                    "short_name": "Hidden Room",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3055,
+                        "y": 350
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Hidden Room/Behind the Slorms"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Under the Stairs",
+                    "short_name": "Under Stairs",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2780,
+                        "y": 825
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Under the Stairs/Run from the tentacles!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Mound Chest",
+                    "short_name": "Mound",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3230,
+                        "y": 775
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Mound Chest/Water Sucks"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Top of Ladder",
+                    "short_name": "Ladder",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3080,
+                        "y": 1190
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Top of Ladder/Just Climb up There"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Top of Ladder Secret",
+                    "short_name": "Ladder Secret",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3250,
+                        "y": 1365
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Top of Ladder Secret/Through the Power of Prayer"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Above the Fox Shrine",
+                    "short_name": "Fox Shrine",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3500,
+                        "y": 1350
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Above the Fox Shrine/Did you find the A BUTTON in the YOUR CONTROLLER?"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Phrends Chest",
+                    "short_name": "Phrends",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2830,
+                        "y": 1190
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Phrends Chest/So Many Phrends!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Balcony Chest",
+                    "short_name": "Balcony",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2755,
+                        "y": 1045
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Balcony Chest/Follow the Purple Energy Road"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shrine Page",
+                    "short_name": "Page",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3230,
+                        "y": 1550
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Beneath the Well/Shrine Page/Siege Engine"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dark Tomb",
+                "children": [
+                  {
+                    "name": "Top of Tomb",
+                    "short_name": "On Tomb",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1580,
+                        "y": 550
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Dark Tomb/Top of Tomb/Move the Grave"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Balcony Chest",
+                    "short_name": "Balcony",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1555,
+                        "y": 1135
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Dark Tomb/Balcony Chest/Just walk right!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Stairs",
+                    "short_name": "Behind Stairs",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1225,
+                        "y": 1055
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Dark Tomb/Behind the Stairs/In the Corner"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Spikes Corner",
+                    "short_name": "Spikes Corner",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1515,
+                        "y": 1195
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Dark Tomb/Spikes Corner/Watch out!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Hidden Laser Path",
+                    "short_name": "Laser Path",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1915,
+                        "y": 910
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Dark Tomb/Hidden Laser Path/Follow the red laser of death"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Guarded by Lazers",
+                    "short_name": "Lazers...",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1895,
+                        "y": 995
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Dark Tomb/Guarded by Lazers/Use a bomb?"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Guarded by Many Lazers",
+                    "short_name": "LAZERS!!!!!",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2200,
+                        "y": 1135
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Dark Tomb/Guarded by Many Lazers/Can you roll?"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "West Gardens",
+                "children": [
+                  {
+                    "name": "Hero's Grave",
+                    "short_name": "Grave",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1325,
+                        "y": 2570
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 460,
+                        "y": 4450
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Hero's Grave/Pray to the Hero"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Hidden Chest",
+                    "short_name": "Hidden",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1400,
+                        "y": 2555
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Hidden Chest/Take the Long Way Around"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Silver Door Beneath Bridge",
+                    "short_name": "Silver Door",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 960,
+                        "y": 2590
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Silver Door Beneath Bridge/Extra Sword!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Fisherman's Perch",
+                    "short_name": "Fisherman",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 620,
+                        "y": 2540
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Fisherman's Perch/I Love Fish!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Terry's Page",
+                    "short_name": "Terry Page",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 625,
+                        "y": 2595
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Terry's Page/Survival Tips"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Broken Bridge Chest",
+                    "short_name": "Broken Bridge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 410,
+                        "y": 2770
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Broken Bridge Chest/Through the Shallow Water"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shallow Island Chest",
+                    "short_name": "Shallow Island",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 290,
+                        "y": 2900
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Shallow Island Chest/Dash through the water"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shortcut Central",
+                    "short_name": "Shortcuts",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 890,
+                        "y": 2710
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Shortcut Central/Between a Rope and a Bridge Place"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Isolated Walkway",
+                    "short_name": "Isolated Walkway",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1180,
+                        "y": 2745
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Isolated Walkway/Behind the Ladder"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Fairy Tree",
+                    "short_name": "Fairy Tree",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 220,
+                        "y": 2980
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Fairy Tree/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "On the Way Chest",
+                    "short_name": "On the Way",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 840,
+                        "y": 3105
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/On the Way Chest/As you walk by"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Under the Shrine",
+                    "short_name": "Under Shrine",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 930,
+                        "y": 3125
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Under the Shrine/Behind the Way"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Across the Way",
+                    "short_name": "Across the Way",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 825,
+                        "y": 2755
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Across the Way/By the Rudeling"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Under the Obelisk",
+                    "short_name": "Under Obelisk",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 935,
+                        "y": 3205
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Under the Obelisk/Press A on the Wall"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Magic Dagger Page",
+                    "short_name": "Behind Dagger Page",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1240,
+                        "y": 3030
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Behind the Magic Dagger Page/Share Your Wisdom"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Magic Dagger Island",
+                    "short_name": "Dagger Island",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1190,
+                        "y": 3050
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Magic Dagger Island/Mind the Chompignoms!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Magic Dagger Cave",
+                    "short_name": "Dagger Cave",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1120,
+                        "y": 3000
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Magic Dagger Cave/Spooky Cave"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind Grass Chest",
+                    "short_name": "Behind Grass",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1210,
+                        "y": 2800
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Behind Grass Chest/Under Boss Ladder"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Garden Tiles",
+                    "short_name": "Tiles",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 960,
+                        "y": 2795
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Garden Tiles/Use the Holy Cross"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Top of the Boss Ladder",
+                    "short_name": "Boss Ladder",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1045,
+                        "y": 2735
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Top of the Boss Ladder/Try to be This Strong"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Below the Bridge Mound",
+                    "short_name": "Bridge Mound",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 890,
+                        "y": 2910
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Below the Bridge Mound/Dash Across"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Garden Knight",
+                    "short_name": "Garden Knight",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 960,
+                        "y": 2475
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Garden Knight/Will Kill You"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Garden Knight Reward",
+                    "short_name": "Boss Reward",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1195,
+                        "y": 2470
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/West Gardens/Garden Knight Reward/Did Not Kill You"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Path to the Eastern Vault",
+                "children": [
+                  {
+                    "name": "Path to Vault Entrance",
+                    "short_name": "Vault Path",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3875,
+                        "y": 2315
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Path to the Eastern Vault/Path to Vault Entrance/Under the Stairs"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Obelisk",
+                    "short_name": "Obelisk",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4220,
+                        "y": 2275
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Path to the Eastern Vault/Behind the Obelisk/Pray"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Before You Go Down",
+                    "short_name": "Before Down",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3850,
+                        "y": 1950
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Path to the Eastern Vault/Before You Go Down/Next to the Obelisk"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Eastern Vault Page",
+                    "short_name": "Vault Page",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3935,
+                        "y": 1895
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Path to the Eastern Vault/Eastern Vault Page/Heir-To-The-Heir"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Beneath the Earth",
+                    "children": [
+                      {
+                        "name": "Behind the Waterfall",
+                        "short_name": "Waterfall",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4555,
+                            "y": 2300
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Beneath the Earth/Behind the Waterfall/Muffling Bell"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Hit the Switch",
+                        "short_name": "Switch",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4500,
+                            "y": 2200
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Beneath the Earth/Hit the Switch/Across the Bridge"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "First Cell",
+                        "short_name": "First",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 5135,
+                            "y": 2395
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Beneath the Earth/First Cell/Drop the Shortcut Rope"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Last Cell",
+                        "short_name": "Last",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 5245,
+                            "y": 2310
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Beneath the Earth/Last Cell/Mind the Custodian"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Surrounded by Barrels",
+                        "short_name": "Barrels",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 5185,
+                            "y": 1970
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Beneath the Earth/Surrounded by Barrels/Lose the Lure or take 2 Damage"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Inside the Eastern Vault",
+                    "children": [
+                      {
+                        "name": "Westmost Upper Room",
+                        "short_name": "West Upper",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3650,
+                            "y": 1355
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Westmost Upper Room/It's a Secret to Nobody"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Westmost Balcony Page",
+                        "short_name": "West Balcony",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3625,
+                            "y": 1490
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Westmost Balcony Page/He will never visit the Far Shore"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Obelisk Candles Secret",
+                        "short_name": "Candle Fairy",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3715,
+                            "y": 1570
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Obelisk Candles Secret/Use the Holy Cross"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Vault Hero's Grave",
+                        "short_name": "Vault Grave",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 5245,
+                            "y": 1830
+                          },
+                          {
+                            "map": "fullmap",
+                            "x": 920,
+                            "y": 4185
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Vault Hero's Grave/Either side of the Grave"
+                          },
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Vault Hero's Grave/Pray to the Hero"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Clean up the Leaves",
+                        "short_name": "Leaves",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 5175,
+                            "y": 1730
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Clean up the Leaves/Dusty"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Lower Outside Chest",
+                        "short_name": "Outside Lower",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4675,
+                            "y": 1470
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Lower Outside Chest/Mind the Custodians"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Upper Outside Chest",
+                        "short_name": "Outside Upper",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4825,
+                            "y": 1770
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Upper Outside Chest/Go Around the East Wing"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Secret Door",
+                        "short_name": "Secret Door",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4355,
+                            "y": 1325
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Secret Door/Bomb the Wall"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Behind The Golden Door",
+                        "short_name": "Gold Door",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4185,
+                            "y": 1250
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Behind The Golden Door/Defeat Siege Engine"
+                          },
+                          {
+                            "ref": "Full World/Path to the Eastern Vault/Inside the Eastern Vault/Behind The Golden Door/Insert the Vault Key"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ruined Atoll",
+                "children": [
+                  {
+                    "name": "Overworld Beach",
+                    "short_name": "Beach",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2825,
+                        "y": 3355
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Overworld Beach/Come from the Overworld"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bird Chest",
+                    "short_name": "Bird",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2435,
+                        "y": 3545
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Bird Chest/Skraw!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shallow Water",
+                    "short_name": "Water",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2475,
+                        "y": 3610
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Shallow Water/Go Around"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Brick House Top",
+                    "short_name": "Brick Top",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2385,
+                        "y": 4065
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Brick House Top/Up the Ladder"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Key on the Ground",
+                    "short_name": "Key",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2865,
+                        "y": 3300
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Key on the Ground/Around the Hill"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bottom of Brick Walkway",
+                    "short_name": "Bottom Walkway",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2945,
+                        "y": 3430
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Bottom of Brick Walkway/Mind the Crabbits"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Top of Brick Walkway",
+                    "short_name": "Top Walkway",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2945,
+                        "y": 3560
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Top of Brick Walkway/Near Domain"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Locked Brick House",
+                    "short_name": "Locked House",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2900,
+                        "y": 3760
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Locked Brick House/Drop the Rope!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Under SE Telescope",
+                    "short_name": "Under Telescope",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2945,
+                        "y": 3940
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Under SE Telescope/Around the Tower"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Hidden Ladder Chest",
+                    "short_name": "Hidden Ladder",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2700,
+                        "y": 4055
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Hidden Ladder Chest/Go Up that Dang Thang!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Big Crabbo's Walkway",
+                    "short_name": "Near Crabbo",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2370,
+                        "y": 4330
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Big Crabbo's Walkway/Chest"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "By the Husher's Gate",
+                    "short_name": "Husher Gate",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2160,
+                        "y": 4300
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/By the Husher's Gate/Chest"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Obscured by the Obelisk",
+                    "short_name": "Obscured",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2150,
+                        "y": 3970
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Obscured by the Obelisk/Saved by the Prayer"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Envoy",
+                    "short_name": "Envoy",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2065,
+                        "y": 3670
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Behind the Envoy/Mind the Fairies"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Boom! At the Flower",
+                    "short_name": "Boomflower",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1835,
+                        "y": 3555
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Boom! At the Flower/Breakable Wall tho?"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Celeste Secret",
+                    "short_name": "Celeste",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1715,
+                        "y": 3735
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Ruined Atoll/Celeste Secret/Phonomath"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Frog's Domain",
+                    "children": [
+                      {
+                        "name": "Grapple the Autobolt",
+                        "short_name": "Grapplebolt",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4060,
+                            "y": 4055
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Grapple the Autobolt/Guarded by the Autobolt"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Grapple Above the Fox Shrine",
+                        "short_name": "Shrine Grapple",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3255,
+                            "y": 4325
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Grapple Above the Fox Shrine/Look Up"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Chest by the Table",
+                        "short_name": "Table",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3560,
+                            "y": 4065
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Chest by the Table/Frog Meeting"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Hidden Behind the Table",
+                        "short_name": "Hidden",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3685,
+                            "y": 4055
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Hidden Behind the Table/Upper Right Corner"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Hidden Bath",
+                        "short_name": "Bath",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3330,
+                            "y": 4130
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Hidden Bath/Grapple on Over"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Obscured Doorway Ledge",
+                        "short_name": "Ledge",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3155,
+                            "y": 4460
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Obscured Doorway Ledge/Above Golden Door"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Northwest Chest",
+                        "short_name": "NW Chest",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 2500,
+                            "y": 4735
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Northwest Chest/Mind the Adult Frog"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Altar Chest",
+                        "short_name": "Altar",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 2910,
+                            "y": 4835
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Altar Chest/Congregation of Knight Frogs"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Golden Door Chest",
+                        "short_name": "Gold Door",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3435,
+                            "y": 4675
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Golden Door Chest/Already Stolen"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Baby Slorm Pool",
+                        "short_name": "Slorm Pool",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3755,
+                            "y": 4775
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Baby Slorm Pool/Still Useful"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Magic Orb",
+                        "short_name": "Morb",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 3600,
+                            "y": 4265
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/Frog's Domain/Magic Orb/ORB"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "The Grand Library",
+                    "children": [
+                      {
+                        "name": "Library Rug Secret",
+                        "short_name": "Rug",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 1080,
+                            "y": 3540
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/The Grand Library/Library Rug Secret/Use the Holy Cross"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Hero's Grave",
+                        "short_name": "Grave",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 1075,
+                            "y": 3405
+                          },
+                          {
+                            "map": "fullmap",
+                            "x": 600,
+                            "y": 4705
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/The Grand Library/Hero's Grave/Pray to the Hero"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Free the Stolen Pages",
+                        "short_name": "Stolen Pages",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 1395,
+                            "y": 3470
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/The Grand Library/Free the Stolen Pages/Page Tubes"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "The Librarian's Stash",
+                        "short_name": "Stash",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 1450,
+                            "y": 3310
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/The Grand Library/The Librarian's Stash/Next to the Shrine"
+                          },
+                          {
+                            "ref": "Full World/Ruined Atoll/The Grand Library/The Librarian's Stash/Behind the Chalkboard"
+                          },
+                          {
+                            "ref": "Full World/Ruined Atoll/The Grand Library/The Librarian's Stash/By the Window"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "The Librarian",
+                        "short_name": "Librarian",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 1250,
+                            "y": 3700
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Ruined Atoll/The Grand Library/The Librarian/Show him the Far Shores"
+                          },
+                          {
+                            "ref": "Full World/Ruined Atoll/The Grand Library/The Librarian/Stolen to the Top of the Sky"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Quarry",
+                "children": [
+                  {
+                    "name": "Snowy Trees Fairy",
+                    "short_name": "Snowy Trees",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 980,
+                        "y": 1130
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Snowy Trees Fairy/Kimi wa Boku no Fairy~"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Under the Ruined Obelisk",
+                    "short_name": "Leaking Obelisk",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1345,
+                        "y": 1840
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Under the Ruined Obelisk/Down the Stairs"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Backtrack but Below",
+                    "short_name": "Backtrack Below",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1390,
+                        "y": 2045
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Backtrack but Below/Even more Stairs!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Beyond the Bridge",
+                    "short_name": "Beyond Bridge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1405,
+                        "y": 1710
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Beyond the Bridge/Drop that Bridge!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Bombable Wall",
+                    "short_name": "Bombable Wall",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1510,
+                        "y": 1645
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Behind the Bombable Wall/The Flowers are Here..."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Behind the Boxes",
+                    "short_name": "Boxes",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1095,
+                        "y": 1765
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Behind the Boxes/Boxxeees"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Obscured Walkway",
+                    "short_name": "Obscured",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1630,
+                        "y": 1470
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Obscured Walkway/Why else would the walkway be here?"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "By the Dark Telescope",
+                    "short_name": "Dark Telescope",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1840,
+                        "y": 1385
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/By the Dark Telescope/Spoopy"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Cube Scaffolding Bridge",
+                    "short_name": "Cube Bridge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 780,
+                        "y": 1830
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Cube Scaffolding Bridge/Yummy Polygons"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tiny Spiral Staircase",
+                    "short_name": "Tiny Stairs",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1525,
+                        "y": 1545
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Tiny Spiral Staircase/At the Bottom"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "End of the Ruined Bridge",
+                    "short_name": "Ruined Bridge",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1315,
+                        "y": 1650
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/End of the Ruined Bridge/Mind the Scavengers"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Peaceful Chest",
+                    "short_name": "Peaceful",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 825,
+                        "y": 1590
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Peaceful Chest/Reminicent of the Overworld"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Top of the Two Ladders",
+                    "short_name": "Two Ladders",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1575,
+                        "y": 1260
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Top of the Two Ladders/Reminds me of Blighttown"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "In the Miasma Mound",
+                    "short_name": "Miasma Mound",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1360,
+                        "y": 1465
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/In the Miasma Mound/Mind the Sniper"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Above Fox Shrine",
+                    "short_name": "Above Shrine",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1210,
+                        "y": 1245
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Above Fox Shrine/MMMM Ladder"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Dash Above Fox Shrine",
+                    "short_name": "Dash Shrine",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1160,
+                        "y": 1180
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Dash Above Fox Shrine/Dash Across"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Inside the Monastery",
+                    "short_name": "Monastery",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1010,
+                        "y": 1245
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 610,
+                        "y": 4180
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Inside the Monastery/Mask Chest"
+                      },
+                      {
+                        "ref": "Full World/The Quarry/Inside the Monastery/Hero's Grave"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bottom of Large Spiral Stairs",
+                    "short_name": "Large Spiral Stairs",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1145,
+                        "y": 1685
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Bottom of Large Spiral Stairs/At the Bottom"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "By the Waterfall",
+                    "short_name": "Waterfall",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 805,
+                        "y": 1715
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/By the Waterfall/Happy Water!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Grass Bomb Chest",
+                    "short_name": "Grass Bomb",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 955,
+                        "y": 1840
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Quarry/Grass Bomb Chest/Boomy"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Lower Quarry",
+                    "children": [
+                      {
+                        "name": "Under Shooting Range",
+                        "short_name": "Under Range",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 630,
+                            "y": 2255
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/The Quarry/Lower Quarry/Under Shooting Range/Clever little sneak!"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Shooting Range Boxes",
+                        "short_name": "Range Boxes",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 745,
+                            "y": 1935
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/The Quarry/Lower Quarry/Shooting Range Boxes/BOXAS!!!"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Shooting Range Chest",
+                        "short_name": "Shooting Range",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 625,
+                            "y": 2165
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/The Quarry/Lower Quarry/Shooting Range Chest/You really shouldn't've betrayed us..."
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Scaffolding Boxes",
+                        "short_name": "Scaffolding",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 1445,
+                            "y": 2230
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/The Quarry/Lower Quarry/Scaffolding Boxes/Burn Pots"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Under Lower Bridge",
+                        "short_name": "Under Bridge",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 970,
+                            "y": 2355
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/The Quarry/Lower Quarry/Under Lower Bridge/Go Around"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "On top of the Lower Bridge",
+                        "short_name": "Lower Bridge",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 1035,
+                            "y": 2380
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/The Quarry/Lower Quarry/On top of the Lower Bridge/Drop that Bridge!"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Under Snipers Chest",
+                        "short_name": "Under Snipers",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 1160,
+                            "y": 2380
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/The Quarry/Lower Quarry/Under Snipers Chest/Hate them Snipers"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Deep in the Miasma Pits",
+                        "short_name": "",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 755,
+                            "y": 2380
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/The Quarry/Lower Quarry/Deep in the Miasma Pits/Wayy down there"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "On the Way to the Ziggurat",
+                        "short_name": "Way to Zigg",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 1505,
+                            "y": 2325
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/The Quarry/Lower Quarry/On the Way to the Ziggurat/End of the Tracks"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "The Rooted Ziggurat",
+                        "children": [
+                          {
+                            "name": "Hit the Switch",
+                            "short_name": "Switch",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 510,
+                                "y": 2100
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Hit the Switch/You can shoot it"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Ziggy Bottom",
+                            "short_name": "Bottom",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 490,
+                                "y": 2390
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Ziggy Bottom/End of the First Floor"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Above First Horror",
+                            "short_name": "First Horror",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 450,
+                                "y": 1740
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Above First Horror/I'm Scared"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Corpse Chest",
+                            "short_name": "Corpses",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 340,
+                                "y": 940
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Corpse Chest/They are Dead"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Miasma Spider Ambush",
+                            "short_name": "Ambush",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 10,
+                                "y": 1050
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Miasma Spider Ambush/Use the Gun"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Surrounded by Autobolts",
+                            "short_name": "Autobolts",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 330,
+                                "y": 1105
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Surrounded by Autobolts/Help"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Hell",
+                            "short_name": "Hell",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 530,
+                                "y": 1060
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Hell/Oh god they're everywhere"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Barber's Chest",
+                            "short_name": "Barber",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 630,
+                                "y": 1165
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Barber's Chest/Haircut Tiem :)"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Lonely Chest",
+                            "short_name": "Lonely",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 400,
+                                "y": 1165
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Lonely Chest/Moment of Reprieve"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Isolated Chest",
+                            "short_name": "Isolated",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 670,
+                                "y": 1200
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Isolated Chest/Defeat those Mechs"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Boss Scavenger",
+                            "short_name": "Boss",
+                            "map_locations": [
+                              {
+                                "map": "fullmap",
+                                "x": 1155,
+                                "y": 890
+                              }
+                            ],
+                            "sections": [
+                              {
+                                "ref": "Full World/The Quarry/Lower Quarry/The Rooted Ziggurat/Boss Scavenger/Scavenger Queen"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Old Burying Ground",
+                "children": [
+                  {
+                    "name": "After the Cathedral",
+                    "short_name": "After Cathedral",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3565,
+                        "y": 3290
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Old Burying Ground/After the Cathedral/Dash Across"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "At the Bottom of the Tower",
+                    "short_name": "Tower Bottom",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3755,
+                        "y": 3590
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Old Burying Ground/At the Bottom of the Tower/Go Inside"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shallow Island Chest",
+                    "short_name": "Shallow Island",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3765,
+                        "y": 3285
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Old Burying Ground/Shallow Island Chest/Mildly Hidden"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Corner by the Well",
+                    "short_name": "Well Corner",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4030,
+                        "y": 3750
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/Old Burying Ground/Corner by the Well/DAGGER STRAP!!!11!!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Inner Graveyard",
+                    "children": [
+                      {
+                        "name": "Top of the Hill",
+                        "short_name": "Hilltop",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4095,
+                            "y": 3565
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Top of the Hill/Gazing out over the Graves"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Under Telescope",
+                        "short_name": "Under Scope",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4530,
+                            "y": 3605
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Under Telescope/Through the Nook"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Above the Grave",
+                        "short_name": "Above Grave",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4350,
+                            "y": 3720
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Above the Grave/End of Ledge"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Beside the Grave",
+                        "short_name": "By Grave",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4290,
+                            "y": 3745
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Beside the Grave/Super Clipping"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Out in the Open",
+                        "short_name": "Wide Open",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4100,
+                            "y": 3785
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Out in the Open/The Rest of Our Entire Life is Death"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Red Skull Golfing",
+                        "short_name": "Skolf",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4180,
+                            "y": 3730
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Red Skull Golfing/Just Some Pals"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Isolated Island",
+                        "short_name": "Isolated",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4610,
+                            "y": 3780
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Isolated Island/Mind the Tentacles!"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Pillar Dash Chest",
+                        "short_name": "Pillar Dash",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4090,
+                            "y": 3685
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Pillar Dash Chest/Around the Hill"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Bottom of Ladder Secret",
+                        "short_name": "Ladder Secret",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4340,
+                            "y": 3615
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Bottom of Ladder Secret/Through the Passage"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Hug the Corner Wall",
+                        "short_name": "Corner Wall",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4590,
+                            "y": 3700
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Hug the Corner Wall/You can also dash across here"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Under the Hero's Grave",
+                        "short_name": "Under Grave",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4270,
+                            "y": 3180
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Under the Hero's Grave/Do You Even Live?"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Hidden Ramps Chest",
+                        "short_name": "Hidden Ramps",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4525,
+                            "y": 3385
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Hidden Ramps Chest/Up them Ramps"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "The Telescope Chest",
+                        "short_name": "Scope",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4555,
+                            "y": 3640
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/The Telescope Chest/Overlooking the Graves"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "End of Graveyard Chest",
+                        "short_name": "Graveyard End",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4605,
+                            "y": 3380
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/End of Graveyard Chest/Alternatively, Before the Cathedral"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Between Two Hills",
+                        "short_name": "Two Hills",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4675,
+                            "y": 3270
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Between Two Hills/Locked in Combat Hilltops"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Close to Secret Wall",
+                        "short_name": "Secret Wall",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4240,
+                            "y": 2860
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Close to Secret Wall/Down the Hidden Ladder"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Obscured Chest",
+                        "short_name": "Obscured",
+                        "map_locations": [
+                          {
+                            "map": "fullmap",
+                            "x": 4140,
+                            "y": 3360
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "ref": "Full World/Old Burying Ground/Inner Graveyard/Obscured Chest/Hug the Wall"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Cathedral",
+                "children": [
+                  {
+                    "name": "Library Chest",
+                    "short_name": "Library",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4935,
+                        "y": 2955
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Library Chest/By the Books"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Library Secret",
+                    "short_name": "Secret",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4870,
+                        "y": 2955
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Library Secret/Press A on the Wall"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Library Double Secret",
+                    "short_name": "Double Secret",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4570,
+                        "y": 3025
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Library Double Secret/Secret Legend"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ruin Copies Room",
+                    "short_name": "Ruin Copies",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4945,
+                        "y": 2905
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Ruin Copies Room/Beside 3 Miasma Seekers"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Spike Floor Room",
+                    "short_name": "Spikes",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4785,
+                        "y": 2955
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Spike Floor Room/Mind the Miasma Seeker"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Birdcage Room",
+                    "short_name": "Birdcage",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4930,
+                        "y": 2875
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Birdcage Room/Miasma Hushers"
+                      },
+                      {
+                        "ref": "Full World/The Cathedral/Birdcage Room/Pray to Wallman"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Balcony Chest",
+                    "short_name": "Balcony",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4850,
+                        "y": 2875
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Balcony Chest/Overlooking Miasma"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Top of the Library",
+                    "short_name": "Library Top",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4920,
+                        "y": 2905
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Top of the Library/Drop the Ladder"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Lazer Hallway Chest",
+                    "short_name": "Lazer Hall",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4565,
+                        "y": 2875
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Lazer Hallway Chest/Before the big reveal..."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Cathedral Gauntlet",
+                    "short_name": "Gauntlet",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4960,
+                        "y": 3565
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/Cathedral Gauntlet/Defeat the Waves"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "First Hero's Grave",
+                    "short_name": "Grave",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4315,
+                        "y": 3205
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 920,
+                        "y": 4710
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Cathedral/First Hero's Grave/Pray to the Hero"
+                      },
+                      {
+                        "ref": "Full World/The Cathedral/First Hero's Grave/Behind and to the Right"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Far Shore",
+                "children": [
+                  {
+                    "name": "Visit the Heir",
+                    "short_name": "Visit Heir",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4485,
+                        "y": 731
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Far Shore/Visit the Heir/Now it's Nighttime!"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "First Manual Page",
+                    "short_name": "Page",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3005,
+                        "y": 2995
+                      },
+                      {
+                        "map": "fullmap",
+                        "x": 4482,
+                        "y": 1020
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Far Shore/First Manual Page/A Long, Long Time Ago..."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Forever Friend",
+                    "short_name": "Friend",
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 4237,
+                        "y": 945
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "ref": "Full World/The Far Shore/Forever Friend/Dash Across"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

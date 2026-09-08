@@ -10,12 +10,6 @@
         "name": "Enemy Drops - Overworld",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 2700,
-            "y": 2500,
-            "size": 65
-          },
-          {
             "map": "overworld",
             "x": 70,
             "y": 70,
@@ -234,12 +228,6 @@
         "name": "Enemy Drops - East Forest",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 3900,
-            "y": 2800,
-            "size": 65
-          },
-          {
             "map": "east_forest",
             "x": 70,
             "y": 70,
@@ -451,12 +439,6 @@
         "name": "Enemy Drops - Beneath the Well",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 3200,
-            "y": 900,
-            "size": 65
-          },
-          {
             "map": "well",
             "x": 70,
             "y": 70,
@@ -551,12 +533,6 @@
         "name": "Enemy Drops - Dark Tomb",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 1700,
-            "y": 1000,
-            "size": 65
-          },
-          {
             "map": "dark_tomb",
             "x": 70,
             "y": 70,
@@ -613,12 +589,6 @@
       {
         "name": "Enemy Drops - West Garden",
         "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 900,
-            "y": 2850,
-            "size": 65
-          },
           {
             "map": "west_gardens",
             "x": 70,
@@ -766,12 +736,6 @@
         "name": "Enemy Drops - Beneath the Earth",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 4800,
-            "y": 2200,
-            "size": 65
-          },
-          {
             "map": "earth",
             "x": 70,
             "y": 70,
@@ -851,12 +815,6 @@
       {
         "name": "Enemy Drops - Eastern Vault",
         "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 4000,
-            "y": 1700,
-            "size": 65
-          },
           {
             "map": "eastern_vault",
             "x": 70,
@@ -1024,12 +982,6 @@
         "name": "Enemy Drops - Ruined Atoll",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 2400,
-            "y": 3700,
-            "size": 65
-          },
-          {
             "map": "ruined_atoll",
             "x": 70,
             "y": 70,
@@ -1144,12 +1096,6 @@
         "name": "Enemy Drops - Frog's Domain",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 3400,
-            "y": 4300,
-            "size": 65
-          },
-          {
             "map": "frogs_domain",
             "x": 70,
             "y": 70,
@@ -1243,12 +1189,6 @@
         "name": "Enemy Drops - The Grand Library",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 1300,
-            "y": 3500,
-            "size": 65
-          },
-          {
             "map": "library",
             "x": 70,
             "y": 70,
@@ -1275,12 +1215,6 @@
       {
         "name": "Enemy Drops - The Quarry",
         "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 1100,
-            "y": 1700,
-            "size": 65
-          },
           {
             "map": "quarry",
             "x": 70,
@@ -1395,12 +1329,6 @@
         "name": "Enemy Drops - The Rooted Ziggurat",
         "map_locations": [
           {
-            "map": "fullmap",
-            "x": 500,
-            "y": 1500,
-            "size": 65
-          },
-          {
             "map": "ziggurat",
             "x": 70,
             "y": 70,
@@ -1469,12 +1397,6 @@
       {
         "name": "Enemy Drops - Swamp",
         "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 4300,
-            "y": 3500,
-            "size": 65
-          },
           {
             "map": "graveyard",
             "x": 70,
@@ -1567,12 +1489,6 @@
       {
         "name": "Enemy Drops - The Cathedral",
         "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 4850,
-            "y": 3000,
-            "size": 65
-          },
           {
             "map": "cathedral",
             "x": 70,

@@ -18,11 +18,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3560,
-                "y": 3048
-              },
-              {
                 "map": "overworld",
                 "x": 1886,
                 "y": 1295,
@@ -50,11 +45,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4315,
-                "y": 3486
-              },
-              {
                 "map": "graveyard",
                 "x": 825,
                 "y": 625,
@@ -73,11 +63,6 @@
               "@Swamp Mid,pray,swamp_fuse_1,swamp_fuse_2"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4315,
-                "y": 3057
-              },
               {
                 "map": "graveyard",
                 "x": 825,
@@ -102,11 +87,6 @@
           {
             "name": "West Garden - [South Highlands] Activate Fuse",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 958,
-                "y": 3167
-              },
               {
                 "map": "west_gardens",
                 "x": 719,
@@ -136,11 +116,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1915,
-                "y": 3325
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 271,
                 "y": 217,
@@ -156,11 +131,6 @@
           {
             "name": "Ruined Atoll - [Northeast] Activate Fuse",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2937,
-                "y": 3299
-              },
               {
                 "map": "ruined_atoll",
                 "x": 1293,
@@ -180,11 +150,6 @@
               "$combat_logic_equipment|ruined_atoll,[$combat_logic_on|ruined_atoll]"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1920,
-                "y": 4013
-              },
               {
                 "map": "ruined_atoll",
                 "x": 276,
@@ -210,11 +175,6 @@
             "name": "Ruined Atoll - [Southeast] Activate Fuse",
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2941,
-                "y": 4015
-              },
-              {
                 "map": "ruined_atoll",
                 "x": 1297,
                 "y": 908,
@@ -238,11 +198,6 @@
           {
             "name": "Library Lab - Activate Fuse",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1366,
-                "y": 3311
-              },
               {
                 "map": "library",
                 "x": 312,
@@ -271,11 +226,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4188,
-                "y": 2217
-              },
-              {
                 "map": "eastern_vault",
                 "x": 605,
                 "y": 1037,
@@ -294,11 +244,6 @@
               "@Fortress Exterior from Overworld,pray,fortress_exterior_fuse_1"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3889,
-                "y": 2002
-              },
               {
                 "map": "eastern_vault",
                 "x": 306,
@@ -327,11 +272,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4350,
-                "y": 1953
-              },
-              {
                 "map": "eastern_vault",
                 "x": 769,
                 "y": 773,
@@ -358,11 +298,6 @@
               "@Fortress Courtyard,pray,fortress_exterior_fuse_1,fortress_courtyard_upper_fuse,$combat_logic_equipment|eastern_vault_fortress,[$combat_logic_on|eastern_vault_fortress]"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4182,
-                "y": 1884
-              },
               {
                 "map": "eastern_vault",
                 "x": 600,
@@ -391,11 +326,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 5090,
-                "y": 2166
-              },
-              {
                 "map": "earth",
                 "x": 705,
                 "y": 173,
@@ -423,11 +353,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3713,
-                "y": 1490
-              },
-              {
                 "map": "eastern_vault",
                 "x": 130,
                 "y": 310,
@@ -447,11 +372,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4123,
-                "y": 1338
-              },
-              {
                 "map": "eastern_vault",
                 "x": 541,
                 "y": 159,
@@ -470,11 +390,6 @@
               "@Eastern Vault Fortress,pray,fortress_exterior_fuse_1,fortress_courtyard_upper_fuse,fortress_courtyard_fuse,$combat_logic_equipment|eastern_vault_fortress,[$combat_logic_on|eastern_vault_fortress]"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4244,
-                "y": 1338
-              },
               {
                 "map": "eastern_vault",
                 "x": 661,
@@ -502,11 +417,6 @@
               "@Quarry Connector,orb,pray"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2046,
-                "y": 1927
-              },
               {
                 "map": "quarry",
                 "x": 1279,
@@ -541,11 +451,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1881,
-                "y": 2242
-              },
-              {
                 "map": "quarry",
                 "x": 1241,
                 "y": 1227,
@@ -572,11 +477,6 @@
               "@Rooted Ziggurat Lower Back,pray"
             ],
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 635,
-                "y": 831
-              },
               {
                 "map": "ziggurat",
                 "x": 1667,
@@ -607,11 +507,6 @@
             ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 472,
-                "y": 1390
-              },
-              {
                 "map": "ziggurat",
                 "x": 1219,
                 "y": 1355,
@@ -635,11 +530,6 @@
           {
             "name": "Cathedral - Activate Fuse",
             "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4725,
-                "y": 2864
-              },
               {
                 "map": "cathedral",
                 "x": 293,
