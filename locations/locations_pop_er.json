@@ -1387,6 +1387,16 @@
                   "$combat_logic_equipment|overworld|dagger,[$combat_logic_on|overworld|dagger]"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Overworld - [Southwest] Autobolt Guarding Chest Near Wear",
+                "item_count": 1,
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "access_rules": [
+                  "$enemy_access|autobolt"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
               }
             ]
           },
@@ -1413,6 +1423,16 @@
                   "orb,$enemy_soul_access|autobolt,$combat_logic_equipment|overworld,[$combat_logic_on|overworld]"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Overworld - [Southwest] Autobolt Guarding Chest On Island",
+                "item_count": 1,
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "access_rules": [
+                  "$enemy_access|autobolt_gap"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
               }
             ]
           },
@@ -2045,6 +2065,17 @@
                   "cross"
                 ],
                 "item_count": 1
+              },
+              
+              {
+                "name": "Patrol Cave - Patrolling Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "@Shop,$enemy_access|rudeling_patrol"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
               }
             ]
           }
@@ -2937,6 +2968,16 @@
                   "dagger,icerod,orb,staff,$enemy_soul_access|blobs"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "East Forest - Ice Grapple Blob",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|blob_ice_grapple"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
               }
             ]
           },
@@ -3182,14 +3223,54 @@
                 "hosted_item": "captain"
               },
               {
-                "name": "Enemy Drop",
-                "visibility_rules": "enemy_drop_shuffle",
+                "name": "Forest Boss Room - Guard Captain",
+                "item_count": 1,
                 "chest_unopened_img": "images/souls/enemy_soul.png",
                 "chest_opened_img": "images/souls/enemy_soul_grey.png",
                 "access_rules": [
                   "$enemy_access|guard_captain"
                 ],
-                "item_count": 1
+                "visibility_rules": "enemy_drop_shuffle"
+              },
+              {
+                "name": "Forest Boss Room - Top Left Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|rudeling"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
+              },
+              {
+                "name": "Forest Boss Room - Bottom Left Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|rudeling"
+                ],
+                "visibility_rules": "enemy_drops_extra"
+              },
+              {
+                "name": "Forest Boss Room - Bottom Right Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|rudeling"
+                ],
+                "visibility_rules": "enemy_drops_extra"
+              },
+              {
+                "name": "Forest Boss Room - Top Right Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|rudeling"
+                ],
+                "visibility_rules": "enemy_drops_extra"
               }
             ]
           }
@@ -5778,7 +5859,7 @@
                 "hosted_item": "librarian"
               },
               {
-                "name": "Enemy Drop",
+                "name": "Librarian - Defeat Librarian",
                 "visibility_rules": "enemy_drop_shuffle",
                 "chest_unopened_img": "images/souls/enemy_soul.png",
                 "chest_opened_img": "images/souls/enemy_soul_grey.png",
@@ -6553,7 +6634,7 @@
                 "hosted_item": "engine"
               },
               {
-                "name": "Enemy Drop",
+                "name": "Fortress Arena - Defeat Siege Engine",
                 "visibility_rules": "enemy_drop_shuffle",
                 "chest_unopened_img": "images/souls/enemy_soul.png",
                 "chest_opened_img": "images/souls/enemy_soul_grey.png",
@@ -7523,7 +7604,7 @@
                 "hosted_item": "gknight"
               },
               {
-                "name": "Enemy Drop",
+                "name": "West Garden - [North] Defeat Garden Knight",
                 "visibility_rules": "enemy_drop_shuffle",
                 "chest_unopened_img": "images/souls/enemy_soul.png",
                 "chest_opened_img": "images/souls/enemy_soul_grey.png",
@@ -7993,7 +8074,7 @@
                 "hosted_item": "scavboss"
               },
               {
-                "name": "Enemy Drop",
+                "name": "Rooted Ziggurat Lower - Defeat Boss Scavenger",
                 "visibility_rules": "enemy_drop_shuffle",
                 "chest_unopened_img": "images/souls/enemy_soul.png",
                 "chest_opened_img": "images/souls/enemy_soul_grey.png",
@@ -9731,6 +9812,36 @@
               "sign_breaker",
               "stick,firesword"
             ]
+          },
+          {
+            "name": "Hourglass Cave - Autobolt 1",
+            "item_count": 1,
+            "chest_opened_img": "images/souls/enemy_soul_grey.png",
+            "chest_unopened_img": "images/souls/enemy_soul.png",
+            "access_rules": [
+              "$enemy_access|autobolt"
+            ],
+            "visibility_rules": "enemy_drop_shuffle"
+          },
+          {
+            "name": "Hourglass Cave - Autobolt 3",
+            "item_count": 1,
+            "chest_opened_img": "images/souls/enemy_soul_grey.png",
+            "chest_unopened_img": "images/souls/enemy_soul.png",
+            "access_rules": [
+              "$enemy_access|autobolt"
+            ],
+            "visibility_rules": "enemy_drop_shuffle"
+          },
+          {
+            "name": "Hourglass Cave - Autobolt 2",
+            "item_count": 1,
+            "chest_opened_img": "images/souls/enemy_soul_grey.png",
+            "chest_unopened_img": "images/souls/enemy_soul.png",
+            "access_rules": [
+              "$enemy_access|autobolt"
+            ],
+            "visibility_rules": "enemy_drop_shuffle"
           }
         ]
       },
