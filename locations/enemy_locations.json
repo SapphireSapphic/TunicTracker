@@ -28,7 +28,8 @@
             "item_count": 3,
             "access_rules": [
               "@After Ruined Passage,$enemy_access|blob"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "After Ruined Passage - Zombie Fox [Extra]",
@@ -36,14 +37,16 @@
             "access_rules": [
               "@After Ruined Passage,$enemy_access|fox_enemy_zombie"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "East Overworld - Blobs",
             "item_count": 14,
             "access_rules": [
               "@East Overworld,$enemy_access|blob"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "East Overworld - Blob [Extra]",
@@ -51,28 +54,32 @@
             "access_rules": [
               "@East Overworld,$enemy_access|blob"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "East Overworld - Hedgehogs",
             "item_count": 3,
             "access_rules": [
               "@East Overworld,$enemy_access|hedgehog"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/hedgehog.png"
           },
           {
             "name": "Hourglass Cave - Autobolts",
             "item_count": 3,
             "access_rules": [
               "@Hourglass Cave,$enemy_access|autobolt"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Autobolts",
             "item_count": 3,
             "access_rules": [
               "@Overworld,$enemy_access|autobolt"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Beefboy [Extra]",
@@ -80,7 +87,8 @@
             "access_rules": [
               "@Overworld,$enemy_access|beefboy"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/beefboy.png"
           },
           {
             "name": "Big Fleemer [Extra]",
@@ -88,14 +96,16 @@
             "access_rules": [
               "@Overworld,$enemy_access|fleemer_big"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Blobs",
             "item_count": 9,
             "access_rules": [
               "@Overworld,$enemy_access|blob"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "Blob [Extra]",
@@ -103,7 +113,8 @@
             "access_rules": [
               "@Overworld,$enemy_access|blob"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "Envoy",
@@ -111,14 +122,16 @@
             "access_rules": [
               "@Overworld,@Shop,$enemy_access|envoy_shop",
               "@Overworld,$enemy_access|envoy_combat"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/envoy.png"
           },
           {
             "name": "Envoy (Quarry Bridge)",
             "item_count": 1,
             "access_rules": [
               "@Overworld,$enemy_access|envoy_bridge"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/envoy.png"
           },
           {
             "name": "Guard Captain [Extra]",
@@ -126,28 +139,32 @@
             "access_rules": [
               "@Overworld,$enemy_access|guard_captain"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Hedgehogs",
             "item_count": 9,
             "access_rules": [
               "@Overworld,$enemy_access|hedgehog"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/hedgehog.png"
           },
           {
             "name": "Phrends",
             "item_count": 2,
             "access_rules": [
               "@Overworld,$enemy_access|phrend"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/phrend.png"
           },
           {
             "name": "Rudelings",
             "item_count": 10,
             "access_rules": [
               "@Overworld,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Rudeling [Extra]",
@@ -155,14 +172,16 @@
             "access_rules": [
               "@Overworld,$enemy_access|rudeling"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Shield Rudelings",
             "item_count": 7,
             "access_rules": [
               "@Overworld,$enemy_access|rudeling_shield"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Shield Rudeling [Extra]",
@@ -170,63 +189,72 @@
             "access_rules": [
               "@Overworld,$enemy_access|rudeling_shield"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Above Patrol Cave - Hedgehogs",
             "item_count": 2,
             "access_rules": [
               "@Overworld above Patrol Cave,$enemy_access|hedgehog"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/hedgehog.png"
           },
           {
             "name": "Beach - Autobolts",
             "item_count": 2,
             "access_rules": [
               "@Overworld Beach,$enemy_access|autobolt"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Beach - Autobolt (Gap)",
             "item_count": 1,
             "access_rules": [
               "@Overworld Beach,$enemy_access|autobolt_gap"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Tunnel Turret - Autobolt",
             "item_count": 1,
             "access_rules": [
               "@Overworld Tunnel Turret,$enemy_access|autobolt"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Patrol Cave - Rudeling (Shop Route)",
             "item_count": 1,
             "access_rules": [
               "@Patrol Cave,@Shop,$enemy_access|rudeling_patrol"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Upper Overworld - Guard Captain",
             "item_count": 1,
             "access_rules": [
               "@Upper Overworld,$enemy_access|guard_captain"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Upper Overworld - Phrends",
             "item_count": 6,
             "access_rules": [
               "@Upper Overworld,$enemy_access|phrend"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/phrend.png"
           },
           {
             "name": "Upper Overworld - Shield Rudelings",
             "item_count": 3,
             "access_rules": [
               "@Upper Overworld,$enemy_access|rudeling_shield"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           }
         ]
       },
@@ -252,21 +280,24 @@
             "item_count": 5,
             "access_rules": [
               "@East Forest,$enemy_access|blob"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "Hedgehogs",
             "item_count": 4,
             "access_rules": [
               "@East Forest,$enemy_access|hedgehog"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/hedgehog.png"
           },
           {
             "name": "Rudelings",
             "item_count": 5,
             "access_rules": [
               "@East Forest,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Rudelings [Extra]",
@@ -274,7 +305,8 @@
             "access_rules": [
               "@East Forest,$enemy_access|rudeling"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Spider [Extra]",
@@ -282,7 +314,8 @@
             "access_rules": [
               "@East Forest,$enemy_access|spider"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/spider.png"
           },
           {
             "name": "Above Guard House 2 - Envoy",
@@ -290,42 +323,48 @@
             "access_rules": [
               "@East Forest above Guard House 2,@Shop,$enemy_access|envoy_shop",
               "@East Forest above Guard House 2,$enemy_access|envoy_combat"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/envoy.png"
           },
           {
             "name": "Above Guard House 2 - Rudeling",
             "item_count": 1,
             "access_rules": [
               "@East Forest above Guard House 2,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Above Guard House 2 - Shield Rudeling",
             "item_count": 1,
             "access_rules": [
               "@East Forest above Guard House 2,$enemy_access|rudeling_shield"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Dance Fox Spot - Hedgehogs",
             "item_count": 2,
             "access_rules": [
               "@East Forest Dance Fox Spot,$enemy_access|hedgehog"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/hedgehog.png"
           },
           {
             "name": "Forest Belltower Main - Blobs",
             "item_count": 5,
             "access_rules": [
               "@Forest Belltower Main,$enemy_access|blob"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "Forest Boss Room - Rudeling",
             "item_count": 1,
             "access_rules": [
               "@Forest Boss Room,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Forest Boss Room - Rudelings [Extra]",
@@ -333,7 +372,8 @@
             "access_rules": [
               "@Forest Boss Room,$enemy_access|rudeling"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Forest Grave Path by Grave - Strong Zombie Fox [Extra]",
@@ -341,7 +381,8 @@
             "access_rules": [
               "@Forest Grave Path by Grave,$enemy_access|fox_enemy"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "Forest Grave Path by Grave - Zombie Fox [Extra]",
@@ -349,28 +390,32 @@
             "access_rules": [
               "@Forest Grave Path by Grave,$enemy_access|fox_enemy_zombie"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "Forest Grave Path Main - Blobs",
             "item_count": 2,
             "access_rules": [
               "@Forest Grave Path Main,$enemy_access|blob"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "Forest Grave Path Main - Hedgehogs",
             "item_count": 3,
             "access_rules": [
               "@Forest Grave Path Main,$enemy_access|hedgehog"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/hedgehog.png"
           },
           {
             "name": "Forest Grave Path Main - Rudeling",
             "item_count": 1,
             "access_rules": [
               "@Forest Grave Path Main,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Forest Grave Path Main - Scavengers [Extra]",
@@ -378,7 +423,8 @@
             "access_rules": [
               "@Forest Grave Path Main,$enemy_access|scavenger"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Forest Grave Path Main - Support Scavenger [Extra]",
@@ -386,56 +432,64 @@
             "access_rules": [
               "@Forest Grave Path Main,$enemy_access|scavenger_support"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Guard House 1 West - Blobs",
             "item_count": 8,
             "access_rules": [
               "@Guard House 1 West,$enemy_access|blob"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "Guard House 1 West - Hedgehog",
             "item_count": 1,
             "access_rules": [
               "@Guard House 1 West,$enemy_access|hedgehog"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/hedgehog.png"
           },
           {
             "name": "Guard House 2 Lower - Blobs",
             "item_count": 3,
             "access_rules": [
               "@Guard House 2 Lower,$enemy_access|blob"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "Guard House 2 Lower - Rudelings",
             "item_count": 2,
             "access_rules": [
               "@Guard House 2 Lower,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Lower Forest - Blob (Ice Grapple)",
             "item_count": 1,
             "access_rules": [
               "@Lower Forest,$enemy_access|blob_ice_grapple"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "Lower Forest - Rudelings",
             "item_count": 2,
             "access_rules": [
               "@Lower Forest,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Lower Forest - Spiders",
             "item_count": 5,
             "access_rules": [
               "@Lower Forest,$enemy_access|spider"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/spider.png"
           },
           {
             "name": "Lower Forest - Spider [Extra]",
@@ -443,7 +497,8 @@
             "access_rules": [
               "@Lower Forest,$enemy_access|spider"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/spider.png"
           }
         ]
       },
@@ -469,14 +524,16 @@
             "item_count": 9,
             "access_rules": [
               "@Beneath the Well Back,$enemy_access|phrend"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/phrend.png"
           },
           {
             "name": "Main - Autobolts",
             "item_count": 2,
             "access_rules": [
               "@Beneath the Well Main,$enemy_access|autobolt"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Main - Autobolt [Extra]",
@@ -484,28 +541,32 @@
             "access_rules": [
               "@Beneath the Well Main,$enemy_access|autobolt"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Main - Rudelings",
             "item_count": 3,
             "access_rules": [
               "@Beneath the Well Main,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Main - Shield Rudelings",
             "item_count": 3,
             "access_rules": [
               "@Beneath the Well Main,$enemy_access|rudeling_shield"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Main - Slorms",
             "item_count": 9,
             "access_rules": [
               "@Beneath the Well Main,$enemy_access|slorm"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/slorm.png"
           },
           {
             "name": "Main - Slorms [Extra]",
@@ -513,14 +574,16 @@
             "access_rules": [
               "@Beneath the Well Main,$enemy_access|slorm"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/slorm.png"
           },
           {
             "name": "Main - Tentacles",
             "item_count": 4,
             "access_rules": [
               "@Beneath the Well Main,$enemy_access|tentacle"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/tentacle.png"
           },
           {
             "name": "Well Boss - Envoy [Extra]",
@@ -529,21 +592,24 @@
               "@Well Boss,@Shop,$enemy_access|envoy_shop",
               "@Well Boss,$enemy_access|envoy_combat"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/envoy.png"
           },
           {
             "name": "Well Boss - Guard Captain",
             "item_count": 1,
             "access_rules": [
               "@Well Boss,$enemy_access|guard_captain"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Well Boss - Rudelings",
             "item_count": 2,
             "access_rules": [
               "@Well Boss,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           }
         ]
       },
@@ -569,7 +635,8 @@
             "item_count": 7,
             "access_rules": [
               "@Dark Tomb Main,$enemy_access|fleemer"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Main - Fleemers [Extra]",
@@ -577,21 +644,24 @@
             "access_rules": [
               "@Dark Tomb Main,$enemy_access|fleemer"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Main - Laser Traps",
             "item_count": 19,
             "access_rules": [
               "@Dark Tomb Main,$enemy_access|laser_trap"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/laser_trap.png"
           },
           {
             "name": "Upper - Fleemers",
             "item_count": 8,
             "access_rules": [
               "@Dark Tomb Upper,$enemy_access|fleemer"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Upper - Fleemer [Extra]",
@@ -599,14 +669,16 @@
             "access_rules": [
               "@Dark Tomb Upper,$enemy_access|fleemer"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Upper - Phrends",
             "item_count": 5,
             "access_rules": [
               "@Dark Tomb Upper,$enemy_access|phrend"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/phrend.png"
           }
         ]
       },
@@ -632,7 +704,8 @@
             "item_count": 1,
             "access_rules": [
               "@West Garden after Terry,$enemy_access|chompignom"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/chompignom.png"
           },
           {
             "name": "After Terry - Chompignom [Extra]",
@@ -640,14 +713,16 @@
             "access_rules": [
               "@West Garden after Terry,$enemy_access|chompignom"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/chompignom.png"
           },
           {
             "name": "After Terry - Fairy",
             "item_count": 1,
             "access_rules": [
               "@West Garden after Terry,$enemy_access|fairy"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fairy.png"
           },
           {
             "name": "After Terry - Fairy [Extra]",
@@ -655,14 +730,16 @@
             "access_rules": [
               "@West Garden after Terry,$enemy_access|fairy"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/fairy.png"
           },
           {
             "name": "At Dagger House - Chompignoms",
             "item_count": 2,
             "access_rules": [
               "@West Garden at Dagger House,$enemy_access|chompignom"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/chompignom.png"
           },
           {
             "name": "At Dagger House - Chompignom [Extra]",
@@ -670,14 +747,16 @@
             "access_rules": [
               "@West Garden at Dagger House,$enemy_access|chompignom"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/chompignom.png"
           },
           {
             "name": "At Dagger House - Rudeling",
             "item_count": 1,
             "access_rules": [
               "@West Garden at Dagger House,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Before Terry - Zombie Fox [Extra]",
@@ -685,28 +764,32 @@
             "access_rules": [
               "@West Garden before Terry,$enemy_access|fox_enemy_zombie"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "South Checkpoint - Chompignom",
             "item_count": 1,
             "access_rules": [
               "@West Garden South Checkpoint,$enemy_access|chompignom"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/chompignom.png"
           },
           {
             "name": "South Checkpoint - Fairies",
             "item_count": 4,
             "access_rules": [
               "@West Garden South Checkpoint,$enemy_access|fairy"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fairy.png"
           },
           {
             "name": "South Checkpoint - Guard Captain",
             "item_count": 1,
             "access_rules": [
               "@West Garden South Checkpoint,$enemy_access|guard_captain"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "South Checkpoint - Guard Captain [Extra]",
@@ -714,28 +797,32 @@
             "access_rules": [
               "@West Garden South Checkpoint,$enemy_access|guard_captain"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "South Checkpoint - Rudelings",
             "item_count": 2,
             "access_rules": [
               "@West Garden South Checkpoint,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "South Checkpoint - Shield Rudelings",
             "item_count": 2,
             "access_rules": [
               "@West Garden South Checkpoint,$enemy_access|rudeling_shield"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "West Combat - Chompignoms",
             "item_count": 5,
             "access_rules": [
               "@West Garden West Combat,$enemy_access|chompignom"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/chompignom.png"
           },
           {
             "name": "West Combat - Chompignoms [Extra]",
@@ -743,14 +830,16 @@
             "access_rules": [
               "@West Garden West Combat,$enemy_access|chompignom"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/chompignom.png"
           },
           {
             "name": "West Combat - Fairies",
             "item_count": 4,
             "access_rules": [
               "@West Garden West Combat,$enemy_access|fairy"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fairy.png"
           },
           {
             "name": "West Combat - Fairies [Extra]",
@@ -758,7 +847,8 @@
             "access_rules": [
               "@West Garden West Combat,$enemy_access|fairy"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/fairy.png"
           }
         ]
       },
@@ -784,7 +874,8 @@
             "item_count": 1,
             "access_rules": [
               "@Beneath the Vault Back,$enemy_access|baby_slorm"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/baby_slorm.png"
           },
           {
             "name": "Beneath the Vault Back - Candelabra Custodian [Extra]",
@@ -792,7 +883,8 @@
             "access_rules": [
               "@Beneath the Vault Back,$enemy_access|custodian_candelabra"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Beneath the Vault Back - Laser Traps [Extra]",
@@ -800,21 +892,24 @@
             "access_rules": [
               "@Beneath the Vault Back,$enemy_access|laser_trap"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/laser_trap.png"
           },
           {
             "name": "Beneath the Vault Back - Phrends",
             "item_count": 2,
             "access_rules": [
               "@Beneath the Vault Back,$enemy_access|phrend"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/phrend.png"
           },
           {
             "name": "Beneath the Vault Back - Sword Custodians",
             "item_count": 5,
             "access_rules": [
               "@Beneath the Vault Back,$enemy_access|custodian_sword"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Beneath the Vault Back - Sword Custodians [Extra]",
@@ -822,21 +917,24 @@
             "access_rules": [
               "@Beneath the Vault Back,$enemy_access|custodian_sword"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Beneath the Vault Main - Baby Slorms",
             "item_count": 2,
             "access_rules": [
               "@Beneath the Vault Main,$enemy_access|baby_slorm"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/baby_slorm.png"
           },
           {
             "name": "Beneath the Vault Main - Spiders",
             "item_count": 12,
             "access_rules": [
               "@Beneath the Vault Main,$enemy_access|spider"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/spider.png"
           },
           {
             "name": "Beneath the Vault Main - Spiders [Extra]",
@@ -844,7 +942,8 @@
             "access_rules": [
               "@Beneath the Vault Main,$enemy_access|spider"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/spider.png"
           }
         ]
       },
@@ -870,14 +969,16 @@
             "item_count": 3,
             "access_rules": [
               "@Eastern Vault Fortress,$enemy_access|baby_slorm"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/baby_slorm.png"
           },
           {
             "name": "Fortress - Candelabra Custodians",
             "item_count": 2,
             "access_rules": [
               "@Eastern Vault Fortress,$enemy_access|custodian_candelabra"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress - Candelabra Custodian [Extra]",
@@ -885,7 +986,8 @@
             "access_rules": [
               "@Eastern Vault Fortress,$enemy_access|custodian_candelabra"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress - Laser Traps [Extra]",
@@ -893,14 +995,16 @@
             "access_rules": [
               "@Eastern Vault Fortress,$enemy_access|laser_trap"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/laser_trap.png"
           },
           {
             "name": "Fortress - Sword Custodians",
             "item_count": 8,
             "access_rules": [
               "@Eastern Vault Fortress,$enemy_access|custodian_sword"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress - Sword Custodians [Extra]",
@@ -908,63 +1012,72 @@
             "access_rules": [
               "@Eastern Vault Fortress,$enemy_access|custodian_sword"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress - Wizard Custodian",
             "item_count": 1,
             "access_rules": [
               "@Eastern Vault Fortress,$enemy_access|custodian"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress Courtyard - Candelabra Custodian",
             "item_count": 1,
             "access_rules": [
               "@Fortress Courtyard,$enemy_access|custodian_candelabra"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress Courtyard - Sword Custodians",
             "item_count": 2,
             "access_rules": [
               "@Fortress Courtyard,$enemy_access|custodian_sword"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress Courtyard - Wizard Custodian",
             "item_count": 1,
             "access_rules": [
               "@Fortress Courtyard,$enemy_access|custodian"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress Courtyard Upper - Candelabra Custodian",
             "item_count": 1,
             "access_rules": [
               "@Fortress Courtyard Upper,$enemy_access|custodian_candelabra"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress Courtyard Upper - Sword Custodians",
             "item_count": 2,
             "access_rules": [
               "@Fortress Courtyard Upper,$enemy_access|custodian_sword"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress East Shortcut Lower - Blobs",
             "item_count": 4,
             "access_rules": [
               "@Fortress East Shortcut Lower,$enemy_access|blob"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/blob.png"
           },
           {
             "name": "Fortress East Shortcut Upper - Candelabra Custodian",
             "item_count": 1,
             "access_rules": [
               "@Fortress East Shortcut Upper,$enemy_access|custodian_candelabra"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress East Shortcut Upper - Candelabra Custodian [Extra]",
@@ -972,21 +1085,24 @@
             "access_rules": [
               "@Fortress East Shortcut Upper,$enemy_access|custodian_candelabra"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress East Shortcut Upper - Sword Custodian",
             "item_count": 1,
             "access_rules": [
               "@Fortress East Shortcut Upper,$enemy_access|custodian_sword"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress East Shortcut Upper - Wizard Custodians",
             "item_count": 3,
             "access_rules": [
               "@Fortress East Shortcut Upper,$enemy_access|custodian"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress Grave Path by Grave - Zombie Fox [Extra]",
@@ -994,14 +1110,16 @@
             "access_rules": [
               "@Fortress Grave Path by Grave,$enemy_access|fox_enemy_zombie"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "Fortress Grave Path Combat - Sword Custodians",
             "item_count": 4,
             "access_rules": [
               "@Fortress Grave Path Combat,$enemy_access|custodian_sword"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Fortress Grave Path Combat - Voidlings [Extra]",
@@ -1009,14 +1127,16 @@
             "access_rules": [
               "@Fortress Grave Path Combat,$enemy_access|voidling"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/voidling.png"
           },
           {
             "name": "Fortress Grave Path Combat - Wizard Custodians",
             "item_count": 2,
             "access_rules": [
               "@Fortress Grave Path Combat,$enemy_access|custodian"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           }
         ]
       },
@@ -1042,14 +1162,16 @@
             "item_count": 3,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|baby_slorm"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/baby_slorm.png"
           },
           {
             "name": "Crabbits",
             "item_count": 22,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|crabbit"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/crab.png"
           },
           {
             "name": "Crabbits [Extra]",
@@ -1057,14 +1179,16 @@
             "access_rules": [
               "@Ruined Atoll,$enemy_access|crabbit"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/crab.png"
           },
           {
             "name": "Crabbos",
             "item_count": 2,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|crabbo"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/crab.png"
           },
           {
             "name": "Envoy",
@@ -1072,35 +1196,40 @@
             "access_rules": [
               "@Ruined Atoll,@Shop,$enemy_access|envoy_shop",
               "@Ruined Atoll,$enemy_access|envoy_combat"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/envoy.png"
           },
           {
             "name": "Fairies",
             "item_count": 11,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|fairy"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fairy.png"
           },
           {
             "name": "Frogs (Raised Ruins)",
             "item_count": 2,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|frog_atoll"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Hushers",
             "item_count": 4,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|husher"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/husher.png"
           },
           {
             "name": "Plovers",
             "item_count": 3,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|plover"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/plover.png"
           },
           {
             "name": "Shell Crabbits [Extra]",
@@ -1108,35 +1237,40 @@
             "access_rules": [
               "@Ruined Atoll,$enemy_access|crabbit_shell"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/crab.png"
           },
           {
             "name": "Slorms",
             "item_count": 6,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|slorm"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/slorm.png"
           },
           {
             "name": "Small Frog (Raised Ruins)",
             "item_count": 1,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|frog_atoll"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Small Frog",
             "item_count": 1,
             "access_rules": [
               "@Ruined Atoll,$enemy_access|frog_small"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Lower Entry Area - Plover",
             "item_count": 1,
             "access_rules": [
               "@Ruined Atoll Lower Entry Area,$enemy_access|plover"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/plover.png"
           }
         ]
       },
@@ -1162,42 +1296,48 @@
             "item_count": 1,
             "access_rules": [
               "@Frog Stairs Lower,$enemy_access|frog_stairs_lower"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Frog Stairs Upper - Spear Frog",
             "item_count": 1,
             "access_rules": [
               "@Frog Stairs Upper,$enemy_access|frog_spear"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Back - Autobolt (Gap)",
             "item_count": 1,
             "access_rules": [
               "@Frog's Domain Back,$enemy_access|autobolt_gap"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Main - Baby Slorms",
             "item_count": 17,
             "access_rules": [
               "@Frog's Domain Main,$enemy_access|baby_slorm"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/baby_slorm.png"
           },
           {
             "name": "Main - Frogs",
             "item_count": 5,
             "access_rules": [
               "@Frog's Domain Main,$enemy_access|frog"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Main - Small Frogs",
             "item_count": 17,
             "access_rules": [
               "@Frog's Domain Main,$enemy_access|frog_small"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Main - Small Frog (Secret) [Extra]",
@@ -1205,7 +1345,8 @@
             "access_rules": [
               "@Frog's Domain Main,$enemy_access|frog_secret"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Main - Small Frogs [Extra]",
@@ -1213,21 +1354,24 @@
             "access_rules": [
               "@Frog's Domain Main,$enemy_access|frog_small"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Main - Spear Frogs",
             "item_count": 2,
             "access_rules": [
               "@Frog's Domain Main,$enemy_access|frog_spear"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Main - Wizard Custodian",
             "item_count": 1,
             "access_rules": [
               "@Frog's Domain Main,$enemy_access|custodian"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Main - Wizard Custodian [Extra]",
@@ -1235,7 +1379,8 @@
             "access_rules": [
               "@Frog's Domain Main,$enemy_access|custodian"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/custodian.png"
           }
         ]
       },
@@ -1261,14 +1406,16 @@
             "item_count": 1,
             "access_rules": [
               "@Library Hall,$enemy_access|administrator_coffee"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/administrator.png"
           },
           {
             "name": "Hall - Beefboys",
             "item_count": 2,
             "access_rules": [
               "@Library Hall,$enemy_access|beefboy"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/beefboy.png"
           }
         ]
       },
@@ -1294,49 +1441,56 @@
             "item_count": 4,
             "access_rules": [
               "@Even Lower Quarry,$enemy_access|scavenger_miner"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Even Lower Quarry - Scavenger (Sniper)",
             "item_count": 1,
             "access_rules": [
               "@Even Lower Quarry,$enemy_access|scavenger_sniper"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Even Lower Quarry - Support Scavenger",
             "item_count": 1,
             "access_rules": [
               "@Even Lower Quarry,$enemy_access|scavenger_support"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Lower Quarry - Miner Scavengers",
             "item_count": 4,
             "access_rules": [
               "@Lower Quarry,$enemy_access|scavenger_miner"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Lower Quarry - Scavengers",
             "item_count": 5,
             "access_rules": [
               "@Lower Quarry,$enemy_access|scavenger"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Lower Quarry - Support Scavengers",
             "item_count": 3,
             "access_rules": [
               "@Lower Quarry,$enemy_access|scavenger_support"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Monastery Back - Voidtouched",
             "item_count": 1,
             "access_rules": [
               "@Monastery Back,$enemy_equipment_access|voidtouched,[$enemy_access|voidtouched]"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/voidtouched.png"
           },
           {
             "name": "Monastery Back - Zombie Fox [Extra]",
@@ -1344,21 +1498,24 @@
             "access_rules": [
               "@Monastery Back,$enemy_access|fox_enemy_zombie"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "Monastery Front - Miner Scavengers",
             "item_count": 4,
             "access_rules": [
               "@Monastery Front,$enemy_access|scavenger_miner"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Monastery Front - Scavengers",
             "item_count": 3,
             "access_rules": [
               "@Monastery Front,$enemy_access|scavenger"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Monastery Front - Voidlings [Extra]",
@@ -1366,28 +1523,32 @@
             "access_rules": [
               "@Monastery Front,$enemy_access|voidling"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/voidling.png"
           },
           {
             "name": "Miner Scavengers",
             "item_count": 7,
             "access_rules": [
               "@Quarry,$enemy_access|scavenger_miner"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Scavengers",
             "item_count": 7,
             "access_rules": [
               "@Quarry,$enemy_access|scavenger"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           },
           {
             "name": "Support Scavengers",
             "item_count": 5,
             "access_rules": [
               "@Quarry,$enemy_access|scavenger_support"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/scavenger.png"
           }
         ]
       },
@@ -1413,56 +1574,64 @@
             "item_count": 4,
             "access_rules": [
               "@Rooted Ziggurat Lower Front,$enemy_access|administrator"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/administrator.png"
           },
           {
             "name": "Lower Front - Autobolts",
             "item_count": 4,
             "access_rules": [
               "@Rooted Ziggurat Lower Front,$enemy_access|autobolt"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Lower Front - Autobolts (Gap)",
             "item_count": 2,
             "access_rules": [
               "@Rooted Ziggurat Lower Front,$enemy_access|autobolt_gap"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Lower Front - Voidlings",
             "item_count": 10,
             "access_rules": [
               "@Rooted Ziggurat Lower Front,$enemy_access|voidling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/voidling.png"
           },
           {
             "name": "Upper Front - Administrators",
             "item_count": 2,
             "access_rules": [
               "@Rooted Ziggurat Upper Front,$enemy_access|administrator"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/administrator.png"
           },
           {
             "name": "Upper Front - Autobolts",
             "item_count": 4,
             "access_rules": [
               "@Rooted Ziggurat Upper Front,$enemy_access|autobolt"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Upper Front - Autobolt (Gap)",
             "item_count": 1,
             "access_rules": [
               "@Rooted Ziggurat Upper Front,$enemy_access|autobolt_gap"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/autobolt.png"
           },
           {
             "name": "Upper Front - Fairies",
             "item_count": 10,
             "access_rules": [
               "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fairy.png"
           }
         ]
       },
@@ -1488,42 +1657,48 @@
             "item_count": 1,
             "access_rules": [
               "@Swamp Front,$enemy_access|fleemer_big"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Front - Fleemer Fencer",
             "item_count": 1,
             "access_rules": [
               "@Swamp Front,$enemy_access|fleemer_fencer"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Front - Fleemers",
             "item_count": 10,
             "access_rules": [
               "@Swamp Front,$enemy_access|fleemer"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Front - Gunslingers",
             "item_count": 3,
             "access_rules": [
               "@Swamp Front,$enemy_access|gunslinger"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/gunslinger.png"
           },
           {
             "name": "Front - Lost Echoes",
             "item_count": 2,
             "access_rules": [
               "@Swamp Front,$enemy_access|lost_echo"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/lost_echo.png"
           },
           {
             "name": "Front - Tentacles",
             "item_count": 3,
             "access_rules": [
               "@Swamp Front,$enemy_access|tentacle"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/tentacle.png"
           },
           {
             "name": "Mid - Beefboys [Extra]",
@@ -1531,21 +1706,24 @@
             "access_rules": [
               "@Swamp Mid,$enemy_access|beefboy"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/beefboy.png"
           },
           {
             "name": "Mid - Fleemer Fencers",
             "item_count": 3,
             "access_rules": [
               "@Swamp Mid,$enemy_access|fleemer_fencer"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Mid - Gunslingers",
             "item_count": 2,
             "access_rules": [
               "@Swamp Mid,$enemy_access|gunslinger"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/gunslinger.png"
           },
           {
             "name": "Mid - Hushers [Extra]",
@@ -1553,14 +1731,16 @@
             "access_rules": [
               "@Swamp Mid,$enemy_access|husher"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/husher.png"
           },
           {
             "name": "Mid - Lost Echoes",
             "item_count": 6,
             "access_rules": [
               "@Swamp Mid,$enemy_access|lost_echo"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/lost_echo.png"
           }
         ]
       },
@@ -1586,70 +1766,80 @@
             "item_count": 2,
             "access_rules": [
               "@Cathedral Entry,$enemy_access|laser_trap"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/laser_trap.png"
           },
           {
             "name": "Entry - Zombie Foxes",
             "item_count": 5,
             "access_rules": [
               "@Cathedral Entry,$enemy_access|fox_enemy_zombie"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "Gauntlet - Fairies (Gauntlet)",
             "item_count": 17,
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fairy.png"
           },
           {
             "name": "Gauntlet - Fleemers (Gauntlet)",
             "item_count": 15,
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/fleemer.png"
           },
           {
             "name": "Gauntlet - Garden Knights",
             "item_count": 2,
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|garden_knight"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/garden_knight.png"
           },
           {
             "name": "Gauntlet - Guard Captain",
             "item_count": 1,
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|guard_captain"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Gauntlet - Rudelings",
             "item_count": 3,
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|rudeling"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Gauntlet - Shield Rudelings",
             "item_count": 3,
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|rudeling_shield"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/rudeling.png"
           },
           {
             "name": "Gauntlet - Small Frogs",
             "item_count": 9,
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|frog_small"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Gauntlet - Spear Frogs",
             "item_count": 2,
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|frog_spear"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/frog.png"
           },
           {
             "name": "Gauntlet - Strong Zombie Fox [Extra]",
@@ -1657,14 +1847,16 @@
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|fox_enemy"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "Gauntlet - Wizard Custodians",
             "item_count": 5,
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|custodian"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/custodian.png"
           },
           {
             "name": "Gauntlet - Zombie Foxes [Extra]",
@@ -1672,7 +1864,8 @@
             "access_rules": [
               "@Cathedral Gauntlet,$enemy_access|fox_enemy_zombie"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "Main - Beefboy [Extra]",
@@ -1680,14 +1873,16 @@
             "access_rules": [
               "@Cathedral Main,$enemy_access|beefboy"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/beefboy.png"
           },
           {
             "name": "Main - Hushers",
             "item_count": 5,
             "access_rules": [
               "@Cathedral Main,$enemy_access|husher"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/husher.png"
           },
           {
             "name": "Main - Laser Trap (Back Hallway)",
@@ -1695,21 +1890,24 @@
             "access_rules": [
               "@Cathedral Main,$enemy_access|laser_cathedral_orb",
               "@Cathedral Main,@Shop,$enemy_access|laser_cathedral_shop"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/laser_trap.png"
           },
           {
             "name": "Main - Laser Traps",
             "item_count": 4,
             "access_rules": [
               "@Cathedral Main,$enemy_access|laser_trap"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/laser_trap.png"
           },
           {
             "name": "Main - Strong Zombie Foxes",
             "item_count": 3,
             "access_rules": [
               "@Cathedral Main,$enemy_access|fox_enemy"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           },
           {
             "name": "Main - Voidtouched [Extra]",
@@ -1717,14 +1915,16 @@
             "access_rules": [
               "@Cathedral Main,$enemy_equipment_access|voidtouched,[$enemy_access|voidtouched]"
             ],
-            "visibility_rules": "enemy_drops_extra"
+            "visibility_rules": "enemy_drops_extra",
+            "chest_unopened_img": "images/souls/map/voidtouched.png"
           },
           {
             "name": "Main - Zombie Foxes",
             "item_count": 9,
             "access_rules": [
               "@Cathedral Main,$enemy_access|fox_enemy_zombie"
-            ]
+            ],
+            "chest_unopened_img": "images/souls/map/zombie_fox.png"
           }
         ]
       }
