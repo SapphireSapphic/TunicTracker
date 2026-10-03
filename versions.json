@@ -1,7 +1,14 @@
 {
     "versions": [
         {
-
+            "package_version": "2.3.0",
+            "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.3.0/TunicTracker.zip",
+            "sha256": "1A54F7B9DA5CBC46BD3FEB1D9A2371370277F578655376C2F4CD20AD7E1E1B01",
+            "changelog": [
+                "Add support for Enemy Souls, Enemy Drops, and Combat Logic."
+            ]
+        },
+        {
             "package_version": "2.2.3",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.2.3/TunicTracker.zip",
             "sha256": "1BFB8AEB5E2ADFDD4C0F95CB327AC740157130CCB2F117CFC8C5677D3FC203D9",
@@ -11,7 +18,6 @@
             ]
         },
         {
-
             "package_version": "2.2.2",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.2.2/TunicTracker.zip",
             "sha256": "67E3654508A583E1D60B17C4A32D7976AC290CB86EAB2ADDBBB3FC004E4CCC6B",
@@ -20,7 +26,6 @@
             ]
         },
         {
-
             "package_version": "2.1.5",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.5/TunicTracker.zip",
             "sha256": "9E57DAFE67177D2567F270643F82E45590CFD088ED6A0F5405133EB32DE64F00",
@@ -29,7 +34,6 @@
             ]
         },
         {
-
             "package_version": "2.1.4",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.4/TunicTracker.zip",
             "sha256": "E71D1F3D5DA15F401AF603263095A82E71A02973309B1522B8820F71314BCE14",
@@ -39,7 +43,6 @@
             ]
         },
         {
-
             "package_version": "2.1.3",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.3/TunicTracker.zip",
             "sha256": "343F306DA1B93413B4DE440A9AD3DEFFE38B7578A5DF7F16B1F3A6BC15937070",
@@ -49,7 +52,6 @@
             ]
         },
         {
-
             "package_version": "2.1.2",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.2/TunicTracker.zip",
             "sha256": "EC763617ADE90C50D798CDD85A0E4A42E227F20910176F1E0693F36209E0773C",
@@ -59,7 +61,6 @@
             ]
         },
         {
-
             "package_version": "2.1.1",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.1/TunicTracker.zip",
             "sha256": "B0855EBC9E7432B157C522315B8D49151F435FEE8AD101A0C312374F5874BDE1",
@@ -68,7 +69,6 @@
             ]
         },
         {
-
             "package_version": "2.1.0",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.1.0/TunicTracker.zip",
             "sha256": "53C5B8BF114C53DFBCC7C20BFF2E279E42F7A842C28C7E14E08A9DCDDCFA5843",
@@ -78,7 +78,6 @@
             ]
         },
         {
-        
             "package_version": "2.0.2",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.2/TunicTracker.zip",
             "sha256": "124a6d95f44206f83964a08d4fe2dead983e2504e702ffcf4e67845df2ef06fa",
@@ -90,7 +89,6 @@
             ]
         },
         {
-        
             "package_version": "2.0.1.1",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.1.1/TunicTracker.zip",
             "sha256": "0a21f3fb224abd6da7e5bf6f581dd21c54c45b1c31e03d26367a816200dcee8c",
@@ -99,7 +97,6 @@
             ]
         },
         {
-        
             "package_version": "2.0.1",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.1/TunicTracker.zip",
             "sha256": "4b7c6e4f0dcd3bbff83779b3ec4bfae29cdfef0ffdf8d926a03e8efebed22d83",
@@ -111,7 +108,6 @@
             ]
         },
         {
-        
             "package_version": "2.0.0",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/2.0.0/TunicTracker.zip",
             "sha256": "180914e914c9bce9ed6340e83133a345ecf9740d07324f54400175a70c95a8c5",
@@ -121,7 +117,6 @@
             ]
         },
         {
-        
             "package_version": "1.7.6b",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.6b/TunicTracker.zip",
             "sha256": "762487a0555814a198d018731f74723facdf5daa83f98aa9d39708fa6dc90806",
@@ -130,7 +125,6 @@
             ]
         },
         {
-        
             "package_version": "1.7.6a",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.6a/TunicTracker.zip",
             "sha256": "4b11aee80fdb94033f969be7c37b7df17e50da300a11f65ed2f3d1b569c97d8b",
@@ -140,7 +134,6 @@
             ]
         },
         {
-        
             "package_version": "1.7.6",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.6/TunicTracker.zip",
             "sha256": "8b97f33a4aef814e2d4d07d25950078dd2fc02639de886da7bebd0dbdaf8234e",
@@ -151,7 +144,6 @@
             ]
         },
         {
-        
             "package_version": "1.7.5a",
             "download_url": "https://github.com/SapphireSapphic/TunicTracker/releases/download/1.7.5a/TunicTracker.zip",
             "sha256": "f7d010a82aada105c49f0a2706b6a52b6a0a3f888f99c6c3a42eb896c693b461",

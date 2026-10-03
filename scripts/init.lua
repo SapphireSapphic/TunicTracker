@@ -16,7 +16,7 @@ if not (string.find(Tracker.ActiveVariantUID, "var_itemsonly")) then
     Tracker:AddLocations("locations/locations_pop_er.json")
     Tracker:AddLocations("locations/locations_breakables.json")
     Tracker:AddLocations("locations/locations_fuses.json")
-    Tracker:AddLocations("locations/enemy_locations.json")
+    Tracker:AddLocations("locations/locations_enemies.json")
   else
     Tracker:AddMaps("maps/maps.json")
     Tracker:AddLocations("locations/locations.json")
