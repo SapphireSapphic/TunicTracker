@@ -196,7 +196,7 @@
           {
             "name": "Northeast Blobs Near Flowers",
             "access_rules": [
-              "@Overworld,$enemy_access|blob"
+              "@East Overworld,$enemy_access|blob"
             ],
             "map_locations": [
               {
@@ -267,7 +267,7 @@
                 "chest_unopened_img": "images/souls/map/blob.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|blob"
+                  "@East Overworld,$enemy_access|blob"
                 ]
               },
               {
@@ -275,7 +275,7 @@
                 "chest_unopened_img": "images/souls/map/blob.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|blob"
+                  "@East Overworld,$enemy_access|blob"
                 ]
               },
               {
@@ -283,7 +283,7 @@
                 "chest_unopened_img": "images/souls/map/blob.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|blob"
+                  "@East Overworld,$enemy_access|blob"
                 ]
               },
               {
@@ -291,7 +291,7 @@
                 "chest_unopened_img": "images/souls/map/blob.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|blob"
+                  "@East Overworld,$enemy_access|blob"
                 ]
               },
               {
@@ -299,7 +299,7 @@
                 "chest_unopened_img": "images/souls/map/hedgehog.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|hedgehog"
+                  "@East Overworld,$enemy_access|hedgehog"
                 ]
               },
               {
@@ -307,7 +307,7 @@
                 "chest_unopened_img": "images/souls/map/hedgehog.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|hedgehog"
+                  "@East Overworld,$enemy_access|hedgehog"
                 ]
               },
               {
@@ -315,7 +315,7 @@
                 "chest_unopened_img": "images/souls/map/hedgehog.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|hedgehog"
+                  "@East Overworld,$enemy_access|hedgehog"
                 ]
               },
               {
@@ -323,7 +323,7 @@
                 "chest_unopened_img": "images/souls/map/blob.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|blob"
+                  "@East Overworld,$enemy_access|blob"
                 ],
                 "visibility_rules": "enemy_drops_extra"
               }
@@ -332,7 +332,7 @@
           {
             "name": "Blobs Near Pots",
             "access_rules": [
-              "@Overworld,$enemy_access|blob"
+              "@East Overworld,$enemy_access|blob"
             ],
             "map_locations": [
               {
@@ -393,7 +393,7 @@
                 "chest_unopened_img": "images/souls/map/blob.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|blob"
+                  "@After Ruined Passage,$enemy_access|blob"
                 ]
               },
               {
@@ -401,7 +401,7 @@
                 "chest_unopened_img": "images/souls/map/blob.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|blob"
+                  "@After Ruined Passage,$enemy_access|blob"
                 ]
               },
               {
@@ -409,7 +409,7 @@
                 "chest_unopened_img": "images/souls/map/blob.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Overworld,$enemy_access|blob"
+                  "@After Ruined Passage,$enemy_access|blob"
                 ]
               },
               {
@@ -4151,7 +4151,7 @@
                 "chest_unopened_img": "images/souls/map/frog.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Ruined Atoll,$enemy_access|frog_small"
+                  "@Ruined Atoll,$enemy_access|frog_atoll"
                 ]
               }
             ]
@@ -4650,7 +4650,7 @@
                 "chest_unopened_img": "images/souls/map/baby_slorm.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Ruined Atoll,$enemy_access|slorm"
+                  "@Ruined Atoll,$enemy_access|baby_slorm"
                 ]
               },
               {
@@ -4658,7 +4658,7 @@
                 "chest_unopened_img": "images/souls/map/baby_slorm.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Ruined Atoll,$enemy_access|slorm"
+                  "@Ruined Atoll,$enemy_access|baby_slorm"
                 ]
               },
               {
@@ -4666,7 +4666,7 @@
                 "chest_unopened_img": "images/souls/map/baby_slorm.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Ruined Atoll,$enemy_access|slorm"
+                  "@Ruined Atoll,$enemy_access|baby_slorm"
                 ]
               },
               {
@@ -5728,7 +5728,7 @@
           {
             "name": "Shooting Range Scavengers",
             "access_rules": [
-              "@Quarry,$enemy_access|scavenger"
+              "@Lower Quarry,$enemy_access|scavenger"
             ],
             "map_locations": [
               {
@@ -5765,7 +5765,7 @@
           {
             "name": "Lower Quarry Scavenger Near Boxes",
             "access_rules": [
-              "@Quarry,$enemy_access|scavenger_support"
+              "@Lower Quarry,$enemy_access|scavenger_support"
             ],
             "map_locations": [
               {
@@ -5811,7 +5811,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger_support"
+                  "@Lower Quarry,$enemy_access|scavenger_support"
                 ]
               },
               {
@@ -5819,7 +5819,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger_support"
+                  "@Lower Quarry,$enemy_access|scavenger_support"
                 ]
               },
               {
@@ -5827,7 +5827,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Lower Quarry,$enemy_access|scavenger"
                 ]
               }
             ]
@@ -5835,7 +5835,7 @@
           {
             "name": "Lower Scaffolding Scavengers",
             "access_rules": [
-              "@Quarry,$enemy_access|scavenger"
+              "@Lower Quarry,$enemy_access|scavenger"
             ],
             "map_locations": [
               {
@@ -5913,7 +5913,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Even Lower Quarry,$enemy_access|scavenger"
                 ]
               },
               {
@@ -5929,7 +5929,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Even Lower Quarry,$enemy_access|scavenger"
                 ]
               },
               {
@@ -5937,7 +5937,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Even Lower Quarry,$enemy_access|scavenger"
                 ]
               },
               {
@@ -5945,7 +5945,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Even Lower Quarry,$enemy_access|scavenger"
                 ]
               }
             ]
@@ -6063,7 +6063,7 @@
           {
             "name": "West Path Scavenger Trio",
             "access_rules": [
-              "@Quarry,$enemy_access|scavenger"
+              "@Lower Quarry,$enemy_access|scavenger"
             ],
             "map_locations": [
               {
@@ -6119,7 +6119,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Monastery Front,$enemy_access|scavenger"
                 ]
               },
               {
@@ -6127,7 +6127,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Monastery Front,$enemy_access|scavenger"
                 ]
               },
               {
@@ -6135,7 +6135,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Monastery Front,$enemy_access|scavenger"
                 ]
               },
               {
@@ -6143,7 +6143,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Monastery Front,$enemy_access|scavenger"
                 ]
               },
               {
@@ -6151,7 +6151,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Monastery Front,$enemy_access|scavenger"
                 ]
               },
               {
@@ -6159,7 +6159,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Monastery Front,$enemy_access|scavenger"
                 ]
               },
               {
@@ -6167,7 +6167,7 @@
                 "chest_unopened_img": "images/souls/map/scavenger.png",
                 "item_count": 1,
                 "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
+                  "@Monastery Front,$enemy_access|scavenger"
                 ]
               },
               {
